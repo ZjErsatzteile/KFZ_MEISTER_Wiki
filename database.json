@@ -2153,7 +2153,7 @@
           "title": "Fahrzeug sichern",
           "text": "Fahrzeug auf ebener Fläche sichern, Getriebe/Parkbremse entsprechend dem Fahrzeugzustand setzen und gegen Wegrollen sichern. Für die konkrete Hebeposition Herstellerangaben verwenden.",
           "image": {
-            "path": "images/repairs/brake-01.svg",
+            "path": "images/repairs/brake-01.png",
             "title": "Schritt 1 – sichere Aufstellung",
             "caption": "Hebepunkte und Sicherheitszone schematisch markiert."
           }
@@ -2163,7 +2163,7 @@
           "title": "Rad abnehmen",
           "text": "Radschrauben kontrolliert lösen, Rad abnehmen und sicher ablegen. Nicht an Bremsleitung oder Sensorleitung ziehen.",
           "image": {
-            "path": "images/repairs/brake-02.svg",
+            "path": "images/repairs/brake-02.png",
             "title": "Schritt 2 – Rad und Bremse",
             "caption": "Schematische Ansicht von Rad, Bremssattel und Bremsscheibe."
           }
@@ -2173,7 +2173,7 @@
           "title": "Bremssattel identifizieren",
           "text": "Vor dem Lösen prüfen, ob der Sattel frei beweglich ist und welche Befestigungsart verwendet wird. Verschleißsensoren bzw. Haltefedern dokumentieren.",
           "image": {
-            "path": "images/repairs/brake-03.svg",
+            "path": "images/repairs/brake-03.png",
             "title": "Schritt 3 – Befestigung",
             "caption": "Schematische Markierung der typischen Befestigungspunkte."
           }
@@ -2183,7 +2183,7 @@
           "title": "Sattel lösen und sichern",
           "text": "Befestigung gemäß fahrzeugspezifischem Verfahren lösen. Bremssattel niemals am Bremsschlauch hängen lassen; mit geeigneter Halterung sichern.",
           "image": {
-            "path": "images/repairs/brake-04.svg",
+            "path": "images/repairs/brake-04.png",
             "title": "Schritt 4 – Sattel sichern",
             "caption": "Schematische Darstellung: Sattel wird mit Halter entlastet."
           }
@@ -2193,7 +2193,7 @@
           "title": "Beläge entfernen",
           "text": "Alte Beläge und Haltefedern entnehmen. Einbaulage, Verschleißsensor und Kontaktflächen vergleichen. Kolben nicht mit Gewalt zurückdrücken.",
           "image": {
-            "path": "images/repairs/brake-05.svg",
+            "path": "images/repairs/brake-05.png",
             "title": "Schritt 5 – Beläge",
             "caption": "Innen- und Außenbelag sowie Führungsrichtung schematisch markiert."
           }
@@ -2203,7 +2203,7 @@
           "title": "Kolben zurückstellen",
           "text": "Vor dem Zurückstellen prüfen, ob das Bremssystem eine elektrische Parkbremse oder ein spezielles Rückstellverfahren besitzt. Dann mit geeignetem Werkzeug langsam zurückstellen.",
           "image": {
-            "path": "images/repairs/brake-06.svg",
+            "path": "images/repairs/brake-06.png",
             "title": "Schritt 6 – Kolben",
             "caption": "Rückstellrichtung und Werkzeugposition schematisch dargestellt."
           }
@@ -2213,7 +2213,7 @@
           "title": "Neue Beläge einsetzen",
           "text": "Kontakt- und Führungsflächen reinigen, neue Beläge entsprechend ihrer Einbaulage einsetzen. Keine Schmierstoffe auf Reibflächen bringen.",
           "image": {
-            "path": "images/repairs/brake-07.svg",
+            "path": "images/repairs/brake-07.png",
             "title": "Schritt 7 – Einbau",
             "caption": "Neue Beläge und Reibflächen schematisch markiert."
           }
@@ -2223,7 +2223,7 @@
           "title": "Sattel montieren",
           "text": "Sattel in Einbaulage bringen und Befestiger nach exakter Herstellervorgabe anziehen. Leitungen dürfen nicht verdreht oder gespannt sein.",
           "image": {
-            "path": "images/repairs/brake-08.svg",
+            "path": "images/repairs/brake-08.png",
             "title": "Schritt 8 – Montage",
             "caption": "Sattel, Befestiger und Leitungslage schematisch markiert."
           }
@@ -2233,7 +2233,7 @@
           "title": "Endkontrolle und Funktionsprüfung",
           "text": "Rad montieren, Pedal mehrfach betätigen bis definierter Pedaldruck vorhanden ist, Flüssigkeitsstand prüfen und Anlage auf Leckage/auffällige Geräusche kontrollieren. Danach kontrollierte Probefahrt und Bremsprüfung durchführen.",
           "image": {
-            "path": "images/repairs/brake-09.svg",
+            "path": "images/repairs/brake-09.png",
             "title": "Schritt 9 – Kontrolle",
             "caption": "Kontrollpunkte nach der Reparatur schematisch dargestellt."
           }
@@ -2301,7 +2301,7 @@
           "title": "Fahrzeug vorbereiten",
           "text": "Motor nur so weit erwärmen, dass das Öl gut abläuft, ohne Verbrennungsgefahr. Fahrzeug waagerecht und sicher aufstellen.",
           "image": {
-            "path": "images/repairs/oil-01.svg",
+            "path": "images/repairs/oil-01.png",
             "title": "Schritt 1 – Vorbereitung",
             "caption": "Schematische Fahrzeugposition und Ölwanne."
           }
@@ -2311,7 +2311,7 @@
           "title": "Öleinfüllung und Zugang prüfen",
           "text": "Öleinfülldeckel öffnen bzw. lösen, Unterbodenverkleidung nur soweit entfernen wie erforderlich. Vor dem Ablassen sicherstellen, dass eine geeignete Auffangmöglichkeit vorhanden ist.",
           "image": {
-            "path": "images/repairs/oil-02.svg",
+            "path": "images/repairs/oil-02.png",
             "title": "Schritt 2 – Zugang",
             "caption": "Ölwanne, Ablassstelle und Filter schematisch markiert."
           }
@@ -2321,7 +2321,7 @@
           "title": "Altöl ablassen",
           "text": "Ablassschraube kontrolliert lösen und Öl vollständig auffangen. Dichtfläche und Gewinde nach dem Ablassen prüfen.",
           "image": {
-            "path": "images/repairs/oil-03.svg",
+            "path": "images/repairs/oil-03.png",
             "title": "Schritt 3 – Ablassen",
             "caption": "Ablassschraube und Auffangbehälter schematisch dargestellt."
           }
@@ -2331,7 +2331,7 @@
           "title": "Ölfilter wechseln",
           "text": "Alten Filter bzw. Filtereinsatz gemäß Bauart entfernen. Dichtfläche reinigen. Dichtung des neuen Filters nach Herstellervorgabe vorbereiten.",
           "image": {
-            "path": "images/repairs/oil-04.svg",
+            "path": "images/repairs/oil-04.png",
             "title": "Schritt 4 – Filter",
             "caption": "Filtergehäuse und Dichtung schematisch markiert."
           }
@@ -2341,7 +2341,7 @@
           "title": "Ablassschraube montieren",
           "text": "Neue Dichtung bzw. neue Schraube verwenden, wenn vorgeschrieben. Mit fahrzeugspezifischem Drehmoment anziehen.",
           "image": {
-            "path": "images/repairs/oil-05.svg",
+            "path": "images/repairs/oil-05.png",
             "title": "Schritt 5 – Verschluss",
             "caption": "Ablassstelle und Dichtung schematisch markiert."
           }
@@ -2351,7 +2351,7 @@
           "title": "Neues Öl einfüllen",
           "text": "Zunächst die vorgesehene Grundmenge einfüllen. Nicht blind die Maximalmenge verwenden; nach dem Start und der vorgeschriebenen Wartezeit erneut prüfen.",
           "image": {
-            "path": "images/repairs/oil-06.svg",
+            "path": "images/repairs/oil-06.png",
             "title": "Schritt 6 – Befüllen",
             "caption": "Einfüllstelle und Messbereich schematisch dargestellt."
           }
@@ -2361,7 +2361,7 @@
           "title": "Motor starten und kontrollieren",
           "text": "Motor kurz laufen lassen, auf Öldruckwarnung und Leckagen achten. Danach gemäß Herstellervorgabe abstellen und Ölstand prüfen.",
           "image": {
-            "path": "images/repairs/oil-07.svg",
+            "path": "images/repairs/oil-07.png",
             "title": "Schritt 7 – Kontrolle",
             "caption": "Kontrollpunkte für Ölfilter, Ablassstelle und Ölstand."
           }
@@ -2371,7 +2371,7 @@
           "title": "Service zurücksetzen",
           "text": "Nur mit dem für das konkrete Fahrzeug vorgesehenen Verfahren zurücksetzen. Serviceintervall und verwendete Ölspezifikation dokumentieren.",
           "image": {
-            "path": "images/repairs/oil-08.svg",
+            "path": "images/repairs/oil-08.png",
             "title": "Schritt 8 – Service",
             "caption": "Schematische Darstellung von Diagnosegerät und Serviceeintrag."
           }
@@ -2434,7 +2434,7 @@
           "title": "Elektrische Verbraucher sichern",
           "text": "Zündung ausschalten und Fahrzeug gemäß Herstellerverfahren in Ruhemodus bringen. Bei modernen Fahrzeugen Wartezeit vor Batterietrennung beachten.",
           "image": {
-            "path": "images/repairs/battery-01.svg",
+            "path": "images/repairs/battery-01.png",
             "title": "Schritt 1 – Ruhemodus",
             "caption": "Schematische Darstellung des 12-V-Bordnetzes."
           }
@@ -2444,7 +2444,7 @@
           "title": "Batterie lokalisieren",
           "text": "Abdeckungen entfernen und Batterie, Entlüftung, Halter und Anschlüsse fotografisch dokumentieren.",
           "image": {
-            "path": "images/repairs/battery-02.svg",
+            "path": "images/repairs/battery-02.png",
             "title": "Schritt 2 – Batterie",
             "caption": "Batterie, Pluspol, Minuspol und Halter schematisch markiert."
           }
@@ -2454,7 +2454,7 @@
           "title": "Batterie abklemmen",
           "text": "Klemmen in der für das Fahrzeug vorgesehenen Reihenfolge lösen. Kurzschluss zwischen Werkzeug und Karosserie vermeiden.",
           "image": {
-            "path": "images/repairs/battery-03.svg",
+            "path": "images/repairs/battery-03.png",
             "title": "Schritt 3 – Klemmen",
             "caption": "Minus- und Plusanschluss schematisch markiert."
           }
@@ -2464,7 +2464,7 @@
           "title": "Halter lösen und Batterie entnehmen",
           "text": "Haltebügel lösen, Batterie sicher herausheben. Wegen hohem Gewicht und möglicher Säure-/Elektrolytgefahr vorsichtig arbeiten.",
           "image": {
-            "path": "images/repairs/battery-04.svg",
+            "path": "images/repairs/battery-04.png",
             "title": "Schritt 4 – Ausbau",
             "caption": "Haltebügel und Hebeposition schematisch dargestellt."
           }
@@ -2474,7 +2474,7 @@
           "title": "Neue Batterie einsetzen",
           "text": "Neue Batterie in identischer Einbaulage einsetzen. Halter korrekt montieren; Batterie darf sich nicht bewegen.",
           "image": {
-            "path": "images/repairs/battery-05.svg",
+            "path": "images/repairs/battery-05.png",
             "title": "Schritt 5 – Einbau",
             "caption": "Batterie und Halter schematisch markiert."
           }
@@ -2484,7 +2484,7 @@
           "title": "Anschließen",
           "text": "Anschlüsse in der für das Fahrzeug vorgesehenen Reihenfolge montieren und Sitz prüfen. Entlüftungssystem falls vorhanden korrekt anschließen.",
           "image": {
-            "path": "images/repairs/battery-06.svg",
+            "path": "images/repairs/battery-06.png",
             "title": "Schritt 6 – Anschluss",
             "caption": "Plus, Minus und Entlüftung schematisch markiert."
           }
@@ -2494,7 +2494,7 @@
           "title": "Batterie registrieren/anlernen",
           "text": "Wenn das Fahrzeug ein Batteriemanagement besitzt, Batterietyp und Kapazität mit dem vorgesehenen Diagnoseverfahren prüfen und ggf. registrieren.",
           "image": {
-            "path": "images/repairs/battery-07.svg",
+            "path": "images/repairs/battery-07.png",
             "title": "Schritt 7 – Registrierung",
             "caption": "Schematische Diagnoseverbindung."
           }
@@ -2504,7 +2504,7 @@
           "title": "Funktionskontrolle",
           "text": "Startverhalten, Ladezustand, Warnmeldungen und relevante Komfortfunktionen prüfen. Fehlerspeicher kontrollieren.",
           "image": {
-            "path": "images/repairs/battery-08.svg",
+            "path": "images/repairs/battery-08.png",
             "title": "Schritt 8 – Kontrolle",
             "caption": "Spannungsmessung und Systemcheck schematisch dargestellt."
           }
@@ -2561,7 +2561,7 @@
           "title": "Ansaugsystem lokalisieren",
           "text": "Luftfilterkasten und angeschlossene Schläuche/Sensoren identifizieren. Foto der Schlauchführung vor dem Öffnen anfertigen.",
           "image": {
-            "path": "images/repairs/air-01.svg",
+            "path": "images/repairs/air-01.png",
             "title": "Schritt 1 – Luftfilterkasten",
             "caption": "Luftfilterkasten und Luftstrom schematisch dargestellt."
           }
@@ -2571,7 +2571,7 @@
           "title": "Gehäuse öffnen",
           "text": "Befestiger lösen und Deckel vorsichtig anheben. Angeschlossene Sensor- oder Entlüftungsleitungen nicht unter Spannung setzen.",
           "image": {
-            "path": "images/repairs/air-02.svg",
+            "path": "images/repairs/air-02.png",
             "title": "Schritt 2 – Öffnen",
             "caption": "Gehäusebefestigungen schematisch markiert."
           }
@@ -2581,7 +2581,7 @@
           "title": "Alten Filter entnehmen",
           "text": "Filter vorsichtig entnehmen und Sitzfläche auf Blätter, Staub und Dichtungsreste prüfen.",
           "image": {
-            "path": "images/repairs/air-03.svg",
+            "path": "images/repairs/air-03.png",
             "title": "Schritt 3 – Filter",
             "caption": "Filtereinsatz und Dichtkante schematisch markiert."
           }
@@ -2591,7 +2591,7 @@
           "title": "Gehäuse reinigen",
           "text": "Lose Verschmutzung entfernen, ohne Schmutz in die saubere Ansaugseite zu blasen. Keine Flüssigkeit in Sensorik bringen.",
           "image": {
-            "path": "images/repairs/air-04.svg",
+            "path": "images/repairs/air-04.png",
             "title": "Schritt 4 – Reinigen",
             "caption": "Saubere und verschmutzte Bereiche schematisch gekennzeichnet."
           }
@@ -2601,7 +2601,7 @@
           "title": "Neuen Filter einsetzen",
           "text": "Filter in korrekter Richtung und vollständig in die Dichtkante einsetzen. Gehäusehälften ohne Spalt schließen.",
           "image": {
-            "path": "images/repairs/air-05.svg",
+            "path": "images/repairs/air-05.png",
             "title": "Schritt 5 – Neuer Filter",
             "caption": "Dichtkante und Luftstrom schematisch markiert."
           }
@@ -2611,7 +2611,7 @@
           "title": "System prüfen",
           "text": "Alle Leitungen und Stecker kontrollieren. Motor starten und auf ungewöhnliche Ansauggeräusche oder Fehlermeldungen achten.",
           "image": {
-            "path": "images/repairs/air-06.svg",
+            "path": "images/repairs/air-06.png",
             "title": "Schritt 6 – Endkontrolle",
             "caption": "Ansaugweg und Sensoranschlüsse schematisch dargestellt."
           }
@@ -2670,7 +2670,7 @@
           "title": "Zündspulen zugänglich machen",
           "text": "Abdeckungen entfernen und Steckverbindungen vorsichtig lösen. Leitungsführung dokumentieren.",
           "image": {
-            "path": "images/repairs/plug-01.svg",
+            "path": "images/repairs/plug-01.png",
             "title": "Schritt 1 – Zündspulen",
             "caption": "Zylinderkopf und Zündspulen schematisch markiert."
           }
@@ -2680,7 +2680,7 @@
           "title": "Kerzenschacht reinigen",
           "text": "Schmutz aus dem Bereich um die Zündkerze entfernen, damit beim Ausbau nichts in den Brennraum fällt.",
           "image": {
-            "path": "images/repairs/plug-02.svg",
+            "path": "images/repairs/plug-02.png",
             "title": "Schritt 2 – Reinigen",
             "caption": "Kerzenschacht und Reinigungszone schematisch dargestellt."
           }
@@ -2690,7 +2690,7 @@
           "title": "Alte Kerze lösen",
           "text": "Zündkerze mit passendem Werkzeug gerade ansetzen und ohne Verkanten lösen. Gewinde nicht beschädigen.",
           "image": {
-            "path": "images/repairs/plug-03.svg",
+            "path": "images/repairs/plug-03.png",
             "title": "Schritt 3 – Ausbau",
             "caption": "Werkzeugachse und Kerzenposition schematisch markiert."
           }
@@ -2700,7 +2700,7 @@
           "title": "Alte und neue Kerze vergleichen",
           "text": "Gewinde, Dichtbereich, Elektrodenbild und Teilenummer vergleichen. Bei Abweichungen nicht montieren.",
           "image": {
-            "path": "images/repairs/plug-04.svg",
+            "path": "images/repairs/plug-04.png",
             "title": "Schritt 4 – Vergleich",
             "caption": "Alte und neue Zündkerze schematisch gegenübergestellt."
           }
@@ -2710,7 +2710,7 @@
           "title": "Neue Kerze einsetzen",
           "text": "Kerze zunächst von Hand in das Gewinde einsetzen, um Kreuzgewinde zu vermeiden. Danach nach Herstellervorgabe anziehen.",
           "image": {
-            "path": "images/repairs/plug-05.svg",
+            "path": "images/repairs/plug-05.png",
             "title": "Schritt 5 – Einbau",
             "caption": "Handmontage und Drehmomentphase schematisch dargestellt."
           }
@@ -2720,7 +2720,7 @@
           "title": "Zündspulen montieren",
           "text": "Spulen einsetzen, Stecker verriegeln und Leitungsführung kontrollieren. Abdeckungen montieren.",
           "image": {
-            "path": "images/repairs/plug-06.svg",
+            "path": "images/repairs/plug-06.png",
             "title": "Schritt 6 – Zündung",
             "caption": "Zündspule und Steckverbindung schematisch markiert."
           }
@@ -2730,7 +2730,7 @@
           "title": "Motorlauf prüfen",
           "text": "Motor starten, Leerlauf und Fehlerspeicher prüfen. Bei Fehlzündung nicht weiterfahren, sondern Ursache diagnostizieren.",
           "image": {
-            "path": "images/repairs/plug-07.svg",
+            "path": "images/repairs/plug-07.png",
             "title": "Schritt 7 – Prüfung",
             "caption": "Diagnose- und Motorlaufkontrolle schematisch dargestellt."
           }
