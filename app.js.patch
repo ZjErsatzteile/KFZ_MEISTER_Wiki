@@ -1,0 +1,24 @@
+*** Begin Patch
+*** Update File: app.js
+@@
+ const esc=v=>String(v??"").replace(/&/g,"&amp;").replace(/</g,"&lt;").replace(/>/g,"&gt;").replace(/"/g,"&quot;").replace(/'/g,"&#039;");
+ const go=h=>location.hash=h;
+ const byId=(a,id)=>arr(a).find(x=>String(x.id)===String(id));
+ const brandByModel=(bid,mid)=>{const b=byId(DB.brands,bid);return b?.models?.find(m=>m.id===mid)};
++const imageUrl=p=>{
++  if(!p)return "";
++  const clean=String(p).replace(/^\.?\//,"").replace(/^images\/diagrams\//,"");
++  return new URL(clean,document.baseURI).href;
++};
++const imageMarkup=(image,stepNo)=>{
++  const title=esc(image?.title||`Schritt ${stepNo}`);
++  const caption=esc(image?.caption||"");
++  const path=imageUrl(image?.path);
++  if(!path)return `<div class="image-placeholder" role="img" aria-label="${title}"><b>${title}</b><span>Für diesen Schritt ist noch keine Grafik hinterlegt.</span></div>`;
++  return `<figure><img src="${esc(path)}" alt="${title}" loading="lazy" onerror="this.hidden=true;this.nextElementSibling.hidden=false;"><div class="image-placeholder" hidden role="img" aria-label="${title}"><b>${title}</b><span>Grafikdatei nicht gefunden.</span></div><figcaption>${caption}</figcaption></figure>`;
++};
+ function header(t,s){return `<section class="page-header"><span class="eyebrow">KFZ MEISTER WIKI</span><h1>${esc(t)}</h1><p>${esc(s||"")}</p></section>`}
+@@
+-<div class="steps">${r.steps.map(s=>`<article class="step"><div class="stepno">${s.n}</div><div><h2>${esc(s.title)}</h2><p>${esc(s.text)}</p><figure><img src="${esc(s.image.path)}" alt="${esc(s.image.title)}" loading="lazy" onerror="this.onerror=null;this.src='images/diagrams/brake-overview.png';"><figcaption>${esc(s.image.caption)}</figcaption></figure></div></article>`).join("")}</div>
++<div class="steps">${r.steps.map(s=>`<article class="step"><div class="stepno">${s.n}</div><div><h2>${esc(s.title)}</h2><p>${esc(s.text)}</p>${imageMarkup(s.image,s.n)}</div></article>`).join("")}</div>
+*** End Patch

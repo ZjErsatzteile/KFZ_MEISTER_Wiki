@@ -1,30 +1,30 @@
-# KFZ MEISTER Wiki Pro
+# Bild-Fix für KFZ_MEISTER_Wiki
 
-Erweiterte statische GitHub-Pages-Version des KFZ MEISTER Wiki.
+## Ursache
 
-## Enthalten
-- Diagnose-Datenbank mit Symptomen, Ursachen, Prüfungen und Reparaturentscheidung
-- Reparaturseiten
-- Komponenten mit Werkzeug, Teilen, Ablauf und Nachkontrolle
-- Fahrzeugsysteme mit technischer Übersicht
-- Werkzeug-Datenbank
-- Fahrzeug-/Hersteller-Navigation
-- globale Suche
-- rechtliche und dokumentarische Hinweise
-- PWA-Grundstruktur
-- keine Build-Tools erforderlich
+Im aktuellen Repository liegen die drei vorhandenen Grafiken im Root:
 
-## Installation
-1. Alle Dateien in das Repository kopieren.
-2. `Settings -> Pages -> Deploy from a branch`.
-3. Branch `main`, Ordner `/ (root)`.
-4. Seite öffnen.
+- `brakes-diagram.svg`
+- `engine-oil-diagram.svg`
+- `battery-diagram.svg`
 
-## Wichtig zu Drehmomenten
-Diese Version erfindet keine fahrzeugübergreifenden Drehmomente. Für sicherheitskritische Befestiger müssen exakte Fahrzeugdaten und Hersteller-/Werkstattunterlagen verwendet werden.
+`database.json` verweist dagegen auf nicht vorhandene Pfade wie
+`images/repairs/brake-01.png` und der alte `app.js`-Fallback verweist auf
+`images/diagrams/brake-overview.png`, das ebenfalls nicht existiert.
 
-## Datenmodell
-`database.json` ist absichtlich getrennt von `app.js`. Neue Inhalte können dort ergänzt werden.
+## Anwendung
 
-## Rechtlicher Hinweis
-Die Inhalte sind technische Wissensinformationen und keine individuelle Rechtsberatung oder verbindliche Hersteller-Reparaturanleitung.
+1. `app.js.patch` auf `app.js` anwenden.
+2. `database-image-fix.py` im Repository-Root ausführen:
+   `python database-image-fix.py`
+3. Änderungen committen und zu GitHub pushen.
+
+Der neue `app.js`:
+- behandelt relative Bildpfade korrekt auf GitHub Pages,
+- zeigt vorhandene SVGs,
+- zeigt bei fehlenden Dateien einen verständlichen Platzhalter,
+- verwendet keine erfundene Fallback-Datei mehr.
+
+Für `air-filter` und `spark-plugs` existiert aktuell keine passende Grafik
+im Repository; deshalb werden dort bewusst Platzhalter statt falscher
+Bilder angezeigt.
