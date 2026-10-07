@@ -1,0 +1,19 @@
+{
+  "id": "./",
+  "name": "KFZ MEISTER WIKI",
+  "short_name": "KFZ WIKI",
+  "description": "KFZ MeisterWiki – Werkstattwissen, Fahrzeuge, Reparaturen, Systeme und Diagnose.",
+  "lang": "de-DE",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "display_override": ["window-controls-overlay", "standalone"],
+  "orientation": "any",
+  "theme_color": "#050910",
+  "background_color": "#050910",
+  "categories": ["automotive", "education", "reference"],
+  "icons": [
+    {"src":"icons/icon-192.png","sizes":"192x192","type":"image/png","purpose":"any maskable"},
+    {"src":"icons/icon-512.png","sizes":"512x512","type":"image/png","purpose":"any maskable"}
+  ]
+}

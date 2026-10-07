@@ -4,6 +4,12 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="theme-color" content="#050910">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="apple-mobile-web-app-title" content="KFZ WIKI">
+<link rel="apple-touch-icon" href="icons/icon-192.png">
+<link rel="manifest" href="manifest.webmanifest">
 <title>KFZ MeisterWiki — Werkstattwissen</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -31,7 +37,7 @@
     <header class="topbar">
       <button class="mobile-menu" id="mobileMenu">☰</button>
       <div class="crumb" id="crumb">Werkstatt / Dashboard</div>
-      <div class="top-actions"><button class="iconbtn" id="openSearch2" aria-label="Suche">⌕</button><div class="avatar">K</div></div>
+      <div class="top-actions"><button class="iconbtn" id="pwaInstall" hidden onclick="installPWA()" title="App installieren">⬇</button><button class="iconbtn" id="openSearch2" aria-label="Suche">⌕</button><div class="avatar">K</div></div>
     </header>
     <section class="content" id="content"></section>
   </main>
@@ -43,5 +49,12 @@
   <div class="modal-card detail-card"><button class="close" data-close>×</button><div id="detailContent"></div></div>
 </div>
 <script src="app.js"></script>
+<script>
+let deferredInstallPrompt=null;
+window.addEventListener("beforeinstallprompt",e=>{e.preventDefault();deferredInstallPrompt=e;let b=document.getElementById("pwaInstall");if(b)b.hidden=false;});
+window.addEventListener("appinstalled",()=>{let b=document.getElementById("pwaInstall");if(b)b.hidden=true;deferredInstallPrompt=null;});
+async function installPWA(){if(!deferredInstallPrompt){alert("Auf iPhone/iPad: im Teilen-Menü Safari → Zum Home-Bildschirm. Auf PC/Android: Browser-Menü → Installieren.");return;}deferredInstallPrompt.prompt();await deferredInstallPrompt.userChoice;deferredInstallPrompt=null;}
+if("serviceWorker" in navigator){window.addEventListener("load",()=>navigator.serviceWorker.register("./sw.js").catch(()=>{}));}
+</script>
 </body>
 </html>
