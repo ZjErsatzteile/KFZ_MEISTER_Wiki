@@ -1,0 +1,20 @@
+{
+  "license": "Original schematic assets created for this project",
+  "images": [
+    {
+      "id": "brakes-diagram",
+      "file": "images/diagrams/brakes-diagram.svg",
+      "caption": "Schematische Darstellung einer Scheibenbremse"
+    },
+    {
+      "id": "engine-oil-diagram",
+      "file": "images/diagrams/engine-oil-diagram.svg",
+      "caption": "Schematische Darstellung des Ölwechselbereichs"
+    },
+    {
+      "id": "battery-diagram",
+      "file": "images/diagrams/battery-diagram.svg",
+      "caption": "Schematische Darstellung einer 12-V-Batterie"
+    }
+  ]
+}

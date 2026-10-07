@@ -1,11 +1,4 @@
 {
-  "meta": {
-    "name": "KFZ MEISTER Wiki Pro",
-    "version": "4.0.0",
-    "description": "Statische KFZ-Wissensdatenbank mit Diagnose, Reparaturen, Systemen, Komponenten, Werkzeugen und rechtlichen Hinweisen.",
-    "warning": "Sicherheitskritische Reparaturen immer anhand exakter Fahrzeugidentifikation und Hersteller-/Werkstattunterlagen durchführen.",
-    "torquePolicy": "Keine erfundenen Universal-Drehmomente. Drehmomente, Anzugswinkel, Mindestmaße und Füllmengen müssen fahrzeugspezifisch verifiziert werden."
-  },
   "brands": [
     {
       "id": "volkswagen",
@@ -14,42 +7,17 @@
         {
           "id": "golf",
           "name": "Golf",
-          "description": "Volkswagen Golf – Baureihen und fahrzeugspezifische Daten"
+          "description": "Golf Baureihen und technische Daten"
         },
         {
           "id": "passat",
           "name": "Passat",
-          "description": "Volkswagen Passat – Baureihen und fahrzeugspezifische Daten"
-        },
-        {
-          "id": "polo",
-          "name": "Polo",
-          "description": "Volkswagen Polo – Baureihen und fahrzeugspezifische Daten"
+          "description": "Passat Baureihen und technische Daten"
         },
         {
           "id": "tiguan",
           "name": "Tiguan",
-          "description": "Volkswagen Tiguan – Baureihen und fahrzeugspezifische Daten"
-        },
-        {
-          "id": "touran",
-          "name": "Touran",
-          "description": "Volkswagen Touran – Baureihen und fahrzeugspezifische Daten"
-        },
-        {
-          "id": "t-roc",
-          "name": "T-Roc",
-          "description": "Volkswagen T-Roc – Baureihen und fahrzeugspezifische Daten"
-        },
-        {
-          "id": "caddy",
-          "name": "Caddy",
-          "description": "Volkswagen Caddy – Baureihen und fahrzeugspezifische Daten"
-        },
-        {
-          "id": "transporter",
-          "name": "Transporter",
-          "description": "Volkswagen Transporter – Baureihen und fahrzeugspezifische Daten"
+          "description": "Tiguan Baureihen und technische Daten"
         }
       ]
     },
@@ -60,42 +28,12 @@
         {
           "id": "a3",
           "name": "A3",
-          "description": "Audi A3 – Baureihen und fahrzeugspezifische Daten"
+          "description": "A3 Baureihen und technische Daten"
         },
         {
           "id": "a4",
           "name": "A4",
-          "description": "Audi A4 – Baureihen und fahrzeugspezifische Daten"
-        },
-        {
-          "id": "a5",
-          "name": "A5",
-          "description": "Audi A5 – Baureihen und fahrzeugspezifische Daten"
-        },
-        {
-          "id": "a6",
-          "name": "A6",
-          "description": "Audi A6 – Baureihen und fahrzeugspezifische Daten"
-        },
-        {
-          "id": "q3",
-          "name": "Q3",
-          "description": "Audi Q3 – Baureihen und fahrzeugspezifische Daten"
-        },
-        {
-          "id": "q5",
-          "name": "Q5",
-          "description": "Audi Q5 – Baureihen und fahrzeugspezifische Daten"
-        },
-        {
-          "id": "q7",
-          "name": "Q7",
-          "description": "Audi Q7 – Baureihen und fahrzeugspezifische Daten"
-        },
-        {
-          "id": "tt",
-          "name": "TT",
-          "description": "Audi TT – Baureihen und fahrzeugspezifische Daten"
+          "description": "A4 Baureihen und technische Daten"
         }
       ]
     },
@@ -104,188 +42,30 @@
       "name": "BMW",
       "models": [
         {
-          "id": "1er",
-          "name": "1er",
-          "description": "BMW 1er – Baureihen und fahrzeugspezifische Daten"
-        },
-        {
-          "id": "2er",
-          "name": "2er",
-          "description": "BMW 2er – Baureihen und fahrzeugspezifische Daten"
-        },
-        {
           "id": "3er",
           "name": "3er",
-          "description": "BMW 3er – Baureihen und fahrzeugspezifische Daten"
-        },
-        {
-          "id": "4er",
-          "name": "4er",
-          "description": "BMW 4er – Baureihen und fahrzeugspezifische Daten"
+          "description": "3er Baureihen und technische Daten"
         },
         {
           "id": "5er",
           "name": "5er",
-          "description": "BMW 5er – Baureihen und fahrzeugspezifische Daten"
-        },
-        {
-          "id": "7er",
-          "name": "7er",
-          "description": "BMW 7er – Baureihen und fahrzeugspezifische Daten"
-        },
-        {
-          "id": "x1",
-          "name": "X1",
-          "description": "BMW X1 – Baureihen und fahrzeugspezifische Daten"
-        },
-        {
-          "id": "x3",
-          "name": "X3",
-          "description": "BMW X3 – Baureihen und fahrzeugspezifische Daten"
-        },
-        {
-          "id": "x5",
-          "name": "X5",
-          "description": "BMW X5 – Baureihen und fahrzeugspezifische Daten"
+          "description": "5er Baureihen und technische Daten"
         }
       ]
     },
     {
-      "id": "mercedes-benz",
+      "id": "mercedes",
       "name": "Mercedes-Benz",
       "models": [
         {
-          "id": "a-klasse",
-          "name": "A-Klasse",
-          "description": "Mercedes-Benz A-Klasse – Baureihen und fahrzeugspezifische Daten"
-        },
-        {
-          "id": "b-klasse",
-          "name": "B-Klasse",
-          "description": "Mercedes-Benz B-Klasse – Baureihen und fahrzeugspezifische Daten"
-        },
-        {
           "id": "c-klasse",
           "name": "C-Klasse",
-          "description": "Mercedes-Benz C-Klasse – Baureihen und fahrzeugspezifische Daten"
+          "description": "C-Klasse Baureihen und technische Daten"
         },
         {
           "id": "e-klasse",
           "name": "E-Klasse",
-          "description": "Mercedes-Benz E-Klasse – Baureihen und fahrzeugspezifische Daten"
-        },
-        {
-          "id": "s-klasse",
-          "name": "S-Klasse",
-          "description": "Mercedes-Benz S-Klasse – Baureihen und fahrzeugspezifische Daten"
-        },
-        {
-          "id": "gla",
-          "name": "GLA",
-          "description": "Mercedes-Benz GLA – Baureihen und fahrzeugspezifische Daten"
-        },
-        {
-          "id": "glc",
-          "name": "GLC",
-          "description": "Mercedes-Benz GLC – Baureihen und fahrzeugspezifische Daten"
-        },
-        {
-          "id": "gle",
-          "name": "GLE",
-          "description": "Mercedes-Benz GLE – Baureihen und fahrzeugspezifische Daten"
-        }
-      ]
-    },
-    {
-      "id": "koda",
-      "name": "Škoda",
-      "models": [
-        {
-          "id": "fabia",
-          "name": "Fabia",
-          "description": "Škoda Fabia – Baureihen und fahrzeugspezifische Daten"
-        },
-        {
-          "id": "scala",
-          "name": "Scala",
-          "description": "Škoda Scala – Baureihen und fahrzeugspezifische Daten"
-        },
-        {
-          "id": "octavia",
-          "name": "Octavia",
-          "description": "Škoda Octavia – Baureihen und fahrzeugspezifische Daten"
-        },
-        {
-          "id": "superb",
-          "name": "Superb",
-          "description": "Škoda Superb – Baureihen und fahrzeugspezifische Daten"
-        },
-        {
-          "id": "karoq",
-          "name": "Karoq",
-          "description": "Škoda Karoq – Baureihen und fahrzeugspezifische Daten"
-        },
-        {
-          "id": "kodiaq",
-          "name": "Kodiaq",
-          "description": "Škoda Kodiaq – Baureihen und fahrzeugspezifische Daten"
-        }
-      ]
-    },
-    {
-      "id": "seat",
-      "name": "SEAT",
-      "models": [
-        {
-          "id": "ibiza",
-          "name": "Ibiza",
-          "description": "SEAT Ibiza – Baureihen und fahrzeugspezifische Daten"
-        },
-        {
-          "id": "leon",
-          "name": "Leon",
-          "description": "SEAT Leon – Baureihen und fahrzeugspezifische Daten"
-        },
-        {
-          "id": "arona",
-          "name": "Arona",
-          "description": "SEAT Arona – Baureihen und fahrzeugspezifische Daten"
-        },
-        {
-          "id": "ateca",
-          "name": "Ateca",
-          "description": "SEAT Ateca – Baureihen und fahrzeugspezifische Daten"
-        },
-        {
-          "id": "tarraco",
-          "name": "Tarraco",
-          "description": "SEAT Tarraco – Baureihen und fahrzeugspezifische Daten"
-        }
-      ]
-    },
-    {
-      "id": "cupra",
-      "name": "CUPRA",
-      "models": [
-        {
-          "id": "born",
-          "name": "Born",
-          "description": "CUPRA Born – Baureihen und fahrzeugspezifische Daten"
-        },
-        {
-          "id": "formentor",
-          "name": "Formentor",
-          "description": "CUPRA Formentor – Baureihen und fahrzeugspezifische Daten"
-        },
-        {
-          "id": "leon",
-          "name": "Leon",
-          "description": "CUPRA Leon – Baureihen und fahrzeugspezifische Daten"
-        },
-        {
-          "id": "ateca",
-          "name": "Ateca",
-          "description": "CUPRA Ateca – Baureihen und fahrzeugspezifische Daten"
+          "description": "E-Klasse Baureihen und technische Daten"
         }
       ]
     },
@@ -294,34 +74,14 @@
       "name": "Opel",
       "models": [
         {
-          "id": "corsa",
-          "name": "Corsa",
-          "description": "Opel Corsa – Baureihen und fahrzeugspezifische Daten"
-        },
-        {
           "id": "astra",
           "name": "Astra",
-          "description": "Opel Astra – Baureihen und fahrzeugspezifische Daten"
+          "description": "Astra Baureihen und technische Daten"
         },
         {
-          "id": "insignia",
-          "name": "Insignia",
-          "description": "Opel Insignia – Baureihen und fahrzeugspezifische Daten"
-        },
-        {
-          "id": "mokka",
-          "name": "Mokka",
-          "description": "Opel Mokka – Baureihen und fahrzeugspezifische Daten"
-        },
-        {
-          "id": "grandland",
-          "name": "Grandland",
-          "description": "Opel Grandland – Baureihen und fahrzeugspezifische Daten"
-        },
-        {
-          "id": "zafira",
-          "name": "Zafira",
-          "description": "Opel Zafira – Baureihen und fahrzeugspezifische Daten"
+          "id": "corsa",
+          "name": "Corsa",
+          "description": "Corsa Baureihen und technische Daten"
         }
       ]
     },
@@ -330,5917 +90,802 @@
       "name": "Ford",
       "models": [
         {
-          "id": "fiesta",
-          "name": "Fiesta",
-          "description": "Ford Fiesta – Baureihen und fahrzeugspezifische Daten"
-        },
-        {
           "id": "focus",
           "name": "Focus",
-          "description": "Ford Focus – Baureihen und fahrzeugspezifische Daten"
+          "description": "Focus Baureihen und technische Daten"
         },
         {
-          "id": "mondeo",
-          "name": "Mondeo",
-          "description": "Ford Mondeo – Baureihen und fahrzeugspezifische Daten"
-        },
-        {
-          "id": "kuga",
-          "name": "Kuga",
-          "description": "Ford Kuga – Baureihen und fahrzeugspezifische Daten"
-        },
-        {
-          "id": "puma",
-          "name": "Puma",
-          "description": "Ford Puma – Baureihen und fahrzeugspezifische Daten"
-        },
-        {
-          "id": "transit",
-          "name": "Transit",
-          "description": "Ford Transit – Baureihen und fahrzeugspezifische Daten"
+          "id": "fiesta",
+          "name": "Fiesta",
+          "description": "Fiesta Baureihen und technische Daten"
         }
       ]
     },
     {
-      "id": "toyota",
-      "name": "Toyota",
+      "id": "skoda",
+      "name": "Škoda",
       "models": [
         {
-          "id": "yaris",
-          "name": "Yaris",
-          "description": "Toyota Yaris – Baureihen und fahrzeugspezifische Daten"
+          "id": "octavia",
+          "name": "Octavia",
+          "description": "Octavia Baureihen und technische Daten"
         },
         {
-          "id": "corolla",
-          "name": "Corolla",
-          "description": "Toyota Corolla – Baureihen und fahrzeugspezifische Daten"
-        },
-        {
-          "id": "camry",
-          "name": "Camry",
-          "description": "Toyota Camry – Baureihen und fahrzeugspezifische Daten"
-        },
-        {
-          "id": "c-hr",
-          "name": "C-HR",
-          "description": "Toyota C-HR – Baureihen und fahrzeugspezifische Daten"
-        },
-        {
-          "id": "rav4",
-          "name": "RAV4",
-          "description": "Toyota RAV4 – Baureihen und fahrzeugspezifische Daten"
-        },
-        {
-          "id": "hilux",
-          "name": "Hilux",
-          "description": "Toyota Hilux – Baureihen und fahrzeugspezifische Daten"
-        }
-      ]
-    },
-    {
-      "id": "renault",
-      "name": "Renault",
-      "models": [
-        {
-          "id": "clio",
-          "name": "Clio",
-          "description": "Renault Clio – Baureihen und fahrzeugspezifische Daten"
-        },
-        {
-          "id": "megane",
-          "name": "Megane",
-          "description": "Renault Megane – Baureihen und fahrzeugspezifische Daten"
-        },
-        {
-          "id": "captur",
-          "name": "Captur",
-          "description": "Renault Captur – Baureihen und fahrzeugspezifische Daten"
-        },
-        {
-          "id": "kadjar",
-          "name": "Kadjar",
-          "description": "Renault Kadjar – Baureihen und fahrzeugspezifische Daten"
-        },
-        {
-          "id": "austral",
-          "name": "Austral",
-          "description": "Renault Austral – Baureihen und fahrzeugspezifische Daten"
-        },
-        {
-          "id": "trafic",
-          "name": "Trafic",
-          "description": "Renault Trafic – Baureihen und fahrzeugspezifische Daten"
-        }
-      ]
-    },
-    {
-      "id": "peugeot",
-      "name": "Peugeot",
-      "models": [
-        {
-          "id": "208",
-          "name": "208",
-          "description": "Peugeot 208 – Baureihen und fahrzeugspezifische Daten"
-        },
-        {
-          "id": "308",
-          "name": "308",
-          "description": "Peugeot 308 – Baureihen und fahrzeugspezifische Daten"
-        },
-        {
-          "id": "508",
-          "name": "508",
-          "description": "Peugeot 508 – Baureihen und fahrzeugspezifische Daten"
-        },
-        {
-          "id": "2008",
-          "name": "2008",
-          "description": "Peugeot 2008 – Baureihen und fahrzeugspezifische Daten"
-        },
-        {
-          "id": "3008",
-          "name": "3008",
-          "description": "Peugeot 3008 – Baureihen und fahrzeugspezifische Daten"
-        },
-        {
-          "id": "5008",
-          "name": "5008",
-          "description": "Peugeot 5008 – Baureihen und fahrzeugspezifische Daten"
-        }
-      ]
-    },
-    {
-      "id": "citro-n",
-      "name": "Citroën",
-      "models": [
-        {
-          "id": "c3",
-          "name": "C3",
-          "description": "Citroën C3 – Baureihen und fahrzeugspezifische Daten"
-        },
-        {
-          "id": "c4",
-          "name": "C4",
-          "description": "Citroën C4 – Baureihen und fahrzeugspezifische Daten"
-        },
-        {
-          "id": "c5-aircross",
-          "name": "C5 Aircross",
-          "description": "Citroën C5 Aircross – Baureihen und fahrzeugspezifische Daten"
-        },
-        {
-          "id": "berlingo",
-          "name": "Berlingo",
-          "description": "Citroën Berlingo – Baureihen und fahrzeugspezifische Daten"
-        }
-      ]
-    },
-    {
-      "id": "volvo",
-      "name": "Volvo",
-      "models": [
-        {
-          "id": "v40",
-          "name": "V40",
-          "description": "Volvo V40 – Baureihen und fahrzeugspezifische Daten"
-        },
-        {
-          "id": "v60",
-          "name": "V60",
-          "description": "Volvo V60 – Baureihen und fahrzeugspezifische Daten"
-        },
-        {
-          "id": "v90",
-          "name": "V90",
-          "description": "Volvo V90 – Baureihen und fahrzeugspezifische Daten"
-        },
-        {
-          "id": "xc40",
-          "name": "XC40",
-          "description": "Volvo XC40 – Baureihen und fahrzeugspezifische Daten"
-        },
-        {
-          "id": "xc60",
-          "name": "XC60",
-          "description": "Volvo XC60 – Baureihen und fahrzeugspezifische Daten"
-        },
-        {
-          "id": "xc90",
-          "name": "XC90",
-          "description": "Volvo XC90 – Baureihen und fahrzeugspezifische Daten"
-        }
-      ]
-    },
-    {
-      "id": "hyundai",
-      "name": "Hyundai",
-      "models": [
-        {
-          "id": "i10",
-          "name": "i10",
-          "description": "Hyundai i10 – Baureihen und fahrzeugspezifische Daten"
-        },
-        {
-          "id": "i20",
-          "name": "i20",
-          "description": "Hyundai i20 – Baureihen und fahrzeugspezifische Daten"
-        },
-        {
-          "id": "i30",
-          "name": "i30",
-          "description": "Hyundai i30 – Baureihen und fahrzeugspezifische Daten"
-        },
-        {
-          "id": "tucson",
-          "name": "Tucson",
-          "description": "Hyundai Tucson – Baureihen und fahrzeugspezifische Daten"
-        },
-        {
-          "id": "kona",
-          "name": "Kona",
-          "description": "Hyundai Kona – Baureihen und fahrzeugspezifische Daten"
-        },
-        {
-          "id": "santa-fe",
-          "name": "Santa Fe",
-          "description": "Hyundai Santa Fe – Baureihen und fahrzeugspezifische Daten"
-        }
-      ]
-    },
-    {
-      "id": "kia",
-      "name": "Kia",
-      "models": [
-        {
-          "id": "picanto",
-          "name": "Picanto",
-          "description": "Kia Picanto – Baureihen und fahrzeugspezifische Daten"
-        },
-        {
-          "id": "rio",
-          "name": "Rio",
-          "description": "Kia Rio – Baureihen und fahrzeugspezifische Daten"
-        },
-        {
-          "id": "ceed",
-          "name": "Ceed",
-          "description": "Kia Ceed – Baureihen und fahrzeugspezifische Daten"
-        },
-        {
-          "id": "sportage",
-          "name": "Sportage",
-          "description": "Kia Sportage – Baureihen und fahrzeugspezifische Daten"
-        },
-        {
-          "id": "sorento",
-          "name": "Sorento",
-          "description": "Kia Sorento – Baureihen und fahrzeugspezifische Daten"
-        },
-        {
-          "id": "niro",
-          "name": "Niro",
-          "description": "Kia Niro – Baureihen und fahrzeugspezifische Daten"
-        }
-      ]
-    },
-    {
-      "id": "nissan",
-      "name": "Nissan",
-      "models": [
-        {
-          "id": "micra",
-          "name": "Micra",
-          "description": "Nissan Micra – Baureihen und fahrzeugspezifische Daten"
-        },
-        {
-          "id": "juke",
-          "name": "Juke",
-          "description": "Nissan Juke – Baureihen und fahrzeugspezifische Daten"
-        },
-        {
-          "id": "qashqai",
-          "name": "Qashqai",
-          "description": "Nissan Qashqai – Baureihen und fahrzeugspezifische Daten"
-        },
-        {
-          "id": "x-trail",
-          "name": "X-Trail",
-          "description": "Nissan X-Trail – Baureihen und fahrzeugspezifische Daten"
-        },
-        {
-          "id": "navara",
-          "name": "Navara",
-          "description": "Nissan Navara – Baureihen und fahrzeugspezifische Daten"
-        }
-      ]
-    },
-    {
-      "id": "honda",
-      "name": "Honda",
-      "models": [
-        {
-          "id": "jazz",
-          "name": "Jazz",
-          "description": "Honda Jazz – Baureihen und fahrzeugspezifische Daten"
-        },
-        {
-          "id": "civic",
-          "name": "Civic",
-          "description": "Honda Civic – Baureihen und fahrzeugspezifische Daten"
-        },
-        {
-          "id": "accord",
-          "name": "Accord",
-          "description": "Honda Accord – Baureihen und fahrzeugspezifische Daten"
-        },
-        {
-          "id": "hr-v",
-          "name": "HR-V",
-          "description": "Honda HR-V – Baureihen und fahrzeugspezifische Daten"
-        },
-        {
-          "id": "cr-v",
-          "name": "CR-V",
-          "description": "Honda CR-V – Baureihen und fahrzeugspezifische Daten"
-        }
-      ]
-    },
-    {
-      "id": "mazda",
-      "name": "Mazda",
-      "models": [
-        {
-          "id": "mazda2",
-          "name": "Mazda2",
-          "description": "Mazda Mazda2 – Baureihen und fahrzeugspezifische Daten"
-        },
-        {
-          "id": "mazda3",
-          "name": "Mazda3",
-          "description": "Mazda Mazda3 – Baureihen und fahrzeugspezifische Daten"
-        },
-        {
-          "id": "mazda6",
-          "name": "Mazda6",
-          "description": "Mazda Mazda6 – Baureihen und fahrzeugspezifische Daten"
-        },
-        {
-          "id": "cx-3",
-          "name": "CX-3",
-          "description": "Mazda CX-3 – Baureihen und fahrzeugspezifische Daten"
-        },
-        {
-          "id": "cx-5",
-          "name": "CX-5",
-          "description": "Mazda CX-5 – Baureihen und fahrzeugspezifische Daten"
+          "id": "superb",
+          "name": "Superb",
+          "description": "Superb Baureihen und technische Daten"
         }
       ]
     }
   ],
   "vehicles": [
     {
-      "id": "volkswagen-1",
+      "id": "vw-golf7",
       "brand": "volkswagen",
       "model": "golf",
-      "name": "Golf",
+      "name": "Golf VII",
       "generations": [
         {
-          "name": "Baureihe / Generation auswählen",
-          "years": "Baujahr und Motorisierung fahrzeugspezifisch",
+          "name": "Golf VII",
+          "years": "2012–2019",
           "engines": [
-            "Benzin",
-            "Diesel",
-            "Hybrid / Elektro je nach Variante"
+            "1.2 TSI",
+            "1.4 TSI",
+            "1.6 TDI",
+            "2.0 TDI"
           ],
           "transmissions": [
-            "Schaltgetriebe",
-            "Automatik / Doppelkupplung je nach Variante"
+            "5-Gang",
+            "6-Gang",
+            "DSG"
           ],
           "drivetrains": [
             "Vorderradantrieb",
-            "Allrad je nach Variante"
+            "4MOTION"
           ]
         }
-      ],
-      "systems": [
-        "engine",
-        "brakes",
-        "suspension",
-        "steering",
-        "electrical",
-        "diagnostics",
-        "cooling",
-        "fuel",
-        "intake",
-        "exhaust",
-        "transmission",
-        "climate",
-        "airbag",
-        "hv"
       ]
     },
     {
-      "id": "volkswagen-2",
+      "id": "vw-passat-b8",
       "brand": "volkswagen",
       "model": "passat",
-      "name": "Passat",
+      "name": "Passat B8",
       "generations": [
         {
-          "name": "Baureihe / Generation auswählen",
-          "years": "Baujahr und Motorisierung fahrzeugspezifisch",
+          "name": "B8",
+          "years": "2014–2023",
           "engines": [
-            "Benzin",
-            "Diesel",
-            "Hybrid / Elektro je nach Variante"
+            "1.4 TSI",
+            "1.5 TSI",
+            "2.0 TDI"
           ],
           "transmissions": [
-            "Schaltgetriebe",
-            "Automatik / Doppelkupplung je nach Variante"
+            "6-Gang",
+            "DSG"
           ],
           "drivetrains": [
             "Vorderradantrieb",
-            "Allrad je nach Variante"
+            "4MOTION"
           ]
         }
-      ],
-      "systems": [
-        "engine",
-        "brakes",
-        "suspension",
-        "steering",
-        "electrical",
-        "diagnostics",
-        "cooling",
-        "fuel",
-        "intake",
-        "exhaust",
-        "transmission",
-        "climate",
-        "airbag",
-        "hv"
       ]
     },
     {
-      "id": "volkswagen-3",
-      "brand": "volkswagen",
-      "model": "polo",
-      "name": "Polo",
-      "generations": [
-        {
-          "name": "Baureihe / Generation auswählen",
-          "years": "Baujahr und Motorisierung fahrzeugspezifisch",
-          "engines": [
-            "Benzin",
-            "Diesel",
-            "Hybrid / Elektro je nach Variante"
-          ],
-          "transmissions": [
-            "Schaltgetriebe",
-            "Automatik / Doppelkupplung je nach Variante"
-          ],
-          "drivetrains": [
-            "Vorderradantrieb",
-            "Allrad je nach Variante"
-          ]
-        }
-      ],
-      "systems": [
-        "engine",
-        "brakes",
-        "suspension",
-        "steering",
-        "electrical",
-        "diagnostics",
-        "cooling",
-        "fuel",
-        "intake",
-        "exhaust",
-        "transmission",
-        "climate",
-        "airbag",
-        "hv"
-      ]
-    },
-    {
-      "id": "volkswagen-4",
-      "brand": "volkswagen",
-      "model": "tiguan",
-      "name": "Tiguan",
-      "generations": [
-        {
-          "name": "Baureihe / Generation auswählen",
-          "years": "Baujahr und Motorisierung fahrzeugspezifisch",
-          "engines": [
-            "Benzin",
-            "Diesel",
-            "Hybrid / Elektro je nach Variante"
-          ],
-          "transmissions": [
-            "Schaltgetriebe",
-            "Automatik / Doppelkupplung je nach Variante"
-          ],
-          "drivetrains": [
-            "Vorderradantrieb",
-            "Allrad je nach Variante"
-          ]
-        }
-      ],
-      "systems": [
-        "engine",
-        "brakes",
-        "suspension",
-        "steering",
-        "electrical",
-        "diagnostics",
-        "cooling",
-        "fuel",
-        "intake",
-        "exhaust",
-        "transmission",
-        "climate",
-        "airbag",
-        "hv"
-      ]
-    },
-    {
-      "id": "volkswagen-5",
-      "brand": "volkswagen",
-      "model": "touran",
-      "name": "Touran",
-      "generations": [
-        {
-          "name": "Baureihe / Generation auswählen",
-          "years": "Baujahr und Motorisierung fahrzeugspezifisch",
-          "engines": [
-            "Benzin",
-            "Diesel",
-            "Hybrid / Elektro je nach Variante"
-          ],
-          "transmissions": [
-            "Schaltgetriebe",
-            "Automatik / Doppelkupplung je nach Variante"
-          ],
-          "drivetrains": [
-            "Vorderradantrieb",
-            "Allrad je nach Variante"
-          ]
-        }
-      ],
-      "systems": [
-        "engine",
-        "brakes",
-        "suspension",
-        "steering",
-        "electrical",
-        "diagnostics",
-        "cooling",
-        "fuel",
-        "intake",
-        "exhaust",
-        "transmission",
-        "climate",
-        "airbag",
-        "hv"
-      ]
-    },
-    {
-      "id": "volkswagen-6",
-      "brand": "volkswagen",
-      "model": "t-roc",
-      "name": "T-Roc",
-      "generations": [
-        {
-          "name": "Baureihe / Generation auswählen",
-          "years": "Baujahr und Motorisierung fahrzeugspezifisch",
-          "engines": [
-            "Benzin",
-            "Diesel",
-            "Hybrid / Elektro je nach Variante"
-          ],
-          "transmissions": [
-            "Schaltgetriebe",
-            "Automatik / Doppelkupplung je nach Variante"
-          ],
-          "drivetrains": [
-            "Vorderradantrieb",
-            "Allrad je nach Variante"
-          ]
-        }
-      ],
-      "systems": [
-        "engine",
-        "brakes",
-        "suspension",
-        "steering",
-        "electrical",
-        "diagnostics",
-        "cooling",
-        "fuel",
-        "intake",
-        "exhaust",
-        "transmission",
-        "climate",
-        "airbag",
-        "hv"
-      ]
-    },
-    {
-      "id": "volkswagen-7",
-      "brand": "volkswagen",
-      "model": "caddy",
-      "name": "Caddy",
-      "generations": [
-        {
-          "name": "Baureihe / Generation auswählen",
-          "years": "Baujahr und Motorisierung fahrzeugspezifisch",
-          "engines": [
-            "Benzin",
-            "Diesel",
-            "Hybrid / Elektro je nach Variante"
-          ],
-          "transmissions": [
-            "Schaltgetriebe",
-            "Automatik / Doppelkupplung je nach Variante"
-          ],
-          "drivetrains": [
-            "Vorderradantrieb",
-            "Allrad je nach Variante"
-          ]
-        }
-      ],
-      "systems": [
-        "engine",
-        "brakes",
-        "suspension",
-        "steering",
-        "electrical",
-        "diagnostics",
-        "cooling",
-        "fuel",
-        "intake",
-        "exhaust",
-        "transmission",
-        "climate",
-        "airbag",
-        "hv"
-      ]
-    },
-    {
-      "id": "volkswagen-8",
-      "brand": "volkswagen",
-      "model": "transporter",
-      "name": "Transporter",
-      "generations": [
-        {
-          "name": "Baureihe / Generation auswählen",
-          "years": "Baujahr und Motorisierung fahrzeugspezifisch",
-          "engines": [
-            "Benzin",
-            "Diesel",
-            "Hybrid / Elektro je nach Variante"
-          ],
-          "transmissions": [
-            "Schaltgetriebe",
-            "Automatik / Doppelkupplung je nach Variante"
-          ],
-          "drivetrains": [
-            "Vorderradantrieb",
-            "Allrad je nach Variante"
-          ]
-        }
-      ],
-      "systems": [
-        "engine",
-        "brakes",
-        "suspension",
-        "steering",
-        "electrical",
-        "diagnostics",
-        "cooling",
-        "fuel",
-        "intake",
-        "exhaust",
-        "transmission",
-        "climate",
-        "airbag",
-        "hv"
-      ]
-    },
-    {
-      "id": "audi-1",
+      "id": "audi-a3-8v",
       "brand": "audi",
       "model": "a3",
-      "name": "A3",
+      "name": "A3 8V",
       "generations": [
         {
-          "name": "Baureihe / Generation auswählen",
-          "years": "Baujahr und Motorisierung fahrzeugspezifisch",
+          "name": "8V",
+          "years": "2012–2020",
           "engines": [
-            "Benzin",
-            "Diesel",
-            "Hybrid / Elektro je nach Variante"
+            "1.0 TFSI",
+            "1.4 TFSI",
+            "1.6 TDI",
+            "2.0 TDI"
           ],
           "transmissions": [
-            "Schaltgetriebe",
-            "Automatik / Doppelkupplung je nach Variante"
+            "6-Gang",
+            "S tronic"
           ],
           "drivetrains": [
             "Vorderradantrieb",
-            "Allrad je nach Variante"
+            "quattro"
           ]
         }
-      ],
-      "systems": [
-        "engine",
-        "brakes",
-        "suspension",
-        "steering",
-        "electrical",
-        "diagnostics",
-        "cooling",
-        "fuel",
-        "intake",
-        "exhaust",
-        "transmission",
-        "climate",
-        "airbag",
-        "hv"
       ]
     },
     {
-      "id": "audi-2",
-      "brand": "audi",
-      "model": "a4",
-      "name": "A4",
-      "generations": [
-        {
-          "name": "Baureihe / Generation auswählen",
-          "years": "Baujahr und Motorisierung fahrzeugspezifisch",
-          "engines": [
-            "Benzin",
-            "Diesel",
-            "Hybrid / Elektro je nach Variante"
-          ],
-          "transmissions": [
-            "Schaltgetriebe",
-            "Automatik / Doppelkupplung je nach Variante"
-          ],
-          "drivetrains": [
-            "Vorderradantrieb",
-            "Allrad je nach Variante"
-          ]
-        }
-      ],
-      "systems": [
-        "engine",
-        "brakes",
-        "suspension",
-        "steering",
-        "electrical",
-        "diagnostics",
-        "cooling",
-        "fuel",
-        "intake",
-        "exhaust",
-        "transmission",
-        "climate",
-        "airbag",
-        "hv"
-      ]
-    },
-    {
-      "id": "audi-3",
-      "brand": "audi",
-      "model": "a5",
-      "name": "A5",
-      "generations": [
-        {
-          "name": "Baureihe / Generation auswählen",
-          "years": "Baujahr und Motorisierung fahrzeugspezifisch",
-          "engines": [
-            "Benzin",
-            "Diesel",
-            "Hybrid / Elektro je nach Variante"
-          ],
-          "transmissions": [
-            "Schaltgetriebe",
-            "Automatik / Doppelkupplung je nach Variante"
-          ],
-          "drivetrains": [
-            "Vorderradantrieb",
-            "Allrad je nach Variante"
-          ]
-        }
-      ],
-      "systems": [
-        "engine",
-        "brakes",
-        "suspension",
-        "steering",
-        "electrical",
-        "diagnostics",
-        "cooling",
-        "fuel",
-        "intake",
-        "exhaust",
-        "transmission",
-        "climate",
-        "airbag",
-        "hv"
-      ]
-    },
-    {
-      "id": "audi-4",
-      "brand": "audi",
-      "model": "a6",
-      "name": "A6",
-      "generations": [
-        {
-          "name": "Baureihe / Generation auswählen",
-          "years": "Baujahr und Motorisierung fahrzeugspezifisch",
-          "engines": [
-            "Benzin",
-            "Diesel",
-            "Hybrid / Elektro je nach Variante"
-          ],
-          "transmissions": [
-            "Schaltgetriebe",
-            "Automatik / Doppelkupplung je nach Variante"
-          ],
-          "drivetrains": [
-            "Vorderradantrieb",
-            "Allrad je nach Variante"
-          ]
-        }
-      ],
-      "systems": [
-        "engine",
-        "brakes",
-        "suspension",
-        "steering",
-        "electrical",
-        "diagnostics",
-        "cooling",
-        "fuel",
-        "intake",
-        "exhaust",
-        "transmission",
-        "climate",
-        "airbag",
-        "hv"
-      ]
-    },
-    {
-      "id": "audi-5",
-      "brand": "audi",
-      "model": "q3",
-      "name": "Q3",
-      "generations": [
-        {
-          "name": "Baureihe / Generation auswählen",
-          "years": "Baujahr und Motorisierung fahrzeugspezifisch",
-          "engines": [
-            "Benzin",
-            "Diesel",
-            "Hybrid / Elektro je nach Variante"
-          ],
-          "transmissions": [
-            "Schaltgetriebe",
-            "Automatik / Doppelkupplung je nach Variante"
-          ],
-          "drivetrains": [
-            "Vorderradantrieb",
-            "Allrad je nach Variante"
-          ]
-        }
-      ],
-      "systems": [
-        "engine",
-        "brakes",
-        "suspension",
-        "steering",
-        "electrical",
-        "diagnostics",
-        "cooling",
-        "fuel",
-        "intake",
-        "exhaust",
-        "transmission",
-        "climate",
-        "airbag",
-        "hv"
-      ]
-    },
-    {
-      "id": "audi-6",
-      "brand": "audi",
-      "model": "q5",
-      "name": "Q5",
-      "generations": [
-        {
-          "name": "Baureihe / Generation auswählen",
-          "years": "Baujahr und Motorisierung fahrzeugspezifisch",
-          "engines": [
-            "Benzin",
-            "Diesel",
-            "Hybrid / Elektro je nach Variante"
-          ],
-          "transmissions": [
-            "Schaltgetriebe",
-            "Automatik / Doppelkupplung je nach Variante"
-          ],
-          "drivetrains": [
-            "Vorderradantrieb",
-            "Allrad je nach Variante"
-          ]
-        }
-      ],
-      "systems": [
-        "engine",
-        "brakes",
-        "suspension",
-        "steering",
-        "electrical",
-        "diagnostics",
-        "cooling",
-        "fuel",
-        "intake",
-        "exhaust",
-        "transmission",
-        "climate",
-        "airbag",
-        "hv"
-      ]
-    },
-    {
-      "id": "audi-7",
-      "brand": "audi",
-      "model": "q7",
-      "name": "Q7",
-      "generations": [
-        {
-          "name": "Baureihe / Generation auswählen",
-          "years": "Baujahr und Motorisierung fahrzeugspezifisch",
-          "engines": [
-            "Benzin",
-            "Diesel",
-            "Hybrid / Elektro je nach Variante"
-          ],
-          "transmissions": [
-            "Schaltgetriebe",
-            "Automatik / Doppelkupplung je nach Variante"
-          ],
-          "drivetrains": [
-            "Vorderradantrieb",
-            "Allrad je nach Variante"
-          ]
-        }
-      ],
-      "systems": [
-        "engine",
-        "brakes",
-        "suspension",
-        "steering",
-        "electrical",
-        "diagnostics",
-        "cooling",
-        "fuel",
-        "intake",
-        "exhaust",
-        "transmission",
-        "climate",
-        "airbag",
-        "hv"
-      ]
-    },
-    {
-      "id": "audi-8",
-      "brand": "audi",
-      "model": "tt",
-      "name": "TT",
-      "generations": [
-        {
-          "name": "Baureihe / Generation auswählen",
-          "years": "Baujahr und Motorisierung fahrzeugspezifisch",
-          "engines": [
-            "Benzin",
-            "Diesel",
-            "Hybrid / Elektro je nach Variante"
-          ],
-          "transmissions": [
-            "Schaltgetriebe",
-            "Automatik / Doppelkupplung je nach Variante"
-          ],
-          "drivetrains": [
-            "Vorderradantrieb",
-            "Allrad je nach Variante"
-          ]
-        }
-      ],
-      "systems": [
-        "engine",
-        "brakes",
-        "suspension",
-        "steering",
-        "electrical",
-        "diagnostics",
-        "cooling",
-        "fuel",
-        "intake",
-        "exhaust",
-        "transmission",
-        "climate",
-        "airbag",
-        "hv"
-      ]
-    },
-    {
-      "id": "bmw-1",
-      "brand": "bmw",
-      "model": "1er",
-      "name": "1er",
-      "generations": [
-        {
-          "name": "Baureihe / Generation auswählen",
-          "years": "Baujahr und Motorisierung fahrzeugspezifisch",
-          "engines": [
-            "Benzin",
-            "Diesel",
-            "Hybrid / Elektro je nach Variante"
-          ],
-          "transmissions": [
-            "Schaltgetriebe",
-            "Automatik / Doppelkupplung je nach Variante"
-          ],
-          "drivetrains": [
-            "Vorderradantrieb",
-            "Allrad je nach Variante"
-          ]
-        }
-      ],
-      "systems": [
-        "engine",
-        "brakes",
-        "suspension",
-        "steering",
-        "electrical",
-        "diagnostics",
-        "cooling",
-        "fuel",
-        "intake",
-        "exhaust",
-        "transmission",
-        "climate",
-        "airbag",
-        "hv"
-      ]
-    },
-    {
-      "id": "bmw-2",
-      "brand": "bmw",
-      "model": "2er",
-      "name": "2er",
-      "generations": [
-        {
-          "name": "Baureihe / Generation auswählen",
-          "years": "Baujahr und Motorisierung fahrzeugspezifisch",
-          "engines": [
-            "Benzin",
-            "Diesel",
-            "Hybrid / Elektro je nach Variante"
-          ],
-          "transmissions": [
-            "Schaltgetriebe",
-            "Automatik / Doppelkupplung je nach Variante"
-          ],
-          "drivetrains": [
-            "Vorderradantrieb",
-            "Allrad je nach Variante"
-          ]
-        }
-      ],
-      "systems": [
-        "engine",
-        "brakes",
-        "suspension",
-        "steering",
-        "electrical",
-        "diagnostics",
-        "cooling",
-        "fuel",
-        "intake",
-        "exhaust",
-        "transmission",
-        "climate",
-        "airbag",
-        "hv"
-      ]
-    },
-    {
-      "id": "bmw-3",
+      "id": "bmw-3-f30",
       "brand": "bmw",
       "model": "3er",
-      "name": "3er",
+      "name": "3er F30/F31",
       "generations": [
         {
-          "name": "Baureihe / Generation auswählen",
-          "years": "Baujahr und Motorisierung fahrzeugspezifisch",
+          "name": "F30/F31",
+          "years": "2011–2019",
           "engines": [
-            "Benzin",
-            "Diesel",
-            "Hybrid / Elektro je nach Variante"
+            "316d",
+            "318d",
+            "320d",
+            "320i",
+            "330d"
           ],
           "transmissions": [
-            "Schaltgetriebe",
-            "Automatik / Doppelkupplung je nach Variante"
+            "6-Gang",
+            "8-Gang Steptronic"
           ],
           "drivetrains": [
-            "Vorderradantrieb",
-            "Allrad je nach Variante"
+            "Hinterradantrieb",
+            "xDrive"
           ]
         }
-      ],
-      "systems": [
-        "engine",
-        "brakes",
-        "suspension",
-        "steering",
-        "electrical",
-        "diagnostics",
-        "cooling",
-        "fuel",
-        "intake",
-        "exhaust",
-        "transmission",
-        "climate",
-        "airbag",
-        "hv"
       ]
     },
     {
-      "id": "bmw-4",
-      "brand": "bmw",
-      "model": "4er",
-      "name": "4er",
-      "generations": [
-        {
-          "name": "Baureihe / Generation auswählen",
-          "years": "Baujahr und Motorisierung fahrzeugspezifisch",
-          "engines": [
-            "Benzin",
-            "Diesel",
-            "Hybrid / Elektro je nach Variante"
-          ],
-          "transmissions": [
-            "Schaltgetriebe",
-            "Automatik / Doppelkupplung je nach Variante"
-          ],
-          "drivetrains": [
-            "Vorderradantrieb",
-            "Allrad je nach Variante"
-          ]
-        }
-      ],
-      "systems": [
-        "engine",
-        "brakes",
-        "suspension",
-        "steering",
-        "electrical",
-        "diagnostics",
-        "cooling",
-        "fuel",
-        "intake",
-        "exhaust",
-        "transmission",
-        "climate",
-        "airbag",
-        "hv"
-      ]
-    },
-    {
-      "id": "bmw-5",
-      "brand": "bmw",
-      "model": "5er",
-      "name": "5er",
-      "generations": [
-        {
-          "name": "Baureihe / Generation auswählen",
-          "years": "Baujahr und Motorisierung fahrzeugspezifisch",
-          "engines": [
-            "Benzin",
-            "Diesel",
-            "Hybrid / Elektro je nach Variante"
-          ],
-          "transmissions": [
-            "Schaltgetriebe",
-            "Automatik / Doppelkupplung je nach Variante"
-          ],
-          "drivetrains": [
-            "Vorderradantrieb",
-            "Allrad je nach Variante"
-          ]
-        }
-      ],
-      "systems": [
-        "engine",
-        "brakes",
-        "suspension",
-        "steering",
-        "electrical",
-        "diagnostics",
-        "cooling",
-        "fuel",
-        "intake",
-        "exhaust",
-        "transmission",
-        "climate",
-        "airbag",
-        "hv"
-      ]
-    },
-    {
-      "id": "bmw-6",
-      "brand": "bmw",
-      "model": "7er",
-      "name": "7er",
-      "generations": [
-        {
-          "name": "Baureihe / Generation auswählen",
-          "years": "Baujahr und Motorisierung fahrzeugspezifisch",
-          "engines": [
-            "Benzin",
-            "Diesel",
-            "Hybrid / Elektro je nach Variante"
-          ],
-          "transmissions": [
-            "Schaltgetriebe",
-            "Automatik / Doppelkupplung je nach Variante"
-          ],
-          "drivetrains": [
-            "Vorderradantrieb",
-            "Allrad je nach Variante"
-          ]
-        }
-      ],
-      "systems": [
-        "engine",
-        "brakes",
-        "suspension",
-        "steering",
-        "electrical",
-        "diagnostics",
-        "cooling",
-        "fuel",
-        "intake",
-        "exhaust",
-        "transmission",
-        "climate",
-        "airbag",
-        "hv"
-      ]
-    },
-    {
-      "id": "bmw-7",
-      "brand": "bmw",
-      "model": "x1",
-      "name": "X1",
-      "generations": [
-        {
-          "name": "Baureihe / Generation auswählen",
-          "years": "Baujahr und Motorisierung fahrzeugspezifisch",
-          "engines": [
-            "Benzin",
-            "Diesel",
-            "Hybrid / Elektro je nach Variante"
-          ],
-          "transmissions": [
-            "Schaltgetriebe",
-            "Automatik / Doppelkupplung je nach Variante"
-          ],
-          "drivetrains": [
-            "Vorderradantrieb",
-            "Allrad je nach Variante"
-          ]
-        }
-      ],
-      "systems": [
-        "engine",
-        "brakes",
-        "suspension",
-        "steering",
-        "electrical",
-        "diagnostics",
-        "cooling",
-        "fuel",
-        "intake",
-        "exhaust",
-        "transmission",
-        "climate",
-        "airbag",
-        "hv"
-      ]
-    },
-    {
-      "id": "bmw-8",
-      "brand": "bmw",
-      "model": "x3",
-      "name": "X3",
-      "generations": [
-        {
-          "name": "Baureihe / Generation auswählen",
-          "years": "Baujahr und Motorisierung fahrzeugspezifisch",
-          "engines": [
-            "Benzin",
-            "Diesel",
-            "Hybrid / Elektro je nach Variante"
-          ],
-          "transmissions": [
-            "Schaltgetriebe",
-            "Automatik / Doppelkupplung je nach Variante"
-          ],
-          "drivetrains": [
-            "Vorderradantrieb",
-            "Allrad je nach Variante"
-          ]
-        }
-      ],
-      "systems": [
-        "engine",
-        "brakes",
-        "suspension",
-        "steering",
-        "electrical",
-        "diagnostics",
-        "cooling",
-        "fuel",
-        "intake",
-        "exhaust",
-        "transmission",
-        "climate",
-        "airbag",
-        "hv"
-      ]
-    },
-    {
-      "id": "bmw-9",
-      "brand": "bmw",
-      "model": "x5",
-      "name": "X5",
-      "generations": [
-        {
-          "name": "Baureihe / Generation auswählen",
-          "years": "Baujahr und Motorisierung fahrzeugspezifisch",
-          "engines": [
-            "Benzin",
-            "Diesel",
-            "Hybrid / Elektro je nach Variante"
-          ],
-          "transmissions": [
-            "Schaltgetriebe",
-            "Automatik / Doppelkupplung je nach Variante"
-          ],
-          "drivetrains": [
-            "Vorderradantrieb",
-            "Allrad je nach Variante"
-          ]
-        }
-      ],
-      "systems": [
-        "engine",
-        "brakes",
-        "suspension",
-        "steering",
-        "electrical",
-        "diagnostics",
-        "cooling",
-        "fuel",
-        "intake",
-        "exhaust",
-        "transmission",
-        "climate",
-        "airbag",
-        "hv"
-      ]
-    },
-    {
-      "id": "mercedes-benz-1",
-      "brand": "mercedes-benz",
-      "model": "a-klasse",
-      "name": "A-Klasse",
-      "generations": [
-        {
-          "name": "Baureihe / Generation auswählen",
-          "years": "Baujahr und Motorisierung fahrzeugspezifisch",
-          "engines": [
-            "Benzin",
-            "Diesel",
-            "Hybrid / Elektro je nach Variante"
-          ],
-          "transmissions": [
-            "Schaltgetriebe",
-            "Automatik / Doppelkupplung je nach Variante"
-          ],
-          "drivetrains": [
-            "Vorderradantrieb",
-            "Allrad je nach Variante"
-          ]
-        }
-      ],
-      "systems": [
-        "engine",
-        "brakes",
-        "suspension",
-        "steering",
-        "electrical",
-        "diagnostics",
-        "cooling",
-        "fuel",
-        "intake",
-        "exhaust",
-        "transmission",
-        "climate",
-        "airbag",
-        "hv"
-      ]
-    },
-    {
-      "id": "mercedes-benz-2",
-      "brand": "mercedes-benz",
-      "model": "b-klasse",
-      "name": "B-Klasse",
-      "generations": [
-        {
-          "name": "Baureihe / Generation auswählen",
-          "years": "Baujahr und Motorisierung fahrzeugspezifisch",
-          "engines": [
-            "Benzin",
-            "Diesel",
-            "Hybrid / Elektro je nach Variante"
-          ],
-          "transmissions": [
-            "Schaltgetriebe",
-            "Automatik / Doppelkupplung je nach Variante"
-          ],
-          "drivetrains": [
-            "Vorderradantrieb",
-            "Allrad je nach Variante"
-          ]
-        }
-      ],
-      "systems": [
-        "engine",
-        "brakes",
-        "suspension",
-        "steering",
-        "electrical",
-        "diagnostics",
-        "cooling",
-        "fuel",
-        "intake",
-        "exhaust",
-        "transmission",
-        "climate",
-        "airbag",
-        "hv"
-      ]
-    },
-    {
-      "id": "mercedes-benz-3",
-      "brand": "mercedes-benz",
+      "id": "mb-c-w205",
+      "brand": "mercedes",
       "model": "c-klasse",
-      "name": "C-Klasse",
+      "name": "C-Klasse W205",
       "generations": [
         {
-          "name": "Baureihe / Generation auswählen",
-          "years": "Baujahr und Motorisierung fahrzeugspezifisch",
+          "name": "W205",
+          "years": "2014–2021",
           "engines": [
-            "Benzin",
-            "Diesel",
-            "Hybrid / Elektro je nach Variante"
+            "C180",
+            "C200",
+            "C220d",
+            "C300"
           ],
           "transmissions": [
-            "Schaltgetriebe",
-            "Automatik / Doppelkupplung je nach Variante"
+            "6-Gang",
+            "9G-TRONIC"
           ],
           "drivetrains": [
-            "Vorderradantrieb",
-            "Allrad je nach Variante"
+            "Hinterradantrieb",
+            "4MATIC"
           ]
         }
-      ],
-      "systems": [
-        "engine",
-        "brakes",
-        "suspension",
-        "steering",
-        "electrical",
-        "diagnostics",
-        "cooling",
-        "fuel",
-        "intake",
-        "exhaust",
-        "transmission",
-        "climate",
-        "airbag",
-        "hv"
       ]
     },
     {
-      "id": "mercedes-benz-4",
-      "brand": "mercedes-benz",
-      "model": "e-klasse",
-      "name": "E-Klasse",
-      "generations": [
-        {
-          "name": "Baureihe / Generation auswählen",
-          "years": "Baujahr und Motorisierung fahrzeugspezifisch",
-          "engines": [
-            "Benzin",
-            "Diesel",
-            "Hybrid / Elektro je nach Variante"
-          ],
-          "transmissions": [
-            "Schaltgetriebe",
-            "Automatik / Doppelkupplung je nach Variante"
-          ],
-          "drivetrains": [
-            "Vorderradantrieb",
-            "Allrad je nach Variante"
-          ]
-        }
-      ],
-      "systems": [
-        "engine",
-        "brakes",
-        "suspension",
-        "steering",
-        "electrical",
-        "diagnostics",
-        "cooling",
-        "fuel",
-        "intake",
-        "exhaust",
-        "transmission",
-        "climate",
-        "airbag",
-        "hv"
-      ]
-    },
-    {
-      "id": "mercedes-benz-5",
-      "brand": "mercedes-benz",
-      "model": "s-klasse",
-      "name": "S-Klasse",
-      "generations": [
-        {
-          "name": "Baureihe / Generation auswählen",
-          "years": "Baujahr und Motorisierung fahrzeugspezifisch",
-          "engines": [
-            "Benzin",
-            "Diesel",
-            "Hybrid / Elektro je nach Variante"
-          ],
-          "transmissions": [
-            "Schaltgetriebe",
-            "Automatik / Doppelkupplung je nach Variante"
-          ],
-          "drivetrains": [
-            "Vorderradantrieb",
-            "Allrad je nach Variante"
-          ]
-        }
-      ],
-      "systems": [
-        "engine",
-        "brakes",
-        "suspension",
-        "steering",
-        "electrical",
-        "diagnostics",
-        "cooling",
-        "fuel",
-        "intake",
-        "exhaust",
-        "transmission",
-        "climate",
-        "airbag",
-        "hv"
-      ]
-    },
-    {
-      "id": "mercedes-benz-6",
-      "brand": "mercedes-benz",
-      "model": "gla",
-      "name": "GLA",
-      "generations": [
-        {
-          "name": "Baureihe / Generation auswählen",
-          "years": "Baujahr und Motorisierung fahrzeugspezifisch",
-          "engines": [
-            "Benzin",
-            "Diesel",
-            "Hybrid / Elektro je nach Variante"
-          ],
-          "transmissions": [
-            "Schaltgetriebe",
-            "Automatik / Doppelkupplung je nach Variante"
-          ],
-          "drivetrains": [
-            "Vorderradantrieb",
-            "Allrad je nach Variante"
-          ]
-        }
-      ],
-      "systems": [
-        "engine",
-        "brakes",
-        "suspension",
-        "steering",
-        "electrical",
-        "diagnostics",
-        "cooling",
-        "fuel",
-        "intake",
-        "exhaust",
-        "transmission",
-        "climate",
-        "airbag",
-        "hv"
-      ]
-    },
-    {
-      "id": "mercedes-benz-7",
-      "brand": "mercedes-benz",
-      "model": "glc",
-      "name": "GLC",
-      "generations": [
-        {
-          "name": "Baureihe / Generation auswählen",
-          "years": "Baujahr und Motorisierung fahrzeugspezifisch",
-          "engines": [
-            "Benzin",
-            "Diesel",
-            "Hybrid / Elektro je nach Variante"
-          ],
-          "transmissions": [
-            "Schaltgetriebe",
-            "Automatik / Doppelkupplung je nach Variante"
-          ],
-          "drivetrains": [
-            "Vorderradantrieb",
-            "Allrad je nach Variante"
-          ]
-        }
-      ],
-      "systems": [
-        "engine",
-        "brakes",
-        "suspension",
-        "steering",
-        "electrical",
-        "diagnostics",
-        "cooling",
-        "fuel",
-        "intake",
-        "exhaust",
-        "transmission",
-        "climate",
-        "airbag",
-        "hv"
-      ]
-    },
-    {
-      "id": "mercedes-benz-8",
-      "brand": "mercedes-benz",
-      "model": "gle",
-      "name": "GLE",
-      "generations": [
-        {
-          "name": "Baureihe / Generation auswählen",
-          "years": "Baujahr und Motorisierung fahrzeugspezifisch",
-          "engines": [
-            "Benzin",
-            "Diesel",
-            "Hybrid / Elektro je nach Variante"
-          ],
-          "transmissions": [
-            "Schaltgetriebe",
-            "Automatik / Doppelkupplung je nach Variante"
-          ],
-          "drivetrains": [
-            "Vorderradantrieb",
-            "Allrad je nach Variante"
-          ]
-        }
-      ],
-      "systems": [
-        "engine",
-        "brakes",
-        "suspension",
-        "steering",
-        "electrical",
-        "diagnostics",
-        "cooling",
-        "fuel",
-        "intake",
-        "exhaust",
-        "transmission",
-        "climate",
-        "airbag",
-        "hv"
-      ]
-    },
-    {
-      "id": "koda-1",
-      "brand": "koda",
-      "model": "fabia",
-      "name": "Fabia",
-      "generations": [
-        {
-          "name": "Baureihe / Generation auswählen",
-          "years": "Baujahr und Motorisierung fahrzeugspezifisch",
-          "engines": [
-            "Benzin",
-            "Diesel",
-            "Hybrid / Elektro je nach Variante"
-          ],
-          "transmissions": [
-            "Schaltgetriebe",
-            "Automatik / Doppelkupplung je nach Variante"
-          ],
-          "drivetrains": [
-            "Vorderradantrieb",
-            "Allrad je nach Variante"
-          ]
-        }
-      ],
-      "systems": [
-        "engine",
-        "brakes",
-        "suspension",
-        "steering",
-        "electrical",
-        "diagnostics",
-        "cooling",
-        "fuel",
-        "intake",
-        "exhaust",
-        "transmission",
-        "climate",
-        "airbag",
-        "hv"
-      ]
-    },
-    {
-      "id": "koda-2",
-      "brand": "koda",
-      "model": "scala",
-      "name": "Scala",
-      "generations": [
-        {
-          "name": "Baureihe / Generation auswählen",
-          "years": "Baujahr und Motorisierung fahrzeugspezifisch",
-          "engines": [
-            "Benzin",
-            "Diesel",
-            "Hybrid / Elektro je nach Variante"
-          ],
-          "transmissions": [
-            "Schaltgetriebe",
-            "Automatik / Doppelkupplung je nach Variante"
-          ],
-          "drivetrains": [
-            "Vorderradantrieb",
-            "Allrad je nach Variante"
-          ]
-        }
-      ],
-      "systems": [
-        "engine",
-        "brakes",
-        "suspension",
-        "steering",
-        "electrical",
-        "diagnostics",
-        "cooling",
-        "fuel",
-        "intake",
-        "exhaust",
-        "transmission",
-        "climate",
-        "airbag",
-        "hv"
-      ]
-    },
-    {
-      "id": "koda-3",
-      "brand": "koda",
-      "model": "octavia",
-      "name": "Octavia",
-      "generations": [
-        {
-          "name": "Baureihe / Generation auswählen",
-          "years": "Baujahr und Motorisierung fahrzeugspezifisch",
-          "engines": [
-            "Benzin",
-            "Diesel",
-            "Hybrid / Elektro je nach Variante"
-          ],
-          "transmissions": [
-            "Schaltgetriebe",
-            "Automatik / Doppelkupplung je nach Variante"
-          ],
-          "drivetrains": [
-            "Vorderradantrieb",
-            "Allrad je nach Variante"
-          ]
-        }
-      ],
-      "systems": [
-        "engine",
-        "brakes",
-        "suspension",
-        "steering",
-        "electrical",
-        "diagnostics",
-        "cooling",
-        "fuel",
-        "intake",
-        "exhaust",
-        "transmission",
-        "climate",
-        "airbag",
-        "hv"
-      ]
-    },
-    {
-      "id": "koda-4",
-      "brand": "koda",
-      "model": "superb",
-      "name": "Superb",
-      "generations": [
-        {
-          "name": "Baureihe / Generation auswählen",
-          "years": "Baujahr und Motorisierung fahrzeugspezifisch",
-          "engines": [
-            "Benzin",
-            "Diesel",
-            "Hybrid / Elektro je nach Variante"
-          ],
-          "transmissions": [
-            "Schaltgetriebe",
-            "Automatik / Doppelkupplung je nach Variante"
-          ],
-          "drivetrains": [
-            "Vorderradantrieb",
-            "Allrad je nach Variante"
-          ]
-        }
-      ],
-      "systems": [
-        "engine",
-        "brakes",
-        "suspension",
-        "steering",
-        "electrical",
-        "diagnostics",
-        "cooling",
-        "fuel",
-        "intake",
-        "exhaust",
-        "transmission",
-        "climate",
-        "airbag",
-        "hv"
-      ]
-    },
-    {
-      "id": "koda-5",
-      "brand": "koda",
-      "model": "karoq",
-      "name": "Karoq",
-      "generations": [
-        {
-          "name": "Baureihe / Generation auswählen",
-          "years": "Baujahr und Motorisierung fahrzeugspezifisch",
-          "engines": [
-            "Benzin",
-            "Diesel",
-            "Hybrid / Elektro je nach Variante"
-          ],
-          "transmissions": [
-            "Schaltgetriebe",
-            "Automatik / Doppelkupplung je nach Variante"
-          ],
-          "drivetrains": [
-            "Vorderradantrieb",
-            "Allrad je nach Variante"
-          ]
-        }
-      ],
-      "systems": [
-        "engine",
-        "brakes",
-        "suspension",
-        "steering",
-        "electrical",
-        "diagnostics",
-        "cooling",
-        "fuel",
-        "intake",
-        "exhaust",
-        "transmission",
-        "climate",
-        "airbag",
-        "hv"
-      ]
-    },
-    {
-      "id": "koda-6",
-      "brand": "koda",
-      "model": "kodiaq",
-      "name": "Kodiaq",
-      "generations": [
-        {
-          "name": "Baureihe / Generation auswählen",
-          "years": "Baujahr und Motorisierung fahrzeugspezifisch",
-          "engines": [
-            "Benzin",
-            "Diesel",
-            "Hybrid / Elektro je nach Variante"
-          ],
-          "transmissions": [
-            "Schaltgetriebe",
-            "Automatik / Doppelkupplung je nach Variante"
-          ],
-          "drivetrains": [
-            "Vorderradantrieb",
-            "Allrad je nach Variante"
-          ]
-        }
-      ],
-      "systems": [
-        "engine",
-        "brakes",
-        "suspension",
-        "steering",
-        "electrical",
-        "diagnostics",
-        "cooling",
-        "fuel",
-        "intake",
-        "exhaust",
-        "transmission",
-        "climate",
-        "airbag",
-        "hv"
-      ]
-    },
-    {
-      "id": "seat-1",
-      "brand": "seat",
-      "model": "ibiza",
-      "name": "Ibiza",
-      "generations": [
-        {
-          "name": "Baureihe / Generation auswählen",
-          "years": "Baujahr und Motorisierung fahrzeugspezifisch",
-          "engines": [
-            "Benzin",
-            "Diesel",
-            "Hybrid / Elektro je nach Variante"
-          ],
-          "transmissions": [
-            "Schaltgetriebe",
-            "Automatik / Doppelkupplung je nach Variante"
-          ],
-          "drivetrains": [
-            "Vorderradantrieb",
-            "Allrad je nach Variante"
-          ]
-        }
-      ],
-      "systems": [
-        "engine",
-        "brakes",
-        "suspension",
-        "steering",
-        "electrical",
-        "diagnostics",
-        "cooling",
-        "fuel",
-        "intake",
-        "exhaust",
-        "transmission",
-        "climate",
-        "airbag",
-        "hv"
-      ]
-    },
-    {
-      "id": "seat-2",
-      "brand": "seat",
-      "model": "leon",
-      "name": "Leon",
-      "generations": [
-        {
-          "name": "Baureihe / Generation auswählen",
-          "years": "Baujahr und Motorisierung fahrzeugspezifisch",
-          "engines": [
-            "Benzin",
-            "Diesel",
-            "Hybrid / Elektro je nach Variante"
-          ],
-          "transmissions": [
-            "Schaltgetriebe",
-            "Automatik / Doppelkupplung je nach Variante"
-          ],
-          "drivetrains": [
-            "Vorderradantrieb",
-            "Allrad je nach Variante"
-          ]
-        }
-      ],
-      "systems": [
-        "engine",
-        "brakes",
-        "suspension",
-        "steering",
-        "electrical",
-        "diagnostics",
-        "cooling",
-        "fuel",
-        "intake",
-        "exhaust",
-        "transmission",
-        "climate",
-        "airbag",
-        "hv"
-      ]
-    },
-    {
-      "id": "seat-3",
-      "brand": "seat",
-      "model": "arona",
-      "name": "Arona",
-      "generations": [
-        {
-          "name": "Baureihe / Generation auswählen",
-          "years": "Baujahr und Motorisierung fahrzeugspezifisch",
-          "engines": [
-            "Benzin",
-            "Diesel",
-            "Hybrid / Elektro je nach Variante"
-          ],
-          "transmissions": [
-            "Schaltgetriebe",
-            "Automatik / Doppelkupplung je nach Variante"
-          ],
-          "drivetrains": [
-            "Vorderradantrieb",
-            "Allrad je nach Variante"
-          ]
-        }
-      ],
-      "systems": [
-        "engine",
-        "brakes",
-        "suspension",
-        "steering",
-        "electrical",
-        "diagnostics",
-        "cooling",
-        "fuel",
-        "intake",
-        "exhaust",
-        "transmission",
-        "climate",
-        "airbag",
-        "hv"
-      ]
-    },
-    {
-      "id": "seat-4",
-      "brand": "seat",
-      "model": "ateca",
-      "name": "Ateca",
-      "generations": [
-        {
-          "name": "Baureihe / Generation auswählen",
-          "years": "Baujahr und Motorisierung fahrzeugspezifisch",
-          "engines": [
-            "Benzin",
-            "Diesel",
-            "Hybrid / Elektro je nach Variante"
-          ],
-          "transmissions": [
-            "Schaltgetriebe",
-            "Automatik / Doppelkupplung je nach Variante"
-          ],
-          "drivetrains": [
-            "Vorderradantrieb",
-            "Allrad je nach Variante"
-          ]
-        }
-      ],
-      "systems": [
-        "engine",
-        "brakes",
-        "suspension",
-        "steering",
-        "electrical",
-        "diagnostics",
-        "cooling",
-        "fuel",
-        "intake",
-        "exhaust",
-        "transmission",
-        "climate",
-        "airbag",
-        "hv"
-      ]
-    },
-    {
-      "id": "seat-5",
-      "brand": "seat",
-      "model": "tarraco",
-      "name": "Tarraco",
-      "generations": [
-        {
-          "name": "Baureihe / Generation auswählen",
-          "years": "Baujahr und Motorisierung fahrzeugspezifisch",
-          "engines": [
-            "Benzin",
-            "Diesel",
-            "Hybrid / Elektro je nach Variante"
-          ],
-          "transmissions": [
-            "Schaltgetriebe",
-            "Automatik / Doppelkupplung je nach Variante"
-          ],
-          "drivetrains": [
-            "Vorderradantrieb",
-            "Allrad je nach Variante"
-          ]
-        }
-      ],
-      "systems": [
-        "engine",
-        "brakes",
-        "suspension",
-        "steering",
-        "electrical",
-        "diagnostics",
-        "cooling",
-        "fuel",
-        "intake",
-        "exhaust",
-        "transmission",
-        "climate",
-        "airbag",
-        "hv"
-      ]
-    },
-    {
-      "id": "cupra-1",
-      "brand": "cupra",
-      "model": "born",
-      "name": "Born",
-      "generations": [
-        {
-          "name": "Baureihe / Generation auswählen",
-          "years": "Baujahr und Motorisierung fahrzeugspezifisch",
-          "engines": [
-            "Benzin",
-            "Diesel",
-            "Hybrid / Elektro je nach Variante"
-          ],
-          "transmissions": [
-            "Schaltgetriebe",
-            "Automatik / Doppelkupplung je nach Variante"
-          ],
-          "drivetrains": [
-            "Vorderradantrieb",
-            "Allrad je nach Variante"
-          ]
-        }
-      ],
-      "systems": [
-        "engine",
-        "brakes",
-        "suspension",
-        "steering",
-        "electrical",
-        "diagnostics",
-        "cooling",
-        "fuel",
-        "intake",
-        "exhaust",
-        "transmission",
-        "climate",
-        "airbag",
-        "hv"
-      ]
-    },
-    {
-      "id": "cupra-2",
-      "brand": "cupra",
-      "model": "formentor",
-      "name": "Formentor",
-      "generations": [
-        {
-          "name": "Baureihe / Generation auswählen",
-          "years": "Baujahr und Motorisierung fahrzeugspezifisch",
-          "engines": [
-            "Benzin",
-            "Diesel",
-            "Hybrid / Elektro je nach Variante"
-          ],
-          "transmissions": [
-            "Schaltgetriebe",
-            "Automatik / Doppelkupplung je nach Variante"
-          ],
-          "drivetrains": [
-            "Vorderradantrieb",
-            "Allrad je nach Variante"
-          ]
-        }
-      ],
-      "systems": [
-        "engine",
-        "brakes",
-        "suspension",
-        "steering",
-        "electrical",
-        "diagnostics",
-        "cooling",
-        "fuel",
-        "intake",
-        "exhaust",
-        "transmission",
-        "climate",
-        "airbag",
-        "hv"
-      ]
-    },
-    {
-      "id": "cupra-3",
-      "brand": "cupra",
-      "model": "leon",
-      "name": "Leon",
-      "generations": [
-        {
-          "name": "Baureihe / Generation auswählen",
-          "years": "Baujahr und Motorisierung fahrzeugspezifisch",
-          "engines": [
-            "Benzin",
-            "Diesel",
-            "Hybrid / Elektro je nach Variante"
-          ],
-          "transmissions": [
-            "Schaltgetriebe",
-            "Automatik / Doppelkupplung je nach Variante"
-          ],
-          "drivetrains": [
-            "Vorderradantrieb",
-            "Allrad je nach Variante"
-          ]
-        }
-      ],
-      "systems": [
-        "engine",
-        "brakes",
-        "suspension",
-        "steering",
-        "electrical",
-        "diagnostics",
-        "cooling",
-        "fuel",
-        "intake",
-        "exhaust",
-        "transmission",
-        "climate",
-        "airbag",
-        "hv"
-      ]
-    },
-    {
-      "id": "cupra-4",
-      "brand": "cupra",
-      "model": "ateca",
-      "name": "Ateca",
-      "generations": [
-        {
-          "name": "Baureihe / Generation auswählen",
-          "years": "Baujahr und Motorisierung fahrzeugspezifisch",
-          "engines": [
-            "Benzin",
-            "Diesel",
-            "Hybrid / Elektro je nach Variante"
-          ],
-          "transmissions": [
-            "Schaltgetriebe",
-            "Automatik / Doppelkupplung je nach Variante"
-          ],
-          "drivetrains": [
-            "Vorderradantrieb",
-            "Allrad je nach Variante"
-          ]
-        }
-      ],
-      "systems": [
-        "engine",
-        "brakes",
-        "suspension",
-        "steering",
-        "electrical",
-        "diagnostics",
-        "cooling",
-        "fuel",
-        "intake",
-        "exhaust",
-        "transmission",
-        "climate",
-        "airbag",
-        "hv"
-      ]
-    },
-    {
-      "id": "opel-1",
-      "brand": "opel",
-      "model": "corsa",
-      "name": "Corsa",
-      "generations": [
-        {
-          "name": "Baureihe / Generation auswählen",
-          "years": "Baujahr und Motorisierung fahrzeugspezifisch",
-          "engines": [
-            "Benzin",
-            "Diesel",
-            "Hybrid / Elektro je nach Variante"
-          ],
-          "transmissions": [
-            "Schaltgetriebe",
-            "Automatik / Doppelkupplung je nach Variante"
-          ],
-          "drivetrains": [
-            "Vorderradantrieb",
-            "Allrad je nach Variante"
-          ]
-        }
-      ],
-      "systems": [
-        "engine",
-        "brakes",
-        "suspension",
-        "steering",
-        "electrical",
-        "diagnostics",
-        "cooling",
-        "fuel",
-        "intake",
-        "exhaust",
-        "transmission",
-        "climate",
-        "airbag",
-        "hv"
-      ]
-    },
-    {
-      "id": "opel-2",
+      "id": "opel-astra-k",
       "brand": "opel",
       "model": "astra",
-      "name": "Astra",
+      "name": "Astra K",
       "generations": [
         {
-          "name": "Baureihe / Generation auswählen",
-          "years": "Baujahr und Motorisierung fahrzeugspezifisch",
+          "name": "K",
+          "years": "2015–2021",
           "engines": [
-            "Benzin",
-            "Diesel",
-            "Hybrid / Elektro je nach Variante"
+            "1.0 Turbo",
+            "1.4 Turbo",
+            "1.6 CDTI"
           ],
           "transmissions": [
-            "Schaltgetriebe",
-            "Automatik / Doppelkupplung je nach Variante"
+            "5-Gang",
+            "6-Gang",
+            "Automatik"
           ],
           "drivetrains": [
-            "Vorderradantrieb",
-            "Allrad je nach Variante"
+            "Vorderradantrieb"
           ]
         }
-      ],
-      "systems": [
-        "engine",
-        "brakes",
-        "suspension",
-        "steering",
-        "electrical",
-        "diagnostics",
-        "cooling",
-        "fuel",
-        "intake",
-        "exhaust",
-        "transmission",
-        "climate",
-        "airbag",
-        "hv"
       ]
     },
     {
-      "id": "opel-3",
-      "brand": "opel",
-      "model": "insignia",
-      "name": "Insignia",
-      "generations": [
-        {
-          "name": "Baureihe / Generation auswählen",
-          "years": "Baujahr und Motorisierung fahrzeugspezifisch",
-          "engines": [
-            "Benzin",
-            "Diesel",
-            "Hybrid / Elektro je nach Variante"
-          ],
-          "transmissions": [
-            "Schaltgetriebe",
-            "Automatik / Doppelkupplung je nach Variante"
-          ],
-          "drivetrains": [
-            "Vorderradantrieb",
-            "Allrad je nach Variante"
-          ]
-        }
-      ],
-      "systems": [
-        "engine",
-        "brakes",
-        "suspension",
-        "steering",
-        "electrical",
-        "diagnostics",
-        "cooling",
-        "fuel",
-        "intake",
-        "exhaust",
-        "transmission",
-        "climate",
-        "airbag",
-        "hv"
-      ]
-    },
-    {
-      "id": "opel-4",
-      "brand": "opel",
-      "model": "mokka",
-      "name": "Mokka",
-      "generations": [
-        {
-          "name": "Baureihe / Generation auswählen",
-          "years": "Baujahr und Motorisierung fahrzeugspezifisch",
-          "engines": [
-            "Benzin",
-            "Diesel",
-            "Hybrid / Elektro je nach Variante"
-          ],
-          "transmissions": [
-            "Schaltgetriebe",
-            "Automatik / Doppelkupplung je nach Variante"
-          ],
-          "drivetrains": [
-            "Vorderradantrieb",
-            "Allrad je nach Variante"
-          ]
-        }
-      ],
-      "systems": [
-        "engine",
-        "brakes",
-        "suspension",
-        "steering",
-        "electrical",
-        "diagnostics",
-        "cooling",
-        "fuel",
-        "intake",
-        "exhaust",
-        "transmission",
-        "climate",
-        "airbag",
-        "hv"
-      ]
-    },
-    {
-      "id": "opel-5",
-      "brand": "opel",
-      "model": "grandland",
-      "name": "Grandland",
-      "generations": [
-        {
-          "name": "Baureihe / Generation auswählen",
-          "years": "Baujahr und Motorisierung fahrzeugspezifisch",
-          "engines": [
-            "Benzin",
-            "Diesel",
-            "Hybrid / Elektro je nach Variante"
-          ],
-          "transmissions": [
-            "Schaltgetriebe",
-            "Automatik / Doppelkupplung je nach Variante"
-          ],
-          "drivetrains": [
-            "Vorderradantrieb",
-            "Allrad je nach Variante"
-          ]
-        }
-      ],
-      "systems": [
-        "engine",
-        "brakes",
-        "suspension",
-        "steering",
-        "electrical",
-        "diagnostics",
-        "cooling",
-        "fuel",
-        "intake",
-        "exhaust",
-        "transmission",
-        "climate",
-        "airbag",
-        "hv"
-      ]
-    },
-    {
-      "id": "opel-6",
-      "brand": "opel",
-      "model": "zafira",
-      "name": "Zafira",
-      "generations": [
-        {
-          "name": "Baureihe / Generation auswählen",
-          "years": "Baujahr und Motorisierung fahrzeugspezifisch",
-          "engines": [
-            "Benzin",
-            "Diesel",
-            "Hybrid / Elektro je nach Variante"
-          ],
-          "transmissions": [
-            "Schaltgetriebe",
-            "Automatik / Doppelkupplung je nach Variante"
-          ],
-          "drivetrains": [
-            "Vorderradantrieb",
-            "Allrad je nach Variante"
-          ]
-        }
-      ],
-      "systems": [
-        "engine",
-        "brakes",
-        "suspension",
-        "steering",
-        "electrical",
-        "diagnostics",
-        "cooling",
-        "fuel",
-        "intake",
-        "exhaust",
-        "transmission",
-        "climate",
-        "airbag",
-        "hv"
-      ]
-    },
-    {
-      "id": "ford-1",
-      "brand": "ford",
-      "model": "fiesta",
-      "name": "Fiesta",
-      "generations": [
-        {
-          "name": "Baureihe / Generation auswählen",
-          "years": "Baujahr und Motorisierung fahrzeugspezifisch",
-          "engines": [
-            "Benzin",
-            "Diesel",
-            "Hybrid / Elektro je nach Variante"
-          ],
-          "transmissions": [
-            "Schaltgetriebe",
-            "Automatik / Doppelkupplung je nach Variante"
-          ],
-          "drivetrains": [
-            "Vorderradantrieb",
-            "Allrad je nach Variante"
-          ]
-        }
-      ],
-      "systems": [
-        "engine",
-        "brakes",
-        "suspension",
-        "steering",
-        "electrical",
-        "diagnostics",
-        "cooling",
-        "fuel",
-        "intake",
-        "exhaust",
-        "transmission",
-        "climate",
-        "airbag",
-        "hv"
-      ]
-    },
-    {
-      "id": "ford-2",
+      "id": "ford-focus-mk4",
       "brand": "ford",
       "model": "focus",
-      "name": "Focus",
+      "name": "Focus Mk4",
       "generations": [
         {
-          "name": "Baureihe / Generation auswählen",
-          "years": "Baujahr und Motorisierung fahrzeugspezifisch",
+          "name": "Mk4",
+          "years": "2018–2025",
           "engines": [
-            "Benzin",
-            "Diesel",
-            "Hybrid / Elektro je nach Variante"
+            "1.0 EcoBoost",
+            "1.5 EcoBoost",
+            "1.5 EcoBlue",
+            "2.0 EcoBlue"
           ],
           "transmissions": [
-            "Schaltgetriebe",
-            "Automatik / Doppelkupplung je nach Variante"
+            "6-Gang",
+            "8-Gang"
           ],
           "drivetrains": [
-            "Vorderradantrieb",
-            "Allrad je nach Variante"
+            "Vorderradantrieb"
           ]
         }
-      ],
-      "systems": [
-        "engine",
-        "brakes",
-        "suspension",
-        "steering",
-        "electrical",
-        "diagnostics",
-        "cooling",
-        "fuel",
-        "intake",
-        "exhaust",
-        "transmission",
-        "climate",
-        "airbag",
-        "hv"
       ]
     },
     {
-      "id": "ford-3",
-      "brand": "ford",
-      "model": "mondeo",
-      "name": "Mondeo",
+      "id": "skoda-octavia-5e",
+      "brand": "skoda",
+      "model": "octavia",
+      "name": "Octavia 5E",
       "generations": [
         {
-          "name": "Baureihe / Generation auswählen",
-          "years": "Baujahr und Motorisierung fahrzeugspezifisch",
+          "name": "5E",
+          "years": "2012–2020",
           "engines": [
-            "Benzin",
-            "Diesel",
-            "Hybrid / Elektro je nach Variante"
+            "1.0 TSI",
+            "1.4 TSI",
+            "1.6 TDI",
+            "2.0 TDI"
           ],
           "transmissions": [
-            "Schaltgetriebe",
-            "Automatik / Doppelkupplung je nach Variante"
+            "5-Gang",
+            "6-Gang",
+            "DSG"
           ],
           "drivetrains": [
             "Vorderradantrieb",
-            "Allrad je nach Variante"
+            "4x4"
           ]
         }
-      ],
-      "systems": [
-        "engine",
-        "brakes",
-        "suspension",
-        "steering",
-        "electrical",
-        "diagnostics",
-        "cooling",
-        "fuel",
-        "intake",
-        "exhaust",
-        "transmission",
-        "climate",
-        "airbag",
-        "hv"
-      ]
-    },
-    {
-      "id": "ford-4",
-      "brand": "ford",
-      "model": "kuga",
-      "name": "Kuga",
-      "generations": [
-        {
-          "name": "Baureihe / Generation auswählen",
-          "years": "Baujahr und Motorisierung fahrzeugspezifisch",
-          "engines": [
-            "Benzin",
-            "Diesel",
-            "Hybrid / Elektro je nach Variante"
-          ],
-          "transmissions": [
-            "Schaltgetriebe",
-            "Automatik / Doppelkupplung je nach Variante"
-          ],
-          "drivetrains": [
-            "Vorderradantrieb",
-            "Allrad je nach Variante"
-          ]
-        }
-      ],
-      "systems": [
-        "engine",
-        "brakes",
-        "suspension",
-        "steering",
-        "electrical",
-        "diagnostics",
-        "cooling",
-        "fuel",
-        "intake",
-        "exhaust",
-        "transmission",
-        "climate",
-        "airbag",
-        "hv"
-      ]
-    },
-    {
-      "id": "ford-5",
-      "brand": "ford",
-      "model": "puma",
-      "name": "Puma",
-      "generations": [
-        {
-          "name": "Baureihe / Generation auswählen",
-          "years": "Baujahr und Motorisierung fahrzeugspezifisch",
-          "engines": [
-            "Benzin",
-            "Diesel",
-            "Hybrid / Elektro je nach Variante"
-          ],
-          "transmissions": [
-            "Schaltgetriebe",
-            "Automatik / Doppelkupplung je nach Variante"
-          ],
-          "drivetrains": [
-            "Vorderradantrieb",
-            "Allrad je nach Variante"
-          ]
-        }
-      ],
-      "systems": [
-        "engine",
-        "brakes",
-        "suspension",
-        "steering",
-        "electrical",
-        "diagnostics",
-        "cooling",
-        "fuel",
-        "intake",
-        "exhaust",
-        "transmission",
-        "climate",
-        "airbag",
-        "hv"
-      ]
-    },
-    {
-      "id": "ford-6",
-      "brand": "ford",
-      "model": "transit",
-      "name": "Transit",
-      "generations": [
-        {
-          "name": "Baureihe / Generation auswählen",
-          "years": "Baujahr und Motorisierung fahrzeugspezifisch",
-          "engines": [
-            "Benzin",
-            "Diesel",
-            "Hybrid / Elektro je nach Variante"
-          ],
-          "transmissions": [
-            "Schaltgetriebe",
-            "Automatik / Doppelkupplung je nach Variante"
-          ],
-          "drivetrains": [
-            "Vorderradantrieb",
-            "Allrad je nach Variante"
-          ]
-        }
-      ],
-      "systems": [
-        "engine",
-        "brakes",
-        "suspension",
-        "steering",
-        "electrical",
-        "diagnostics",
-        "cooling",
-        "fuel",
-        "intake",
-        "exhaust",
-        "transmission",
-        "climate",
-        "airbag",
-        "hv"
-      ]
-    },
-    {
-      "id": "toyota-1",
-      "brand": "toyota",
-      "model": "yaris",
-      "name": "Yaris",
-      "generations": [
-        {
-          "name": "Baureihe / Generation auswählen",
-          "years": "Baujahr und Motorisierung fahrzeugspezifisch",
-          "engines": [
-            "Benzin",
-            "Diesel",
-            "Hybrid / Elektro je nach Variante"
-          ],
-          "transmissions": [
-            "Schaltgetriebe",
-            "Automatik / Doppelkupplung je nach Variante"
-          ],
-          "drivetrains": [
-            "Vorderradantrieb",
-            "Allrad je nach Variante"
-          ]
-        }
-      ],
-      "systems": [
-        "engine",
-        "brakes",
-        "suspension",
-        "steering",
-        "electrical",
-        "diagnostics",
-        "cooling",
-        "fuel",
-        "intake",
-        "exhaust",
-        "transmission",
-        "climate",
-        "airbag",
-        "hv"
-      ]
-    },
-    {
-      "id": "toyota-2",
-      "brand": "toyota",
-      "model": "corolla",
-      "name": "Corolla",
-      "generations": [
-        {
-          "name": "Baureihe / Generation auswählen",
-          "years": "Baujahr und Motorisierung fahrzeugspezifisch",
-          "engines": [
-            "Benzin",
-            "Diesel",
-            "Hybrid / Elektro je nach Variante"
-          ],
-          "transmissions": [
-            "Schaltgetriebe",
-            "Automatik / Doppelkupplung je nach Variante"
-          ],
-          "drivetrains": [
-            "Vorderradantrieb",
-            "Allrad je nach Variante"
-          ]
-        }
-      ],
-      "systems": [
-        "engine",
-        "brakes",
-        "suspension",
-        "steering",
-        "electrical",
-        "diagnostics",
-        "cooling",
-        "fuel",
-        "intake",
-        "exhaust",
-        "transmission",
-        "climate",
-        "airbag",
-        "hv"
-      ]
-    },
-    {
-      "id": "toyota-3",
-      "brand": "toyota",
-      "model": "camry",
-      "name": "Camry",
-      "generations": [
-        {
-          "name": "Baureihe / Generation auswählen",
-          "years": "Baujahr und Motorisierung fahrzeugspezifisch",
-          "engines": [
-            "Benzin",
-            "Diesel",
-            "Hybrid / Elektro je nach Variante"
-          ],
-          "transmissions": [
-            "Schaltgetriebe",
-            "Automatik / Doppelkupplung je nach Variante"
-          ],
-          "drivetrains": [
-            "Vorderradantrieb",
-            "Allrad je nach Variante"
-          ]
-        }
-      ],
-      "systems": [
-        "engine",
-        "brakes",
-        "suspension",
-        "steering",
-        "electrical",
-        "diagnostics",
-        "cooling",
-        "fuel",
-        "intake",
-        "exhaust",
-        "transmission",
-        "climate",
-        "airbag",
-        "hv"
-      ]
-    },
-    {
-      "id": "toyota-4",
-      "brand": "toyota",
-      "model": "c-hr",
-      "name": "C-HR",
-      "generations": [
-        {
-          "name": "Baureihe / Generation auswählen",
-          "years": "Baujahr und Motorisierung fahrzeugspezifisch",
-          "engines": [
-            "Benzin",
-            "Diesel",
-            "Hybrid / Elektro je nach Variante"
-          ],
-          "transmissions": [
-            "Schaltgetriebe",
-            "Automatik / Doppelkupplung je nach Variante"
-          ],
-          "drivetrains": [
-            "Vorderradantrieb",
-            "Allrad je nach Variante"
-          ]
-        }
-      ],
-      "systems": [
-        "engine",
-        "brakes",
-        "suspension",
-        "steering",
-        "electrical",
-        "diagnostics",
-        "cooling",
-        "fuel",
-        "intake",
-        "exhaust",
-        "transmission",
-        "climate",
-        "airbag",
-        "hv"
-      ]
-    },
-    {
-      "id": "toyota-5",
-      "brand": "toyota",
-      "model": "rav4",
-      "name": "RAV4",
-      "generations": [
-        {
-          "name": "Baureihe / Generation auswählen",
-          "years": "Baujahr und Motorisierung fahrzeugspezifisch",
-          "engines": [
-            "Benzin",
-            "Diesel",
-            "Hybrid / Elektro je nach Variante"
-          ],
-          "transmissions": [
-            "Schaltgetriebe",
-            "Automatik / Doppelkupplung je nach Variante"
-          ],
-          "drivetrains": [
-            "Vorderradantrieb",
-            "Allrad je nach Variante"
-          ]
-        }
-      ],
-      "systems": [
-        "engine",
-        "brakes",
-        "suspension",
-        "steering",
-        "electrical",
-        "diagnostics",
-        "cooling",
-        "fuel",
-        "intake",
-        "exhaust",
-        "transmission",
-        "climate",
-        "airbag",
-        "hv"
-      ]
-    },
-    {
-      "id": "toyota-6",
-      "brand": "toyota",
-      "model": "hilux",
-      "name": "Hilux",
-      "generations": [
-        {
-          "name": "Baureihe / Generation auswählen",
-          "years": "Baujahr und Motorisierung fahrzeugspezifisch",
-          "engines": [
-            "Benzin",
-            "Diesel",
-            "Hybrid / Elektro je nach Variante"
-          ],
-          "transmissions": [
-            "Schaltgetriebe",
-            "Automatik / Doppelkupplung je nach Variante"
-          ],
-          "drivetrains": [
-            "Vorderradantrieb",
-            "Allrad je nach Variante"
-          ]
-        }
-      ],
-      "systems": [
-        "engine",
-        "brakes",
-        "suspension",
-        "steering",
-        "electrical",
-        "diagnostics",
-        "cooling",
-        "fuel",
-        "intake",
-        "exhaust",
-        "transmission",
-        "climate",
-        "airbag",
-        "hv"
-      ]
-    },
-    {
-      "id": "renault-1",
-      "brand": "renault",
-      "model": "clio",
-      "name": "Clio",
-      "generations": [
-        {
-          "name": "Baureihe / Generation auswählen",
-          "years": "Baujahr und Motorisierung fahrzeugspezifisch",
-          "engines": [
-            "Benzin",
-            "Diesel",
-            "Hybrid / Elektro je nach Variante"
-          ],
-          "transmissions": [
-            "Schaltgetriebe",
-            "Automatik / Doppelkupplung je nach Variante"
-          ],
-          "drivetrains": [
-            "Vorderradantrieb",
-            "Allrad je nach Variante"
-          ]
-        }
-      ],
-      "systems": [
-        "engine",
-        "brakes",
-        "suspension",
-        "steering",
-        "electrical",
-        "diagnostics",
-        "cooling",
-        "fuel",
-        "intake",
-        "exhaust",
-        "transmission",
-        "climate",
-        "airbag",
-        "hv"
-      ]
-    },
-    {
-      "id": "renault-2",
-      "brand": "renault",
-      "model": "megane",
-      "name": "Megane",
-      "generations": [
-        {
-          "name": "Baureihe / Generation auswählen",
-          "years": "Baujahr und Motorisierung fahrzeugspezifisch",
-          "engines": [
-            "Benzin",
-            "Diesel",
-            "Hybrid / Elektro je nach Variante"
-          ],
-          "transmissions": [
-            "Schaltgetriebe",
-            "Automatik / Doppelkupplung je nach Variante"
-          ],
-          "drivetrains": [
-            "Vorderradantrieb",
-            "Allrad je nach Variante"
-          ]
-        }
-      ],
-      "systems": [
-        "engine",
-        "brakes",
-        "suspension",
-        "steering",
-        "electrical",
-        "diagnostics",
-        "cooling",
-        "fuel",
-        "intake",
-        "exhaust",
-        "transmission",
-        "climate",
-        "airbag",
-        "hv"
-      ]
-    },
-    {
-      "id": "renault-3",
-      "brand": "renault",
-      "model": "captur",
-      "name": "Captur",
-      "generations": [
-        {
-          "name": "Baureihe / Generation auswählen",
-          "years": "Baujahr und Motorisierung fahrzeugspezifisch",
-          "engines": [
-            "Benzin",
-            "Diesel",
-            "Hybrid / Elektro je nach Variante"
-          ],
-          "transmissions": [
-            "Schaltgetriebe",
-            "Automatik / Doppelkupplung je nach Variante"
-          ],
-          "drivetrains": [
-            "Vorderradantrieb",
-            "Allrad je nach Variante"
-          ]
-        }
-      ],
-      "systems": [
-        "engine",
-        "brakes",
-        "suspension",
-        "steering",
-        "electrical",
-        "diagnostics",
-        "cooling",
-        "fuel",
-        "intake",
-        "exhaust",
-        "transmission",
-        "climate",
-        "airbag",
-        "hv"
-      ]
-    },
-    {
-      "id": "renault-4",
-      "brand": "renault",
-      "model": "kadjar",
-      "name": "Kadjar",
-      "generations": [
-        {
-          "name": "Baureihe / Generation auswählen",
-          "years": "Baujahr und Motorisierung fahrzeugspezifisch",
-          "engines": [
-            "Benzin",
-            "Diesel",
-            "Hybrid / Elektro je nach Variante"
-          ],
-          "transmissions": [
-            "Schaltgetriebe",
-            "Automatik / Doppelkupplung je nach Variante"
-          ],
-          "drivetrains": [
-            "Vorderradantrieb",
-            "Allrad je nach Variante"
-          ]
-        }
-      ],
-      "systems": [
-        "engine",
-        "brakes",
-        "suspension",
-        "steering",
-        "electrical",
-        "diagnostics",
-        "cooling",
-        "fuel",
-        "intake",
-        "exhaust",
-        "transmission",
-        "climate",
-        "airbag",
-        "hv"
-      ]
-    },
-    {
-      "id": "renault-5",
-      "brand": "renault",
-      "model": "austral",
-      "name": "Austral",
-      "generations": [
-        {
-          "name": "Baureihe / Generation auswählen",
-          "years": "Baujahr und Motorisierung fahrzeugspezifisch",
-          "engines": [
-            "Benzin",
-            "Diesel",
-            "Hybrid / Elektro je nach Variante"
-          ],
-          "transmissions": [
-            "Schaltgetriebe",
-            "Automatik / Doppelkupplung je nach Variante"
-          ],
-          "drivetrains": [
-            "Vorderradantrieb",
-            "Allrad je nach Variante"
-          ]
-        }
-      ],
-      "systems": [
-        "engine",
-        "brakes",
-        "suspension",
-        "steering",
-        "electrical",
-        "diagnostics",
-        "cooling",
-        "fuel",
-        "intake",
-        "exhaust",
-        "transmission",
-        "climate",
-        "airbag",
-        "hv"
-      ]
-    },
-    {
-      "id": "renault-6",
-      "brand": "renault",
-      "model": "trafic",
-      "name": "Trafic",
-      "generations": [
-        {
-          "name": "Baureihe / Generation auswählen",
-          "years": "Baujahr und Motorisierung fahrzeugspezifisch",
-          "engines": [
-            "Benzin",
-            "Diesel",
-            "Hybrid / Elektro je nach Variante"
-          ],
-          "transmissions": [
-            "Schaltgetriebe",
-            "Automatik / Doppelkupplung je nach Variante"
-          ],
-          "drivetrains": [
-            "Vorderradantrieb",
-            "Allrad je nach Variante"
-          ]
-        }
-      ],
-      "systems": [
-        "engine",
-        "brakes",
-        "suspension",
-        "steering",
-        "electrical",
-        "diagnostics",
-        "cooling",
-        "fuel",
-        "intake",
-        "exhaust",
-        "transmission",
-        "climate",
-        "airbag",
-        "hv"
-      ]
-    },
-    {
-      "id": "peugeot-1",
-      "brand": "peugeot",
-      "model": "208",
-      "name": "208",
-      "generations": [
-        {
-          "name": "Baureihe / Generation auswählen",
-          "years": "Baujahr und Motorisierung fahrzeugspezifisch",
-          "engines": [
-            "Benzin",
-            "Diesel",
-            "Hybrid / Elektro je nach Variante"
-          ],
-          "transmissions": [
-            "Schaltgetriebe",
-            "Automatik / Doppelkupplung je nach Variante"
-          ],
-          "drivetrains": [
-            "Vorderradantrieb",
-            "Allrad je nach Variante"
-          ]
-        }
-      ],
-      "systems": [
-        "engine",
-        "brakes",
-        "suspension",
-        "steering",
-        "electrical",
-        "diagnostics",
-        "cooling",
-        "fuel",
-        "intake",
-        "exhaust",
-        "transmission",
-        "climate",
-        "airbag",
-        "hv"
-      ]
-    },
-    {
-      "id": "peugeot-2",
-      "brand": "peugeot",
-      "model": "308",
-      "name": "308",
-      "generations": [
-        {
-          "name": "Baureihe / Generation auswählen",
-          "years": "Baujahr und Motorisierung fahrzeugspezifisch",
-          "engines": [
-            "Benzin",
-            "Diesel",
-            "Hybrid / Elektro je nach Variante"
-          ],
-          "transmissions": [
-            "Schaltgetriebe",
-            "Automatik / Doppelkupplung je nach Variante"
-          ],
-          "drivetrains": [
-            "Vorderradantrieb",
-            "Allrad je nach Variante"
-          ]
-        }
-      ],
-      "systems": [
-        "engine",
-        "brakes",
-        "suspension",
-        "steering",
-        "electrical",
-        "diagnostics",
-        "cooling",
-        "fuel",
-        "intake",
-        "exhaust",
-        "transmission",
-        "climate",
-        "airbag",
-        "hv"
-      ]
-    },
-    {
-      "id": "peugeot-3",
-      "brand": "peugeot",
-      "model": "508",
-      "name": "508",
-      "generations": [
-        {
-          "name": "Baureihe / Generation auswählen",
-          "years": "Baujahr und Motorisierung fahrzeugspezifisch",
-          "engines": [
-            "Benzin",
-            "Diesel",
-            "Hybrid / Elektro je nach Variante"
-          ],
-          "transmissions": [
-            "Schaltgetriebe",
-            "Automatik / Doppelkupplung je nach Variante"
-          ],
-          "drivetrains": [
-            "Vorderradantrieb",
-            "Allrad je nach Variante"
-          ]
-        }
-      ],
-      "systems": [
-        "engine",
-        "brakes",
-        "suspension",
-        "steering",
-        "electrical",
-        "diagnostics",
-        "cooling",
-        "fuel",
-        "intake",
-        "exhaust",
-        "transmission",
-        "climate",
-        "airbag",
-        "hv"
-      ]
-    },
-    {
-      "id": "peugeot-4",
-      "brand": "peugeot",
-      "model": "2008",
-      "name": "2008",
-      "generations": [
-        {
-          "name": "Baureihe / Generation auswählen",
-          "years": "Baujahr und Motorisierung fahrzeugspezifisch",
-          "engines": [
-            "Benzin",
-            "Diesel",
-            "Hybrid / Elektro je nach Variante"
-          ],
-          "transmissions": [
-            "Schaltgetriebe",
-            "Automatik / Doppelkupplung je nach Variante"
-          ],
-          "drivetrains": [
-            "Vorderradantrieb",
-            "Allrad je nach Variante"
-          ]
-        }
-      ],
-      "systems": [
-        "engine",
-        "brakes",
-        "suspension",
-        "steering",
-        "electrical",
-        "diagnostics",
-        "cooling",
-        "fuel",
-        "intake",
-        "exhaust",
-        "transmission",
-        "climate",
-        "airbag",
-        "hv"
-      ]
-    },
-    {
-      "id": "peugeot-5",
-      "brand": "peugeot",
-      "model": "3008",
-      "name": "3008",
-      "generations": [
-        {
-          "name": "Baureihe / Generation auswählen",
-          "years": "Baujahr und Motorisierung fahrzeugspezifisch",
-          "engines": [
-            "Benzin",
-            "Diesel",
-            "Hybrid / Elektro je nach Variante"
-          ],
-          "transmissions": [
-            "Schaltgetriebe",
-            "Automatik / Doppelkupplung je nach Variante"
-          ],
-          "drivetrains": [
-            "Vorderradantrieb",
-            "Allrad je nach Variante"
-          ]
-        }
-      ],
-      "systems": [
-        "engine",
-        "brakes",
-        "suspension",
-        "steering",
-        "electrical",
-        "diagnostics",
-        "cooling",
-        "fuel",
-        "intake",
-        "exhaust",
-        "transmission",
-        "climate",
-        "airbag",
-        "hv"
-      ]
-    },
-    {
-      "id": "peugeot-6",
-      "brand": "peugeot",
-      "model": "5008",
-      "name": "5008",
-      "generations": [
-        {
-          "name": "Baureihe / Generation auswählen",
-          "years": "Baujahr und Motorisierung fahrzeugspezifisch",
-          "engines": [
-            "Benzin",
-            "Diesel",
-            "Hybrid / Elektro je nach Variante"
-          ],
-          "transmissions": [
-            "Schaltgetriebe",
-            "Automatik / Doppelkupplung je nach Variante"
-          ],
-          "drivetrains": [
-            "Vorderradantrieb",
-            "Allrad je nach Variante"
-          ]
-        }
-      ],
-      "systems": [
-        "engine",
-        "brakes",
-        "suspension",
-        "steering",
-        "electrical",
-        "diagnostics",
-        "cooling",
-        "fuel",
-        "intake",
-        "exhaust",
-        "transmission",
-        "climate",
-        "airbag",
-        "hv"
-      ]
-    },
-    {
-      "id": "citro-n-1",
-      "brand": "citro-n",
-      "model": "c3",
-      "name": "C3",
-      "generations": [
-        {
-          "name": "Baureihe / Generation auswählen",
-          "years": "Baujahr und Motorisierung fahrzeugspezifisch",
-          "engines": [
-            "Benzin",
-            "Diesel",
-            "Hybrid / Elektro je nach Variante"
-          ],
-          "transmissions": [
-            "Schaltgetriebe",
-            "Automatik / Doppelkupplung je nach Variante"
-          ],
-          "drivetrains": [
-            "Vorderradantrieb",
-            "Allrad je nach Variante"
-          ]
-        }
-      ],
-      "systems": [
-        "engine",
-        "brakes",
-        "suspension",
-        "steering",
-        "electrical",
-        "diagnostics",
-        "cooling",
-        "fuel",
-        "intake",
-        "exhaust",
-        "transmission",
-        "climate",
-        "airbag",
-        "hv"
-      ]
-    },
-    {
-      "id": "citro-n-2",
-      "brand": "citro-n",
-      "model": "c4",
-      "name": "C4",
-      "generations": [
-        {
-          "name": "Baureihe / Generation auswählen",
-          "years": "Baujahr und Motorisierung fahrzeugspezifisch",
-          "engines": [
-            "Benzin",
-            "Diesel",
-            "Hybrid / Elektro je nach Variante"
-          ],
-          "transmissions": [
-            "Schaltgetriebe",
-            "Automatik / Doppelkupplung je nach Variante"
-          ],
-          "drivetrains": [
-            "Vorderradantrieb",
-            "Allrad je nach Variante"
-          ]
-        }
-      ],
-      "systems": [
-        "engine",
-        "brakes",
-        "suspension",
-        "steering",
-        "electrical",
-        "diagnostics",
-        "cooling",
-        "fuel",
-        "intake",
-        "exhaust",
-        "transmission",
-        "climate",
-        "airbag",
-        "hv"
-      ]
-    },
-    {
-      "id": "citro-n-3",
-      "brand": "citro-n",
-      "model": "c5-aircross",
-      "name": "C5 Aircross",
-      "generations": [
-        {
-          "name": "Baureihe / Generation auswählen",
-          "years": "Baujahr und Motorisierung fahrzeugspezifisch",
-          "engines": [
-            "Benzin",
-            "Diesel",
-            "Hybrid / Elektro je nach Variante"
-          ],
-          "transmissions": [
-            "Schaltgetriebe",
-            "Automatik / Doppelkupplung je nach Variante"
-          ],
-          "drivetrains": [
-            "Vorderradantrieb",
-            "Allrad je nach Variante"
-          ]
-        }
-      ],
-      "systems": [
-        "engine",
-        "brakes",
-        "suspension",
-        "steering",
-        "electrical",
-        "diagnostics",
-        "cooling",
-        "fuel",
-        "intake",
-        "exhaust",
-        "transmission",
-        "climate",
-        "airbag",
-        "hv"
-      ]
-    },
-    {
-      "id": "citro-n-4",
-      "brand": "citro-n",
-      "model": "berlingo",
-      "name": "Berlingo",
-      "generations": [
-        {
-          "name": "Baureihe / Generation auswählen",
-          "years": "Baujahr und Motorisierung fahrzeugspezifisch",
-          "engines": [
-            "Benzin",
-            "Diesel",
-            "Hybrid / Elektro je nach Variante"
-          ],
-          "transmissions": [
-            "Schaltgetriebe",
-            "Automatik / Doppelkupplung je nach Variante"
-          ],
-          "drivetrains": [
-            "Vorderradantrieb",
-            "Allrad je nach Variante"
-          ]
-        }
-      ],
-      "systems": [
-        "engine",
-        "brakes",
-        "suspension",
-        "steering",
-        "electrical",
-        "diagnostics",
-        "cooling",
-        "fuel",
-        "intake",
-        "exhaust",
-        "transmission",
-        "climate",
-        "airbag",
-        "hv"
-      ]
-    },
-    {
-      "id": "volvo-1",
-      "brand": "volvo",
-      "model": "v40",
-      "name": "V40",
-      "generations": [
-        {
-          "name": "Baureihe / Generation auswählen",
-          "years": "Baujahr und Motorisierung fahrzeugspezifisch",
-          "engines": [
-            "Benzin",
-            "Diesel",
-            "Hybrid / Elektro je nach Variante"
-          ],
-          "transmissions": [
-            "Schaltgetriebe",
-            "Automatik / Doppelkupplung je nach Variante"
-          ],
-          "drivetrains": [
-            "Vorderradantrieb",
-            "Allrad je nach Variante"
-          ]
-        }
-      ],
-      "systems": [
-        "engine",
-        "brakes",
-        "suspension",
-        "steering",
-        "electrical",
-        "diagnostics",
-        "cooling",
-        "fuel",
-        "intake",
-        "exhaust",
-        "transmission",
-        "climate",
-        "airbag",
-        "hv"
-      ]
-    },
-    {
-      "id": "volvo-2",
-      "brand": "volvo",
-      "model": "v60",
-      "name": "V60",
-      "generations": [
-        {
-          "name": "Baureihe / Generation auswählen",
-          "years": "Baujahr und Motorisierung fahrzeugspezifisch",
-          "engines": [
-            "Benzin",
-            "Diesel",
-            "Hybrid / Elektro je nach Variante"
-          ],
-          "transmissions": [
-            "Schaltgetriebe",
-            "Automatik / Doppelkupplung je nach Variante"
-          ],
-          "drivetrains": [
-            "Vorderradantrieb",
-            "Allrad je nach Variante"
-          ]
-        }
-      ],
-      "systems": [
-        "engine",
-        "brakes",
-        "suspension",
-        "steering",
-        "electrical",
-        "diagnostics",
-        "cooling",
-        "fuel",
-        "intake",
-        "exhaust",
-        "transmission",
-        "climate",
-        "airbag",
-        "hv"
-      ]
-    },
-    {
-      "id": "volvo-3",
-      "brand": "volvo",
-      "model": "v90",
-      "name": "V90",
-      "generations": [
-        {
-          "name": "Baureihe / Generation auswählen",
-          "years": "Baujahr und Motorisierung fahrzeugspezifisch",
-          "engines": [
-            "Benzin",
-            "Diesel",
-            "Hybrid / Elektro je nach Variante"
-          ],
-          "transmissions": [
-            "Schaltgetriebe",
-            "Automatik / Doppelkupplung je nach Variante"
-          ],
-          "drivetrains": [
-            "Vorderradantrieb",
-            "Allrad je nach Variante"
-          ]
-        }
-      ],
-      "systems": [
-        "engine",
-        "brakes",
-        "suspension",
-        "steering",
-        "electrical",
-        "diagnostics",
-        "cooling",
-        "fuel",
-        "intake",
-        "exhaust",
-        "transmission",
-        "climate",
-        "airbag",
-        "hv"
-      ]
-    },
-    {
-      "id": "volvo-4",
-      "brand": "volvo",
-      "model": "xc40",
-      "name": "XC40",
-      "generations": [
-        {
-          "name": "Baureihe / Generation auswählen",
-          "years": "Baujahr und Motorisierung fahrzeugspezifisch",
-          "engines": [
-            "Benzin",
-            "Diesel",
-            "Hybrid / Elektro je nach Variante"
-          ],
-          "transmissions": [
-            "Schaltgetriebe",
-            "Automatik / Doppelkupplung je nach Variante"
-          ],
-          "drivetrains": [
-            "Vorderradantrieb",
-            "Allrad je nach Variante"
-          ]
-        }
-      ],
-      "systems": [
-        "engine",
-        "brakes",
-        "suspension",
-        "steering",
-        "electrical",
-        "diagnostics",
-        "cooling",
-        "fuel",
-        "intake",
-        "exhaust",
-        "transmission",
-        "climate",
-        "airbag",
-        "hv"
-      ]
-    },
-    {
-      "id": "volvo-5",
-      "brand": "volvo",
-      "model": "xc60",
-      "name": "XC60",
-      "generations": [
-        {
-          "name": "Baureihe / Generation auswählen",
-          "years": "Baujahr und Motorisierung fahrzeugspezifisch",
-          "engines": [
-            "Benzin",
-            "Diesel",
-            "Hybrid / Elektro je nach Variante"
-          ],
-          "transmissions": [
-            "Schaltgetriebe",
-            "Automatik / Doppelkupplung je nach Variante"
-          ],
-          "drivetrains": [
-            "Vorderradantrieb",
-            "Allrad je nach Variante"
-          ]
-        }
-      ],
-      "systems": [
-        "engine",
-        "brakes",
-        "suspension",
-        "steering",
-        "electrical",
-        "diagnostics",
-        "cooling",
-        "fuel",
-        "intake",
-        "exhaust",
-        "transmission",
-        "climate",
-        "airbag",
-        "hv"
-      ]
-    },
-    {
-      "id": "volvo-6",
-      "brand": "volvo",
-      "model": "xc90",
-      "name": "XC90",
-      "generations": [
-        {
-          "name": "Baureihe / Generation auswählen",
-          "years": "Baujahr und Motorisierung fahrzeugspezifisch",
-          "engines": [
-            "Benzin",
-            "Diesel",
-            "Hybrid / Elektro je nach Variante"
-          ],
-          "transmissions": [
-            "Schaltgetriebe",
-            "Automatik / Doppelkupplung je nach Variante"
-          ],
-          "drivetrains": [
-            "Vorderradantrieb",
-            "Allrad je nach Variante"
-          ]
-        }
-      ],
-      "systems": [
-        "engine",
-        "brakes",
-        "suspension",
-        "steering",
-        "electrical",
-        "diagnostics",
-        "cooling",
-        "fuel",
-        "intake",
-        "exhaust",
-        "transmission",
-        "climate",
-        "airbag",
-        "hv"
-      ]
-    },
-    {
-      "id": "hyundai-1",
-      "brand": "hyundai",
-      "model": "i10",
-      "name": "i10",
-      "generations": [
-        {
-          "name": "Baureihe / Generation auswählen",
-          "years": "Baujahr und Motorisierung fahrzeugspezifisch",
-          "engines": [
-            "Benzin",
-            "Diesel",
-            "Hybrid / Elektro je nach Variante"
-          ],
-          "transmissions": [
-            "Schaltgetriebe",
-            "Automatik / Doppelkupplung je nach Variante"
-          ],
-          "drivetrains": [
-            "Vorderradantrieb",
-            "Allrad je nach Variante"
-          ]
-        }
-      ],
-      "systems": [
-        "engine",
-        "brakes",
-        "suspension",
-        "steering",
-        "electrical",
-        "diagnostics",
-        "cooling",
-        "fuel",
-        "intake",
-        "exhaust",
-        "transmission",
-        "climate",
-        "airbag",
-        "hv"
-      ]
-    },
-    {
-      "id": "hyundai-2",
-      "brand": "hyundai",
-      "model": "i20",
-      "name": "i20",
-      "generations": [
-        {
-          "name": "Baureihe / Generation auswählen",
-          "years": "Baujahr und Motorisierung fahrzeugspezifisch",
-          "engines": [
-            "Benzin",
-            "Diesel",
-            "Hybrid / Elektro je nach Variante"
-          ],
-          "transmissions": [
-            "Schaltgetriebe",
-            "Automatik / Doppelkupplung je nach Variante"
-          ],
-          "drivetrains": [
-            "Vorderradantrieb",
-            "Allrad je nach Variante"
-          ]
-        }
-      ],
-      "systems": [
-        "engine",
-        "brakes",
-        "suspension",
-        "steering",
-        "electrical",
-        "diagnostics",
-        "cooling",
-        "fuel",
-        "intake",
-        "exhaust",
-        "transmission",
-        "climate",
-        "airbag",
-        "hv"
-      ]
-    },
-    {
-      "id": "hyundai-3",
-      "brand": "hyundai",
-      "model": "i30",
-      "name": "i30",
-      "generations": [
-        {
-          "name": "Baureihe / Generation auswählen",
-          "years": "Baujahr und Motorisierung fahrzeugspezifisch",
-          "engines": [
-            "Benzin",
-            "Diesel",
-            "Hybrid / Elektro je nach Variante"
-          ],
-          "transmissions": [
-            "Schaltgetriebe",
-            "Automatik / Doppelkupplung je nach Variante"
-          ],
-          "drivetrains": [
-            "Vorderradantrieb",
-            "Allrad je nach Variante"
-          ]
-        }
-      ],
-      "systems": [
-        "engine",
-        "brakes",
-        "suspension",
-        "steering",
-        "electrical",
-        "diagnostics",
-        "cooling",
-        "fuel",
-        "intake",
-        "exhaust",
-        "transmission",
-        "climate",
-        "airbag",
-        "hv"
-      ]
-    },
-    {
-      "id": "hyundai-4",
-      "brand": "hyundai",
-      "model": "tucson",
-      "name": "Tucson",
-      "generations": [
-        {
-          "name": "Baureihe / Generation auswählen",
-          "years": "Baujahr und Motorisierung fahrzeugspezifisch",
-          "engines": [
-            "Benzin",
-            "Diesel",
-            "Hybrid / Elektro je nach Variante"
-          ],
-          "transmissions": [
-            "Schaltgetriebe",
-            "Automatik / Doppelkupplung je nach Variante"
-          ],
-          "drivetrains": [
-            "Vorderradantrieb",
-            "Allrad je nach Variante"
-          ]
-        }
-      ],
-      "systems": [
-        "engine",
-        "brakes",
-        "suspension",
-        "steering",
-        "electrical",
-        "diagnostics",
-        "cooling",
-        "fuel",
-        "intake",
-        "exhaust",
-        "transmission",
-        "climate",
-        "airbag",
-        "hv"
-      ]
-    },
-    {
-      "id": "hyundai-5",
-      "brand": "hyundai",
-      "model": "kona",
-      "name": "Kona",
-      "generations": [
-        {
-          "name": "Baureihe / Generation auswählen",
-          "years": "Baujahr und Motorisierung fahrzeugspezifisch",
-          "engines": [
-            "Benzin",
-            "Diesel",
-            "Hybrid / Elektro je nach Variante"
-          ],
-          "transmissions": [
-            "Schaltgetriebe",
-            "Automatik / Doppelkupplung je nach Variante"
-          ],
-          "drivetrains": [
-            "Vorderradantrieb",
-            "Allrad je nach Variante"
-          ]
-        }
-      ],
-      "systems": [
-        "engine",
-        "brakes",
-        "suspension",
-        "steering",
-        "electrical",
-        "diagnostics",
-        "cooling",
-        "fuel",
-        "intake",
-        "exhaust",
-        "transmission",
-        "climate",
-        "airbag",
-        "hv"
-      ]
-    },
-    {
-      "id": "hyundai-6",
-      "brand": "hyundai",
-      "model": "santa-fe",
-      "name": "Santa Fe",
-      "generations": [
-        {
-          "name": "Baureihe / Generation auswählen",
-          "years": "Baujahr und Motorisierung fahrzeugspezifisch",
-          "engines": [
-            "Benzin",
-            "Diesel",
-            "Hybrid / Elektro je nach Variante"
-          ],
-          "transmissions": [
-            "Schaltgetriebe",
-            "Automatik / Doppelkupplung je nach Variante"
-          ],
-          "drivetrains": [
-            "Vorderradantrieb",
-            "Allrad je nach Variante"
-          ]
-        }
-      ],
-      "systems": [
-        "engine",
-        "brakes",
-        "suspension",
-        "steering",
-        "electrical",
-        "diagnostics",
-        "cooling",
-        "fuel",
-        "intake",
-        "exhaust",
-        "transmission",
-        "climate",
-        "airbag",
-        "hv"
-      ]
-    },
-    {
-      "id": "kia-1",
-      "brand": "kia",
-      "model": "picanto",
-      "name": "Picanto",
-      "generations": [
-        {
-          "name": "Baureihe / Generation auswählen",
-          "years": "Baujahr und Motorisierung fahrzeugspezifisch",
-          "engines": [
-            "Benzin",
-            "Diesel",
-            "Hybrid / Elektro je nach Variante"
-          ],
-          "transmissions": [
-            "Schaltgetriebe",
-            "Automatik / Doppelkupplung je nach Variante"
-          ],
-          "drivetrains": [
-            "Vorderradantrieb",
-            "Allrad je nach Variante"
-          ]
-        }
-      ],
-      "systems": [
-        "engine",
-        "brakes",
-        "suspension",
-        "steering",
-        "electrical",
-        "diagnostics",
-        "cooling",
-        "fuel",
-        "intake",
-        "exhaust",
-        "transmission",
-        "climate",
-        "airbag",
-        "hv"
-      ]
-    },
-    {
-      "id": "kia-2",
-      "brand": "kia",
-      "model": "rio",
-      "name": "Rio",
-      "generations": [
-        {
-          "name": "Baureihe / Generation auswählen",
-          "years": "Baujahr und Motorisierung fahrzeugspezifisch",
-          "engines": [
-            "Benzin",
-            "Diesel",
-            "Hybrid / Elektro je nach Variante"
-          ],
-          "transmissions": [
-            "Schaltgetriebe",
-            "Automatik / Doppelkupplung je nach Variante"
-          ],
-          "drivetrains": [
-            "Vorderradantrieb",
-            "Allrad je nach Variante"
-          ]
-        }
-      ],
-      "systems": [
-        "engine",
-        "brakes",
-        "suspension",
-        "steering",
-        "electrical",
-        "diagnostics",
-        "cooling",
-        "fuel",
-        "intake",
-        "exhaust",
-        "transmission",
-        "climate",
-        "airbag",
-        "hv"
-      ]
-    },
-    {
-      "id": "kia-3",
-      "brand": "kia",
-      "model": "ceed",
-      "name": "Ceed",
-      "generations": [
-        {
-          "name": "Baureihe / Generation auswählen",
-          "years": "Baujahr und Motorisierung fahrzeugspezifisch",
-          "engines": [
-            "Benzin",
-            "Diesel",
-            "Hybrid / Elektro je nach Variante"
-          ],
-          "transmissions": [
-            "Schaltgetriebe",
-            "Automatik / Doppelkupplung je nach Variante"
-          ],
-          "drivetrains": [
-            "Vorderradantrieb",
-            "Allrad je nach Variante"
-          ]
-        }
-      ],
-      "systems": [
-        "engine",
-        "brakes",
-        "suspension",
-        "steering",
-        "electrical",
-        "diagnostics",
-        "cooling",
-        "fuel",
-        "intake",
-        "exhaust",
-        "transmission",
-        "climate",
-        "airbag",
-        "hv"
-      ]
-    },
-    {
-      "id": "kia-4",
-      "brand": "kia",
-      "model": "sportage",
-      "name": "Sportage",
-      "generations": [
-        {
-          "name": "Baureihe / Generation auswählen",
-          "years": "Baujahr und Motorisierung fahrzeugspezifisch",
-          "engines": [
-            "Benzin",
-            "Diesel",
-            "Hybrid / Elektro je nach Variante"
-          ],
-          "transmissions": [
-            "Schaltgetriebe",
-            "Automatik / Doppelkupplung je nach Variante"
-          ],
-          "drivetrains": [
-            "Vorderradantrieb",
-            "Allrad je nach Variante"
-          ]
-        }
-      ],
-      "systems": [
-        "engine",
-        "brakes",
-        "suspension",
-        "steering",
-        "electrical",
-        "diagnostics",
-        "cooling",
-        "fuel",
-        "intake",
-        "exhaust",
-        "transmission",
-        "climate",
-        "airbag",
-        "hv"
-      ]
-    },
-    {
-      "id": "kia-5",
-      "brand": "kia",
-      "model": "sorento",
-      "name": "Sorento",
-      "generations": [
-        {
-          "name": "Baureihe / Generation auswählen",
-          "years": "Baujahr und Motorisierung fahrzeugspezifisch",
-          "engines": [
-            "Benzin",
-            "Diesel",
-            "Hybrid / Elektro je nach Variante"
-          ],
-          "transmissions": [
-            "Schaltgetriebe",
-            "Automatik / Doppelkupplung je nach Variante"
-          ],
-          "drivetrains": [
-            "Vorderradantrieb",
-            "Allrad je nach Variante"
-          ]
-        }
-      ],
-      "systems": [
-        "engine",
-        "brakes",
-        "suspension",
-        "steering",
-        "electrical",
-        "diagnostics",
-        "cooling",
-        "fuel",
-        "intake",
-        "exhaust",
-        "transmission",
-        "climate",
-        "airbag",
-        "hv"
-      ]
-    },
-    {
-      "id": "kia-6",
-      "brand": "kia",
-      "model": "niro",
-      "name": "Niro",
-      "generations": [
-        {
-          "name": "Baureihe / Generation auswählen",
-          "years": "Baujahr und Motorisierung fahrzeugspezifisch",
-          "engines": [
-            "Benzin",
-            "Diesel",
-            "Hybrid / Elektro je nach Variante"
-          ],
-          "transmissions": [
-            "Schaltgetriebe",
-            "Automatik / Doppelkupplung je nach Variante"
-          ],
-          "drivetrains": [
-            "Vorderradantrieb",
-            "Allrad je nach Variante"
-          ]
-        }
-      ],
-      "systems": [
-        "engine",
-        "brakes",
-        "suspension",
-        "steering",
-        "electrical",
-        "diagnostics",
-        "cooling",
-        "fuel",
-        "intake",
-        "exhaust",
-        "transmission",
-        "climate",
-        "airbag",
-        "hv"
-      ]
-    },
-    {
-      "id": "nissan-1",
-      "brand": "nissan",
-      "model": "micra",
-      "name": "Micra",
-      "generations": [
-        {
-          "name": "Baureihe / Generation auswählen",
-          "years": "Baujahr und Motorisierung fahrzeugspezifisch",
-          "engines": [
-            "Benzin",
-            "Diesel",
-            "Hybrid / Elektro je nach Variante"
-          ],
-          "transmissions": [
-            "Schaltgetriebe",
-            "Automatik / Doppelkupplung je nach Variante"
-          ],
-          "drivetrains": [
-            "Vorderradantrieb",
-            "Allrad je nach Variante"
-          ]
-        }
-      ],
-      "systems": [
-        "engine",
-        "brakes",
-        "suspension",
-        "steering",
-        "electrical",
-        "diagnostics",
-        "cooling",
-        "fuel",
-        "intake",
-        "exhaust",
-        "transmission",
-        "climate",
-        "airbag",
-        "hv"
-      ]
-    },
-    {
-      "id": "nissan-2",
-      "brand": "nissan",
-      "model": "juke",
-      "name": "Juke",
-      "generations": [
-        {
-          "name": "Baureihe / Generation auswählen",
-          "years": "Baujahr und Motorisierung fahrzeugspezifisch",
-          "engines": [
-            "Benzin",
-            "Diesel",
-            "Hybrid / Elektro je nach Variante"
-          ],
-          "transmissions": [
-            "Schaltgetriebe",
-            "Automatik / Doppelkupplung je nach Variante"
-          ],
-          "drivetrains": [
-            "Vorderradantrieb",
-            "Allrad je nach Variante"
-          ]
-        }
-      ],
-      "systems": [
-        "engine",
-        "brakes",
-        "suspension",
-        "steering",
-        "electrical",
-        "diagnostics",
-        "cooling",
-        "fuel",
-        "intake",
-        "exhaust",
-        "transmission",
-        "climate",
-        "airbag",
-        "hv"
-      ]
-    },
-    {
-      "id": "nissan-3",
-      "brand": "nissan",
-      "model": "qashqai",
-      "name": "Qashqai",
-      "generations": [
-        {
-          "name": "Baureihe / Generation auswählen",
-          "years": "Baujahr und Motorisierung fahrzeugspezifisch",
-          "engines": [
-            "Benzin",
-            "Diesel",
-            "Hybrid / Elektro je nach Variante"
-          ],
-          "transmissions": [
-            "Schaltgetriebe",
-            "Automatik / Doppelkupplung je nach Variante"
-          ],
-          "drivetrains": [
-            "Vorderradantrieb",
-            "Allrad je nach Variante"
-          ]
-        }
-      ],
-      "systems": [
-        "engine",
-        "brakes",
-        "suspension",
-        "steering",
-        "electrical",
-        "diagnostics",
-        "cooling",
-        "fuel",
-        "intake",
-        "exhaust",
-        "transmission",
-        "climate",
-        "airbag",
-        "hv"
-      ]
-    },
-    {
-      "id": "nissan-4",
-      "brand": "nissan",
-      "model": "x-trail",
-      "name": "X-Trail",
-      "generations": [
-        {
-          "name": "Baureihe / Generation auswählen",
-          "years": "Baujahr und Motorisierung fahrzeugspezifisch",
-          "engines": [
-            "Benzin",
-            "Diesel",
-            "Hybrid / Elektro je nach Variante"
-          ],
-          "transmissions": [
-            "Schaltgetriebe",
-            "Automatik / Doppelkupplung je nach Variante"
-          ],
-          "drivetrains": [
-            "Vorderradantrieb",
-            "Allrad je nach Variante"
-          ]
-        }
-      ],
-      "systems": [
-        "engine",
-        "brakes",
-        "suspension",
-        "steering",
-        "electrical",
-        "diagnostics",
-        "cooling",
-        "fuel",
-        "intake",
-        "exhaust",
-        "transmission",
-        "climate",
-        "airbag",
-        "hv"
-      ]
-    },
-    {
-      "id": "nissan-5",
-      "brand": "nissan",
-      "model": "navara",
-      "name": "Navara",
-      "generations": [
-        {
-          "name": "Baureihe / Generation auswählen",
-          "years": "Baujahr und Motorisierung fahrzeugspezifisch",
-          "engines": [
-            "Benzin",
-            "Diesel",
-            "Hybrid / Elektro je nach Variante"
-          ],
-          "transmissions": [
-            "Schaltgetriebe",
-            "Automatik / Doppelkupplung je nach Variante"
-          ],
-          "drivetrains": [
-            "Vorderradantrieb",
-            "Allrad je nach Variante"
-          ]
-        }
-      ],
-      "systems": [
-        "engine",
-        "brakes",
-        "suspension",
-        "steering",
-        "electrical",
-        "diagnostics",
-        "cooling",
-        "fuel",
-        "intake",
-        "exhaust",
-        "transmission",
-        "climate",
-        "airbag",
-        "hv"
-      ]
-    },
-    {
-      "id": "honda-1",
-      "brand": "honda",
-      "model": "jazz",
-      "name": "Jazz",
-      "generations": [
-        {
-          "name": "Baureihe / Generation auswählen",
-          "years": "Baujahr und Motorisierung fahrzeugspezifisch",
-          "engines": [
-            "Benzin",
-            "Diesel",
-            "Hybrid / Elektro je nach Variante"
-          ],
-          "transmissions": [
-            "Schaltgetriebe",
-            "Automatik / Doppelkupplung je nach Variante"
-          ],
-          "drivetrains": [
-            "Vorderradantrieb",
-            "Allrad je nach Variante"
-          ]
-        }
-      ],
-      "systems": [
-        "engine",
-        "brakes",
-        "suspension",
-        "steering",
-        "electrical",
-        "diagnostics",
-        "cooling",
-        "fuel",
-        "intake",
-        "exhaust",
-        "transmission",
-        "climate",
-        "airbag",
-        "hv"
-      ]
-    },
-    {
-      "id": "honda-2",
-      "brand": "honda",
-      "model": "civic",
-      "name": "Civic",
-      "generations": [
-        {
-          "name": "Baureihe / Generation auswählen",
-          "years": "Baujahr und Motorisierung fahrzeugspezifisch",
-          "engines": [
-            "Benzin",
-            "Diesel",
-            "Hybrid / Elektro je nach Variante"
-          ],
-          "transmissions": [
-            "Schaltgetriebe",
-            "Automatik / Doppelkupplung je nach Variante"
-          ],
-          "drivetrains": [
-            "Vorderradantrieb",
-            "Allrad je nach Variante"
-          ]
-        }
-      ],
-      "systems": [
-        "engine",
-        "brakes",
-        "suspension",
-        "steering",
-        "electrical",
-        "diagnostics",
-        "cooling",
-        "fuel",
-        "intake",
-        "exhaust",
-        "transmission",
-        "climate",
-        "airbag",
-        "hv"
-      ]
-    },
-    {
-      "id": "honda-3",
-      "brand": "honda",
-      "model": "accord",
-      "name": "Accord",
-      "generations": [
-        {
-          "name": "Baureihe / Generation auswählen",
-          "years": "Baujahr und Motorisierung fahrzeugspezifisch",
-          "engines": [
-            "Benzin",
-            "Diesel",
-            "Hybrid / Elektro je nach Variante"
-          ],
-          "transmissions": [
-            "Schaltgetriebe",
-            "Automatik / Doppelkupplung je nach Variante"
-          ],
-          "drivetrains": [
-            "Vorderradantrieb",
-            "Allrad je nach Variante"
-          ]
-        }
-      ],
-      "systems": [
-        "engine",
-        "brakes",
-        "suspension",
-        "steering",
-        "electrical",
-        "diagnostics",
-        "cooling",
-        "fuel",
-        "intake",
-        "exhaust",
-        "transmission",
-        "climate",
-        "airbag",
-        "hv"
-      ]
-    },
-    {
-      "id": "honda-4",
-      "brand": "honda",
-      "model": "hr-v",
-      "name": "HR-V",
-      "generations": [
-        {
-          "name": "Baureihe / Generation auswählen",
-          "years": "Baujahr und Motorisierung fahrzeugspezifisch",
-          "engines": [
-            "Benzin",
-            "Diesel",
-            "Hybrid / Elektro je nach Variante"
-          ],
-          "transmissions": [
-            "Schaltgetriebe",
-            "Automatik / Doppelkupplung je nach Variante"
-          ],
-          "drivetrains": [
-            "Vorderradantrieb",
-            "Allrad je nach Variante"
-          ]
-        }
-      ],
-      "systems": [
-        "engine",
-        "brakes",
-        "suspension",
-        "steering",
-        "electrical",
-        "diagnostics",
-        "cooling",
-        "fuel",
-        "intake",
-        "exhaust",
-        "transmission",
-        "climate",
-        "airbag",
-        "hv"
-      ]
-    },
-    {
-      "id": "honda-5",
-      "brand": "honda",
-      "model": "cr-v",
-      "name": "CR-V",
-      "generations": [
-        {
-          "name": "Baureihe / Generation auswählen",
-          "years": "Baujahr und Motorisierung fahrzeugspezifisch",
-          "engines": [
-            "Benzin",
-            "Diesel",
-            "Hybrid / Elektro je nach Variante"
-          ],
-          "transmissions": [
-            "Schaltgetriebe",
-            "Automatik / Doppelkupplung je nach Variante"
-          ],
-          "drivetrains": [
-            "Vorderradantrieb",
-            "Allrad je nach Variante"
-          ]
-        }
-      ],
-      "systems": [
-        "engine",
-        "brakes",
-        "suspension",
-        "steering",
-        "electrical",
-        "diagnostics",
-        "cooling",
-        "fuel",
-        "intake",
-        "exhaust",
-        "transmission",
-        "climate",
-        "airbag",
-        "hv"
-      ]
-    },
-    {
-      "id": "mazda-1",
-      "brand": "mazda",
-      "model": "mazda2",
-      "name": "Mazda2",
-      "generations": [
-        {
-          "name": "Baureihe / Generation auswählen",
-          "years": "Baujahr und Motorisierung fahrzeugspezifisch",
-          "engines": [
-            "Benzin",
-            "Diesel",
-            "Hybrid / Elektro je nach Variante"
-          ],
-          "transmissions": [
-            "Schaltgetriebe",
-            "Automatik / Doppelkupplung je nach Variante"
-          ],
-          "drivetrains": [
-            "Vorderradantrieb",
-            "Allrad je nach Variante"
-          ]
-        }
-      ],
-      "systems": [
-        "engine",
-        "brakes",
-        "suspension",
-        "steering",
-        "electrical",
-        "diagnostics",
-        "cooling",
-        "fuel",
-        "intake",
-        "exhaust",
-        "transmission",
-        "climate",
-        "airbag",
-        "hv"
-      ]
-    },
-    {
-      "id": "mazda-2",
-      "brand": "mazda",
-      "model": "mazda3",
-      "name": "Mazda3",
-      "generations": [
-        {
-          "name": "Baureihe / Generation auswählen",
-          "years": "Baujahr und Motorisierung fahrzeugspezifisch",
-          "engines": [
-            "Benzin",
-            "Diesel",
-            "Hybrid / Elektro je nach Variante"
-          ],
-          "transmissions": [
-            "Schaltgetriebe",
-            "Automatik / Doppelkupplung je nach Variante"
-          ],
-          "drivetrains": [
-            "Vorderradantrieb",
-            "Allrad je nach Variante"
-          ]
-        }
-      ],
-      "systems": [
-        "engine",
-        "brakes",
-        "suspension",
-        "steering",
-        "electrical",
-        "diagnostics",
-        "cooling",
-        "fuel",
-        "intake",
-        "exhaust",
-        "transmission",
-        "climate",
-        "airbag",
-        "hv"
-      ]
-    },
-    {
-      "id": "mazda-3",
-      "brand": "mazda",
-      "model": "mazda6",
-      "name": "Mazda6",
-      "generations": [
-        {
-          "name": "Baureihe / Generation auswählen",
-          "years": "Baujahr und Motorisierung fahrzeugspezifisch",
-          "engines": [
-            "Benzin",
-            "Diesel",
-            "Hybrid / Elektro je nach Variante"
-          ],
-          "transmissions": [
-            "Schaltgetriebe",
-            "Automatik / Doppelkupplung je nach Variante"
-          ],
-          "drivetrains": [
-            "Vorderradantrieb",
-            "Allrad je nach Variante"
-          ]
-        }
-      ],
-      "systems": [
-        "engine",
-        "brakes",
-        "suspension",
-        "steering",
-        "electrical",
-        "diagnostics",
-        "cooling",
-        "fuel",
-        "intake",
-        "exhaust",
-        "transmission",
-        "climate",
-        "airbag",
-        "hv"
-      ]
-    },
-    {
-      "id": "mazda-4",
-      "brand": "mazda",
-      "model": "cx-3",
-      "name": "CX-3",
-      "generations": [
-        {
-          "name": "Baureihe / Generation auswählen",
-          "years": "Baujahr und Motorisierung fahrzeugspezifisch",
-          "engines": [
-            "Benzin",
-            "Diesel",
-            "Hybrid / Elektro je nach Variante"
-          ],
-          "transmissions": [
-            "Schaltgetriebe",
-            "Automatik / Doppelkupplung je nach Variante"
-          ],
-          "drivetrains": [
-            "Vorderradantrieb",
-            "Allrad je nach Variante"
-          ]
-        }
-      ],
-      "systems": [
-        "engine",
-        "brakes",
-        "suspension",
-        "steering",
-        "electrical",
-        "diagnostics",
-        "cooling",
-        "fuel",
-        "intake",
-        "exhaust",
-        "transmission",
-        "climate",
-        "airbag",
-        "hv"
-      ]
-    },
-    {
-      "id": "mazda-5",
-      "brand": "mazda",
-      "model": "cx-5",
-      "name": "CX-5",
-      "generations": [
-        {
-          "name": "Baureihe / Generation auswählen",
-          "years": "Baujahr und Motorisierung fahrzeugspezifisch",
-          "engines": [
-            "Benzin",
-            "Diesel",
-            "Hybrid / Elektro je nach Variante"
-          ],
-          "transmissions": [
-            "Schaltgetriebe",
-            "Automatik / Doppelkupplung je nach Variante"
-          ],
-          "drivetrains": [
-            "Vorderradantrieb",
-            "Allrad je nach Variante"
-          ]
-        }
-      ],
-      "systems": [
-        "engine",
-        "brakes",
-        "suspension",
-        "steering",
-        "electrical",
-        "diagnostics",
-        "cooling",
-        "fuel",
-        "intake",
-        "exhaust",
-        "transmission",
-        "climate",
-        "airbag",
-        "hv"
       ]
     }
   ],
   "systems": [
     {
-      "id": "engine",
-      "name": "Motor & Mechanik",
-      "description": "Verbrennungsmotor, Schmierung, Steuertrieb, Dichtungen und mechanische Baugruppen.",
-      "overview": "Der Motor wandelt chemische Energie in mechanische Arbeit um. Wichtige Teilsysteme sind Schmierung, Kühlung, Gemischbildung, Zündung bzw. Einspritzung und Steuertrieb.",
+      "id": "brakes",
+      "name": "Bremssystem",
+      "description": "Bremsscheiben, Beläge, Bremssattel, ABS und Bremsflüssigkeit.",
+      "overview": "Das Bremssystem wandelt Bewegungsenergie in Wärme um und muss zuverlässig und gleichmäßig arbeiten.",
       "checks": [
-        "Ölstand und Ölzustand",
-        "Undichtigkeiten",
-        "Kühlmittelstand",
-        "Geräusche/Vibrationen",
-        "Fehlerspeicher und Messwerte"
+        "Belagstärke prüfen",
+        "Scheiben auf Verschleiß und Riefen prüfen",
+        "Bremsleitungen und Schläuche auf Schäden prüfen",
+        "Nach Arbeiten Funktions- und Dichtigkeitsprüfung durchführen"
       ],
       "risks": [
-        "Heiße Oberflächen",
-        "Drehende Teile",
-        "Kraftstoff und Öl",
-        "Unbeabsichtigtes Starten"
+        "Sicherheitskritisch",
+        "Falsche Montage kann zum Bremsverlust führen"
       ]
     },
     {
-      "id": "brakes",
-      "name": "Bremssystem",
-      "description": "Bremsscheiben, Beläge, Sättel, Bremsleitungen, ABS/ESP und Bremsflüssigkeit.",
-      "overview": "Das Bremssystem erzeugt und regelt die Verzögerung. Neben der mechanischen Bremse arbeiten ABS/ESP-Sensorik und Hydraulik zusammen.",
+      "id": "engine",
+      "name": "Motor",
+      "description": "Verbrennungsmotor, Ansaugung, Kraftstoff, Abgas und Nebenaggregate.",
+      "overview": "Motorarbeiten müssen immer auf die konkrete Motorvariante bezogen werden.",
       "checks": [
-        "Belagstärke und gleichmäßiger Verschleiß",
-        "Scheibenoberfläche und Mindestmaß nach Herstellerangabe",
-        "Leitungen und Schläuche",
-        "Bremsflüssigkeit",
-        "ABS/ESP-Fehler"
+        "Ölstand",
+        "Kühlmittelstand",
+        "Leckagen",
+        "Fehlerspeicher",
+        "Ungewöhnliche Geräusche"
       ],
       "risks": [
-        "Unmittelbares Sicherheitsrisiko bei Fehlern",
-        "Bremsstaub",
-        "Hydraulikdruck",
-        "Fahrzeug sicher abstützen"
+        "Heiße Bauteile",
+        "Kraftstoff und Abgas",
+        "Bewegte Teile"
+      ]
+    },
+    {
+      "id": "electrics",
+      "name": "Elektrik",
+      "description": "Batterie, Starter, Generator, Sensoren und Steuergeräte.",
+      "overview": "Elektrische Fehler systematisch über Versorgung, Masse, Signal und Kommunikation prüfen.",
+      "checks": [
+        "Batteriespannung",
+        "Sicherungen",
+        "Masseverbindungen",
+        "Steckkontakte",
+        "Fehlerspeicher"
+      ],
+      "risks": [
+        "Kurzschluss",
+        "Airbag/Hochvolt nur nach Herstellerverfahren"
       ]
     },
     {
       "id": "suspension",
-      "name": "Fahrwerk & Räder",
-      "description": "Federn, Dämpfer, Querlenker, Gelenke, Radlager, Räder und Reifen.",
-      "overview": "Das Fahrwerk verbindet Karosserie und Straße, hält die Radstellung und überträgt Längs- und Querkräfte.",
+      "name": "Fahrwerk & Lenkung",
+      "description": "Federung, Dämpfer, Querlenker, Radlager und Lenkung.",
+      "overview": "Fahrwerksteile beeinflussen Spurtreue und Fahrsicherheit.",
       "checks": [
-        "Spiel an Gelenken",
-        "Dämpfer auf Leckage",
-        "Federn auf Bruch",
-        "Reifen und Luftdruck",
-        "Radlagergeräusch/Spiel"
+        "Spiel prüfen",
+        "Manschetten prüfen",
+        "Dämpfer auf Leckage prüfen",
+        "Nach Arbeiten Achsgeometrie prüfen, wenn erforderlich"
       ],
       "risks": [
-        "Federenergie",
-        "Quetschstellen",
-        "Fahrzeuglast",
-        "Radbefestigung"
-      ]
-    },
-    {
-      "id": "steering",
-      "name": "Lenkung",
-      "description": "Lenkgetriebe, Spurstangen, Gelenke, elektrische/hydraulische Unterstützung.",
-      "overview": "Die Lenkung bestimmt die Fahrtrichtung. Moderne Fahrzeuge nutzen häufig elektrische Servounterstützung und überwachen den Lenkwinkel.",
-      "checks": [
-        "Lenkspiel",
-        "Gelenke und Manschetten",
-        "Lenkwinkelsensor",
-        "Servounterstützung",
-        "Achsgeometrie"
-      ],
-      "risks": [
-        "Sicherheitsrelevant",
-        "Airbagbereich",
-        "Fahrwerksgeometrie"
-      ]
-    },
-    {
-      "id": "electrical",
-      "name": "Bordnetz & Elektrik",
-      "description": "Batterie, Starter, Generator, Sicherungen, Relais, Massepunkte und Komfortverbraucher.",
-      "overview": "Das 12-V-Bordnetz versorgt Steuergeräte und Verbraucher. Bei Hochvoltfahrzeugen existiert zusätzlich ein getrenntes HV-System.",
-      "checks": [
-        "Batteriespannung",
-        "Ladespannung",
-        "Sicherungen",
-        "Masseverbindungen",
-        "Spannungsabfall unter Last"
-      ],
-      "risks": [
-        "Kurzschluss",
-        "Batteriegas",
-        "Hochvolt nicht selbst öffnen"
-      ]
-    },
-    {
-      "id": "diagnostics",
-      "name": "Diagnose & OBD",
-      "description": "Fehlerspeicher, Live-Daten, Freeze-Frame, Stellgliedtests und geführte Fehlersuche.",
-      "overview": "Ein Fehlercode benennt einen überwachten Zustand, nicht automatisch das defekte Bauteil. Diagnose erfolgt über Symptome, Messwerte und Ausschlussverfahren.",
-      "checks": [
-        "DTC lesen und dokumentieren",
-        "Freeze-Frame sichern",
-        "Versorgung/Masse prüfen",
-        "Signal plausibilisieren",
-        "Nach Reparatur erneut prüfen"
-      ]
-    },
-    {
-      "id": "cooling",
-      "name": "Kühlung",
-      "description": "Kühler, Wasserpumpe, Thermostat, Lüfter, Ausgleichsbehälter und Kühlmittel.",
-      "overview": "Die Kühlung hält den Motor im vorgesehenen Temperaturbereich und schützt vor Überhitzung und Frost.",
-      "checks": [
-        "Kühlmittelstand bei kaltem Motor",
-        "Lecksuche",
-        "Temperaturverlauf",
-        "Lüfteransteuerung",
-        "Thermostatfunktion"
-      ],
-      "risks": [
-        "Verbrühungsgefahr",
-        "Druck im Kühlsystem"
-      ]
-    },
-    {
-      "id": "fuel",
-      "name": "Kraftstoffsystem",
-      "description": "Tank, Pumpe, Filter, Leitungen, Einspritzung und Druckregelung.",
-      "overview": "Das Kraftstoffsystem speichert, fördert, filtert und dosiert Kraftstoff. Druck und Einspritzung sind motorabhängig.",
-      "checks": [
-        "Leckage",
-        "Kraftstoffdruck nach Herstellervorgabe",
-        "Filterzustand",
-        "Injektor-Korrekturwerte",
-        "Elektrische Versorgung"
-      ],
-      "risks": [
-        "Brandgefahr",
-        "Kraftstoffdruck",
-        "Dämpfe"
-      ]
-    },
-    {
-      "id": "intake",
-      "name": "Ansaugung & Aufladung",
-      "description": "Luftfilter, Drosselklappe, Ladeluftstrecke, Turbo/Kompressor und Unterdrucksysteme.",
-      "overview": "Die Ansaugung bestimmt Luftmasse und Ladedruck. Leckagen können Leistung, Gemisch und Emissionen beeinflussen.",
-      "checks": [
-        "Luftfilter",
-        "Schlauchverbindungen",
-        "Ladeluftleck",
-        "MAF/MAP-Signale",
-        "Aktuatorik"
-      ],
-      "risks": [
-        "Heiße Turbolader",
-        "Unterdruck/Überdruck",
-        "Fremdkörper"
-      ]
-    },
-    {
-      "id": "exhaust",
-      "name": "Abgasanlage & Emissionen",
-      "description": "Abgaskrümmer, Katalysator, DPF/OPF, Lambdasonden, EGR und Abgassensorik.",
-      "overview": "Die Abgasanlage reduziert Emissionen und überwacht die Verbrennung. Bauteile und Strategien unterscheiden sich stark nach Motor und Abgasnorm.",
-      "checks": [
-        "Abgasleck",
-        "Sensorwerte",
-        "Differenzdruck",
-        "Regenerationsstatus",
-        "Fehlerspeicher"
-      ],
-      "risks": [
-        "Sehr hohe Temperaturen",
-        "Abgase"
-      ]
-    },
-    {
-      "id": "transmission",
-      "name": "Getriebe & Antrieb",
-      "description": "Schaltgetriebe, Automatik/DCT, Kupplung, Gelenkwellen, Differential und Antriebswellen.",
-      "overview": "Das Getriebe stellt Übersetzungen bereit und überträgt Drehmoment an die Räder.",
-      "checks": [
-        "Ölleckage",
-        "Schaltverhalten",
-        "Kupplungsschlupf",
-        "Gelenkmanschetten",
-        "Geräusche"
-      ],
-      "risks": [
-        "Hohe Bauteilmasse",
-        "Öle",
-        "Hebepunkte"
-      ]
-    },
-    {
-      "id": "climate",
-      "name": "Klima & Heizung",
-      "description": "Klimakompressor, Kondensator, Verdampfer, Gebläse, Heizungskreislauf und Klappensteuerung.",
-      "overview": "Die Klimaanlage arbeitet mit einem Kältemittelkreislauf; Arbeiten am Kältemittelkreis gehören in geeignete Fachbetriebe.",
-      "checks": [
-        "Gebläse",
-        "Temperaturklappen",
-        "Kältemitteldruck durch Fachbetrieb",
-        "Kompressor-Ansteuerung",
-        "Innenraumfilter"
-      ],
-      "risks": [
-        "Kältemittel",
-        "Druck",
-        "bewegte/rotierende Teile"
-      ]
-    },
-    {
-      "id": "airbag",
-      "name": "Airbag & Rückhaltesysteme",
-      "description": "Airbags, Gurtstraffer, Crashsensoren und SRS-Steuergerät.",
-      "overview": "Rückhaltesysteme sind pyrotechnische bzw. sicherheitskritische Systeme. Diagnose und Reparatur müssen nach Herstellerverfahren erfolgen.",
-      "checks": [
-        "SRS-Fehlerspeicher",
-        "Stecker/Kabel nach Herstellervorgabe",
-        "Crashdaten nur mit zulässigem Verfahren",
-        "Funktionsprüfung"
-      ],
-      "risks": [
-        "Pyrotechnik",
-        "Ungewollte Auslösung",
-        "Nicht mit Prüflampe messen"
-      ]
-    },
-    {
-      "id": "hv",
-      "name": "Hochvoltsystem",
-      "description": "HV-Batterie, Inverter, E-Maschine, DC/DC-Wandler und Ladeelektronik.",
-      "overview": "Hochvoltfahrzeuge können lebensgefährliche Spannungen führen. Freischalten, Spannungsfreiheit feststellen und Arbeiten erfordern geeignete Qualifikation und Herstellervorgaben.",
-      "checks": [
-        "Fehlerspeicher",
-        "Isolationsüberwachung",
-        "Ladezustand",
-        "HV-Interlock",
-        "12-V-Versorgung"
-      ],
-      "risks": [
-        "Lebensgefährliche Spannung",
-        "Lichtbogen",
-        "Batteriebrand"
+        "Sicherheitskritisch",
+        "Fahrzeug sicher abstützen"
       ]
     }
   ],
   "components": [
     {
-      "id": "brake-pad",
-      "name": "Bremsbelag",
+      "id": "brake-pads",
       "system": "Bremssystem",
-      "description": "Reibbelag zwischen Belagträger und Bremsscheibe.",
+      "name": "Bremsbeläge",
+      "description": "Reibelemente der Scheibenbremse. Ausführung und Verschleißgrenzen sind fahrzeugabhängig.",
       "tools": [
+        "Wagenheber/Hebebühne und sichere Abstützung",
         "Radschlüssel",
-        "Drehmomentschlüssel",
-        "Steck-/Torx-/Innensechskant passend zum Fahrzeug",
-        "Bremskolbenrücksteller je nach Bauart",
-        "Reinigungsmittel für Bremsen"
-      ],
-      "parts": [
-        "Bremsbeläge passend zu VIN/Ausstattung",
-        "ggf. Verschleißsensor",
-        "ggf. neue Befestigungsteile nach Herstellerangabe"
-      ],
-      "torque": "Fahrzeugspezifisch aus Hersteller-/Werkstattunterlage; kein Universalwert.",
-      "steps": [
-        "Fahrzeug gegen Wegrollen sichern und sicher anheben/abstützen.",
-        "Rad abnehmen und Bremse fotografisch dokumentieren.",
-        "Bremssattel nach Herstellerverfahren lösen und sicher ablegen; nicht am Bremsschlauch hängen lassen.",
-        "Alte Beläge ausbauen und Auflageflächen kontrollieren.",
-        "Kolben nur mit dem für die Bauart geeigneten Verfahren zurückstellen; bei elektrischer Parkbremse Herstellermodus beachten.",
-        "Neue Beläge einsetzen, Kontaktflächen nach Herstellerangabe behandeln und Befestiger gemäß Vorgabe montieren.",
-        "Rad montieren und Radschrauben mit fahrzeugspezifischem Drehmoment anziehen.",
-        "Bremspedal bei stehendem Fahrzeug vorsichtig betätigen, bis ein definierter Pedalweg vorhanden ist; danach Funktion prüfen.",
-        "Einbrems-/Einfahrvorgaben des Belagherstellers bzw. Fahrzeugherstellers beachten."
-      ],
-      "after": [
-        "Dichtigkeit und Leitungsverlauf prüfen",
-        "Bremstest in sicherer Umgebung",
-        "Warnleuchten/Fehlerspeicher prüfen",
-        "Keine sofortige Vollbremsung zum Einbremsen, sofern Hersteller nichts anderes vorgibt"
-      ]
-    },
-    {
-      "id": "brake-disc",
-      "name": "Bremsscheibe",
-      "system": "Bremssystem",
-      "description": "Rotierender Reibpartner der Scheibenbremse.",
-      "tools": [
-        "Drehmomentschlüssel",
-        "Messuhr optional",
-        "Mikrometer/Bremsscheibenmessgerät",
-        "Steck-/Torx-/Innensechskant passend zum Fahrzeug",
-        "Bremsenreiniger"
-      ],
-      "parts": [
-        "Bremsscheiben passend zu VIN",
-        "Beläge in der Regel als Satz mit erneuern",
-        "ggf. neue Sicherungs-/Führungsteile"
-      ],
-      "torque": "Rad- und Befestigungsdrehmomente ausschließlich fahrzeugspezifisch.",
-      "steps": [
-        "Bremssattel und Beläge nach Herstellervorgabe ausbauen.",
-        "Bremsscheibe abnehmen; bei festsitzender Scheibe zulässiges Lösungsverfahren verwenden.",
-        "Nabenauflage gründlich reinigen und auf Korrosion/Schlag prüfen.",
-        "Neue Scheibe gemäß Herstellerangabe reinigen und montieren.",
-        "Beläge passend zur neuen Scheibe montieren.",
-        "Bremssattelbefestigung mit fahrzeugspezifischen Vorgaben anziehen.",
-        "Rad montieren und mit Herstellervorgabe anziehen.",
-        "Nacharbeit: Pedalweg, Sichtkontrolle, Probefahrt und Einbremsen."
-      ],
-      "after": [
-        "Seitenschlag nur nach Herstellervorgabe messen",
-        "Mindestdicke der Scheibe mit Herstellergrenzwert vergleichen",
-        "Bei Vibrationen nicht einfach weiterfahren, Ursache ermitteln"
-      ]
-    },
-    {
-      "id": "oil-change",
-      "name": "Motoröl & Ölfilter",
-      "system": "Motor & Mechanik",
-      "description": "Standard-Servicearbeit, deren Öltyp und Füllmenge motorabhängig sind.",
-      "tools": [
-        "Auffangwanne",
-        "Ölfilterschlüssel passend zum Filter",
         "Steckschlüssel",
         "Drehmomentschlüssel",
-        "Handschuhe",
-        "Trichter"
+        "ggf. Bremskolben-Rückstellwerkzeug"
       ],
       "parts": [
-        "Freigegebenes Motoröl nach Herstellerspezifikation",
-        "passender Ölfilter",
-        "neue Dichtung/Alu- oder Kupferscheibe falls vorgesehen"
+        "Bremsbeläge passend zur Achse",
+        "ggf. neue Befestigungsteile nach Herstellerangabe"
       ],
-      "torque": "Ablassschraube/Filtergehäuse: fahrzeugspezifisch.",
+      "torque": "NICHT VERIFIZIERT – exakte Fahrzeug-/Achsausführung erforderlich.",
       "steps": [
-        "Fahrzeug sicher und möglichst waagerecht abstellen/aufbocken.",
-        "Motor nach Herstellervorgabe temperieren; Verbrennungsgefahr beachten.",
-        "Auffangwanne aufstellen und Öl kontrolliert ablassen.",
-        "Ablassschraube und Dichtfläche prüfen; Dichtung ersetzen, wenn vorgesehen.",
-        "Filter mit passendem Werkzeug lösen und Dichtfläche reinigen.",
-        "Neuen Filter nach Herstelleranweisung vorbereiten und montieren.",
-        "Ölmenge zunächst nicht blind vollständig einfüllen; schrittweise auffüllen und nach Herstellermethode kontrollieren.",
-        "Motor kurz laufen lassen, Leckkontrolle durchführen und Ölstand erneut korrekt prüfen.",
-        "Altöl und Filter fachgerecht entsorgen."
+        "Fahrzeug sichern und Rad demontieren.",
+        "Bremssattel gemäß fahrzeugspezifischem Verfahren sichern; nicht an der Bremsleitung hängen lassen.",
+        "Alte Beläge ausbauen und Führungen/Sitzflächen prüfen.",
+        "Bremskolben nur mit dem für diese Bremsanlage vorgesehenen Verfahren zurückstellen.",
+        "Neue Beläge einsetzen und alle Sicherungselemente korrekt montieren.",
+        "Rad montieren und fahrzeugspezifische Drehmomente verwenden."
       ],
       "after": [
-        "Ölstand dokumentieren",
-        "Serviceanzeige nach Herstellervorgabe zurücksetzen",
-        "Leckagekontrolle"
-      ]
-    },
-    {
-      "id": "spark-plug",
-      "name": "Zündkerze",
-      "system": "Motor & Mechanik",
-      "description": "Zündelement für Ottomotoren.",
-      "tools": [
-        "Zündkerzennuss",
-        "Verlängerung",
-        "Drehmomentschlüssel",
-        "Druckluft/Blaspistole für sauberen Kerzenschacht"
-      ],
-      "parts": [
-        "Zündkerzen mit exakt passender Spezifikation"
-      ],
-      "torque": "Zündkerzendrehmoment ist gewinde-/motorabhängig; Herstellerwert verwenden.",
-      "steps": [
-        "Motor abkühlen lassen, Zündanlage nach Herstellervorgabe sichern.",
-        "Bereich um die Kerze reinigen, damit kein Schmutz in den Brennraum fällt.",
-        "Zündspule/Stecker entfernen.",
-        "Kerze mit geeigneter Nuss lösen und herausnehmen.",
-        "Neue Kerze prüfen; Elektrodenabstand nicht verändern, sofern der Hersteller dies nicht vorsieht.",
-        "Kerze von Hand ansetzen, um Gewindeschäden zu vermeiden.",
-        "Mit fahrzeugspezifischem Drehmoment montieren.",
-        "Zündspule montieren und Motorlauf prüfen."
-      ],
-      "after": [
-        "Fehlerspeicher bei vorherigen Zündaussetzern prüfen",
-        "Leerlauf und Probefahrt kontrollieren"
+        "Bremspedal bei stehendem Fahrzeug betätigen, bis ein definierter Druckpunkt vorhanden ist.",
+        "Bremsanlage auf Dichtheit prüfen.",
+        "Einbremsvorgang gemäß Belag-/Fahrzeughersteller beachten."
       ]
     },
     {
       "id": "battery",
-      "name": "12-V-Batterie",
-      "system": "Bordnetz & Elektrik",
-      "description": "Starter- und Bordnetzbatterie; bei vielen Fahrzeugen muss sie nach Austausch angelernt/registriert werden.",
+      "system": "Elektrik",
+      "name": "Starterbatterie",
+      "description": "12-V-Batterie für Bordnetz und Startsystem. Bei Start-Stopp-Fahrzeugen können Registrierung/Codierung erforderlich sein.",
       "tools": [
-        "10/13-mm-typische Schlüsselgrößen je nach Fahrzeug",
-        "Speichererhaltung nur wenn vom Fahrzeughersteller zulässig",
-        "Multimeter",
-        "Diagnosegerät für Batteriemanagement falls erforderlich"
+        "10-mm/geeigneter Steckschlüssel je nach Fahrzeug",
+        "Schutzhandschuhe",
+        "Speichererhaltung nur wenn vom Verfahren vorgesehen"
       ],
       "parts": [
-        "Batterie nach Kapazität, Technologie, Abmessung und Kaltstartstrom",
-        "ggf. neue Halterung/Entlüftung"
+        "Passende Batterie mit korrekter Technologie und Kapazität"
       ],
-      "torque": "Klemmen/Halterung fahrzeugspezifisch.",
+      "torque": "Anschluss-/Halterdrehmomente fahrzeugspezifisch verifizieren.",
       "steps": [
-        "Zündung ausschalten und Fahrzeug verriegeln/Steuergeräte schlafen lassen, wenn vorgeschrieben.",
-        "Minus-/Pluspol in der vom Hersteller vorgeschriebenen Reihenfolge abklemmen.",
-        "Batteriehalter lösen und Batterie sicher entnehmen.",
-        "Neue Batterie einsetzen und gegen Verrutschen sichern.",
-        "Pole in vorgeschriebener Reihenfolge anschließen.",
-        "Falls erforderlich Batterie registrieren/codieren.",
-        "Fensterheber, Uhr, Lenkwinkel oder andere Lernwerte nach Herstellervorgabe initialisieren."
+        "Zündung ausschalten und Fahrzeug gegen ungewolltes Einschalten sichern.",
+        "Batterielage und Anschlüsse dokumentieren.",
+        "Minusklemme nach Herstellervorgabe lösen, anschließend Plusklemme.",
+        "Batteriehalter lösen und Batterie vorsichtig entnehmen.",
+        "Neue Batterie einsetzen und Halter befestigen.",
+        "Anschlüsse in der vom Hersteller vorgesehenen Reihenfolge montieren.",
+        "Falls erforderlich Batterie registrieren/anlernen und Fehlerspeicher prüfen."
       ],
       "after": [
-        "Ladespannung und Ruhespannung prüfen",
-        "Batteriemanagement-Fehler auslesen"
+        "Bordnetz prüfen",
+        "Startfunktion prüfen",
+        "Batteriemanagement/Registrierung prüfen"
+      ]
+    },
+    {
+      "id": "engine-oil",
+      "system": "Motor",
+      "name": "Motorölwechsel",
+      "description": "Öl und Filter nach der für Motor und Serviceintervall vorgesehenen Spezifikation wechseln.",
+      "tools": [
+        "Auffangwanne",
+        "Ölfilterwerkzeug passend zum Filter",
+        "Steckschlüssel",
+        "Drehmomentschlüssel",
+        "Schutzhandschuhe"
+      ],
+      "parts": [
+        "Motoröl nach Herstellerspezifikation",
+        "Ölfilter",
+        "Dichtring/Schraube falls vorgeschrieben"
+      ],
+      "torque": "Ablassschraube und Filterdrehmoment: fahrzeugspezifisch verifizieren.",
+      "steps": [
+        "Motor auf geeignete Temperatur bringen, ohne Verbrennungsgefahr zu erzeugen.",
+        "Fahrzeug sicher und waagerecht positionieren.",
+        "Auffangbehälter aufstellen und Ablassschraube gemäß Herstellervorgabe öffnen.",
+        "Öl vollständig ablaufen lassen.",
+        "Ölfilter ersetzen und Dichtung nach Herstellervorgabe vorbereiten.",
+        "Ablassschraube mit neuem Dichtring und verifiziertem Drehmoment montieren.",
+        "Vorgegebene Ölmenge zunächst teilweise einfüllen und anschließend nach Messverfahren auf Sollstand bringen.",
+        "Motor kurz laufen lassen, abstellen und nach Wartezeit erneut prüfen."
+      ],
+      "after": [
+        "Auf Leckage prüfen",
+        "Ölstand prüfen",
+        "Serviceintervall/Ölservice nach Herstellervorgabe zurücksetzen"
       ]
     },
     {
       "id": "air-filter",
+      "system": "Motor",
       "name": "Luftfilter",
-      "system": "Ansaugung & Aufladung",
-      "description": "Filtert Ansaugluft vor Motor/MAF.",
+      "description": "Luftfiltereinsatz der Ansaugluftanlage.",
       "tools": [
-        "Schraubendreher/Torx passend zum Fahrzeug",
-        "Saubere Handschuhe"
+        "Schraubendreher/Steckschlüssel je nach Gehäuse",
+        "Saubere Arbeitsfläche"
       ],
       "parts": [
-        "Passender Luftfilter"
+        "Passender Luftfiltereinsatz"
       ],
-      "torque": "Gehäusebefestigungen fahrzeugspezifisch; meist keine sicherheitskritische Drehmomentvorgabe.",
+      "torque": "Keine pauschalen Werte; Gehäusebefestigung fahrzeugspezifisch.",
       "steps": [
-        "Motor abstellen und Gehäuse öffnen.",
-        "Alten Filter entnehmen, Schmutz nicht in den Ansaugkanal fallen lassen.",
-        "Dichtfläche und Gehäuse reinigen.",
-        "Neuen Filter korrekt ausrichten und einsetzen.",
-        "Gehäuse gleichmäßig schließen und Ansaugschläuche prüfen."
+        "Ansaugbereich reinigen und Fremdkörper fernhalten.",
+        "Luftfiltergehäuse öffnen.",
+        "Alten Filter entnehmen und Dicht-/Sitzfläche prüfen.",
+        "Neuen Filter korrekt einsetzen.",
+        "Gehäuse schließen und alle Leitungen/Stecker korrekt verbinden."
       ],
       "after": [
-        "Auf Falschluft/lose Schellen prüfen"
+        "Ansaugsystem auf korrekten Sitz prüfen",
+        "Motorlauf prüfen"
       ]
     },
     {
-      "id": "cabin-filter",
-      "name": "Innenraumfilter",
-      "system": "Klima & Heizung",
-      "description": "Filtert Staub und Partikel aus der Außen-/Innenraumluft.",
+      "id": "spark-plugs",
+      "system": "Motor",
+      "name": "Zündkerzen",
+      "description": "Zündkerzen bei Ottomotoren. Kerzentyp, Elektrodenabstand und Anzugsdrehmoment sind motorabhängig.",
       "tools": [
-        "Kein Spezialwerkzeug oder kleiner Torx je nach Fahrzeug"
+        "Zündkerzennuss",
+        "Drehmomentschlüssel",
+        "Druckluft/saubere Reinigungsmöglichkeit"
       ],
       "parts": [
-        "Passender Innenraumfilter, Einbaurichtung beachten"
+        "Passende Zündkerzen"
       ],
-      "torque": "Keine pauschale Vorgabe.",
+      "torque": "Zündkerzendrehmoment: NICHT VERIFIZIERT – Motorcode erforderlich.",
       "steps": [
-        "Einbauort nach Fahrzeugunterlagen bestimmen.",
-        "Abdeckung vorsichtig entfernen.",
-        "Filterrichtung markieren und alten Filter entnehmen.",
-        "Filtergehäuse reinigen.",
-        "Neuen Filter in Pfeilrichtung einsetzen und Abdeckung schließen."
+        "Motor vollständig abkühlen lassen.",
+        "Zündspulen/Stecker gemäß Fahrzeugverfahren entfernen.",
+        "Kerzenschächte reinigen.",
+        "Alte Zündkerzen herausdrehen.",
+        "Neue Kerzen ohne Verkanten einsetzen und mit verifiziertem Wert anziehen.",
+        "Zündspulen/Stecker montieren."
       ],
       "after": [
-        "Gebläsefunktion prüfen"
+        "Motor starten",
+        "Fehlerspeicher und Zündaussetzer prüfen"
       ]
     },
     {
-      "id": "wiper",
-      "name": "Scheibenwischer",
-      "system": "Karosserie & Sicht",
-      "description": "Wischerblatt bzw. Wischerarm erneuern.",
+      "id": "serpentine-belt",
+      "system": "Motor",
+      "name": "Keilrippenriemen",
+      "description": "Nebenaggregateriemen; genaue Führung und Spanner unterscheiden sich stark nach Motor.",
       "tools": [
-        "Kein Spezialwerkzeug; ggf. kleiner Kunststoffhebel"
+        "Steckschlüsselsatz",
+        "Ratsche",
+        "ggf. Spannwerkzeug",
+        "Markierungs-/Dokumentationsmöglichkeit"
       ],
       "parts": [
-        "Passendes Wischerblatt"
+        "Riemen passend zum Motor"
       ],
-      "torque": "Wischerarmbefestigung fahrzeugspezifisch.",
+      "torque": "Befestigungsdrehmomente nur fahrzeugspezifisch verwenden.",
       "steps": [
-        "Wischer in Servicestellung bringen, wenn erforderlich.",
-        "Arm gegen Zurückschlagen sichern.",
-        "Altes Blatt entriegeln und entfernen.",
-        "Neues Blatt einrasten lassen.",
-        "Auf festen Sitz und korrekte Wischrichtung prüfen."
+        "Riemenführung dokumentieren/fotografieren.",
+        "Spannvorrichtung mit geeignetem Werkzeug entlasten.",
+        "Riemen abnehmen.",
+        "Rollen und Spanner auf Spiel/Geräusche prüfen.",
+        "Neuen Riemen gemäß exakt dokumentierter Führung auflegen.",
+        "Spannung prüfen und Motorraum auf Fremdkörper kontrollieren."
       ],
       "after": [
-        "Waschanlage und Wischbild prüfen"
+        "Motor kurz laufen lassen und Riemenlauf beobachten"
+      ]
+    },
+    {
+      "id": "headlight",
+      "system": "Elektrik",
+      "name": "Scheinwerfer",
+      "description": "Aus- und Einbau von Scheinwerfern; Zugänglichkeit und Codierung sind modellabhängig.",
+      "tools": [
+        "Torx/Steckschlüssel nach Fahrzeug",
+        "Kunststoffhebel für Clips",
+        "Schutzhandschuhe"
+      ],
+      "parts": [
+        "Passender Scheinwerfer bzw. Leuchtmittel"
+      ],
+      "torque": "Befestigungsdrehmomente fahrzeugspezifisch.",
+      "steps": [
+        "Zündung ausschalten und ggf. Batterie-/Airbagvorgaben beachten.",
+        "Zugang zum Scheinwerfer schaffen.",
+        "Stecker entriegeln und abziehen.",
+        "Befestigungen lösen und Scheinwerfer entnehmen.",
+        "Neues Bauteil einsetzen und Stecker sicher verriegeln.",
+        "Nach Montage Lichtfunktion und ggf. Grundeinstellung prüfen."
+      ],
+      "after": [
+        "Lichtbild prüfen",
+        "Bei Bedarf Scheinwerfereinstellung durchführen"
+      ]
+    },
+    {
+      "id": "coolant",
+      "system": "Motor",
+      "name": "Kühlmittel",
+      "description": "Kühlmittelkreislauf prüfen bzw. erneuern. Spezifikation und Entlüftungsverfahren sind fahrzeugabhängig.",
+      "tools": [
+        "Auffangbehälter",
+        "Füll-/Entlüftungssystem falls vorgeschrieben",
+        "Schutzhandschuhe"
+      ],
+      "parts": [
+        "Freigegebenes Kühlmittel",
+        "ggf. neue Dichtungen"
+      ],
+      "torque": "Entlüftungs-/Ablassbefestigungen fahrzeugspezifisch.",
+      "steps": [
+        "Motor vollständig abkühlen lassen.",
+        "Kühlmittelstand und Leckagen prüfen.",
+        "Ablass-/Auffangverfahren nach Herstellerangabe durchführen.",
+        "System mit freigegebenem Kühlmittel befüllen.",
+        "Vom Hersteller vorgeschriebenes Entlüftungsverfahren durchführen.",
+        "Nach Abkühlung Füllstand erneut kontrollieren."
+      ],
+      "after": [
+        "Dichtheit prüfen",
+        "Heizleistung prüfen",
+        "Temperaturverhalten überwachen"
       ]
     }
   ],
   "repairs": [
     {
-      "id": "brake-service",
-      "title": "Scheibenbremse – Beläge und Scheiben erneuern",
+      "id": "brake-pads",
       "system": "Bremssystem",
-      "description": "Sicherheitskritische Reparatur mit Fahrzeugidentifikation, Verschleißprüfung, Montage und Funktionskontrolle.",
+      "title": "Bremsbeläge wechseln",
+      "description": "Strukturierter Ablauf für den Austausch von Scheibenbremsbelägen; konkrete Werte müssen zur Fahrzeugvariante passen.",
+      "difficulty": "mittel",
+      "safety": "kritisch",
       "componentIds": [
-        "brake-pad",
-        "brake-disc"
+        "brake-pads"
       ],
-      "difficulty": "Fortgeschritten",
-      "safety": "Hoch",
       "workflow": [
-        "Fahrzeug identifizieren",
-        "Ersatzteile und Herstellervorgaben prüfen",
-        "Werkzeug vorbereiten",
-        "Fahrzeug sicher abstützen",
-        "Bremse zerlegen",
-        "Verschleiß- und Befestigungsteile prüfen",
-        "Neue Teile montieren",
-        "Drehmomente aus OEM-Unterlage anwenden",
-        "Funktionsprüfung und Einbremsen"
+        "Fahrzeug identifizieren und Achse/Bremssystem bestimmen.",
+        "Werkzeug und Ersatzteile prüfen.",
+        "Fahrzeug sichern und Rad demontieren.",
+        "Bremssattel gemäß fahrzeugspezifischem Verfahren öffnen/sichern.",
+        "Beläge und Verschleißteile prüfen.",
+        "Neue Beläge montieren.",
+        "Rad montieren und verifizierte Drehmomente anwenden.",
+        "Druckpunkt, Dichtheit und Funktion prüfen."
       ]
     },
     {
-      "id": "oil-service",
-      "title": "Motoröl und Ölfilter wechseln",
-      "system": "Motor & Mechanik",
-      "description": "Servicearbeit mit korrekter Ölfreigabe und Entsorgung.",
-      "componentIds": [
-        "oil-change"
-      ],
-      "difficulty": "Einfach–Mittel",
-      "safety": "Mittel"
-    },
-    {
-      "id": "battery-replacement",
-      "title": "12-V-Batterie ersetzen und anlernen",
-      "system": "Bordnetz & Elektrik",
-      "description": "Batterietausch mit Prüfung des Batterietyps und ggf. Registrierung.",
+      "id": "battery",
+      "system": "Elektrik",
+      "title": "Starterbatterie wechseln",
+      "description": "Batteriewechsel mit Prüfung von Technologie, Befestigung und ggf. Batteriemanagement.",
+      "difficulty": "leicht–mittel",
+      "safety": "hoch",
       "componentIds": [
         "battery"
       ],
-      "difficulty": "Einfach–Mittel",
-      "safety": "Mittel"
+      "workflow": [
+        "Batterietyp und Fahrzeugdaten identifizieren.",
+        "Bordnetz-/Herstellervorgaben prüfen.",
+        "Batterie ausbauen.",
+        "Neue Batterie einsetzen.",
+        "Anschlüsse montieren.",
+        "Batterie ggf. registrieren/anlernen.",
+        "Funktion und Fehlerspeicher prüfen."
+      ]
     },
     {
-      "id": "spark-plug-service",
-      "title": "Zündkerzen ersetzen",
-      "system": "Motor & Mechanik",
-      "description": "Zündkerzenwechsel mit korrekter Spezifikation und Montage.",
+      "id": "oil-change",
+      "system": "Motor",
+      "title": "Motoröl und Ölfilter wechseln",
+      "description": "Allgemeiner Ablauf; Öltyp, Menge und Drehmomente müssen für den Motor verifiziert werden.",
+      "difficulty": "leicht",
+      "safety": "mittel",
       "componentIds": [
-        "spark-plug"
+        "engine-oil"
       ],
-      "difficulty": "Einfach–Mittel",
-      "safety": "Mittel"
+      "workflow": [
+        "Ölspezifikation prüfen.",
+        "Fahrzeug sicher positionieren.",
+        "Altöl ablassen.",
+        "Filter und Dichtung erneuern.",
+        "Ablassschraube montieren.",
+        "Öl nach Herstellervorgabe einfüllen.",
+        "Ölstand und Dichtheit prüfen."
+      ]
     },
     {
-      "id": "air-filter-service",
+      "id": "air-filter",
+      "system": "Motor",
       "title": "Luftfilter wechseln",
-      "system": "Ansaugung & Aufladung",
-      "description": "Filterwechsel und Kontrolle der Ansaugstrecke.",
+      "description": "Austausch des Luftfiltereinsatzes.",
+      "difficulty": "leicht",
+      "safety": "niedrig",
       "componentIds": [
         "air-filter"
       ],
-      "difficulty": "Einfach",
-      "safety": "Niedrig"
+      "workflow": [
+        "Luftfiltergehäuse lokalisieren.",
+        "Gehäuse öffnen.",
+        "Filter prüfen/ersetzen.",
+        "Gehäuse schließen.",
+        "Ansaugung prüfen."
+      ]
     },
     {
-      "id": "cabin-filter-service",
-      "title": "Innenraumfilter wechseln",
-      "system": "Klima & Heizung",
-      "description": "Filterwechsel mit Prüfung der Einbaurichtung.",
+      "id": "spark-plugs",
+      "system": "Motor",
+      "title": "Zündkerzen wechseln",
+      "description": "Austausch von Zündkerzen bei Ottomotoren mit motorabhängigen Vorgaben.",
+      "difficulty": "mittel",
+      "safety": "mittel",
       "componentIds": [
-        "cabin-filter"
+        "spark-plugs"
       ],
-      "difficulty": "Einfach",
-      "safety": "Niedrig"
+      "workflow": [
+        "Motor abkühlen lassen.",
+        "Zündspulen entfernen.",
+        "Kerzenschächte reinigen.",
+        "Kerzen ersetzen.",
+        "Zündspulen montieren.",
+        "Motorlauf und Fehlerspeicher prüfen."
+      ]
+    },
+    {
+      "id": "serpentine-belt",
+      "system": "Motor",
+      "title": "Keilrippenriemen wechseln",
+      "description": "Riemenwechsel mit Prüfung von Spanner und Umlenkrollen.",
+      "difficulty": "mittel",
+      "safety": "hoch",
+      "componentIds": [
+        "serpentine-belt"
+      ],
+      "workflow": [
+        "Riemenführung dokumentieren.",
+        "Spanner entlasten.",
+        "Riemen entfernen.",
+        "Rollen prüfen.",
+        "Neuen Riemen auflegen.",
+        "Lauf kontrollieren."
+      ]
+    },
+    {
+      "id": "headlight",
+      "system": "Elektrik",
+      "title": "Scheinwerfer aus- und einbauen",
+      "description": "Modellabhängiger Scheinwerferwechsel mit anschließender Funktions-/Einstellprüfung.",
+      "difficulty": "mittel",
+      "safety": "hoch",
+      "componentIds": [
+        "headlight"
+      ],
+      "workflow": [
+        "Zugang schaffen.",
+        "Stecker entriegeln.",
+        "Befestigungen lösen.",
+        "Scheinwerfer ausbauen.",
+        "Neuen Scheinwerfer montieren.",
+        "Lichtbild/Grundeinstellung prüfen."
+      ]
+    },
+    {
+      "id": "coolant",
+      "system": "Motor",
+      "title": "Kühlmittel erneuern",
+      "description": "Kühlmittelwechsel bzw. Befüllung nach freigegebener Spezifikation und Entlüftungsverfahren.",
+      "difficulty": "mittel",
+      "safety": "hoch",
+      "componentIds": [
+        "coolant"
+      ],
+      "workflow": [
+        "Motor abkühlen lassen.",
+        "Kühlmittel ablassen.",
+        "System befüllen.",
+        "Herstellerverfahren zum Entlüften durchführen.",
+        "Dichtheit und Füllstand kontrollieren."
+      ]
     }
   ],
   "diagnosis": [
     {
-      "id": "brake-pedal-soft",
-      "name": "Bremspedal weich / langer Pedalweg",
-      "symptom": "Pedal fühlt sich schwammig an oder sinkt ungewöhnlich weit.",
-      "cause": "Mögliche Ursachen: Luft im Hydrauliksystem, verschlissene Komponenten, Leckage, überhitzte Bremsflüssigkeit oder ein Problem an Hauptbremszylinder/ABS-Hydraulik.",
+      "id": "battery-no-start",
+      "name": "Motor startet nicht – Batterie/Startsystem",
+      "symptom": "Anlasser dreht nicht oder nur langsam.",
+      "cause": "Mögliche Ursachen sind schwache Batterie, schlechte Masse-/Plusverbindung, Starter oder Steuerungsfreigabe.",
+      "severity": "hoch",
       "checks": [
-        "Bremsflüssigkeitsstand und Leckage prüfen",
-        "Leitungen/Schläuche kontrollieren",
-        "Beläge/Scheiben prüfen",
-        "Entlüftung nach Herstellerverfahren",
-        "ABS-Hydraulik bei Bedarf mit Diagnose-/Servicefunktion prüfen"
+        "Batteriespannung unter Last prüfen.",
+        "Batteriepole und Masseverbindungen prüfen.",
+        "Startsignal und Spannungsabfall prüfen.",
+        "Erst danach Starter bzw. Steuerung weiter eingrenzen."
       ],
-      "repair": "Erst Ursache feststellen; nicht allein durch Teiletausch beheben. Bei Leckage oder unsicherem Pedal Fahrzeug nicht weiter im Straßenverkehr bewegen.",
-      "severity": "kritisch"
-    },
-    {
-      "id": "brake-pull",
-      "name": "Fahrzeug zieht beim Bremsen zu einer Seite",
-      "symptom": "Beim Bremsen zieht das Fahrzeug links oder rechts.",
-      "cause": "Ungleichmäßige Bremskraft, festsitzender Sattel, Führung, Belag, Reifen oder Fahrwerks-/Achsgeometrie.",
-      "checks": [
-        "Reifen und Luftdruck vergleichen",
-        "Bremstemperaturen nur mit geeignetem Verfahren vergleichen",
-        "Sattel/Führungen prüfen",
-        "Belagbild prüfen",
-        "Fahrwerk und Achsgeometrie prüfen"
-      ],
-      "repair": "Betroffene Baugruppe identifizieren; keine einseitige Bremsenreparatur ohne Ursachenprüfung.",
-      "severity": "hoch"
+      "repair": "Nicht automatisch Batterie tauschen; Messergebnisse dokumentieren und Ursache verifizieren."
     },
     {
       "id": "brake-noise",
-      "name": "Bremsen quietschen / schleifen",
-      "symptom": "Geräusch beim Bremsen oder Rollen.",
-      "cause": "Belag-/Scheibenzustand, Fremdkörper, Korrosion, Führungsproblem oder bauartbedingtes Geräusch.",
+      "name": "Bremsgeräusch",
+      "symptom": "Quietschen, Schleifen oder ungewöhnliche Geräusche beim Bremsen.",
+      "cause": "Mögliche Ursachen: Beläge, Scheiben, Fremdkörper, Verschleiß oder klemmende Komponenten.",
+      "severity": "hoch",
       "checks": [
-        "Sichtprüfung",
-        "Belagstärke",
-        "Scheibenoberfläche",
-        "Stein/Fremdkörper",
-        "Führungen und Halter"
+        "Belagstärke und Zustand prüfen.",
+        "Scheibenoberfläche prüfen.",
+        "Bremssattel/Führungen prüfen.",
+        "Rad frei drehen und ungewöhnliche Geräusche eingrenzen."
       ],
-      "repair": "Nach Befund reinigen, beschädigte/verschlissene Teile ersetzen und Einbremsvorgaben beachten.",
-      "severity": "mittel"
+      "repair": "Bauteil nach Befund ersetzen/reparieren und anschließend Bremsfunktion prüfen."
     },
     {
-      "id": "engine-no-start",
-      "name": "Motor startet nicht",
-      "symptom": "Anlasser dreht nicht oder Motor springt nicht an.",
-      "cause": "Batterie/Starter, Kraftstoffversorgung, Zündung, Einspritzung, Wegfahrsperre oder mechanisches Problem.",
-      "checks": [
-        "Batteriespannung unter Last",
-        "Starterfunktion",
-        "OBD-Fehlerspeicher",
-        "Drehzahlsignal beim Starten",
-        "Kraftstoff-/Zündversorgung nach Herstellerverfahren"
-      ],
-      "repair": "Diagnosekette statt Teile-Raten: Energieversorgung → Freigaben → Drehzahlsignal → Kraftstoff/Zündung → Kompression/Steuerzeiten.",
-      "severity": "hoch"
-    },
-    {
-      "id": "misfire",
+      "id": "engine-misfire",
       "name": "Zündaussetzer / Motor ruckelt",
-      "symptom": "Ruckeln, unruhiger Leerlauf, Motorkontrollleuchte.",
-      "cause": "Zündung, Einspritzung, Falschluft, Kompression, Steuerzeiten oder Sensorik.",
+      "symptom": "Unruhiger Motorlauf, Leistungsverlust oder Motorkontrollleuchte.",
+      "cause": "Mögliche Ursachen sind Zündung, Einspritzung, Luftversorgung, Kompression oder Sensorik.",
+      "severity": "hoch",
       "checks": [
-        "DTC und Freeze-Frame",
-        "Zündspulen/Kerzen",
-        "Misfire-Zähler",
-        "Kraftstoffkorrekturen",
-        "Ansaugleck",
-        "Kompression bei Bedarf"
+        "Fehlerspeicher und Freeze-Frame auslesen.",
+        "Zünd-/Einspritzseite zylinderbezogen prüfen.",
+        "Falschluft und Versorgung prüfen.",
+        "Bei Bedarf Kompression bzw. weitere Herstellerprüfungen."
       ],
-      "repair": "Bauteil durch Tauschdiagnose oder Messung bestätigen; bei blinkender Motorkontrollleuchte starke Belastung vermeiden.",
-      "severity": "hoch"
+      "repair": "Erst Ursache bestätigen, dann gezielt Bauteil reparieren oder ersetzen."
     },
     {
-      "id": "overheating",
-      "name": "Motor wird zu heiß",
-      "symptom": "Temperaturwarnung, Kühlmittelverlust oder Lüfter läuft dauerhaft.",
-      "cause": "Kühlmittelmangel, Leckage, Thermostat, Wasserpumpe, Lüfter, Sensor oder Zylinderkopfdichtung.",
+      "id": "coolant-loss",
+      "name": "Kühlmittelverlust",
+      "symptom": "Füllstand sinkt wiederholt.",
+      "cause": "Mögliche Ursachen sind äußere Leckage, Kühlsystembauteile oder interne Ursachen.",
+      "severity": "hoch",
       "checks": [
-        "Kühlmittelstand nur bei abgekühltem System",
-        "Lecksuche",
-        "Temperaturwerte per Diagnose",
-        "Lüfteransteuerung",
-        "Thermostat-/Zirkulationsprüfung"
+        "Kühlsystem kalt visuell prüfen.",
+        "Druckprüfung nach geeignetem Verfahren.",
+        "Schläuche, Flansche, Kühler und Wasserpumpe prüfen.",
+        "Bei fehlender äußerer Leckage weitere Herstellerdiagnose durchführen."
       ],
-      "repair": "Bei Überhitzungswarnung sicher anhalten und Motor abkühlen lassen. Heißes Kühlsystem nicht öffnen.",
-      "severity": "kritisch"
-    },
-    {
-      "id": "battery-drain",
-      "name": "Batterie nach Standzeit leer",
-      "symptom": "Fahrzeug startet nach Stunden/Tagen nicht.",
-      "cause": "Batterie verschlissen, Ruhestrom zu hoch, Verbraucher bleibt aktiv, Ladesystem fehlerhaft.",
-      "checks": [
-        "Batteriezustand",
-        "Ladesystem",
-        "Ruhestrom erst nach Einschlafphase messen",
-        "Sicherungs-/Stromkreisprüfung"
-      ],
-      "repair": "Verbraucher bzw. Stromkreis identifizieren; nicht einfach wiederholt Batterie tauschen.",
-      "severity": "mittel"
-    },
-    {
-      "id": "charging-fault",
-      "name": "Batterie-/Ladekontrollleuchte",
-      "symptom": "Ladekontrollleuchte leuchtet während der Fahrt.",
-      "cause": "Generator, Regler, Riemen, Verkabelung, Masse oder Batteriemanagement.",
-      "checks": [
-        "Riemen mechanisch prüfen",
-        "Ladespannung nach Herstellervorgabe",
-        "Spannungsabfall Plus/Masse",
-        "Generator-Fehlercodes"
-      ],
-      "repair": "Elektrische Versorgung sicherstellen und bei fehlender Ladung unnötige Weiterfahrt vermeiden.",
-      "severity": "hoch"
-    },
-    {
-      "id": "abs-light",
-      "name": "ABS/ESP-Warnleuchte",
-      "symptom": "ABS/ESP-Warnung im Kombiinstrument.",
-      "cause": "Raddrehzahlsensor, Sensorring, Verkabelung, Versorgung, Lenkwinkel, Hydraulik oder Steuergerät.",
-      "checks": [
-        "Fehlerspeicher des ABS/ESP auslesen",
-        "Live-Raddrehzahlen vergleichen",
-        "Sensor/Kabel/Stecker prüfen",
-        "Lenkwinkel plausibilisieren"
-      ],
-      "repair": "Nach Reparatur erforderliche Grundeinstellung/Anlernung und Probefahrt gemäß Herstellerverfahren durchführen.",
-      "severity": "hoch"
-    },
-    {
-      "id": "oil-pressure",
-      "name": "Öldruckwarnung",
-      "symptom": "Rote Ölkanne/Öldruckwarnung.",
-      "cause": "Ölstand, Leckage, falsche Viskosität, Filter, Ölpumpe, Lager oder Drucksensor.",
-      "checks": [
-        "Motor sofort sicher abstellen",
-        "Ölstand nach Herstellermethode prüfen",
-        "Leckage suchen",
-        "Öldruck mit geeignetem Messverfahren gegen Herstellerwerte prüfen"
-      ],
-      "repair": "Nicht mit einer bloßen Ölstandsprüfung abtun; bei echter Öldruckwarnung Motor nicht weiter betreiben, bis Ursache geklärt ist.",
-      "severity": "kritisch"
-    },
-    {
-      "id": "steering-heavy",
-      "name": "Lenkung schwergängig",
-      "symptom": "Lenkrad benötigt deutlich mehr Kraft.",
-      "cause": "Servounterstützung, Reifen/Luftdruck, mechanische Gelenke, elektrische Versorgung oder Lenkgetriebe.",
-      "checks": [
-        "Reifendruck",
-        "Batterie-/Ladesystem",
-        "Fehlerspeicher EPS",
-        "Gelenke/Mechanik"
-      ],
-      "repair": "Sicherheitsrelevante Lenkungsstörung fachgerecht diagnostizieren; bei starker Beeinträchtigung nicht weiterfahren.",
-      "severity": "kritisch"
-    },
-    {
-      "id": "clutch-slip",
-      "name": "Kupplung rutscht",
-      "symptom": "Motordrehzahl steigt ohne entsprechende Beschleunigung.",
-      "cause": "Kupplungsverschleiß, Ölverunreinigung, Zweimassenschwungrad/Betätigung.",
-      "checks": [
-        "Kupplungstest nach Herstellervorgabe",
-        "Ölleckage",
-        "Betätigung",
-        "ZMS-Geräusche"
-      ],
-      "repair": "Nach Diagnose Kupplungssystem als Einheit bewerten; Drehmomente und Zentrierverfahren fahrzeugspezifisch.",
-      "severity": "hoch"
+      "repair": "Leckagequelle beheben; bei Verdacht auf internen Verlust nicht weiterfahren, bis Ursache geklärt ist."
     }
   ],
   "tools": [
     {
       "name": "Drehmomentschlüssel",
-      "use": "Kontrolliertes Anziehen von Befestigern mit Herstellerwert.",
-      "note": "Regelmäßig prüfen/kalibrieren; keine generischen Drehmomente verwenden."
+      "use": "Kontrolliertes Anziehen von Verschraubungen.",
+      "note": "Messbereich muss zum geforderten Drehmoment passen; technische Werte immer fahrzeugspezifisch verifizieren."
+    },
+    {
+      "name": "Steckschlüsselsatz",
+      "use": "Grundwerkzeug für viele Montagearbeiten.",
+      "note": "Je nach Fahrzeug metrische, Torx-, E-Torx- oder Vielzahnprofile erforderlich."
+    },
+    {
+      "name": "Wagenheber und Unterstellböcke",
+      "use": "Anheben und sichere Abstützung des Fahrzeugs.",
+      "note": "Nie ausschließlich unter einem Fahrzeug arbeiten, das nur vom Wagenheber gehalten wird."
+    },
+    {
+      "name": "Diagnosegerät",
+      "use": "Fehlerspeicher, Messwerte, Stellgliedtests und ggf. Grundeinstellungen.",
+      "note": "Funktionen sind abhängig von Gerät, Fahrzeug und Steuergerät."
+    },
+    {
+      "name": "Bremskolben-Rückstellwerkzeug",
+      "use": "Zurückstellen bestimmter Bremssättel.",
+      "note": "Bei elektrischer Feststellbremse das vorgeschriebene Serviceverfahren verwenden."
     },
     {
       "name": "Multimeter",
-      "use": "Spannung, Widerstand und Strom nach sicherem Messverfahren.",
-      "note": "Bei Airbag-/HV-Systemen keine Messung ohne Herstellerfreigabe."
-    },
-    {
-      "name": "OBD-Diagnosegerät",
-      "use": "Fehlerspeicher, Live-Daten, Stellgliedtests und Servicefunktionen.",
-      "note": "Funktionsumfang ist fahrzeugabhängig."
-    },
-    {
-      "name": "Wagenheber + Unterstellböcke",
-      "use": "Anheben und sichere Abstützung.",
-      "note": "Nur geeignete Hebe-/Abstützpunkte verwenden; nie unter einem nur vom Wagenheber gehaltenen Fahrzeug arbeiten."
-    },
-    {
-      "name": "Bremskolbenrücksteller",
-      "use": "Kolben je nach Sattelbauart zurückstellen.",
-      "note": "Bei EPB die vorgeschriebene Servicefunktion verwenden."
-    },
-    {
-      "name": "Bremsenreiniger",
-      "use": "Entfernen von Öl/Fett auf dafür geeigneten Metallflächen.",
-      "note": "Herstellerhinweise, Lüftung und Entflammbarkeit beachten."
-    },
-    {
-      "name": "Auffangwanne",
-      "use": "Flüssigkeiten bei Servicearbeiten auffangen.",
-      "note": "Altöl/Kühlmittel fachgerecht entsorgen."
-    },
-    {
-      "name": "Prüflampe / Testspitze",
-      "use": "Nur dort einsetzen, wo der Hersteller dies ausdrücklich zulässt.",
-      "note": "Nicht an Airbag-/SRS-Kreisen verwenden."
-    },
-    {
-      "name": "Isolierte HV-Schutzausrüstung",
-      "use": "Nur für qualifizierte Arbeiten an Hochvoltsystemen.",
-      "note": "Ersetzt keine Qualifikation und keine Herstellervorgabe."
+      "use": "Spannung, Widerstand und Durchgang prüfen.",
+      "note": "Messverfahren und Sollwerte müssen zur Schaltung und Fahrzeugvariante passen."
     }
   ],
   "legal": [
     {
-      "title": "Haftung und Inhalt",
-      "text": "Die Website ist eine technische Wissensplattform und ersetzt keine fahrzeugspezifische Hersteller-/Werkstattinformation. Für sicherheitskritische Arbeiten müssen Identifikation, Freigaben, technische Daten und Arbeitsanweisungen geprüft werden."
+      "title": "Technische Werte",
+      "text": "Drehmomente, Füllmengen, Anzugswinkel, Steuerzeiten und Grenzwerte niemals pauschal übernehmen. Exakte Fahrzeugvariante und verifizierte technische Quelle verwenden."
     },
     {
-      "title": "Drehmomente und Grenzwerte",
-      "text": "Drehmomente, Mindestmaße, Füllmengen, Toleranzen, Anzugswinkel und Dehnschrauben sind fahrzeug-, motor- und bauteilspezifisch. Die Datenbank nennt deshalb keine erfundenen Universalwerte."
+      "title": "Sicherheitskritische Arbeiten",
+      "text": "Arbeiten an Bremsen, Lenkung, Airbag und Hochvoltsystemen erfordern besondere Qualifikation und Herstellervorgaben."
     },
     {
-      "title": "Straßenverkehr / Zulässigkeit",
-      "text": "Nach Änderungen an Bremsen, Fahrwerk, Beleuchtung, Abgas- oder Sicherheitssystemen können Prüf-, Genehmigungs- oder Dokumentationspflichten bestehen. Das hängt vom Land und der konkreten Änderung ab."
-    },
-    {
-      "title": "Dokumentation",
-      "text": "Bei Reparaturen sollten Fahrzeugidentifikation, Teile, Herstellerfreigaben, Messwerte, Fehlerspeicher vor/nach der Arbeit und ausgeführte Schritte dokumentiert werden."
-    },
-    {
-      "title": "Umwelt",
-      "text": "Altöl, Bremsflüssigkeit, Kühlmittel, Batterien und andere Betriebsstoffe dürfen nicht über Boden, Kanalisation oder Hausmüll entsorgt werden. Lokale Entsorgungsregeln beachten."
-    },
-    {
-      "title": "Österreich – Hinweis",
-      "text": "Für Österreich sind insbesondere Zulassungs-, Begutachtungs- und Genehmigungsfragen im Einzelfall zu prüfen. Für rechtlich verbindliche Auskünfte die zuständige Behörde bzw. eine fachkundige Stelle heranziehen."
-    },
-    {
-      "title": "Deutschland / Schweiz",
-      "text": "Auch in Deutschland und der Schweiz gelten eigene Regeln für Betriebserlaubnis, Prüfung, Umbauten und Werkstattarbeiten. Länder nicht vermischen; immer die lokale Rechtslage prüfen."
-    },
-    {
-      "title": "Pyrotechnik & Airbag",
-      "text": "Arbeiten an Airbags und Gurtstraffern sind nicht wie normale Reparaturen zu behandeln. Herstellerverfahren und Qualifikationsanforderungen beachten."
-    },
-    {
-      "title": "Hochvolt",
-      "text": "Arbeiten am HV-System dürfen nur durch dafür qualifizierte Personen mit geeigneter Ausrüstung und nach dem fahrzeugspezifischen Freischaltverfahren erfolgen."
+      "title": "Bilder und Inhalte",
+      "text": "Nur eigene, gemeinfreie oder korrekt lizenzierte Bilder und Dokumente in das Wiki aufnehmen. Keine vollständigen urheberrechtlich geschützten Herstellerunterlagen kopieren."
     }
   ]
 }

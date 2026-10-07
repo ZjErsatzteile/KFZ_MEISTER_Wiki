@@ -1,9 +1,21 @@
 {
-  "name": "KFZ MEISTER Wiki Pro",
+  "name": "KFZ MEISTER Wiki",
   "short_name": "KFZ Wiki",
-  "start_url": "./index.html#home",
+  "start_url": "./",
   "display": "standalone",
   "background_color": "#07111f",
   "theme_color": "#07111f",
-  "description": "KFZ Diagnose- und Reparaturwissen"
+  "lang": "de",
+  "icons": [
+    {
+      "src": "icons/icon-192.svg",
+      "sizes": "192x192",
+      "type": "image/svg+xml"
+    },
+    {
+      "src": "icons/icon-512.svg",
+      "sizes": "512x512",
+      "type": "image/svg+xml"
+    }
+  ]
 }
