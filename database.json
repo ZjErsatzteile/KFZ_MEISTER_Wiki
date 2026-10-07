@@ -1,0 +1,210 @@
+{
+  "brands": [
+    [
+      "VW",
+      "Volkswagen",
+      [
+        "Golf",
+        "Passat",
+        "Tiguan",
+        "Polo"
+      ]
+    ],
+    [
+      "AUDI",
+      "Audi",
+      [
+        "A3",
+        "A4",
+        "A6",
+        "Q5"
+      ]
+    ],
+    [
+      "BMW",
+      "BMW",
+      [
+        "1er",
+        "3er",
+        "5er",
+        "X3"
+      ]
+    ],
+    [
+      "MB",
+      "Mercedes-Benz",
+      [
+        "A-Klasse",
+        "C-Klasse",
+        "E-Klasse",
+        "GLC"
+      ]
+    ],
+    [
+      "ŠK",
+      "Škoda",
+      [
+        "Octavia",
+        "Superb",
+        "Kodiaq",
+        "Fabia"
+      ]
+    ],
+    [
+      "SEAT",
+      "SEAT",
+      [
+        "Ibiza",
+        "Leon",
+        "Ateca",
+        "Arona"
+      ]
+    ],
+    [
+      "OP",
+      "Opel",
+      [
+        "Corsa",
+        "Astra",
+        "Insignia",
+        "Mokka"
+      ]
+    ],
+    [
+      "FORD",
+      "Ford",
+      [
+        "Focus",
+        "Fiesta",
+        "Mondeo",
+        "Kuga"
+      ]
+    ],
+    [
+      "TOY",
+      "Toyota",
+      [
+        "Corolla",
+        "Yaris",
+        "RAV4",
+        "Avensis"
+      ]
+    ],
+    [
+      "RN",
+      "Renault",
+      [
+        "Clio",
+        "Megane",
+        "Captur",
+        "Scenic"
+      ]
+    ]
+  ],
+  "repairs": [
+    [
+      "brake",
+      "Bremsbeläge wechseln",
+      "Bremse",
+      "▣",
+      "45–90 min",
+      "Mittel",
+      "Verschleißkontrolle und allgemeiner Wechselablauf."
+    ],
+    [
+      "battery",
+      "Batterie wechseln",
+      "Elektrik",
+      "⚡",
+      "15–30 min",
+      "Leicht",
+      "Sicher abklemmen, ersetzen und Fahrzeugfunktionen prüfen."
+    ],
+    [
+      "oil",
+      "Motoröl & Filter",
+      "Service",
+      "◒",
+      "30–60 min",
+      "Leicht",
+      "Öl und Filter nach Herstellervorgabe erneuern."
+    ],
+    [
+      "spark",
+      "Zündkerzen wechseln",
+      "Motor",
+      "✦",
+      "30–75 min",
+      "Mittel",
+      "Zündkerzen prüfen und fahrzeugspezifisch montieren."
+    ],
+    [
+      "air",
+      "Luftfilter wechseln",
+      "Ansaugung",
+      "≋",
+      "10–30 min",
+      "Leicht",
+      "Filtergehäuse öffnen und Filtereinsatz erneuern."
+    ],
+    [
+      "coolant",
+      "Kühlmittel prüfen",
+      "Kühlung",
+      "◉",
+      "10–20 min",
+      "Leicht",
+      "Füllstand, Zustand und mögliche Lecks kontrollieren."
+    ],
+    [
+      "belt",
+      "Keilrippenriemen",
+      "Nebenaggregate",
+      "⌁",
+      "45–120 min",
+      "Mittel",
+      "Riemenlauf, Spanner und Rollen prüfen."
+    ],
+    [
+      "light",
+      "Leuchtmittel wechseln",
+      "Elektrik",
+      "◐",
+      "10–45 min",
+      "Leicht",
+      "Leuchtmittel ersetzen und Funktion kontrollieren."
+    ]
+  ],
+  "systems": [
+    [
+      "Motor",
+      "◉",
+      "Verbrennung, Schmierung, Kühlung und Ansaugung"
+    ],
+    [
+      "Bremse",
+      "◎",
+      "Beläge, Scheiben und Hydraulik"
+    ],
+    [
+      "Elektrik",
+      "⚡",
+      "Batterie, Generator, Starter und Bordnetz"
+    ],
+    [
+      "Fahrwerk",
+      "⌁",
+      "Federung, Dämpfer und Lenkung"
+    ],
+    [
+      "Getriebe",
+      "⚙",
+      "Schaltung, Kupplung und Antrieb"
+    ],
+    [
+      "Klima",
+      "❄",
+      "Klima, Heizung und Innenraumfilter"
+    ]
+  ]
+}

@@ -1,28 +1,25 @@
-# KFZ MeisterWiki
+# KFZ MeisterWiki — Luxury Edition
 
-Eine moderne, dunkel-blaue KFZ-Reparatur-Wissensplattform für GitHub Pages.
+Neue komplette GitHub-Pages-Version mit Premium Schwarz/Blau Automotive Design.
 
 ## Enthalten
-- Responsive Premium-UI
-- Markenübersicht
-- Reparaturkarten
-- Live-Suche
-- Mobile Navigation
-- Sicherheits-Hinweis
-- Keine Build-Tools nötig
+- Dashboard
+- Fahrzeug-/Marken-/Modellauswahl
+- Reparaturkarten und Detailansichten
+- Diagnosebereich
+- Baugruppen/Systeme
+- globale Suche (Ctrl/Cmd + K)
+- Merkliste im Browser
+- zuletzt geöffnete Inhalte
+- responsive mobile Navigation
+- zentrale JSON-Datenbank unter `data/database.json`
 
-## GitHub Pages
-1. Dateien in ein neues GitHub-Repository hochladen.
-2. `Settings` → `Pages`.
-3. Bei **Build and deployment** `Deploy from a branch` wählen.
-4. Branch `main` und Ordner `/ (root)` auswählen.
-5. Speichern.
+## Installation
+ZIP entpacken und alle Dateien in dein Repository `KFZ_MEISTER_Wiki` kopieren bzw. die bisherigen Dateien ersetzen.
+Danach GitHub → Settings → Pages → Deploy from a branch → `main` → `/ (root)`.
 
-Die Seite ist statisch und läuft direkt über GitHub Pages.
+## Ausbau
+Die Datenbank ist absichtlich so vorbereitet, dass später folgende Ebenen ergänzt werden können:
+Marke → Modell → Generation → Baujahr → Motorcode → Getriebe → System → Bauteil → Symptome → Werkzeug → Arbeitsschritte → technische Werte.
 
-## Ausbau zur großen Datenbank
-Die Demo-Daten in `assets/app.js` können später durch eine JSON-Datenbank ersetzt werden, z. B.:
-
-`marke → modell → motor → baujahr → system → bauteil → symptome → werkzeug → arbeitsschritte → drehmomente`
-
-Bei technischen Angaben immer fahrzeugspezifische Werkstattunterlagen bzw. Herstellerdaten prüfen.
+Technische Werte wie Drehmomente, Füllmengen und Messwerte müssen immer anhand fahrzeugspezifischer Hersteller-/Werkstattunterlagen geprüft werden.
