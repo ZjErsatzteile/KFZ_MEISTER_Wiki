@@ -1,17 +1,38 @@
-# KFZ MEISTER Wiki – PWA
+# KFZ MEISTER Wiki – fertige PWA
 
-Zusammengeführte PWA-Version für Android, iPhone/iPad und PC.
+Uploadfertiger statischer Stand für GitHub Pages, Android, iPhone/iPad und PC.
 
 ## Enthalten
-- bestehende Fahrzeug-Navigation: Hersteller → Modell → Baureihe → Motor/Getriebe
-- installierbare PWA
-- App-Manifest und Icons
-- Service Worker für Offline-Cache
-- responsive Oberfläche
-- Favoriten und zuletzt geöffnet
 
-## Wichtig zur Datenbank
-`database.json` ist die im bisherigen PWA-Paket enthaltene Beispieldatenbank. Wenn du eigene Fahrzeugdaten besitzt, sichere diese Datei und ersetze sie durch deine echte Datenbank bzw. führe die Daten zusammen.
+- `index.html` – Einstiegspunkt
+- `app.js` – Fahrzeug-Navigation und Anwendung
+- `style.css` – responsive Oberfläche
+- `database.json` – Datenquelle der Anwendung
+- `manifest.webmanifest` – PWA-Manifest
+- `sw.js` – Offline-/Cache-Service-Worker
+- `icons/` – PWA-Symbole
+
+## Fahrzeug-Navigation
+
+Hersteller → Modell → Baureihe → Motor → Getriebe → Fahrzeugauswahl.
+
+Baureihen sind anklickbar. Motor und Getriebe werden getrennt ausgewählt und bleiben dabei erhalten.
 
 ## GitHub Pages
-Alle Dateien ins Repository-Hauptverzeichnis hochladen und GitHub Pages auf `main` / `/(root)` stellen.
+
+1. Alle Dateien aus diesem ZIP in das Repository hochladen.
+2. Vorhandene Dateien mit gleicher Bezeichnung ersetzen.
+3. `Settings → Pages → Deploy from a branch → main → / (root)` auswählen.
+4. Nach dem Deployment die GitHub-Pages-Adresse öffnen.
+
+## PWA-Installation
+
+- Android/Chrome: Browser-Menü → Installieren / Zum Startbildschirm.
+- iPhone/iPad/Safari: Teilen → Zum Home-Bildschirm.
+- PC/Chrome/Edge: Installationssymbol bzw. Browser-Menü → Installieren.
+
+## Datenbank-Hinweis
+
+Die enthaltene `database.json` ist ein funktionsfähiger Beispieldatensatz für die neue Datenstruktur. Eigene bzw. vollständige Werkstattdaten können dort ergänzt oder ersetzt werden.
+
+Technische Angaben wie Motor-, Getriebe-, Drehmoment- oder Reparaturdaten sollten vor produktivem Einsatz mit fahrzeugspezifischen Hersteller-/Werkstattunterlagen geprüft werden.
