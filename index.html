@@ -2,59 +2,31 @@
 <html lang="de">
 <head>
 <meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="theme-color" content="#050910">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="theme-color" content="#07111f">
+<meta name="description" content="KFZ MEISTER Wiki – Fahrzeugdaten, Baureihen, Motoren, Getriebe, Reparaturen und Diagnose.">
 <meta name="mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
 <meta name="apple-mobile-web-app-title" content="KFZ WIKI">
-<link rel="apple-touch-icon" href="icons/icon-192.png">
 <link rel="manifest" href="manifest.webmanifest">
-<title>KFZ MeisterWiki — Werkstattwissen</title>
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Manrope:wght@700;800&display=swap" rel="stylesheet">
+<link rel="apple-touch-icon" href="icons/icon-192.png">
+<link rel="icon" href="icons/icon-192.png" type="image/png">
+<title>KFZ MEISTER Wiki</title>
 <link rel="stylesheet" href="style.css">
 </head>
 <body>
-<div id="app">
-  <aside class="sidebar" id="sidebar">
-    <div class="brandmark"><span class="brandicon">K</span><div><strong>KFZ</strong><small>MEISTERWIKI</small></div></div>
-    <button class="new-search" id="openSearch">⌕ <span>Suchen</span><kbd>Ctrl K</kbd></button>
-    <nav>
-      <a href="#home" data-route="home">⌂ <span>Dashboard</span></a>
-      <a href="#vehicles" data-route="vehicles">▣ <span>Fahrzeuge</span></a>
-      <a href="#repairs" data-route="repairs">🔧 <span>Reparaturen</span></a>
-      <a href="#diagnosis" data-route="diagnosis">⌕ <span>Diagnose</span></a>
-      <a href="#systems" data-route="systems">⚙ <span>Baugruppen</span></a>
-      <a href="#components" data-route="components">◈ <span>Bauteile</span></a>
-      <a href="#favorites" data-route="favorites">★ <span>Merkliste</span></a>
-      <a href="#recent" data-route="recent">◷ <span>Zuletzt</span></a>
-    </nav>
-    <div class="side-bottom"><div class="status"><span></span> Datenbank geladen</div><div class="version">KFZ MeisterWiki v3.0</div></div>
-  </aside>
-  <main class="main">
-    <header class="topbar">
-      <button class="mobile-menu" id="mobileMenu">☰</button>
-      <div class="crumb" id="crumb">Werkstatt / Dashboard</div>
-      <div class="top-actions"><button class="iconbtn" id="pwaInstall" hidden onclick="installPWA()" title="App installieren">⬇</button><button class="iconbtn" id="openSearch2" aria-label="Suche">⌕</button><div class="avatar">K</div></div>
-    </header>
-    <section class="content" id="content"></section>
-  </main>
-</div>
-<div class="modal hidden" id="searchModal">
-  <div class="modal-card search-card"><button class="close" data-close>×</button><div class="eyebrow">Schnellsuche</div><h2>Was suchst du?</h2><input id="searchInput" class="search-input" placeholder="Marke, Modell, Baureihe, Motor, Getriebe, Bauteil …" autofocus><div id="searchResults" class="search-results"></div></div>
-</div>
-<div class="modal hidden" id="detailModal">
-  <div class="modal-card detail-card"><button class="close" data-close>×</button><div id="detailContent"></div></div>
-</div>
-<script src="app.js"></script>
+<div id="app"></div>
 <script>
 let deferredInstallPrompt=null;
-window.addEventListener("beforeinstallprompt",e=>{e.preventDefault();deferredInstallPrompt=e;let b=document.getElementById("pwaInstall");if(b)b.hidden=false;});
-window.addEventListener("appinstalled",()=>{let b=document.getElementById("pwaInstall");if(b)b.hidden=true;deferredInstallPrompt=null;});
-async function installPWA(){if(!deferredInstallPrompt){alert("Auf iPhone/iPad: im Teilen-Menü Safari → Zum Home-Bildschirm. Auf PC/Android: Browser-Menü → Installieren.");return;}deferredInstallPrompt.prompt();await deferredInstallPrompt.userChoice;deferredInstallPrompt=null;}
-if("serviceWorker" in navigator){window.addEventListener("load",()=>navigator.serviceWorker.register("./sw.js").catch(()=>{}));}
+window.addEventListener('beforeinstallprompt',e=>{e.preventDefault();deferredInstallPrompt=e;});
+window.addEventListener('appinstalled',()=>{deferredInstallPrompt=null;});
+window.installPWA=async function(){
+  if(!deferredInstallPrompt){alert('Android/PC: Browser-Menü → Installieren. iPhone/iPad: Safari → Teilen → Zum Home-Bildschirm.');return;}
+  deferredInstallPrompt.prompt(); await deferredInstallPrompt.userChoice; deferredInstallPrompt=null;
+};
+if('serviceWorker' in navigator) window.addEventListener('load',()=>navigator.serviceWorker.register('./sw.js').catch(console.error));
 </script>
+<script src="app.js"></script>
 </body>
 </html>

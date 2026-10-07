@@ -1,21 +1,15 @@
-# KFZ MEISTER WIKI – PWA
+# KFZ MEISTER Wiki – PWA
 
-Diese Version ist als Progressive Web App vorbereitet.
+Diese Version ist als Progressive Web App für Android, iPhone/iPad und PC vorbereitet.
 
-## Dateien
-- `index.html` – Hauptseite
-- `app.js` – Anwendung
-- `style.css` – Design
-- `database.json` – Fahrzeug-/Wiki-Daten
-- `manifest.webmanifest` – App-Name, Icon und Installation
-- `sw.js` – Offline-Cache
-- `icons/` – App-Symbole
+## GitHub
+1. Dateien in das Repository hochladen.
+2. `index.html`, `app.js` und `style.css` ersetzen.
+3. `database.json`, `manifest.webmanifest`, `sw.js` und `icons/` hinzufügen.
+4. GitHub Pages auf Branch `main` und Ordner `/ (root)` stellen.
 
-## GitHub Pages
-Alle Dateien im Repository-Root hochladen und GitHub Pages auf `main` / `/ (root)` stellen.
-Die PWA muss über HTTPS ausgeliefert werden, damit die Installation und der Service Worker funktionieren.
+## Wichtig zur Datenbank
+Die beiliegende `database.json` ist eine kleine Beispiel-/Strukturdatenbank. Eigene Fahrzeugdaten können später in dieselbe Struktur übernommen werden.
 
-## Installation
-- Android: Chrome → Menü → Installieren / Zum Startbildschirm
-- iPhone/iPad: Safari → Teilen → Zum Home-Bildschirm
-- Windows/macOS/Linux: Chrome/Edge → Installieren bzw. App-Symbol in der Adressleiste
+## Navigation
+Hersteller → Modell → Baureihe → Motor/Getriebe → Fahrzeugprofil.

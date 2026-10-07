@@ -124,7 +124,7 @@ function favoriteButton(id, data = {}) {
   return `
     <button
       class="icon-button favorite-button ${active ? "active" : ""}"
-      onclick='toggleFavorite(${JSON.stringify(id)}, ${JSON.stringify(data)})'
+      onclick='event.stopPropagation();toggleFavorite(${JSON.stringify(id)}, ${JSON.stringify(data)})'
       title="${active ? "Aus Favoriten entfernen" : "Zu Favoriten hinzufügen"}"
       aria-label="${active ? "Aus Favoriten entfernen" : "Zu Favoriten hinzufügen"}"
     >
