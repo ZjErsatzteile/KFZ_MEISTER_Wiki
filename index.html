@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="KFZ MeisterWiki – Reparatur- und Technik-Wiki für Fahrzeuge.">
+  <title>KFZ MeisterWiki | Automotive Repair Hub</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+  <div class="ambient ambient-a"></div><div class="ambient ambient-b"></div>
+  <header class="topbar">
+    <a class="brand" href="#"><span class="brand-mark">K</span><span><b>KFZ</b> MeisterWiki</span></a>
+    <nav><a href="#marken">Marken</a><a href="#reparaturen">Reparaturen</a><a href="#sicherheit">Sicherheit</a></nav>
+    <a class="github-btn" href="https://github.com/" target="_blank" rel="noreferrer">GitHub ↗</a>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="hero-copy">
+        <div class="eyebrow"><span></span> AUTOMOTIVE KNOWLEDGE BASE</div>
+        <h1>Dein Fahrzeug.<br><em>Jedes Teil. Jede Anleitung.</em></h1>
+        <p>Ein modernes Reparatur-Wiki für Marke, Modell, Motor und Bauteil – übersichtlich aufgebaut und für die Praxis gedacht.</p>
+        <div class="search-wrap">
+          <span>⌕</span><input id="search" type="search" placeholder="Teil, Modell oder Reparatur suchen …" autocomplete="off">
+          <kbd>⌘ K</kbd>
+        </div>
+        <div class="quick"><span>Beliebt:</span><button data-search="Bremsbeläge">Bremsbeläge</button><button data-search="Batterie">Batterie</button><button data-search="Ölwechsel">Ölwechsel</button><button data-search="Zündkerzen">Zündkerzen</button></div>
+      </div>
+      <div class="hero-card">
+        <div class="orb">⚙</div>
+        <div class="hero-card-top"><span>WORKSHOP</span><strong>01</strong></div>
+        <h3>Reparaturwissen<br>an einem Ort.</h3>
+        <p>Von der Funktion bis zum letzten Drehmoment.</p>
+        <div class="line"></div>
+        <div class="stats"><div><b>07</b><small>Marken</small></div><div><b>16</b><small>Anleitungen</small></div><div><b>∞</b><small>Erweiterbar</small></div></div>
+      </div>
+    </section>
+
+    <section id="marken" class="section">
+      <div class="section-head"><div><span class="eyebrow">FAHRZEUGDATENBANK</span><h2>Wähle deine Marke</h2></div><span class="count">07 MARKEN</span></div>
+      <div id="brandGrid" class="brand-grid"></div>
+    </section>
+
+    <section id="reparaturen" class="section">
+      <div class="section-head"><div><span class="eyebrow">WERKSTATT-WISSEN</span><h2>Beliebte Reparaturen</h2></div><a class="text-link" href="#alle">Alle anzeigen →</a></div>
+      <div id="repairGrid" class="repair-grid"></div>
+    </section>
+
+    <section class="feature">
+      <div><span class="eyebrow">SO FUNKTIONIERT'S</span><h2>Vom Symptom<br>zur Reparatur.</h2></div>
+      <div class="steps">
+        <div><b>01</b><strong>Fahrzeug wählen</strong><p>Marke, Modell, Motorisierung und Baujahr eingrenzen.</p></div>
+        <div><b>02</b><strong>Bauteil finden</strong><p>Funktion, Einbauort, Symptome und benötigtes Werkzeug ansehen.</p></div>
+        <div><b>03</b><strong>Anleitung durchführen</strong><p>Schritt für Schritt arbeiten und fahrzeugspezifische Werte beachten.</p></div>
+      </div>
+    </section>
+
+    <section id="sicherheit" class="safety">
+      <div class="safety-icon">!</div><div><span class="eyebrow">SICHERHEIT</span><h3>Reparaturen immer fahrzeugspezifisch prüfen</h3><p>Diese Website ist eine Wissensplattform. Drehmomente, Flüssigkeiten, Ersatzteile und Arbeitsschritte können je nach Motor, Baujahr und Ausstattung abweichen. Bei Bremsen, Airbags, Hochvoltsystemen und sicherheitsrelevanten Arbeiten im Zweifel eine Fachwerkstatt hinzuziehen.</p></div>
+    </section>
+  </main>
+
+  <footer><div class="brand"><span class="brand-mark">K</span><span><b>KFZ</b> MeisterWiki</span></div><span>Built for the workshop · GitHub Pages ready</span></footer>
+  <script src="assets/app.js"></script>
+</body>
+</html>
