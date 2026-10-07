@@ -2,31 +2,11 @@
 <html lang="de">
 <head>
 <meta charset="utf-8">
-<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="viewport" content="width=device-width,initial-scale=1">
 <meta name="theme-color" content="#07111f">
-<meta name="description" content="KFZ MEISTER Wiki – Fahrzeugdaten, Baureihen, Motoren, Getriebe, Reparaturen und Diagnose.">
-<meta name="mobile-web-app-capable" content="yes">
-<meta name="apple-mobile-web-app-capable" content="yes">
-<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
-<meta name="apple-mobile-web-app-title" content="KFZ WIKI">
-<link rel="manifest" href="manifest.webmanifest">
-<link rel="apple-touch-icon" href="icons/icon-192.png">
-<link rel="icon" href="icons/icon-192.png" type="image/png">
-<title>KFZ MEISTER Wiki</title>
+<meta name="description" content="KFZ MEISTER Wiki Pro – Diagnose, Reparatur, Fahrzeugsysteme, Komponenten und Werkzeuge.">
+<title>KFZ MEISTER Wiki Pro</title>
 <link rel="stylesheet" href="style.css">
 </head>
-<body>
-<div id="app"></div>
-<script>
-let deferredInstallPrompt=null;
-window.addEventListener('beforeinstallprompt',e=>{e.preventDefault();deferredInstallPrompt=e;});
-window.addEventListener('appinstalled',()=>{deferredInstallPrompt=null;});
-window.installPWA=async function(){
-  if(!deferredInstallPrompt){alert('Android/PC: Browser-Menü → Installieren. iPhone/iPad: Safari → Teilen → Zum Home-Bildschirm.');return;}
-  deferredInstallPrompt.prompt(); await deferredInstallPrompt.userChoice; deferredInstallPrompt=null;
-};
-if('serviceWorker' in navigator) window.addEventListener('load',()=>navigator.serviceWorker.register('./sw.js').catch(console.error));
-</script>
-<script src="app.js"></script>
-</body>
+<body><main class="fatal"><h1>KFZ MEISTER Wiki Pro</h1><p>Datenbank wird geladen …</p></main><script src="app.js"></script></body>
 </html>
