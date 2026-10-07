@@ -1,0 +1,6379 @@
+{
+  "meta": {
+    "name": "KFZ MeisterWiki",
+    "version": "2.0.0",
+    "description": "Große statische KFZ-Wissensdatenbank als GitHub-Pages-Projekt",
+    "warning": "Keine fahrzeugspezifischen Drehmomente, Füllmengen oder sicherheitskritischen Werte aus dieser Demo-Datenbasis übernehmen. Vor jeder Reparatur Hersteller-/Werkstattunterlagen und Fahrzeugidentifikation prüfen."
+  },
+  "brands": [
+    {
+      "id": "VW",
+      "name": "Volkswagen",
+      "flag": "🇩🇪",
+      "models": [
+        "Golf",
+        "Passat",
+        "Polo",
+        "Tiguan",
+        "Touran",
+        "T-Roc",
+        "Caddy",
+        "Transporter"
+      ]
+    },
+    {
+      "id": "AUDI",
+      "name": "Audi",
+      "flag": "🇩🇪",
+      "models": [
+        "A3",
+        "A4",
+        "A5",
+        "A6",
+        "Q3",
+        "Q5",
+        "Q7",
+        "TT"
+      ]
+    },
+    {
+      "id": "BMW",
+      "name": "BMW",
+      "flag": "🇩🇪",
+      "models": [
+        "1er",
+        "2er",
+        "3er",
+        "4er",
+        "5er",
+        "7er",
+        "X1",
+        "X3",
+        "X5"
+      ]
+    },
+    {
+      "id": "MB",
+      "name": "Mercedes-Benz",
+      "flag": "🇩🇪",
+      "models": [
+        "A-Klasse",
+        "B-Klasse",
+        "C-Klasse",
+        "E-Klasse",
+        "S-Klasse",
+        "GLA",
+        "GLC",
+        "GLE"
+      ]
+    },
+    {
+      "id": "SKODA",
+      "name": "Škoda",
+      "flag": "🇨🇿",
+      "models": [
+        "Fabia",
+        "Scala",
+        "Octavia",
+        "Superb",
+        "Karoq",
+        "Kodiaq"
+      ]
+    },
+    {
+      "id": "SEAT",
+      "name": "SEAT",
+      "flag": "🇪🇸",
+      "models": [
+        "Ibiza",
+        "Leon",
+        "Arona",
+        "Ateca",
+        "Tarraco"
+      ]
+    },
+    {
+      "id": "CUPRA",
+      "name": "CUPRA",
+      "flag": "🇪🇸",
+      "models": [
+        "Born",
+        "Formentor",
+        "Leon",
+        "Ateca"
+      ]
+    },
+    {
+      "id": "OPEL",
+      "name": "Opel",
+      "flag": "🇩🇪",
+      "models": [
+        "Corsa",
+        "Astra",
+        "Insignia",
+        "Mokka",
+        "Grandland",
+        "Zafira"
+      ]
+    },
+    {
+      "id": "FORD",
+      "name": "Ford",
+      "flag": "🇺🇸",
+      "models": [
+        "Fiesta",
+        "Focus",
+        "Mondeo",
+        "Kuga",
+        "Puma",
+        "Transit"
+      ]
+    },
+    {
+      "id": "TOYOTA",
+      "name": "Toyota",
+      "flag": "🇯🇵",
+      "models": [
+        "Yaris",
+        "Corolla",
+        "Camry",
+        "C-HR",
+        "RAV4",
+        "Hilux"
+      ]
+    },
+    {
+      "id": "RENAULT",
+      "name": "Renault",
+      "flag": "🇫🇷",
+      "models": [
+        "Clio",
+        "Megane",
+        "Captur",
+        "Kadjar",
+        "Austral",
+        "Trafic"
+      ]
+    },
+    {
+      "id": "PEUGEOT",
+      "name": "Peugeot",
+      "flag": "🇫🇷",
+      "models": [
+        "208",
+        "308",
+        "508",
+        "2008",
+        "3008",
+        "5008"
+      ]
+    },
+    {
+      "id": "CITROEN",
+      "name": "Citroën",
+      "flag": "🇫🇷",
+      "models": [
+        "C3",
+        "C4",
+        "C5 Aircross",
+        "Berlingo"
+      ]
+    },
+    {
+      "id": "VOLVO",
+      "name": "Volvo",
+      "flag": "🇸🇪",
+      "models": [
+        "V40",
+        "V60",
+        "V90",
+        "XC40",
+        "XC60",
+        "XC90"
+      ]
+    },
+    {
+      "id": "HYUNDAI",
+      "name": "Hyundai",
+      "flag": "🇰🇷",
+      "models": [
+        "i10",
+        "i20",
+        "i30",
+        "Tucson",
+        "Kona",
+        "Santa Fe"
+      ]
+    },
+    {
+      "id": "KIA",
+      "name": "Kia",
+      "flag": "🇰🇷",
+      "models": [
+        "Picanto",
+        "Rio",
+        "Ceed",
+        "Sportage",
+        "Sorento",
+        "Niro"
+      ]
+    },
+    {
+      "id": "NISSAN",
+      "name": "Nissan",
+      "flag": "🇯🇵",
+      "models": [
+        "Micra",
+        "Juke",
+        "Qashqai",
+        "X-Trail",
+        "Navara"
+      ]
+    },
+    {
+      "id": "HONDA",
+      "name": "Honda",
+      "flag": "🇯🇵",
+      "models": [
+        "Jazz",
+        "Civic",
+        "Accord",
+        "HR-V",
+        "CR-V"
+      ]
+    },
+    {
+      "id": "MAZDA",
+      "name": "Mazda",
+      "flag": "🇯🇵",
+      "models": [
+        "Mazda2",
+        "Mazda3",
+        "Mazda6",
+        "CX-3",
+        "CX-5"
+      ]
+    }
+  ],
+  "vehicles": [
+    {
+      "id": "vw-1",
+      "brand": "VW",
+      "brandName": "Volkswagen",
+      "model": "Golf",
+      "country": "🇩🇪",
+      "generations": [
+        {
+          "name": "Generation / Baureihe auswählen",
+          "years": "Baujahr abhängig von Modell",
+          "engines": [
+            "Benzin",
+            "Diesel",
+            "Hybrid / Elektro je nach Modell"
+          ],
+          "transmissions": [
+            "Schaltgetriebe",
+            "Automatik / Doppelkupplung je nach Variante"
+          ],
+          "drivetrains": [
+            "Vorderradantrieb",
+            "Allrad je nach Variante"
+          ]
+        }
+      ],
+      "systems": [
+        "engine",
+        "brakes",
+        "electrical",
+        "suspension",
+        "steering",
+        "cooling",
+        "climate",
+        "transmission",
+        "fuel",
+        "exhaust",
+        "body",
+        "diagnostics"
+      ],
+      "note": "Technische Daten wie Motorcode, Drehmomente, Füllmengen und Wartungsintervalle müssen anhand der exakten Fahrgestell-/Motordaten und geeigneter Herstellerunterlagen geprüft werden."
+    },
+    {
+      "id": "vw-2",
+      "brand": "VW",
+      "brandName": "Volkswagen",
+      "model": "Passat",
+      "country": "🇩🇪",
+      "generations": [
+        {
+          "name": "Generation / Baureihe auswählen",
+          "years": "Baujahr abhängig von Modell",
+          "engines": [
+            "Benzin",
+            "Diesel",
+            "Hybrid / Elektro je nach Modell"
+          ],
+          "transmissions": [
+            "Schaltgetriebe",
+            "Automatik / Doppelkupplung je nach Variante"
+          ],
+          "drivetrains": [
+            "Vorderradantrieb",
+            "Allrad je nach Variante"
+          ]
+        }
+      ],
+      "systems": [
+        "engine",
+        "brakes",
+        "electrical",
+        "suspension",
+        "steering",
+        "cooling",
+        "climate",
+        "transmission",
+        "fuel",
+        "exhaust",
+        "body",
+        "diagnostics"
+      ],
+      "note": "Technische Daten wie Motorcode, Drehmomente, Füllmengen und Wartungsintervalle müssen anhand der exakten Fahrgestell-/Motordaten und geeigneter Herstellerunterlagen geprüft werden."
+    },
+    {
+      "id": "vw-3",
+      "brand": "VW",
+      "brandName": "Volkswagen",
+      "model": "Polo",
+      "country": "🇩🇪",
+      "generations": [
+        {
+          "name": "Generation / Baureihe auswählen",
+          "years": "Baujahr abhängig von Modell",
+          "engines": [
+            "Benzin",
+            "Diesel",
+            "Hybrid / Elektro je nach Modell"
+          ],
+          "transmissions": [
+            "Schaltgetriebe",
+            "Automatik / Doppelkupplung je nach Variante"
+          ],
+          "drivetrains": [
+            "Vorderradantrieb",
+            "Allrad je nach Variante"
+          ]
+        }
+      ],
+      "systems": [
+        "engine",
+        "brakes",
+        "electrical",
+        "suspension",
+        "steering",
+        "cooling",
+        "climate",
+        "transmission",
+        "fuel",
+        "exhaust",
+        "body",
+        "diagnostics"
+      ],
+      "note": "Technische Daten wie Motorcode, Drehmomente, Füllmengen und Wartungsintervalle müssen anhand der exakten Fahrgestell-/Motordaten und geeigneter Herstellerunterlagen geprüft werden."
+    },
+    {
+      "id": "vw-4",
+      "brand": "VW",
+      "brandName": "Volkswagen",
+      "model": "Tiguan",
+      "country": "🇩🇪",
+      "generations": [
+        {
+          "name": "Generation / Baureihe auswählen",
+          "years": "Baujahr abhängig von Modell",
+          "engines": [
+            "Benzin",
+            "Diesel",
+            "Hybrid / Elektro je nach Modell"
+          ],
+          "transmissions": [
+            "Schaltgetriebe",
+            "Automatik / Doppelkupplung je nach Variante"
+          ],
+          "drivetrains": [
+            "Vorderradantrieb",
+            "Allrad je nach Variante"
+          ]
+        }
+      ],
+      "systems": [
+        "engine",
+        "brakes",
+        "electrical",
+        "suspension",
+        "steering",
+        "cooling",
+        "climate",
+        "transmission",
+        "fuel",
+        "exhaust",
+        "body",
+        "diagnostics"
+      ],
+      "note": "Technische Daten wie Motorcode, Drehmomente, Füllmengen und Wartungsintervalle müssen anhand der exakten Fahrgestell-/Motordaten und geeigneter Herstellerunterlagen geprüft werden."
+    },
+    {
+      "id": "vw-5",
+      "brand": "VW",
+      "brandName": "Volkswagen",
+      "model": "Touran",
+      "country": "🇩🇪",
+      "generations": [
+        {
+          "name": "Generation / Baureihe auswählen",
+          "years": "Baujahr abhängig von Modell",
+          "engines": [
+            "Benzin",
+            "Diesel",
+            "Hybrid / Elektro je nach Modell"
+          ],
+          "transmissions": [
+            "Schaltgetriebe",
+            "Automatik / Doppelkupplung je nach Variante"
+          ],
+          "drivetrains": [
+            "Vorderradantrieb",
+            "Allrad je nach Variante"
+          ]
+        }
+      ],
+      "systems": [
+        "engine",
+        "brakes",
+        "electrical",
+        "suspension",
+        "steering",
+        "cooling",
+        "climate",
+        "transmission",
+        "fuel",
+        "exhaust",
+        "body",
+        "diagnostics"
+      ],
+      "note": "Technische Daten wie Motorcode, Drehmomente, Füllmengen und Wartungsintervalle müssen anhand der exakten Fahrgestell-/Motordaten und geeigneter Herstellerunterlagen geprüft werden."
+    },
+    {
+      "id": "vw-6",
+      "brand": "VW",
+      "brandName": "Volkswagen",
+      "model": "T-Roc",
+      "country": "🇩🇪",
+      "generations": [
+        {
+          "name": "Generation / Baureihe auswählen",
+          "years": "Baujahr abhängig von Modell",
+          "engines": [
+            "Benzin",
+            "Diesel",
+            "Hybrid / Elektro je nach Modell"
+          ],
+          "transmissions": [
+            "Schaltgetriebe",
+            "Automatik / Doppelkupplung je nach Variante"
+          ],
+          "drivetrains": [
+            "Vorderradantrieb",
+            "Allrad je nach Variante"
+          ]
+        }
+      ],
+      "systems": [
+        "engine",
+        "brakes",
+        "electrical",
+        "suspension",
+        "steering",
+        "cooling",
+        "climate",
+        "transmission",
+        "fuel",
+        "exhaust",
+        "body",
+        "diagnostics"
+      ],
+      "note": "Technische Daten wie Motorcode, Drehmomente, Füllmengen und Wartungsintervalle müssen anhand der exakten Fahrgestell-/Motordaten und geeigneter Herstellerunterlagen geprüft werden."
+    },
+    {
+      "id": "vw-7",
+      "brand": "VW",
+      "brandName": "Volkswagen",
+      "model": "Caddy",
+      "country": "🇩🇪",
+      "generations": [
+        {
+          "name": "Generation / Baureihe auswählen",
+          "years": "Baujahr abhängig von Modell",
+          "engines": [
+            "Benzin",
+            "Diesel",
+            "Hybrid / Elektro je nach Modell"
+          ],
+          "transmissions": [
+            "Schaltgetriebe",
+            "Automatik / Doppelkupplung je nach Variante"
+          ],
+          "drivetrains": [
+            "Vorderradantrieb",
+            "Allrad je nach Variante"
+          ]
+        }
+      ],
+      "systems": [
+        "engine",
+        "brakes",
+        "electrical",
+        "suspension",
+        "steering",
+        "cooling",
+        "climate",
+        "transmission",
+        "fuel",
+        "exhaust",
+        "body",
+        "diagnostics"
+      ],
+      "note": "Technische Daten wie Motorcode, Drehmomente, Füllmengen und Wartungsintervalle müssen anhand der exakten Fahrgestell-/Motordaten und geeigneter Herstellerunterlagen geprüft werden."
+    },
+    {
+      "id": "vw-8",
+      "brand": "VW",
+      "brandName": "Volkswagen",
+      "model": "Transporter",
+      "country": "🇩🇪",
+      "generations": [
+        {
+          "name": "Generation / Baureihe auswählen",
+          "years": "Baujahr abhängig von Modell",
+          "engines": [
+            "Benzin",
+            "Diesel",
+            "Hybrid / Elektro je nach Modell"
+          ],
+          "transmissions": [
+            "Schaltgetriebe",
+            "Automatik / Doppelkupplung je nach Variante"
+          ],
+          "drivetrains": [
+            "Vorderradantrieb",
+            "Allrad je nach Variante"
+          ]
+        }
+      ],
+      "systems": [
+        "engine",
+        "brakes",
+        "electrical",
+        "suspension",
+        "steering",
+        "cooling",
+        "climate",
+        "transmission",
+        "fuel",
+        "exhaust",
+        "body",
+        "diagnostics"
+      ],
+      "note": "Technische Daten wie Motorcode, Drehmomente, Füllmengen und Wartungsintervalle müssen anhand der exakten Fahrgestell-/Motordaten und geeigneter Herstellerunterlagen geprüft werden."
+    },
+    {
+      "id": "audi-1",
+      "brand": "AUDI",
+      "brandName": "Audi",
+      "model": "A3",
+      "country": "🇩🇪",
+      "generations": [
+        {
+          "name": "Generation / Baureihe auswählen",
+          "years": "Baujahr abhängig von Modell",
+          "engines": [
+            "Benzin",
+            "Diesel",
+            "Hybrid / Elektro je nach Modell"
+          ],
+          "transmissions": [
+            "Schaltgetriebe",
+            "Automatik / Doppelkupplung je nach Variante"
+          ],
+          "drivetrains": [
+            "Vorderradantrieb",
+            "Allrad je nach Variante"
+          ]
+        }
+      ],
+      "systems": [
+        "engine",
+        "brakes",
+        "electrical",
+        "suspension",
+        "steering",
+        "cooling",
+        "climate",
+        "transmission",
+        "fuel",
+        "exhaust",
+        "body",
+        "diagnostics"
+      ],
+      "note": "Technische Daten wie Motorcode, Drehmomente, Füllmengen und Wartungsintervalle müssen anhand der exakten Fahrgestell-/Motordaten und geeigneter Herstellerunterlagen geprüft werden."
+    },
+    {
+      "id": "audi-2",
+      "brand": "AUDI",
+      "brandName": "Audi",
+      "model": "A4",
+      "country": "🇩🇪",
+      "generations": [
+        {
+          "name": "Generation / Baureihe auswählen",
+          "years": "Baujahr abhängig von Modell",
+          "engines": [
+            "Benzin",
+            "Diesel",
+            "Hybrid / Elektro je nach Modell"
+          ],
+          "transmissions": [
+            "Schaltgetriebe",
+            "Automatik / Doppelkupplung je nach Variante"
+          ],
+          "drivetrains": [
+            "Vorderradantrieb",
+            "Allrad je nach Variante"
+          ]
+        }
+      ],
+      "systems": [
+        "engine",
+        "brakes",
+        "electrical",
+        "suspension",
+        "steering",
+        "cooling",
+        "climate",
+        "transmission",
+        "fuel",
+        "exhaust",
+        "body",
+        "diagnostics"
+      ],
+      "note": "Technische Daten wie Motorcode, Drehmomente, Füllmengen und Wartungsintervalle müssen anhand der exakten Fahrgestell-/Motordaten und geeigneter Herstellerunterlagen geprüft werden."
+    },
+    {
+      "id": "audi-3",
+      "brand": "AUDI",
+      "brandName": "Audi",
+      "model": "A5",
+      "country": "🇩🇪",
+      "generations": [
+        {
+          "name": "Generation / Baureihe auswählen",
+          "years": "Baujahr abhängig von Modell",
+          "engines": [
+            "Benzin",
+            "Diesel",
+            "Hybrid / Elektro je nach Modell"
+          ],
+          "transmissions": [
+            "Schaltgetriebe",
+            "Automatik / Doppelkupplung je nach Variante"
+          ],
+          "drivetrains": [
+            "Vorderradantrieb",
+            "Allrad je nach Variante"
+          ]
+        }
+      ],
+      "systems": [
+        "engine",
+        "brakes",
+        "electrical",
+        "suspension",
+        "steering",
+        "cooling",
+        "climate",
+        "transmission",
+        "fuel",
+        "exhaust",
+        "body",
+        "diagnostics"
+      ],
+      "note": "Technische Daten wie Motorcode, Drehmomente, Füllmengen und Wartungsintervalle müssen anhand der exakten Fahrgestell-/Motordaten und geeigneter Herstellerunterlagen geprüft werden."
+    },
+    {
+      "id": "audi-4",
+      "brand": "AUDI",
+      "brandName": "Audi",
+      "model": "A6",
+      "country": "🇩🇪",
+      "generations": [
+        {
+          "name": "Generation / Baureihe auswählen",
+          "years": "Baujahr abhängig von Modell",
+          "engines": [
+            "Benzin",
+            "Diesel",
+            "Hybrid / Elektro je nach Modell"
+          ],
+          "transmissions": [
+            "Schaltgetriebe",
+            "Automatik / Doppelkupplung je nach Variante"
+          ],
+          "drivetrains": [
+            "Vorderradantrieb",
+            "Allrad je nach Variante"
+          ]
+        }
+      ],
+      "systems": [
+        "engine",
+        "brakes",
+        "electrical",
+        "suspension",
+        "steering",
+        "cooling",
+        "climate",
+        "transmission",
+        "fuel",
+        "exhaust",
+        "body",
+        "diagnostics"
+      ],
+      "note": "Technische Daten wie Motorcode, Drehmomente, Füllmengen und Wartungsintervalle müssen anhand der exakten Fahrgestell-/Motordaten und geeigneter Herstellerunterlagen geprüft werden."
+    },
+    {
+      "id": "audi-5",
+      "brand": "AUDI",
+      "brandName": "Audi",
+      "model": "Q3",
+      "country": "🇩🇪",
+      "generations": [
+        {
+          "name": "Generation / Baureihe auswählen",
+          "years": "Baujahr abhängig von Modell",
+          "engines": [
+            "Benzin",
+            "Diesel",
+            "Hybrid / Elektro je nach Modell"
+          ],
+          "transmissions": [
+            "Schaltgetriebe",
+            "Automatik / Doppelkupplung je nach Variante"
+          ],
+          "drivetrains": [
+            "Vorderradantrieb",
+            "Allrad je nach Variante"
+          ]
+        }
+      ],
+      "systems": [
+        "engine",
+        "brakes",
+        "electrical",
+        "suspension",
+        "steering",
+        "cooling",
+        "climate",
+        "transmission",
+        "fuel",
+        "exhaust",
+        "body",
+        "diagnostics"
+      ],
+      "note": "Technische Daten wie Motorcode, Drehmomente, Füllmengen und Wartungsintervalle müssen anhand der exakten Fahrgestell-/Motordaten und geeigneter Herstellerunterlagen geprüft werden."
+    },
+    {
+      "id": "audi-6",
+      "brand": "AUDI",
+      "brandName": "Audi",
+      "model": "Q5",
+      "country": "🇩🇪",
+      "generations": [
+        {
+          "name": "Generation / Baureihe auswählen",
+          "years": "Baujahr abhängig von Modell",
+          "engines": [
+            "Benzin",
+            "Diesel",
+            "Hybrid / Elektro je nach Modell"
+          ],
+          "transmissions": [
+            "Schaltgetriebe",
+            "Automatik / Doppelkupplung je nach Variante"
+          ],
+          "drivetrains": [
+            "Vorderradantrieb",
+            "Allrad je nach Variante"
+          ]
+        }
+      ],
+      "systems": [
+        "engine",
+        "brakes",
+        "electrical",
+        "suspension",
+        "steering",
+        "cooling",
+        "climate",
+        "transmission",
+        "fuel",
+        "exhaust",
+        "body",
+        "diagnostics"
+      ],
+      "note": "Technische Daten wie Motorcode, Drehmomente, Füllmengen und Wartungsintervalle müssen anhand der exakten Fahrgestell-/Motordaten und geeigneter Herstellerunterlagen geprüft werden."
+    },
+    {
+      "id": "audi-7",
+      "brand": "AUDI",
+      "brandName": "Audi",
+      "model": "Q7",
+      "country": "🇩🇪",
+      "generations": [
+        {
+          "name": "Generation / Baureihe auswählen",
+          "years": "Baujahr abhängig von Modell",
+          "engines": [
+            "Benzin",
+            "Diesel",
+            "Hybrid / Elektro je nach Modell"
+          ],
+          "transmissions": [
+            "Schaltgetriebe",
+            "Automatik / Doppelkupplung je nach Variante"
+          ],
+          "drivetrains": [
+            "Vorderradantrieb",
+            "Allrad je nach Variante"
+          ]
+        }
+      ],
+      "systems": [
+        "engine",
+        "brakes",
+        "electrical",
+        "suspension",
+        "steering",
+        "cooling",
+        "climate",
+        "transmission",
+        "fuel",
+        "exhaust",
+        "body",
+        "diagnostics"
+      ],
+      "note": "Technische Daten wie Motorcode, Drehmomente, Füllmengen und Wartungsintervalle müssen anhand der exakten Fahrgestell-/Motordaten und geeigneter Herstellerunterlagen geprüft werden."
+    },
+    {
+      "id": "audi-8",
+      "brand": "AUDI",
+      "brandName": "Audi",
+      "model": "TT",
+      "country": "🇩🇪",
+      "generations": [
+        {
+          "name": "Generation / Baureihe auswählen",
+          "years": "Baujahr abhängig von Modell",
+          "engines": [
+            "Benzin",
+            "Diesel",
+            "Hybrid / Elektro je nach Modell"
+          ],
+          "transmissions": [
+            "Schaltgetriebe",
+            "Automatik / Doppelkupplung je nach Variante"
+          ],
+          "drivetrains": [
+            "Vorderradantrieb",
+            "Allrad je nach Variante"
+          ]
+        }
+      ],
+      "systems": [
+        "engine",
+        "brakes",
+        "electrical",
+        "suspension",
+        "steering",
+        "cooling",
+        "climate",
+        "transmission",
+        "fuel",
+        "exhaust",
+        "body",
+        "diagnostics"
+      ],
+      "note": "Technische Daten wie Motorcode, Drehmomente, Füllmengen und Wartungsintervalle müssen anhand der exakten Fahrgestell-/Motordaten und geeigneter Herstellerunterlagen geprüft werden."
+    },
+    {
+      "id": "bmw-1",
+      "brand": "BMW",
+      "brandName": "BMW",
+      "model": "1er",
+      "country": "🇩🇪",
+      "generations": [
+        {
+          "name": "Generation / Baureihe auswählen",
+          "years": "Baujahr abhängig von Modell",
+          "engines": [
+            "Benzin",
+            "Diesel",
+            "Hybrid / Elektro je nach Modell"
+          ],
+          "transmissions": [
+            "Schaltgetriebe",
+            "Automatik / Doppelkupplung je nach Variante"
+          ],
+          "drivetrains": [
+            "Vorderradantrieb",
+            "Allrad je nach Variante"
+          ]
+        }
+      ],
+      "systems": [
+        "engine",
+        "brakes",
+        "electrical",
+        "suspension",
+        "steering",
+        "cooling",
+        "climate",
+        "transmission",
+        "fuel",
+        "exhaust",
+        "body",
+        "diagnostics"
+      ],
+      "note": "Technische Daten wie Motorcode, Drehmomente, Füllmengen und Wartungsintervalle müssen anhand der exakten Fahrgestell-/Motordaten und geeigneter Herstellerunterlagen geprüft werden."
+    },
+    {
+      "id": "bmw-2",
+      "brand": "BMW",
+      "brandName": "BMW",
+      "model": "2er",
+      "country": "🇩🇪",
+      "generations": [
+        {
+          "name": "Generation / Baureihe auswählen",
+          "years": "Baujahr abhängig von Modell",
+          "engines": [
+            "Benzin",
+            "Diesel",
+            "Hybrid / Elektro je nach Modell"
+          ],
+          "transmissions": [
+            "Schaltgetriebe",
+            "Automatik / Doppelkupplung je nach Variante"
+          ],
+          "drivetrains": [
+            "Vorderradantrieb",
+            "Allrad je nach Variante"
+          ]
+        }
+      ],
+      "systems": [
+        "engine",
+        "brakes",
+        "electrical",
+        "suspension",
+        "steering",
+        "cooling",
+        "climate",
+        "transmission",
+        "fuel",
+        "exhaust",
+        "body",
+        "diagnostics"
+      ],
+      "note": "Technische Daten wie Motorcode, Drehmomente, Füllmengen und Wartungsintervalle müssen anhand der exakten Fahrgestell-/Motordaten und geeigneter Herstellerunterlagen geprüft werden."
+    },
+    {
+      "id": "bmw-3",
+      "brand": "BMW",
+      "brandName": "BMW",
+      "model": "3er",
+      "country": "🇩🇪",
+      "generations": [
+        {
+          "name": "Generation / Baureihe auswählen",
+          "years": "Baujahr abhängig von Modell",
+          "engines": [
+            "Benzin",
+            "Diesel",
+            "Hybrid / Elektro je nach Modell"
+          ],
+          "transmissions": [
+            "Schaltgetriebe",
+            "Automatik / Doppelkupplung je nach Variante"
+          ],
+          "drivetrains": [
+            "Vorderradantrieb",
+            "Allrad je nach Variante"
+          ]
+        }
+      ],
+      "systems": [
+        "engine",
+        "brakes",
+        "electrical",
+        "suspension",
+        "steering",
+        "cooling",
+        "climate",
+        "transmission",
+        "fuel",
+        "exhaust",
+        "body",
+        "diagnostics"
+      ],
+      "note": "Technische Daten wie Motorcode, Drehmomente, Füllmengen und Wartungsintervalle müssen anhand der exakten Fahrgestell-/Motordaten und geeigneter Herstellerunterlagen geprüft werden."
+    },
+    {
+      "id": "bmw-4",
+      "brand": "BMW",
+      "brandName": "BMW",
+      "model": "4er",
+      "country": "🇩🇪",
+      "generations": [
+        {
+          "name": "Generation / Baureihe auswählen",
+          "years": "Baujahr abhängig von Modell",
+          "engines": [
+            "Benzin",
+            "Diesel",
+            "Hybrid / Elektro je nach Modell"
+          ],
+          "transmissions": [
+            "Schaltgetriebe",
+            "Automatik / Doppelkupplung je nach Variante"
+          ],
+          "drivetrains": [
+            "Vorderradantrieb",
+            "Allrad je nach Variante"
+          ]
+        }
+      ],
+      "systems": [
+        "engine",
+        "brakes",
+        "electrical",
+        "suspension",
+        "steering",
+        "cooling",
+        "climate",
+        "transmission",
+        "fuel",
+        "exhaust",
+        "body",
+        "diagnostics"
+      ],
+      "note": "Technische Daten wie Motorcode, Drehmomente, Füllmengen und Wartungsintervalle müssen anhand der exakten Fahrgestell-/Motordaten und geeigneter Herstellerunterlagen geprüft werden."
+    },
+    {
+      "id": "bmw-5",
+      "brand": "BMW",
+      "brandName": "BMW",
+      "model": "5er",
+      "country": "🇩🇪",
+      "generations": [
+        {
+          "name": "Generation / Baureihe auswählen",
+          "years": "Baujahr abhängig von Modell",
+          "engines": [
+            "Benzin",
+            "Diesel",
+            "Hybrid / Elektro je nach Modell"
+          ],
+          "transmissions": [
+            "Schaltgetriebe",
+            "Automatik / Doppelkupplung je nach Variante"
+          ],
+          "drivetrains": [
+            "Vorderradantrieb",
+            "Allrad je nach Variante"
+          ]
+        }
+      ],
+      "systems": [
+        "engine",
+        "brakes",
+        "electrical",
+        "suspension",
+        "steering",
+        "cooling",
+        "climate",
+        "transmission",
+        "fuel",
+        "exhaust",
+        "body",
+        "diagnostics"
+      ],
+      "note": "Technische Daten wie Motorcode, Drehmomente, Füllmengen und Wartungsintervalle müssen anhand der exakten Fahrgestell-/Motordaten und geeigneter Herstellerunterlagen geprüft werden."
+    },
+    {
+      "id": "bmw-6",
+      "brand": "BMW",
+      "brandName": "BMW",
+      "model": "7er",
+      "country": "🇩🇪",
+      "generations": [
+        {
+          "name": "Generation / Baureihe auswählen",
+          "years": "Baujahr abhängig von Modell",
+          "engines": [
+            "Benzin",
+            "Diesel",
+            "Hybrid / Elektro je nach Modell"
+          ],
+          "transmissions": [
+            "Schaltgetriebe",
+            "Automatik / Doppelkupplung je nach Variante"
+          ],
+          "drivetrains": [
+            "Vorderradantrieb",
+            "Allrad je nach Variante"
+          ]
+        }
+      ],
+      "systems": [
+        "engine",
+        "brakes",
+        "electrical",
+        "suspension",
+        "steering",
+        "cooling",
+        "climate",
+        "transmission",
+        "fuel",
+        "exhaust",
+        "body",
+        "diagnostics"
+      ],
+      "note": "Technische Daten wie Motorcode, Drehmomente, Füllmengen und Wartungsintervalle müssen anhand der exakten Fahrgestell-/Motordaten und geeigneter Herstellerunterlagen geprüft werden."
+    },
+    {
+      "id": "bmw-7",
+      "brand": "BMW",
+      "brandName": "BMW",
+      "model": "X1",
+      "country": "🇩🇪",
+      "generations": [
+        {
+          "name": "Generation / Baureihe auswählen",
+          "years": "Baujahr abhängig von Modell",
+          "engines": [
+            "Benzin",
+            "Diesel",
+            "Hybrid / Elektro je nach Modell"
+          ],
+          "transmissions": [
+            "Schaltgetriebe",
+            "Automatik / Doppelkupplung je nach Variante"
+          ],
+          "drivetrains": [
+            "Vorderradantrieb",
+            "Allrad je nach Variante"
+          ]
+        }
+      ],
+      "systems": [
+        "engine",
+        "brakes",
+        "electrical",
+        "suspension",
+        "steering",
+        "cooling",
+        "climate",
+        "transmission",
+        "fuel",
+        "exhaust",
+        "body",
+        "diagnostics"
+      ],
+      "note": "Technische Daten wie Motorcode, Drehmomente, Füllmengen und Wartungsintervalle müssen anhand der exakten Fahrgestell-/Motordaten und geeigneter Herstellerunterlagen geprüft werden."
+    },
+    {
+      "id": "bmw-8",
+      "brand": "BMW",
+      "brandName": "BMW",
+      "model": "X3",
+      "country": "🇩🇪",
+      "generations": [
+        {
+          "name": "Generation / Baureihe auswählen",
+          "years": "Baujahr abhängig von Modell",
+          "engines": [
+            "Benzin",
+            "Diesel",
+            "Hybrid / Elektro je nach Modell"
+          ],
+          "transmissions": [
+            "Schaltgetriebe",
+            "Automatik / Doppelkupplung je nach Variante"
+          ],
+          "drivetrains": [
+            "Vorderradantrieb",
+            "Allrad je nach Variante"
+          ]
+        }
+      ],
+      "systems": [
+        "engine",
+        "brakes",
+        "electrical",
+        "suspension",
+        "steering",
+        "cooling",
+        "climate",
+        "transmission",
+        "fuel",
+        "exhaust",
+        "body",
+        "diagnostics"
+      ],
+      "note": "Technische Daten wie Motorcode, Drehmomente, Füllmengen und Wartungsintervalle müssen anhand der exakten Fahrgestell-/Motordaten und geeigneter Herstellerunterlagen geprüft werden."
+    },
+    {
+      "id": "bmw-9",
+      "brand": "BMW",
+      "brandName": "BMW",
+      "model": "X5",
+      "country": "🇩🇪",
+      "generations": [
+        {
+          "name": "Generation / Baureihe auswählen",
+          "years": "Baujahr abhängig von Modell",
+          "engines": [
+            "Benzin",
+            "Diesel",
+            "Hybrid / Elektro je nach Modell"
+          ],
+          "transmissions": [
+            "Schaltgetriebe",
+            "Automatik / Doppelkupplung je nach Variante"
+          ],
+          "drivetrains": [
+            "Vorderradantrieb",
+            "Allrad je nach Variante"
+          ]
+        }
+      ],
+      "systems": [
+        "engine",
+        "brakes",
+        "electrical",
+        "suspension",
+        "steering",
+        "cooling",
+        "climate",
+        "transmission",
+        "fuel",
+        "exhaust",
+        "body",
+        "diagnostics"
+      ],
+      "note": "Technische Daten wie Motorcode, Drehmomente, Füllmengen und Wartungsintervalle müssen anhand der exakten Fahrgestell-/Motordaten und geeigneter Herstellerunterlagen geprüft werden."
+    },
+    {
+      "id": "mb-1",
+      "brand": "MB",
+      "brandName": "Mercedes-Benz",
+      "model": "A-Klasse",
+      "country": "🇩🇪",
+      "generations": [
+        {
+          "name": "Generation / Baureihe auswählen",
+          "years": "Baujahr abhängig von Modell",
+          "engines": [
+            "Benzin",
+            "Diesel",
+            "Hybrid / Elektro je nach Modell"
+          ],
+          "transmissions": [
+            "Schaltgetriebe",
+            "Automatik / Doppelkupplung je nach Variante"
+          ],
+          "drivetrains": [
+            "Vorderradantrieb",
+            "Allrad je nach Variante"
+          ]
+        }
+      ],
+      "systems": [
+        "engine",
+        "brakes",
+        "electrical",
+        "suspension",
+        "steering",
+        "cooling",
+        "climate",
+        "transmission",
+        "fuel",
+        "exhaust",
+        "body",
+        "diagnostics"
+      ],
+      "note": "Technische Daten wie Motorcode, Drehmomente, Füllmengen und Wartungsintervalle müssen anhand der exakten Fahrgestell-/Motordaten und geeigneter Herstellerunterlagen geprüft werden."
+    },
+    {
+      "id": "mb-2",
+      "brand": "MB",
+      "brandName": "Mercedes-Benz",
+      "model": "B-Klasse",
+      "country": "🇩🇪",
+      "generations": [
+        {
+          "name": "Generation / Baureihe auswählen",
+          "years": "Baujahr abhängig von Modell",
+          "engines": [
+            "Benzin",
+            "Diesel",
+            "Hybrid / Elektro je nach Modell"
+          ],
+          "transmissions": [
+            "Schaltgetriebe",
+            "Automatik / Doppelkupplung je nach Variante"
+          ],
+          "drivetrains": [
+            "Vorderradantrieb",
+            "Allrad je nach Variante"
+          ]
+        }
+      ],
+      "systems": [
+        "engine",
+        "brakes",
+        "electrical",
+        "suspension",
+        "steering",
+        "cooling",
+        "climate",
+        "transmission",
+        "fuel",
+        "exhaust",
+        "body",
+        "diagnostics"
+      ],
+      "note": "Technische Daten wie Motorcode, Drehmomente, Füllmengen und Wartungsintervalle müssen anhand der exakten Fahrgestell-/Motordaten und geeigneter Herstellerunterlagen geprüft werden."
+    },
+    {
+      "id": "mb-3",
+      "brand": "MB",
+      "brandName": "Mercedes-Benz",
+      "model": "C-Klasse",
+      "country": "🇩🇪",
+      "generations": [
+        {
+          "name": "Generation / Baureihe auswählen",
+          "years": "Baujahr abhängig von Modell",
+          "engines": [
+            "Benzin",
+            "Diesel",
+            "Hybrid / Elektro je nach Modell"
+          ],
+          "transmissions": [
+            "Schaltgetriebe",
+            "Automatik / Doppelkupplung je nach Variante"
+          ],
+          "drivetrains": [
+            "Vorderradantrieb",
+            "Allrad je nach Variante"
+          ]
+        }
+      ],
+      "systems": [
+        "engine",
+        "brakes",
+        "electrical",
+        "suspension",
+        "steering",
+        "cooling",
+        "climate",
+        "transmission",
+        "fuel",
+        "exhaust",
+        "body",
+        "diagnostics"
+      ],
+      "note": "Technische Daten wie Motorcode, Drehmomente, Füllmengen und Wartungsintervalle müssen anhand der exakten Fahrgestell-/Motordaten und geeigneter Herstellerunterlagen geprüft werden."
+    },
+    {
+      "id": "mb-4",
+      "brand": "MB",
+      "brandName": "Mercedes-Benz",
+      "model": "E-Klasse",
+      "country": "🇩🇪",
+      "generations": [
+        {
+          "name": "Generation / Baureihe auswählen",
+          "years": "Baujahr abhängig von Modell",
+          "engines": [
+            "Benzin",
+            "Diesel",
+            "Hybrid / Elektro je nach Modell"
+          ],
+          "transmissions": [
+            "Schaltgetriebe",
+            "Automatik / Doppelkupplung je nach Variante"
+          ],
+          "drivetrains": [
+            "Vorderradantrieb",
+            "Allrad je nach Variante"
+          ]
+        }
+      ],
+      "systems": [
+        "engine",
+        "brakes",
+        "electrical",
+        "suspension",
+        "steering",
+        "cooling",
+        "climate",
+        "transmission",
+        "fuel",
+        "exhaust",
+        "body",
+        "diagnostics"
+      ],
+      "note": "Technische Daten wie Motorcode, Drehmomente, Füllmengen und Wartungsintervalle müssen anhand der exakten Fahrgestell-/Motordaten und geeigneter Herstellerunterlagen geprüft werden."
+    },
+    {
+      "id": "mb-5",
+      "brand": "MB",
+      "brandName": "Mercedes-Benz",
+      "model": "S-Klasse",
+      "country": "🇩🇪",
+      "generations": [
+        {
+          "name": "Generation / Baureihe auswählen",
+          "years": "Baujahr abhängig von Modell",
+          "engines": [
+            "Benzin",
+            "Diesel",
+            "Hybrid / Elektro je nach Modell"
+          ],
+          "transmissions": [
+            "Schaltgetriebe",
+            "Automatik / Doppelkupplung je nach Variante"
+          ],
+          "drivetrains": [
+            "Vorderradantrieb",
+            "Allrad je nach Variante"
+          ]
+        }
+      ],
+      "systems": [
+        "engine",
+        "brakes",
+        "electrical",
+        "suspension",
+        "steering",
+        "cooling",
+        "climate",
+        "transmission",
+        "fuel",
+        "exhaust",
+        "body",
+        "diagnostics"
+      ],
+      "note": "Technische Daten wie Motorcode, Drehmomente, Füllmengen und Wartungsintervalle müssen anhand der exakten Fahrgestell-/Motordaten und geeigneter Herstellerunterlagen geprüft werden."
+    },
+    {
+      "id": "mb-6",
+      "brand": "MB",
+      "brandName": "Mercedes-Benz",
+      "model": "GLA",
+      "country": "🇩🇪",
+      "generations": [
+        {
+          "name": "Generation / Baureihe auswählen",
+          "years": "Baujahr abhängig von Modell",
+          "engines": [
+            "Benzin",
+            "Diesel",
+            "Hybrid / Elektro je nach Modell"
+          ],
+          "transmissions": [
+            "Schaltgetriebe",
+            "Automatik / Doppelkupplung je nach Variante"
+          ],
+          "drivetrains": [
+            "Vorderradantrieb",
+            "Allrad je nach Variante"
+          ]
+        }
+      ],
+      "systems": [
+        "engine",
+        "brakes",
+        "electrical",
+        "suspension",
+        "steering",
+        "cooling",
+        "climate",
+        "transmission",
+        "fuel",
+        "exhaust",
+        "body",
+        "diagnostics"
+      ],
+      "note": "Technische Daten wie Motorcode, Drehmomente, Füllmengen und Wartungsintervalle müssen anhand der exakten Fahrgestell-/Motordaten und geeigneter Herstellerunterlagen geprüft werden."
+    },
+    {
+      "id": "mb-7",
+      "brand": "MB",
+      "brandName": "Mercedes-Benz",
+      "model": "GLC",
+      "country": "🇩🇪",
+      "generations": [
+        {
+          "name": "Generation / Baureihe auswählen",
+          "years": "Baujahr abhängig von Modell",
+          "engines": [
+            "Benzin",
+            "Diesel",
+            "Hybrid / Elektro je nach Modell"
+          ],
+          "transmissions": [
+            "Schaltgetriebe",
+            "Automatik / Doppelkupplung je nach Variante"
+          ],
+          "drivetrains": [
+            "Vorderradantrieb",
+            "Allrad je nach Variante"
+          ]
+        }
+      ],
+      "systems": [
+        "engine",
+        "brakes",
+        "electrical",
+        "suspension",
+        "steering",
+        "cooling",
+        "climate",
+        "transmission",
+        "fuel",
+        "exhaust",
+        "body",
+        "diagnostics"
+      ],
+      "note": "Technische Daten wie Motorcode, Drehmomente, Füllmengen und Wartungsintervalle müssen anhand der exakten Fahrgestell-/Motordaten und geeigneter Herstellerunterlagen geprüft werden."
+    },
+    {
+      "id": "mb-8",
+      "brand": "MB",
+      "brandName": "Mercedes-Benz",
+      "model": "GLE",
+      "country": "🇩🇪",
+      "generations": [
+        {
+          "name": "Generation / Baureihe auswählen",
+          "years": "Baujahr abhängig von Modell",
+          "engines": [
+            "Benzin",
+            "Diesel",
+            "Hybrid / Elektro je nach Modell"
+          ],
+          "transmissions": [
+            "Schaltgetriebe",
+            "Automatik / Doppelkupplung je nach Variante"
+          ],
+          "drivetrains": [
+            "Vorderradantrieb",
+            "Allrad je nach Variante"
+          ]
+        }
+      ],
+      "systems": [
+        "engine",
+        "brakes",
+        "electrical",
+        "suspension",
+        "steering",
+        "cooling",
+        "climate",
+        "transmission",
+        "fuel",
+        "exhaust",
+        "body",
+        "diagnostics"
+      ],
+      "note": "Technische Daten wie Motorcode, Drehmomente, Füllmengen und Wartungsintervalle müssen anhand der exakten Fahrgestell-/Motordaten und geeigneter Herstellerunterlagen geprüft werden."
+    },
+    {
+      "id": "skoda-1",
+      "brand": "SKODA",
+      "brandName": "Škoda",
+      "model": "Fabia",
+      "country": "🇨🇿",
+      "generations": [
+        {
+          "name": "Generation / Baureihe auswählen",
+          "years": "Baujahr abhängig von Modell",
+          "engines": [
+            "Benzin",
+            "Diesel",
+            "Hybrid / Elektro je nach Modell"
+          ],
+          "transmissions": [
+            "Schaltgetriebe",
+            "Automatik / Doppelkupplung je nach Variante"
+          ],
+          "drivetrains": [
+            "Vorderradantrieb",
+            "Allrad je nach Variante"
+          ]
+        }
+      ],
+      "systems": [
+        "engine",
+        "brakes",
+        "electrical",
+        "suspension",
+        "steering",
+        "cooling",
+        "climate",
+        "transmission",
+        "fuel",
+        "exhaust",
+        "body",
+        "diagnostics"
+      ],
+      "note": "Technische Daten wie Motorcode, Drehmomente, Füllmengen und Wartungsintervalle müssen anhand der exakten Fahrgestell-/Motordaten und geeigneter Herstellerunterlagen geprüft werden."
+    },
+    {
+      "id": "skoda-2",
+      "brand": "SKODA",
+      "brandName": "Škoda",
+      "model": "Scala",
+      "country": "🇨🇿",
+      "generations": [
+        {
+          "name": "Generation / Baureihe auswählen",
+          "years": "Baujahr abhängig von Modell",
+          "engines": [
+            "Benzin",
+            "Diesel",
+            "Hybrid / Elektro je nach Modell"
+          ],
+          "transmissions": [
+            "Schaltgetriebe",
+            "Automatik / Doppelkupplung je nach Variante"
+          ],
+          "drivetrains": [
+            "Vorderradantrieb",
+            "Allrad je nach Variante"
+          ]
+        }
+      ],
+      "systems": [
+        "engine",
+        "brakes",
+        "electrical",
+        "suspension",
+        "steering",
+        "cooling",
+        "climate",
+        "transmission",
+        "fuel",
+        "exhaust",
+        "body",
+        "diagnostics"
+      ],
+      "note": "Technische Daten wie Motorcode, Drehmomente, Füllmengen und Wartungsintervalle müssen anhand der exakten Fahrgestell-/Motordaten und geeigneter Herstellerunterlagen geprüft werden."
+    },
+    {
+      "id": "skoda-3",
+      "brand": "SKODA",
+      "brandName": "Škoda",
+      "model": "Octavia",
+      "country": "🇨🇿",
+      "generations": [
+        {
+          "name": "Generation / Baureihe auswählen",
+          "years": "Baujahr abhängig von Modell",
+          "engines": [
+            "Benzin",
+            "Diesel",
+            "Hybrid / Elektro je nach Modell"
+          ],
+          "transmissions": [
+            "Schaltgetriebe",
+            "Automatik / Doppelkupplung je nach Variante"
+          ],
+          "drivetrains": [
+            "Vorderradantrieb",
+            "Allrad je nach Variante"
+          ]
+        }
+      ],
+      "systems": [
+        "engine",
+        "brakes",
+        "electrical",
+        "suspension",
+        "steering",
+        "cooling",
+        "climate",
+        "transmission",
+        "fuel",
+        "exhaust",
+        "body",
+        "diagnostics"
+      ],
+      "note": "Technische Daten wie Motorcode, Drehmomente, Füllmengen und Wartungsintervalle müssen anhand der exakten Fahrgestell-/Motordaten und geeigneter Herstellerunterlagen geprüft werden."
+    },
+    {
+      "id": "skoda-4",
+      "brand": "SKODA",
+      "brandName": "Škoda",
+      "model": "Superb",
+      "country": "🇨🇿",
+      "generations": [
+        {
+          "name": "Generation / Baureihe auswählen",
+          "years": "Baujahr abhängig von Modell",
+          "engines": [
+            "Benzin",
+            "Diesel",
+            "Hybrid / Elektro je nach Modell"
+          ],
+          "transmissions": [
+            "Schaltgetriebe",
+            "Automatik / Doppelkupplung je nach Variante"
+          ],
+          "drivetrains": [
+            "Vorderradantrieb",
+            "Allrad je nach Variante"
+          ]
+        }
+      ],
+      "systems": [
+        "engine",
+        "brakes",
+        "electrical",
+        "suspension",
+        "steering",
+        "cooling",
+        "climate",
+        "transmission",
+        "fuel",
+        "exhaust",
+        "body",
+        "diagnostics"
+      ],
+      "note": "Technische Daten wie Motorcode, Drehmomente, Füllmengen und Wartungsintervalle müssen anhand der exakten Fahrgestell-/Motordaten und geeigneter Herstellerunterlagen geprüft werden."
+    },
+    {
+      "id": "skoda-5",
+      "brand": "SKODA",
+      "brandName": "Škoda",
+      "model": "Karoq",
+      "country": "🇨🇿",
+      "generations": [
+        {
+          "name": "Generation / Baureihe auswählen",
+          "years": "Baujahr abhängig von Modell",
+          "engines": [
+            "Benzin",
+            "Diesel",
+            "Hybrid / Elektro je nach Modell"
+          ],
+          "transmissions": [
+            "Schaltgetriebe",
+            "Automatik / Doppelkupplung je nach Variante"
+          ],
+          "drivetrains": [
+            "Vorderradantrieb",
+            "Allrad je nach Variante"
+          ]
+        }
+      ],
+      "systems": [
+        "engine",
+        "brakes",
+        "electrical",
+        "suspension",
+        "steering",
+        "cooling",
+        "climate",
+        "transmission",
+        "fuel",
+        "exhaust",
+        "body",
+        "diagnostics"
+      ],
+      "note": "Technische Daten wie Motorcode, Drehmomente, Füllmengen und Wartungsintervalle müssen anhand der exakten Fahrgestell-/Motordaten und geeigneter Herstellerunterlagen geprüft werden."
+    },
+    {
+      "id": "skoda-6",
+      "brand": "SKODA",
+      "brandName": "Škoda",
+      "model": "Kodiaq",
+      "country": "🇨🇿",
+      "generations": [
+        {
+          "name": "Generation / Baureihe auswählen",
+          "years": "Baujahr abhängig von Modell",
+          "engines": [
+            "Benzin",
+            "Diesel",
+            "Hybrid / Elektro je nach Modell"
+          ],
+          "transmissions": [
+            "Schaltgetriebe",
+            "Automatik / Doppelkupplung je nach Variante"
+          ],
+          "drivetrains": [
+            "Vorderradantrieb",
+            "Allrad je nach Variante"
+          ]
+        }
+      ],
+      "systems": [
+        "engine",
+        "brakes",
+        "electrical",
+        "suspension",
+        "steering",
+        "cooling",
+        "climate",
+        "transmission",
+        "fuel",
+        "exhaust",
+        "body",
+        "diagnostics"
+      ],
+      "note": "Technische Daten wie Motorcode, Drehmomente, Füllmengen und Wartungsintervalle müssen anhand der exakten Fahrgestell-/Motordaten und geeigneter Herstellerunterlagen geprüft werden."
+    },
+    {
+      "id": "seat-1",
+      "brand": "SEAT",
+      "brandName": "SEAT",
+      "model": "Ibiza",
+      "country": "🇪🇸",
+      "generations": [
+        {
+          "name": "Generation / Baureihe auswählen",
+          "years": "Baujahr abhängig von Modell",
+          "engines": [
+            "Benzin",
+            "Diesel",
+            "Hybrid / Elektro je nach Modell"
+          ],
+          "transmissions": [
+            "Schaltgetriebe",
+            "Automatik / Doppelkupplung je nach Variante"
+          ],
+          "drivetrains": [
+            "Vorderradantrieb",
+            "Allrad je nach Variante"
+          ]
+        }
+      ],
+      "systems": [
+        "engine",
+        "brakes",
+        "electrical",
+        "suspension",
+        "steering",
+        "cooling",
+        "climate",
+        "transmission",
+        "fuel",
+        "exhaust",
+        "body",
+        "diagnostics"
+      ],
+      "note": "Technische Daten wie Motorcode, Drehmomente, Füllmengen und Wartungsintervalle müssen anhand der exakten Fahrgestell-/Motordaten und geeigneter Herstellerunterlagen geprüft werden."
+    },
+    {
+      "id": "seat-2",
+      "brand": "SEAT",
+      "brandName": "SEAT",
+      "model": "Leon",
+      "country": "🇪🇸",
+      "generations": [
+        {
+          "name": "Generation / Baureihe auswählen",
+          "years": "Baujahr abhängig von Modell",
+          "engines": [
+            "Benzin",
+            "Diesel",
+            "Hybrid / Elektro je nach Modell"
+          ],
+          "transmissions": [
+            "Schaltgetriebe",
+            "Automatik / Doppelkupplung je nach Variante"
+          ],
+          "drivetrains": [
+            "Vorderradantrieb",
+            "Allrad je nach Variante"
+          ]
+        }
+      ],
+      "systems": [
+        "engine",
+        "brakes",
+        "electrical",
+        "suspension",
+        "steering",
+        "cooling",
+        "climate",
+        "transmission",
+        "fuel",
+        "exhaust",
+        "body",
+        "diagnostics"
+      ],
+      "note": "Technische Daten wie Motorcode, Drehmomente, Füllmengen und Wartungsintervalle müssen anhand der exakten Fahrgestell-/Motordaten und geeigneter Herstellerunterlagen geprüft werden."
+    },
+    {
+      "id": "seat-3",
+      "brand": "SEAT",
+      "brandName": "SEAT",
+      "model": "Arona",
+      "country": "🇪🇸",
+      "generations": [
+        {
+          "name": "Generation / Baureihe auswählen",
+          "years": "Baujahr abhängig von Modell",
+          "engines": [
+            "Benzin",
+            "Diesel",
+            "Hybrid / Elektro je nach Modell"
+          ],
+          "transmissions": [
+            "Schaltgetriebe",
+            "Automatik / Doppelkupplung je nach Variante"
+          ],
+          "drivetrains": [
+            "Vorderradantrieb",
+            "Allrad je nach Variante"
+          ]
+        }
+      ],
+      "systems": [
+        "engine",
+        "brakes",
+        "electrical",
+        "suspension",
+        "steering",
+        "cooling",
+        "climate",
+        "transmission",
+        "fuel",
+        "exhaust",
+        "body",
+        "diagnostics"
+      ],
+      "note": "Technische Daten wie Motorcode, Drehmomente, Füllmengen und Wartungsintervalle müssen anhand der exakten Fahrgestell-/Motordaten und geeigneter Herstellerunterlagen geprüft werden."
+    },
+    {
+      "id": "seat-4",
+      "brand": "SEAT",
+      "brandName": "SEAT",
+      "model": "Ateca",
+      "country": "🇪🇸",
+      "generations": [
+        {
+          "name": "Generation / Baureihe auswählen",
+          "years": "Baujahr abhängig von Modell",
+          "engines": [
+            "Benzin",
+            "Diesel",
+            "Hybrid / Elektro je nach Modell"
+          ],
+          "transmissions": [
+            "Schaltgetriebe",
+            "Automatik / Doppelkupplung je nach Variante"
+          ],
+          "drivetrains": [
+            "Vorderradantrieb",
+            "Allrad je nach Variante"
+          ]
+        }
+      ],
+      "systems": [
+        "engine",
+        "brakes",
+        "electrical",
+        "suspension",
+        "steering",
+        "cooling",
+        "climate",
+        "transmission",
+        "fuel",
+        "exhaust",
+        "body",
+        "diagnostics"
+      ],
+      "note": "Technische Daten wie Motorcode, Drehmomente, Füllmengen und Wartungsintervalle müssen anhand der exakten Fahrgestell-/Motordaten und geeigneter Herstellerunterlagen geprüft werden."
+    },
+    {
+      "id": "seat-5",
+      "brand": "SEAT",
+      "brandName": "SEAT",
+      "model": "Tarraco",
+      "country": "🇪🇸",
+      "generations": [
+        {
+          "name": "Generation / Baureihe auswählen",
+          "years": "Baujahr abhängig von Modell",
+          "engines": [
+            "Benzin",
+            "Diesel",
+            "Hybrid / Elektro je nach Modell"
+          ],
+          "transmissions": [
+            "Schaltgetriebe",
+            "Automatik / Doppelkupplung je nach Variante"
+          ],
+          "drivetrains": [
+            "Vorderradantrieb",
+            "Allrad je nach Variante"
+          ]
+        }
+      ],
+      "systems": [
+        "engine",
+        "brakes",
+        "electrical",
+        "suspension",
+        "steering",
+        "cooling",
+        "climate",
+        "transmission",
+        "fuel",
+        "exhaust",
+        "body",
+        "diagnostics"
+      ],
+      "note": "Technische Daten wie Motorcode, Drehmomente, Füllmengen und Wartungsintervalle müssen anhand der exakten Fahrgestell-/Motordaten und geeigneter Herstellerunterlagen geprüft werden."
+    },
+    {
+      "id": "cupra-1",
+      "brand": "CUPRA",
+      "brandName": "CUPRA",
+      "model": "Born",
+      "country": "🇪🇸",
+      "generations": [
+        {
+          "name": "Generation / Baureihe auswählen",
+          "years": "Baujahr abhängig von Modell",
+          "engines": [
+            "Benzin",
+            "Diesel",
+            "Hybrid / Elektro je nach Modell"
+          ],
+          "transmissions": [
+            "Schaltgetriebe",
+            "Automatik / Doppelkupplung je nach Variante"
+          ],
+          "drivetrains": [
+            "Vorderradantrieb",
+            "Allrad je nach Variante"
+          ]
+        }
+      ],
+      "systems": [
+        "engine",
+        "brakes",
+        "electrical",
+        "suspension",
+        "steering",
+        "cooling",
+        "climate",
+        "transmission",
+        "fuel",
+        "exhaust",
+        "body",
+        "diagnostics"
+      ],
+      "note": "Technische Daten wie Motorcode, Drehmomente, Füllmengen und Wartungsintervalle müssen anhand der exakten Fahrgestell-/Motordaten und geeigneter Herstellerunterlagen geprüft werden."
+    },
+    {
+      "id": "cupra-2",
+      "brand": "CUPRA",
+      "brandName": "CUPRA",
+      "model": "Formentor",
+      "country": "🇪🇸",
+      "generations": [
+        {
+          "name": "Generation / Baureihe auswählen",
+          "years": "Baujahr abhängig von Modell",
+          "engines": [
+            "Benzin",
+            "Diesel",
+            "Hybrid / Elektro je nach Modell"
+          ],
+          "transmissions": [
+            "Schaltgetriebe",
+            "Automatik / Doppelkupplung je nach Variante"
+          ],
+          "drivetrains": [
+            "Vorderradantrieb",
+            "Allrad je nach Variante"
+          ]
+        }
+      ],
+      "systems": [
+        "engine",
+        "brakes",
+        "electrical",
+        "suspension",
+        "steering",
+        "cooling",
+        "climate",
+        "transmission",
+        "fuel",
+        "exhaust",
+        "body",
+        "diagnostics"
+      ],
+      "note": "Technische Daten wie Motorcode, Drehmomente, Füllmengen und Wartungsintervalle müssen anhand der exakten Fahrgestell-/Motordaten und geeigneter Herstellerunterlagen geprüft werden."
+    },
+    {
+      "id": "cupra-3",
+      "brand": "CUPRA",
+      "brandName": "CUPRA",
+      "model": "Leon",
+      "country": "🇪🇸",
+      "generations": [
+        {
+          "name": "Generation / Baureihe auswählen",
+          "years": "Baujahr abhängig von Modell",
+          "engines": [
+            "Benzin",
+            "Diesel",
+            "Hybrid / Elektro je nach Modell"
+          ],
+          "transmissions": [
+            "Schaltgetriebe",
+            "Automatik / Doppelkupplung je nach Variante"
+          ],
+          "drivetrains": [
+            "Vorderradantrieb",
+            "Allrad je nach Variante"
+          ]
+        }
+      ],
+      "systems": [
+        "engine",
+        "brakes",
+        "electrical",
+        "suspension",
+        "steering",
+        "cooling",
+        "climate",
+        "transmission",
+        "fuel",
+        "exhaust",
+        "body",
+        "diagnostics"
+      ],
+      "note": "Technische Daten wie Motorcode, Drehmomente, Füllmengen und Wartungsintervalle müssen anhand der exakten Fahrgestell-/Motordaten und geeigneter Herstellerunterlagen geprüft werden."
+    },
+    {
+      "id": "cupra-4",
+      "brand": "CUPRA",
+      "brandName": "CUPRA",
+      "model": "Ateca",
+      "country": "🇪🇸",
+      "generations": [
+        {
+          "name": "Generation / Baureihe auswählen",
+          "years": "Baujahr abhängig von Modell",
+          "engines": [
+            "Benzin",
+            "Diesel",
+            "Hybrid / Elektro je nach Modell"
+          ],
+          "transmissions": [
+            "Schaltgetriebe",
+            "Automatik / Doppelkupplung je nach Variante"
+          ],
+          "drivetrains": [
+            "Vorderradantrieb",
+            "Allrad je nach Variante"
+          ]
+        }
+      ],
+      "systems": [
+        "engine",
+        "brakes",
+        "electrical",
+        "suspension",
+        "steering",
+        "cooling",
+        "climate",
+        "transmission",
+        "fuel",
+        "exhaust",
+        "body",
+        "diagnostics"
+      ],
+      "note": "Technische Daten wie Motorcode, Drehmomente, Füllmengen und Wartungsintervalle müssen anhand der exakten Fahrgestell-/Motordaten und geeigneter Herstellerunterlagen geprüft werden."
+    },
+    {
+      "id": "opel-1",
+      "brand": "OPEL",
+      "brandName": "Opel",
+      "model": "Corsa",
+      "country": "🇩🇪",
+      "generations": [
+        {
+          "name": "Generation / Baureihe auswählen",
+          "years": "Baujahr abhängig von Modell",
+          "engines": [
+            "Benzin",
+            "Diesel",
+            "Hybrid / Elektro je nach Modell"
+          ],
+          "transmissions": [
+            "Schaltgetriebe",
+            "Automatik / Doppelkupplung je nach Variante"
+          ],
+          "drivetrains": [
+            "Vorderradantrieb",
+            "Allrad je nach Variante"
+          ]
+        }
+      ],
+      "systems": [
+        "engine",
+        "brakes",
+        "electrical",
+        "suspension",
+        "steering",
+        "cooling",
+        "climate",
+        "transmission",
+        "fuel",
+        "exhaust",
+        "body",
+        "diagnostics"
+      ],
+      "note": "Technische Daten wie Motorcode, Drehmomente, Füllmengen und Wartungsintervalle müssen anhand der exakten Fahrgestell-/Motordaten und geeigneter Herstellerunterlagen geprüft werden."
+    },
+    {
+      "id": "opel-2",
+      "brand": "OPEL",
+      "brandName": "Opel",
+      "model": "Astra",
+      "country": "🇩🇪",
+      "generations": [
+        {
+          "name": "Generation / Baureihe auswählen",
+          "years": "Baujahr abhängig von Modell",
+          "engines": [
+            "Benzin",
+            "Diesel",
+            "Hybrid / Elektro je nach Modell"
+          ],
+          "transmissions": [
+            "Schaltgetriebe",
+            "Automatik / Doppelkupplung je nach Variante"
+          ],
+          "drivetrains": [
+            "Vorderradantrieb",
+            "Allrad je nach Variante"
+          ]
+        }
+      ],
+      "systems": [
+        "engine",
+        "brakes",
+        "electrical",
+        "suspension",
+        "steering",
+        "cooling",
+        "climate",
+        "transmission",
+        "fuel",
+        "exhaust",
+        "body",
+        "diagnostics"
+      ],
+      "note": "Technische Daten wie Motorcode, Drehmomente, Füllmengen und Wartungsintervalle müssen anhand der exakten Fahrgestell-/Motordaten und geeigneter Herstellerunterlagen geprüft werden."
+    },
+    {
+      "id": "opel-3",
+      "brand": "OPEL",
+      "brandName": "Opel",
+      "model": "Insignia",
+      "country": "🇩🇪",
+      "generations": [
+        {
+          "name": "Generation / Baureihe auswählen",
+          "years": "Baujahr abhängig von Modell",
+          "engines": [
+            "Benzin",
+            "Diesel",
+            "Hybrid / Elektro je nach Modell"
+          ],
+          "transmissions": [
+            "Schaltgetriebe",
+            "Automatik / Doppelkupplung je nach Variante"
+          ],
+          "drivetrains": [
+            "Vorderradantrieb",
+            "Allrad je nach Variante"
+          ]
+        }
+      ],
+      "systems": [
+        "engine",
+        "brakes",
+        "electrical",
+        "suspension",
+        "steering",
+        "cooling",
+        "climate",
+        "transmission",
+        "fuel",
+        "exhaust",
+        "body",
+        "diagnostics"
+      ],
+      "note": "Technische Daten wie Motorcode, Drehmomente, Füllmengen und Wartungsintervalle müssen anhand der exakten Fahrgestell-/Motordaten und geeigneter Herstellerunterlagen geprüft werden."
+    },
+    {
+      "id": "opel-4",
+      "brand": "OPEL",
+      "brandName": "Opel",
+      "model": "Mokka",
+      "country": "🇩🇪",
+      "generations": [
+        {
+          "name": "Generation / Baureihe auswählen",
+          "years": "Baujahr abhängig von Modell",
+          "engines": [
+            "Benzin",
+            "Diesel",
+            "Hybrid / Elektro je nach Modell"
+          ],
+          "transmissions": [
+            "Schaltgetriebe",
+            "Automatik / Doppelkupplung je nach Variante"
+          ],
+          "drivetrains": [
+            "Vorderradantrieb",
+            "Allrad je nach Variante"
+          ]
+        }
+      ],
+      "systems": [
+        "engine",
+        "brakes",
+        "electrical",
+        "suspension",
+        "steering",
+        "cooling",
+        "climate",
+        "transmission",
+        "fuel",
+        "exhaust",
+        "body",
+        "diagnostics"
+      ],
+      "note": "Technische Daten wie Motorcode, Drehmomente, Füllmengen und Wartungsintervalle müssen anhand der exakten Fahrgestell-/Motordaten und geeigneter Herstellerunterlagen geprüft werden."
+    },
+    {
+      "id": "opel-5",
+      "brand": "OPEL",
+      "brandName": "Opel",
+      "model": "Grandland",
+      "country": "🇩🇪",
+      "generations": [
+        {
+          "name": "Generation / Baureihe auswählen",
+          "years": "Baujahr abhängig von Modell",
+          "engines": [
+            "Benzin",
+            "Diesel",
+            "Hybrid / Elektro je nach Modell"
+          ],
+          "transmissions": [
+            "Schaltgetriebe",
+            "Automatik / Doppelkupplung je nach Variante"
+          ],
+          "drivetrains": [
+            "Vorderradantrieb",
+            "Allrad je nach Variante"
+          ]
+        }
+      ],
+      "systems": [
+        "engine",
+        "brakes",
+        "electrical",
+        "suspension",
+        "steering",
+        "cooling",
+        "climate",
+        "transmission",
+        "fuel",
+        "exhaust",
+        "body",
+        "diagnostics"
+      ],
+      "note": "Technische Daten wie Motorcode, Drehmomente, Füllmengen und Wartungsintervalle müssen anhand der exakten Fahrgestell-/Motordaten und geeigneter Herstellerunterlagen geprüft werden."
+    },
+    {
+      "id": "opel-6",
+      "brand": "OPEL",
+      "brandName": "Opel",
+      "model": "Zafira",
+      "country": "🇩🇪",
+      "generations": [
+        {
+          "name": "Generation / Baureihe auswählen",
+          "years": "Baujahr abhängig von Modell",
+          "engines": [
+            "Benzin",
+            "Diesel",
+            "Hybrid / Elektro je nach Modell"
+          ],
+          "transmissions": [
+            "Schaltgetriebe",
+            "Automatik / Doppelkupplung je nach Variante"
+          ],
+          "drivetrains": [
+            "Vorderradantrieb",
+            "Allrad je nach Variante"
+          ]
+        }
+      ],
+      "systems": [
+        "engine",
+        "brakes",
+        "electrical",
+        "suspension",
+        "steering",
+        "cooling",
+        "climate",
+        "transmission",
+        "fuel",
+        "exhaust",
+        "body",
+        "diagnostics"
+      ],
+      "note": "Technische Daten wie Motorcode, Drehmomente, Füllmengen und Wartungsintervalle müssen anhand der exakten Fahrgestell-/Motordaten und geeigneter Herstellerunterlagen geprüft werden."
+    },
+    {
+      "id": "ford-1",
+      "brand": "FORD",
+      "brandName": "Ford",
+      "model": "Fiesta",
+      "country": "🇺🇸",
+      "generations": [
+        {
+          "name": "Generation / Baureihe auswählen",
+          "years": "Baujahr abhängig von Modell",
+          "engines": [
+            "Benzin",
+            "Diesel",
+            "Hybrid / Elektro je nach Modell"
+          ],
+          "transmissions": [
+            "Schaltgetriebe",
+            "Automatik / Doppelkupplung je nach Variante"
+          ],
+          "drivetrains": [
+            "Vorderradantrieb",
+            "Allrad je nach Variante"
+          ]
+        }
+      ],
+      "systems": [
+        "engine",
+        "brakes",
+        "electrical",
+        "suspension",
+        "steering",
+        "cooling",
+        "climate",
+        "transmission",
+        "fuel",
+        "exhaust",
+        "body",
+        "diagnostics"
+      ],
+      "note": "Technische Daten wie Motorcode, Drehmomente, Füllmengen und Wartungsintervalle müssen anhand der exakten Fahrgestell-/Motordaten und geeigneter Herstellerunterlagen geprüft werden."
+    },
+    {
+      "id": "ford-2",
+      "brand": "FORD",
+      "brandName": "Ford",
+      "model": "Focus",
+      "country": "🇺🇸",
+      "generations": [
+        {
+          "name": "Generation / Baureihe auswählen",
+          "years": "Baujahr abhängig von Modell",
+          "engines": [
+            "Benzin",
+            "Diesel",
+            "Hybrid / Elektro je nach Modell"
+          ],
+          "transmissions": [
+            "Schaltgetriebe",
+            "Automatik / Doppelkupplung je nach Variante"
+          ],
+          "drivetrains": [
+            "Vorderradantrieb",
+            "Allrad je nach Variante"
+          ]
+        }
+      ],
+      "systems": [
+        "engine",
+        "brakes",
+        "electrical",
+        "suspension",
+        "steering",
+        "cooling",
+        "climate",
+        "transmission",
+        "fuel",
+        "exhaust",
+        "body",
+        "diagnostics"
+      ],
+      "note": "Technische Daten wie Motorcode, Drehmomente, Füllmengen und Wartungsintervalle müssen anhand der exakten Fahrgestell-/Motordaten und geeigneter Herstellerunterlagen geprüft werden."
+    },
+    {
+      "id": "ford-3",
+      "brand": "FORD",
+      "brandName": "Ford",
+      "model": "Mondeo",
+      "country": "🇺🇸",
+      "generations": [
+        {
+          "name": "Generation / Baureihe auswählen",
+          "years": "Baujahr abhängig von Modell",
+          "engines": [
+            "Benzin",
+            "Diesel",
+            "Hybrid / Elektro je nach Modell"
+          ],
+          "transmissions": [
+            "Schaltgetriebe",
+            "Automatik / Doppelkupplung je nach Variante"
+          ],
+          "drivetrains": [
+            "Vorderradantrieb",
+            "Allrad je nach Variante"
+          ]
+        }
+      ],
+      "systems": [
+        "engine",
+        "brakes",
+        "electrical",
+        "suspension",
+        "steering",
+        "cooling",
+        "climate",
+        "transmission",
+        "fuel",
+        "exhaust",
+        "body",
+        "diagnostics"
+      ],
+      "note": "Technische Daten wie Motorcode, Drehmomente, Füllmengen und Wartungsintervalle müssen anhand der exakten Fahrgestell-/Motordaten und geeigneter Herstellerunterlagen geprüft werden."
+    },
+    {
+      "id": "ford-4",
+      "brand": "FORD",
+      "brandName": "Ford",
+      "model": "Kuga",
+      "country": "🇺🇸",
+      "generations": [
+        {
+          "name": "Generation / Baureihe auswählen",
+          "years": "Baujahr abhängig von Modell",
+          "engines": [
+            "Benzin",
+            "Diesel",
+            "Hybrid / Elektro je nach Modell"
+          ],
+          "transmissions": [
+            "Schaltgetriebe",
+            "Automatik / Doppelkupplung je nach Variante"
+          ],
+          "drivetrains": [
+            "Vorderradantrieb",
+            "Allrad je nach Variante"
+          ]
+        }
+      ],
+      "systems": [
+        "engine",
+        "brakes",
+        "electrical",
+        "suspension",
+        "steering",
+        "cooling",
+        "climate",
+        "transmission",
+        "fuel",
+        "exhaust",
+        "body",
+        "diagnostics"
+      ],
+      "note": "Technische Daten wie Motorcode, Drehmomente, Füllmengen und Wartungsintervalle müssen anhand der exakten Fahrgestell-/Motordaten und geeigneter Herstellerunterlagen geprüft werden."
+    },
+    {
+      "id": "ford-5",
+      "brand": "FORD",
+      "brandName": "Ford",
+      "model": "Puma",
+      "country": "🇺🇸",
+      "generations": [
+        {
+          "name": "Generation / Baureihe auswählen",
+          "years": "Baujahr abhängig von Modell",
+          "engines": [
+            "Benzin",
+            "Diesel",
+            "Hybrid / Elektro je nach Modell"
+          ],
+          "transmissions": [
+            "Schaltgetriebe",
+            "Automatik / Doppelkupplung je nach Variante"
+          ],
+          "drivetrains": [
+            "Vorderradantrieb",
+            "Allrad je nach Variante"
+          ]
+        }
+      ],
+      "systems": [
+        "engine",
+        "brakes",
+        "electrical",
+        "suspension",
+        "steering",
+        "cooling",
+        "climate",
+        "transmission",
+        "fuel",
+        "exhaust",
+        "body",
+        "diagnostics"
+      ],
+      "note": "Technische Daten wie Motorcode, Drehmomente, Füllmengen und Wartungsintervalle müssen anhand der exakten Fahrgestell-/Motordaten und geeigneter Herstellerunterlagen geprüft werden."
+    },
+    {
+      "id": "ford-6",
+      "brand": "FORD",
+      "brandName": "Ford",
+      "model": "Transit",
+      "country": "🇺🇸",
+      "generations": [
+        {
+          "name": "Generation / Baureihe auswählen",
+          "years": "Baujahr abhängig von Modell",
+          "engines": [
+            "Benzin",
+            "Diesel",
+            "Hybrid / Elektro je nach Modell"
+          ],
+          "transmissions": [
+            "Schaltgetriebe",
+            "Automatik / Doppelkupplung je nach Variante"
+          ],
+          "drivetrains": [
+            "Vorderradantrieb",
+            "Allrad je nach Variante"
+          ]
+        }
+      ],
+      "systems": [
+        "engine",
+        "brakes",
+        "electrical",
+        "suspension",
+        "steering",
+        "cooling",
+        "climate",
+        "transmission",
+        "fuel",
+        "exhaust",
+        "body",
+        "diagnostics"
+      ],
+      "note": "Technische Daten wie Motorcode, Drehmomente, Füllmengen und Wartungsintervalle müssen anhand der exakten Fahrgestell-/Motordaten und geeigneter Herstellerunterlagen geprüft werden."
+    },
+    {
+      "id": "toyota-1",
+      "brand": "TOYOTA",
+      "brandName": "Toyota",
+      "model": "Yaris",
+      "country": "🇯🇵",
+      "generations": [
+        {
+          "name": "Generation / Baureihe auswählen",
+          "years": "Baujahr abhängig von Modell",
+          "engines": [
+            "Benzin",
+            "Diesel",
+            "Hybrid / Elektro je nach Modell"
+          ],
+          "transmissions": [
+            "Schaltgetriebe",
+            "Automatik / Doppelkupplung je nach Variante"
+          ],
+          "drivetrains": [
+            "Vorderradantrieb",
+            "Allrad je nach Variante"
+          ]
+        }
+      ],
+      "systems": [
+        "engine",
+        "brakes",
+        "electrical",
+        "suspension",
+        "steering",
+        "cooling",
+        "climate",
+        "transmission",
+        "fuel",
+        "exhaust",
+        "body",
+        "diagnostics"
+      ],
+      "note": "Technische Daten wie Motorcode, Drehmomente, Füllmengen und Wartungsintervalle müssen anhand der exakten Fahrgestell-/Motordaten und geeigneter Herstellerunterlagen geprüft werden."
+    },
+    {
+      "id": "toyota-2",
+      "brand": "TOYOTA",
+      "brandName": "Toyota",
+      "model": "Corolla",
+      "country": "🇯🇵",
+      "generations": [
+        {
+          "name": "Generation / Baureihe auswählen",
+          "years": "Baujahr abhängig von Modell",
+          "engines": [
+            "Benzin",
+            "Diesel",
+            "Hybrid / Elektro je nach Modell"
+          ],
+          "transmissions": [
+            "Schaltgetriebe",
+            "Automatik / Doppelkupplung je nach Variante"
+          ],
+          "drivetrains": [
+            "Vorderradantrieb",
+            "Allrad je nach Variante"
+          ]
+        }
+      ],
+      "systems": [
+        "engine",
+        "brakes",
+        "electrical",
+        "suspension",
+        "steering",
+        "cooling",
+        "climate",
+        "transmission",
+        "fuel",
+        "exhaust",
+        "body",
+        "diagnostics"
+      ],
+      "note": "Technische Daten wie Motorcode, Drehmomente, Füllmengen und Wartungsintervalle müssen anhand der exakten Fahrgestell-/Motordaten und geeigneter Herstellerunterlagen geprüft werden."
+    },
+    {
+      "id": "toyota-3",
+      "brand": "TOYOTA",
+      "brandName": "Toyota",
+      "model": "Camry",
+      "country": "🇯🇵",
+      "generations": [
+        {
+          "name": "Generation / Baureihe auswählen",
+          "years": "Baujahr abhängig von Modell",
+          "engines": [
+            "Benzin",
+            "Diesel",
+            "Hybrid / Elektro je nach Modell"
+          ],
+          "transmissions": [
+            "Schaltgetriebe",
+            "Automatik / Doppelkupplung je nach Variante"
+          ],
+          "drivetrains": [
+            "Vorderradantrieb",
+            "Allrad je nach Variante"
+          ]
+        }
+      ],
+      "systems": [
+        "engine",
+        "brakes",
+        "electrical",
+        "suspension",
+        "steering",
+        "cooling",
+        "climate",
+        "transmission",
+        "fuel",
+        "exhaust",
+        "body",
+        "diagnostics"
+      ],
+      "note": "Technische Daten wie Motorcode, Drehmomente, Füllmengen und Wartungsintervalle müssen anhand der exakten Fahrgestell-/Motordaten und geeigneter Herstellerunterlagen geprüft werden."
+    },
+    {
+      "id": "toyota-4",
+      "brand": "TOYOTA",
+      "brandName": "Toyota",
+      "model": "C-HR",
+      "country": "🇯🇵",
+      "generations": [
+        {
+          "name": "Generation / Baureihe auswählen",
+          "years": "Baujahr abhängig von Modell",
+          "engines": [
+            "Benzin",
+            "Diesel",
+            "Hybrid / Elektro je nach Modell"
+          ],
+          "transmissions": [
+            "Schaltgetriebe",
+            "Automatik / Doppelkupplung je nach Variante"
+          ],
+          "drivetrains": [
+            "Vorderradantrieb",
+            "Allrad je nach Variante"
+          ]
+        }
+      ],
+      "systems": [
+        "engine",
+        "brakes",
+        "electrical",
+        "suspension",
+        "steering",
+        "cooling",
+        "climate",
+        "transmission",
+        "fuel",
+        "exhaust",
+        "body",
+        "diagnostics"
+      ],
+      "note": "Technische Daten wie Motorcode, Drehmomente, Füllmengen und Wartungsintervalle müssen anhand der exakten Fahrgestell-/Motordaten und geeigneter Herstellerunterlagen geprüft werden."
+    },
+    {
+      "id": "toyota-5",
+      "brand": "TOYOTA",
+      "brandName": "Toyota",
+      "model": "RAV4",
+      "country": "🇯🇵",
+      "generations": [
+        {
+          "name": "Generation / Baureihe auswählen",
+          "years": "Baujahr abhängig von Modell",
+          "engines": [
+            "Benzin",
+            "Diesel",
+            "Hybrid / Elektro je nach Modell"
+          ],
+          "transmissions": [
+            "Schaltgetriebe",
+            "Automatik / Doppelkupplung je nach Variante"
+          ],
+          "drivetrains": [
+            "Vorderradantrieb",
+            "Allrad je nach Variante"
+          ]
+        }
+      ],
+      "systems": [
+        "engine",
+        "brakes",
+        "electrical",
+        "suspension",
+        "steering",
+        "cooling",
+        "climate",
+        "transmission",
+        "fuel",
+        "exhaust",
+        "body",
+        "diagnostics"
+      ],
+      "note": "Technische Daten wie Motorcode, Drehmomente, Füllmengen und Wartungsintervalle müssen anhand der exakten Fahrgestell-/Motordaten und geeigneter Herstellerunterlagen geprüft werden."
+    },
+    {
+      "id": "toyota-6",
+      "brand": "TOYOTA",
+      "brandName": "Toyota",
+      "model": "Hilux",
+      "country": "🇯🇵",
+      "generations": [
+        {
+          "name": "Generation / Baureihe auswählen",
+          "years": "Baujahr abhängig von Modell",
+          "engines": [
+            "Benzin",
+            "Diesel",
+            "Hybrid / Elektro je nach Modell"
+          ],
+          "transmissions": [
+            "Schaltgetriebe",
+            "Automatik / Doppelkupplung je nach Variante"
+          ],
+          "drivetrains": [
+            "Vorderradantrieb",
+            "Allrad je nach Variante"
+          ]
+        }
+      ],
+      "systems": [
+        "engine",
+        "brakes",
+        "electrical",
+        "suspension",
+        "steering",
+        "cooling",
+        "climate",
+        "transmission",
+        "fuel",
+        "exhaust",
+        "body",
+        "diagnostics"
+      ],
+      "note": "Technische Daten wie Motorcode, Drehmomente, Füllmengen und Wartungsintervalle müssen anhand der exakten Fahrgestell-/Motordaten und geeigneter Herstellerunterlagen geprüft werden."
+    },
+    {
+      "id": "renault-1",
+      "brand": "RENAULT",
+      "brandName": "Renault",
+      "model": "Clio",
+      "country": "🇫🇷",
+      "generations": [
+        {
+          "name": "Generation / Baureihe auswählen",
+          "years": "Baujahr abhängig von Modell",
+          "engines": [
+            "Benzin",
+            "Diesel",
+            "Hybrid / Elektro je nach Modell"
+          ],
+          "transmissions": [
+            "Schaltgetriebe",
+            "Automatik / Doppelkupplung je nach Variante"
+          ],
+          "drivetrains": [
+            "Vorderradantrieb",
+            "Allrad je nach Variante"
+          ]
+        }
+      ],
+      "systems": [
+        "engine",
+        "brakes",
+        "electrical",
+        "suspension",
+        "steering",
+        "cooling",
+        "climate",
+        "transmission",
+        "fuel",
+        "exhaust",
+        "body",
+        "diagnostics"
+      ],
+      "note": "Technische Daten wie Motorcode, Drehmomente, Füllmengen und Wartungsintervalle müssen anhand der exakten Fahrgestell-/Motordaten und geeigneter Herstellerunterlagen geprüft werden."
+    },
+    {
+      "id": "renault-2",
+      "brand": "RENAULT",
+      "brandName": "Renault",
+      "model": "Megane",
+      "country": "🇫🇷",
+      "generations": [
+        {
+          "name": "Generation / Baureihe auswählen",
+          "years": "Baujahr abhängig von Modell",
+          "engines": [
+            "Benzin",
+            "Diesel",
+            "Hybrid / Elektro je nach Modell"
+          ],
+          "transmissions": [
+            "Schaltgetriebe",
+            "Automatik / Doppelkupplung je nach Variante"
+          ],
+          "drivetrains": [
+            "Vorderradantrieb",
+            "Allrad je nach Variante"
+          ]
+        }
+      ],
+      "systems": [
+        "engine",
+        "brakes",
+        "electrical",
+        "suspension",
+        "steering",
+        "cooling",
+        "climate",
+        "transmission",
+        "fuel",
+        "exhaust",
+        "body",
+        "diagnostics"
+      ],
+      "note": "Technische Daten wie Motorcode, Drehmomente, Füllmengen und Wartungsintervalle müssen anhand der exakten Fahrgestell-/Motordaten und geeigneter Herstellerunterlagen geprüft werden."
+    },
+    {
+      "id": "renault-3",
+      "brand": "RENAULT",
+      "brandName": "Renault",
+      "model": "Captur",
+      "country": "🇫🇷",
+      "generations": [
+        {
+          "name": "Generation / Baureihe auswählen",
+          "years": "Baujahr abhängig von Modell",
+          "engines": [
+            "Benzin",
+            "Diesel",
+            "Hybrid / Elektro je nach Modell"
+          ],
+          "transmissions": [
+            "Schaltgetriebe",
+            "Automatik / Doppelkupplung je nach Variante"
+          ],
+          "drivetrains": [
+            "Vorderradantrieb",
+            "Allrad je nach Variante"
+          ]
+        }
+      ],
+      "systems": [
+        "engine",
+        "brakes",
+        "electrical",
+        "suspension",
+        "steering",
+        "cooling",
+        "climate",
+        "transmission",
+        "fuel",
+        "exhaust",
+        "body",
+        "diagnostics"
+      ],
+      "note": "Technische Daten wie Motorcode, Drehmomente, Füllmengen und Wartungsintervalle müssen anhand der exakten Fahrgestell-/Motordaten und geeigneter Herstellerunterlagen geprüft werden."
+    },
+    {
+      "id": "renault-4",
+      "brand": "RENAULT",
+      "brandName": "Renault",
+      "model": "Kadjar",
+      "country": "🇫🇷",
+      "generations": [
+        {
+          "name": "Generation / Baureihe auswählen",
+          "years": "Baujahr abhängig von Modell",
+          "engines": [
+            "Benzin",
+            "Diesel",
+            "Hybrid / Elektro je nach Modell"
+          ],
+          "transmissions": [
+            "Schaltgetriebe",
+            "Automatik / Doppelkupplung je nach Variante"
+          ],
+          "drivetrains": [
+            "Vorderradantrieb",
+            "Allrad je nach Variante"
+          ]
+        }
+      ],
+      "systems": [
+        "engine",
+        "brakes",
+        "electrical",
+        "suspension",
+        "steering",
+        "cooling",
+        "climate",
+        "transmission",
+        "fuel",
+        "exhaust",
+        "body",
+        "diagnostics"
+      ],
+      "note": "Technische Daten wie Motorcode, Drehmomente, Füllmengen und Wartungsintervalle müssen anhand der exakten Fahrgestell-/Motordaten und geeigneter Herstellerunterlagen geprüft werden."
+    },
+    {
+      "id": "renault-5",
+      "brand": "RENAULT",
+      "brandName": "Renault",
+      "model": "Austral",
+      "country": "🇫🇷",
+      "generations": [
+        {
+          "name": "Generation / Baureihe auswählen",
+          "years": "Baujahr abhängig von Modell",
+          "engines": [
+            "Benzin",
+            "Diesel",
+            "Hybrid / Elektro je nach Modell"
+          ],
+          "transmissions": [
+            "Schaltgetriebe",
+            "Automatik / Doppelkupplung je nach Variante"
+          ],
+          "drivetrains": [
+            "Vorderradantrieb",
+            "Allrad je nach Variante"
+          ]
+        }
+      ],
+      "systems": [
+        "engine",
+        "brakes",
+        "electrical",
+        "suspension",
+        "steering",
+        "cooling",
+        "climate",
+        "transmission",
+        "fuel",
+        "exhaust",
+        "body",
+        "diagnostics"
+      ],
+      "note": "Technische Daten wie Motorcode, Drehmomente, Füllmengen und Wartungsintervalle müssen anhand der exakten Fahrgestell-/Motordaten und geeigneter Herstellerunterlagen geprüft werden."
+    },
+    {
+      "id": "renault-6",
+      "brand": "RENAULT",
+      "brandName": "Renault",
+      "model": "Trafic",
+      "country": "🇫🇷",
+      "generations": [
+        {
+          "name": "Generation / Baureihe auswählen",
+          "years": "Baujahr abhängig von Modell",
+          "engines": [
+            "Benzin",
+            "Diesel",
+            "Hybrid / Elektro je nach Modell"
+          ],
+          "transmissions": [
+            "Schaltgetriebe",
+            "Automatik / Doppelkupplung je nach Variante"
+          ],
+          "drivetrains": [
+            "Vorderradantrieb",
+            "Allrad je nach Variante"
+          ]
+        }
+      ],
+      "systems": [
+        "engine",
+        "brakes",
+        "electrical",
+        "suspension",
+        "steering",
+        "cooling",
+        "climate",
+        "transmission",
+        "fuel",
+        "exhaust",
+        "body",
+        "diagnostics"
+      ],
+      "note": "Technische Daten wie Motorcode, Drehmomente, Füllmengen und Wartungsintervalle müssen anhand der exakten Fahrgestell-/Motordaten und geeigneter Herstellerunterlagen geprüft werden."
+    },
+    {
+      "id": "peugeot-1",
+      "brand": "PEUGEOT",
+      "brandName": "Peugeot",
+      "model": "208",
+      "country": "🇫🇷",
+      "generations": [
+        {
+          "name": "Generation / Baureihe auswählen",
+          "years": "Baujahr abhängig von Modell",
+          "engines": [
+            "Benzin",
+            "Diesel",
+            "Hybrid / Elektro je nach Modell"
+          ],
+          "transmissions": [
+            "Schaltgetriebe",
+            "Automatik / Doppelkupplung je nach Variante"
+          ],
+          "drivetrains": [
+            "Vorderradantrieb",
+            "Allrad je nach Variante"
+          ]
+        }
+      ],
+      "systems": [
+        "engine",
+        "brakes",
+        "electrical",
+        "suspension",
+        "steering",
+        "cooling",
+        "climate",
+        "transmission",
+        "fuel",
+        "exhaust",
+        "body",
+        "diagnostics"
+      ],
+      "note": "Technische Daten wie Motorcode, Drehmomente, Füllmengen und Wartungsintervalle müssen anhand der exakten Fahrgestell-/Motordaten und geeigneter Herstellerunterlagen geprüft werden."
+    },
+    {
+      "id": "peugeot-2",
+      "brand": "PEUGEOT",
+      "brandName": "Peugeot",
+      "model": "308",
+      "country": "🇫🇷",
+      "generations": [
+        {
+          "name": "Generation / Baureihe auswählen",
+          "years": "Baujahr abhängig von Modell",
+          "engines": [
+            "Benzin",
+            "Diesel",
+            "Hybrid / Elektro je nach Modell"
+          ],
+          "transmissions": [
+            "Schaltgetriebe",
+            "Automatik / Doppelkupplung je nach Variante"
+          ],
+          "drivetrains": [
+            "Vorderradantrieb",
+            "Allrad je nach Variante"
+          ]
+        }
+      ],
+      "systems": [
+        "engine",
+        "brakes",
+        "electrical",
+        "suspension",
+        "steering",
+        "cooling",
+        "climate",
+        "transmission",
+        "fuel",
+        "exhaust",
+        "body",
+        "diagnostics"
+      ],
+      "note": "Technische Daten wie Motorcode, Drehmomente, Füllmengen und Wartungsintervalle müssen anhand der exakten Fahrgestell-/Motordaten und geeigneter Herstellerunterlagen geprüft werden."
+    },
+    {
+      "id": "peugeot-3",
+      "brand": "PEUGEOT",
+      "brandName": "Peugeot",
+      "model": "508",
+      "country": "🇫🇷",
+      "generations": [
+        {
+          "name": "Generation / Baureihe auswählen",
+          "years": "Baujahr abhängig von Modell",
+          "engines": [
+            "Benzin",
+            "Diesel",
+            "Hybrid / Elektro je nach Modell"
+          ],
+          "transmissions": [
+            "Schaltgetriebe",
+            "Automatik / Doppelkupplung je nach Variante"
+          ],
+          "drivetrains": [
+            "Vorderradantrieb",
+            "Allrad je nach Variante"
+          ]
+        }
+      ],
+      "systems": [
+        "engine",
+        "brakes",
+        "electrical",
+        "suspension",
+        "steering",
+        "cooling",
+        "climate",
+        "transmission",
+        "fuel",
+        "exhaust",
+        "body",
+        "diagnostics"
+      ],
+      "note": "Technische Daten wie Motorcode, Drehmomente, Füllmengen und Wartungsintervalle müssen anhand der exakten Fahrgestell-/Motordaten und geeigneter Herstellerunterlagen geprüft werden."
+    },
+    {
+      "id": "peugeot-4",
+      "brand": "PEUGEOT",
+      "brandName": "Peugeot",
+      "model": "2008",
+      "country": "🇫🇷",
+      "generations": [
+        {
+          "name": "Generation / Baureihe auswählen",
+          "years": "Baujahr abhängig von Modell",
+          "engines": [
+            "Benzin",
+            "Diesel",
+            "Hybrid / Elektro je nach Modell"
+          ],
+          "transmissions": [
+            "Schaltgetriebe",
+            "Automatik / Doppelkupplung je nach Variante"
+          ],
+          "drivetrains": [
+            "Vorderradantrieb",
+            "Allrad je nach Variante"
+          ]
+        }
+      ],
+      "systems": [
+        "engine",
+        "brakes",
+        "electrical",
+        "suspension",
+        "steering",
+        "cooling",
+        "climate",
+        "transmission",
+        "fuel",
+        "exhaust",
+        "body",
+        "diagnostics"
+      ],
+      "note": "Technische Daten wie Motorcode, Drehmomente, Füllmengen und Wartungsintervalle müssen anhand der exakten Fahrgestell-/Motordaten und geeigneter Herstellerunterlagen geprüft werden."
+    },
+    {
+      "id": "peugeot-5",
+      "brand": "PEUGEOT",
+      "brandName": "Peugeot",
+      "model": "3008",
+      "country": "🇫🇷",
+      "generations": [
+        {
+          "name": "Generation / Baureihe auswählen",
+          "years": "Baujahr abhängig von Modell",
+          "engines": [
+            "Benzin",
+            "Diesel",
+            "Hybrid / Elektro je nach Modell"
+          ],
+          "transmissions": [
+            "Schaltgetriebe",
+            "Automatik / Doppelkupplung je nach Variante"
+          ],
+          "drivetrains": [
+            "Vorderradantrieb",
+            "Allrad je nach Variante"
+          ]
+        }
+      ],
+      "systems": [
+        "engine",
+        "brakes",
+        "electrical",
+        "suspension",
+        "steering",
+        "cooling",
+        "climate",
+        "transmission",
+        "fuel",
+        "exhaust",
+        "body",
+        "diagnostics"
+      ],
+      "note": "Technische Daten wie Motorcode, Drehmomente, Füllmengen und Wartungsintervalle müssen anhand der exakten Fahrgestell-/Motordaten und geeigneter Herstellerunterlagen geprüft werden."
+    },
+    {
+      "id": "peugeot-6",
+      "brand": "PEUGEOT",
+      "brandName": "Peugeot",
+      "model": "5008",
+      "country": "🇫🇷",
+      "generations": [
+        {
+          "name": "Generation / Baureihe auswählen",
+          "years": "Baujahr abhängig von Modell",
+          "engines": [
+            "Benzin",
+            "Diesel",
+            "Hybrid / Elektro je nach Modell"
+          ],
+          "transmissions": [
+            "Schaltgetriebe",
+            "Automatik / Doppelkupplung je nach Variante"
+          ],
+          "drivetrains": [
+            "Vorderradantrieb",
+            "Allrad je nach Variante"
+          ]
+        }
+      ],
+      "systems": [
+        "engine",
+        "brakes",
+        "electrical",
+        "suspension",
+        "steering",
+        "cooling",
+        "climate",
+        "transmission",
+        "fuel",
+        "exhaust",
+        "body",
+        "diagnostics"
+      ],
+      "note": "Technische Daten wie Motorcode, Drehmomente, Füllmengen und Wartungsintervalle müssen anhand der exakten Fahrgestell-/Motordaten und geeigneter Herstellerunterlagen geprüft werden."
+    },
+    {
+      "id": "citroen-1",
+      "brand": "CITROEN",
+      "brandName": "Citroën",
+      "model": "C3",
+      "country": "🇫🇷",
+      "generations": [
+        {
+          "name": "Generation / Baureihe auswählen",
+          "years": "Baujahr abhängig von Modell",
+          "engines": [
+            "Benzin",
+            "Diesel",
+            "Hybrid / Elektro je nach Modell"
+          ],
+          "transmissions": [
+            "Schaltgetriebe",
+            "Automatik / Doppelkupplung je nach Variante"
+          ],
+          "drivetrains": [
+            "Vorderradantrieb",
+            "Allrad je nach Variante"
+          ]
+        }
+      ],
+      "systems": [
+        "engine",
+        "brakes",
+        "electrical",
+        "suspension",
+        "steering",
+        "cooling",
+        "climate",
+        "transmission",
+        "fuel",
+        "exhaust",
+        "body",
+        "diagnostics"
+      ],
+      "note": "Technische Daten wie Motorcode, Drehmomente, Füllmengen und Wartungsintervalle müssen anhand der exakten Fahrgestell-/Motordaten und geeigneter Herstellerunterlagen geprüft werden."
+    },
+    {
+      "id": "citroen-2",
+      "brand": "CITROEN",
+      "brandName": "Citroën",
+      "model": "C4",
+      "country": "🇫🇷",
+      "generations": [
+        {
+          "name": "Generation / Baureihe auswählen",
+          "years": "Baujahr abhängig von Modell",
+          "engines": [
+            "Benzin",
+            "Diesel",
+            "Hybrid / Elektro je nach Modell"
+          ],
+          "transmissions": [
+            "Schaltgetriebe",
+            "Automatik / Doppelkupplung je nach Variante"
+          ],
+          "drivetrains": [
+            "Vorderradantrieb",
+            "Allrad je nach Variante"
+          ]
+        }
+      ],
+      "systems": [
+        "engine",
+        "brakes",
+        "electrical",
+        "suspension",
+        "steering",
+        "cooling",
+        "climate",
+        "transmission",
+        "fuel",
+        "exhaust",
+        "body",
+        "diagnostics"
+      ],
+      "note": "Technische Daten wie Motorcode, Drehmomente, Füllmengen und Wartungsintervalle müssen anhand der exakten Fahrgestell-/Motordaten und geeigneter Herstellerunterlagen geprüft werden."
+    },
+    {
+      "id": "citroen-3",
+      "brand": "CITROEN",
+      "brandName": "Citroën",
+      "model": "C5 Aircross",
+      "country": "🇫🇷",
+      "generations": [
+        {
+          "name": "Generation / Baureihe auswählen",
+          "years": "Baujahr abhängig von Modell",
+          "engines": [
+            "Benzin",
+            "Diesel",
+            "Hybrid / Elektro je nach Modell"
+          ],
+          "transmissions": [
+            "Schaltgetriebe",
+            "Automatik / Doppelkupplung je nach Variante"
+          ],
+          "drivetrains": [
+            "Vorderradantrieb",
+            "Allrad je nach Variante"
+          ]
+        }
+      ],
+      "systems": [
+        "engine",
+        "brakes",
+        "electrical",
+        "suspension",
+        "steering",
+        "cooling",
+        "climate",
+        "transmission",
+        "fuel",
+        "exhaust",
+        "body",
+        "diagnostics"
+      ],
+      "note": "Technische Daten wie Motorcode, Drehmomente, Füllmengen und Wartungsintervalle müssen anhand der exakten Fahrgestell-/Motordaten und geeigneter Herstellerunterlagen geprüft werden."
+    },
+    {
+      "id": "citroen-4",
+      "brand": "CITROEN",
+      "brandName": "Citroën",
+      "model": "Berlingo",
+      "country": "🇫🇷",
+      "generations": [
+        {
+          "name": "Generation / Baureihe auswählen",
+          "years": "Baujahr abhängig von Modell",
+          "engines": [
+            "Benzin",
+            "Diesel",
+            "Hybrid / Elektro je nach Modell"
+          ],
+          "transmissions": [
+            "Schaltgetriebe",
+            "Automatik / Doppelkupplung je nach Variante"
+          ],
+          "drivetrains": [
+            "Vorderradantrieb",
+            "Allrad je nach Variante"
+          ]
+        }
+      ],
+      "systems": [
+        "engine",
+        "brakes",
+        "electrical",
+        "suspension",
+        "steering",
+        "cooling",
+        "climate",
+        "transmission",
+        "fuel",
+        "exhaust",
+        "body",
+        "diagnostics"
+      ],
+      "note": "Technische Daten wie Motorcode, Drehmomente, Füllmengen und Wartungsintervalle müssen anhand der exakten Fahrgestell-/Motordaten und geeigneter Herstellerunterlagen geprüft werden."
+    },
+    {
+      "id": "volvo-1",
+      "brand": "VOLVO",
+      "brandName": "Volvo",
+      "model": "V40",
+      "country": "🇸🇪",
+      "generations": [
+        {
+          "name": "Generation / Baureihe auswählen",
+          "years": "Baujahr abhängig von Modell",
+          "engines": [
+            "Benzin",
+            "Diesel",
+            "Hybrid / Elektro je nach Modell"
+          ],
+          "transmissions": [
+            "Schaltgetriebe",
+            "Automatik / Doppelkupplung je nach Variante"
+          ],
+          "drivetrains": [
+            "Vorderradantrieb",
+            "Allrad je nach Variante"
+          ]
+        }
+      ],
+      "systems": [
+        "engine",
+        "brakes",
+        "electrical",
+        "suspension",
+        "steering",
+        "cooling",
+        "climate",
+        "transmission",
+        "fuel",
+        "exhaust",
+        "body",
+        "diagnostics"
+      ],
+      "note": "Technische Daten wie Motorcode, Drehmomente, Füllmengen und Wartungsintervalle müssen anhand der exakten Fahrgestell-/Motordaten und geeigneter Herstellerunterlagen geprüft werden."
+    },
+    {
+      "id": "volvo-2",
+      "brand": "VOLVO",
+      "brandName": "Volvo",
+      "model": "V60",
+      "country": "🇸🇪",
+      "generations": [
+        {
+          "name": "Generation / Baureihe auswählen",
+          "years": "Baujahr abhängig von Modell",
+          "engines": [
+            "Benzin",
+            "Diesel",
+            "Hybrid / Elektro je nach Modell"
+          ],
+          "transmissions": [
+            "Schaltgetriebe",
+            "Automatik / Doppelkupplung je nach Variante"
+          ],
+          "drivetrains": [
+            "Vorderradantrieb",
+            "Allrad je nach Variante"
+          ]
+        }
+      ],
+      "systems": [
+        "engine",
+        "brakes",
+        "electrical",
+        "suspension",
+        "steering",
+        "cooling",
+        "climate",
+        "transmission",
+        "fuel",
+        "exhaust",
+        "body",
+        "diagnostics"
+      ],
+      "note": "Technische Daten wie Motorcode, Drehmomente, Füllmengen und Wartungsintervalle müssen anhand der exakten Fahrgestell-/Motordaten und geeigneter Herstellerunterlagen geprüft werden."
+    },
+    {
+      "id": "volvo-3",
+      "brand": "VOLVO",
+      "brandName": "Volvo",
+      "model": "V90",
+      "country": "🇸🇪",
+      "generations": [
+        {
+          "name": "Generation / Baureihe auswählen",
+          "years": "Baujahr abhängig von Modell",
+          "engines": [
+            "Benzin",
+            "Diesel",
+            "Hybrid / Elektro je nach Modell"
+          ],
+          "transmissions": [
+            "Schaltgetriebe",
+            "Automatik / Doppelkupplung je nach Variante"
+          ],
+          "drivetrains": [
+            "Vorderradantrieb",
+            "Allrad je nach Variante"
+          ]
+        }
+      ],
+      "systems": [
+        "engine",
+        "brakes",
+        "electrical",
+        "suspension",
+        "steering",
+        "cooling",
+        "climate",
+        "transmission",
+        "fuel",
+        "exhaust",
+        "body",
+        "diagnostics"
+      ],
+      "note": "Technische Daten wie Motorcode, Drehmomente, Füllmengen und Wartungsintervalle müssen anhand der exakten Fahrgestell-/Motordaten und geeigneter Herstellerunterlagen geprüft werden."
+    },
+    {
+      "id": "volvo-4",
+      "brand": "VOLVO",
+      "brandName": "Volvo",
+      "model": "XC40",
+      "country": "🇸🇪",
+      "generations": [
+        {
+          "name": "Generation / Baureihe auswählen",
+          "years": "Baujahr abhängig von Modell",
+          "engines": [
+            "Benzin",
+            "Diesel",
+            "Hybrid / Elektro je nach Modell"
+          ],
+          "transmissions": [
+            "Schaltgetriebe",
+            "Automatik / Doppelkupplung je nach Variante"
+          ],
+          "drivetrains": [
+            "Vorderradantrieb",
+            "Allrad je nach Variante"
+          ]
+        }
+      ],
+      "systems": [
+        "engine",
+        "brakes",
+        "electrical",
+        "suspension",
+        "steering",
+        "cooling",
+        "climate",
+        "transmission",
+        "fuel",
+        "exhaust",
+        "body",
+        "diagnostics"
+      ],
+      "note": "Technische Daten wie Motorcode, Drehmomente, Füllmengen und Wartungsintervalle müssen anhand der exakten Fahrgestell-/Motordaten und geeigneter Herstellerunterlagen geprüft werden."
+    },
+    {
+      "id": "volvo-5",
+      "brand": "VOLVO",
+      "brandName": "Volvo",
+      "model": "XC60",
+      "country": "🇸🇪",
+      "generations": [
+        {
+          "name": "Generation / Baureihe auswählen",
+          "years": "Baujahr abhängig von Modell",
+          "engines": [
+            "Benzin",
+            "Diesel",
+            "Hybrid / Elektro je nach Modell"
+          ],
+          "transmissions": [
+            "Schaltgetriebe",
+            "Automatik / Doppelkupplung je nach Variante"
+          ],
+          "drivetrains": [
+            "Vorderradantrieb",
+            "Allrad je nach Variante"
+          ]
+        }
+      ],
+      "systems": [
+        "engine",
+        "brakes",
+        "electrical",
+        "suspension",
+        "steering",
+        "cooling",
+        "climate",
+        "transmission",
+        "fuel",
+        "exhaust",
+        "body",
+        "diagnostics"
+      ],
+      "note": "Technische Daten wie Motorcode, Drehmomente, Füllmengen und Wartungsintervalle müssen anhand der exakten Fahrgestell-/Motordaten und geeigneter Herstellerunterlagen geprüft werden."
+    },
+    {
+      "id": "volvo-6",
+      "brand": "VOLVO",
+      "brandName": "Volvo",
+      "model": "XC90",
+      "country": "🇸🇪",
+      "generations": [
+        {
+          "name": "Generation / Baureihe auswählen",
+          "years": "Baujahr abhängig von Modell",
+          "engines": [
+            "Benzin",
+            "Diesel",
+            "Hybrid / Elektro je nach Modell"
+          ],
+          "transmissions": [
+            "Schaltgetriebe",
+            "Automatik / Doppelkupplung je nach Variante"
+          ],
+          "drivetrains": [
+            "Vorderradantrieb",
+            "Allrad je nach Variante"
+          ]
+        }
+      ],
+      "systems": [
+        "engine",
+        "brakes",
+        "electrical",
+        "suspension",
+        "steering",
+        "cooling",
+        "climate",
+        "transmission",
+        "fuel",
+        "exhaust",
+        "body",
+        "diagnostics"
+      ],
+      "note": "Technische Daten wie Motorcode, Drehmomente, Füllmengen und Wartungsintervalle müssen anhand der exakten Fahrgestell-/Motordaten und geeigneter Herstellerunterlagen geprüft werden."
+    },
+    {
+      "id": "hyundai-1",
+      "brand": "HYUNDAI",
+      "brandName": "Hyundai",
+      "model": "i10",
+      "country": "🇰🇷",
+      "generations": [
+        {
+          "name": "Generation / Baureihe auswählen",
+          "years": "Baujahr abhängig von Modell",
+          "engines": [
+            "Benzin",
+            "Diesel",
+            "Hybrid / Elektro je nach Modell"
+          ],
+          "transmissions": [
+            "Schaltgetriebe",
+            "Automatik / Doppelkupplung je nach Variante"
+          ],
+          "drivetrains": [
+            "Vorderradantrieb",
+            "Allrad je nach Variante"
+          ]
+        }
+      ],
+      "systems": [
+        "engine",
+        "brakes",
+        "electrical",
+        "suspension",
+        "steering",
+        "cooling",
+        "climate",
+        "transmission",
+        "fuel",
+        "exhaust",
+        "body",
+        "diagnostics"
+      ],
+      "note": "Technische Daten wie Motorcode, Drehmomente, Füllmengen und Wartungsintervalle müssen anhand der exakten Fahrgestell-/Motordaten und geeigneter Herstellerunterlagen geprüft werden."
+    },
+    {
+      "id": "hyundai-2",
+      "brand": "HYUNDAI",
+      "brandName": "Hyundai",
+      "model": "i20",
+      "country": "🇰🇷",
+      "generations": [
+        {
+          "name": "Generation / Baureihe auswählen",
+          "years": "Baujahr abhängig von Modell",
+          "engines": [
+            "Benzin",
+            "Diesel",
+            "Hybrid / Elektro je nach Modell"
+          ],
+          "transmissions": [
+            "Schaltgetriebe",
+            "Automatik / Doppelkupplung je nach Variante"
+          ],
+          "drivetrains": [
+            "Vorderradantrieb",
+            "Allrad je nach Variante"
+          ]
+        }
+      ],
+      "systems": [
+        "engine",
+        "brakes",
+        "electrical",
+        "suspension",
+        "steering",
+        "cooling",
+        "climate",
+        "transmission",
+        "fuel",
+        "exhaust",
+        "body",
+        "diagnostics"
+      ],
+      "note": "Technische Daten wie Motorcode, Drehmomente, Füllmengen und Wartungsintervalle müssen anhand der exakten Fahrgestell-/Motordaten und geeigneter Herstellerunterlagen geprüft werden."
+    },
+    {
+      "id": "hyundai-3",
+      "brand": "HYUNDAI",
+      "brandName": "Hyundai",
+      "model": "i30",
+      "country": "🇰🇷",
+      "generations": [
+        {
+          "name": "Generation / Baureihe auswählen",
+          "years": "Baujahr abhängig von Modell",
+          "engines": [
+            "Benzin",
+            "Diesel",
+            "Hybrid / Elektro je nach Modell"
+          ],
+          "transmissions": [
+            "Schaltgetriebe",
+            "Automatik / Doppelkupplung je nach Variante"
+          ],
+          "drivetrains": [
+            "Vorderradantrieb",
+            "Allrad je nach Variante"
+          ]
+        }
+      ],
+      "systems": [
+        "engine",
+        "brakes",
+        "electrical",
+        "suspension",
+        "steering",
+        "cooling",
+        "climate",
+        "transmission",
+        "fuel",
+        "exhaust",
+        "body",
+        "diagnostics"
+      ],
+      "note": "Technische Daten wie Motorcode, Drehmomente, Füllmengen und Wartungsintervalle müssen anhand der exakten Fahrgestell-/Motordaten und geeigneter Herstellerunterlagen geprüft werden."
+    },
+    {
+      "id": "hyundai-4",
+      "brand": "HYUNDAI",
+      "brandName": "Hyundai",
+      "model": "Tucson",
+      "country": "🇰🇷",
+      "generations": [
+        {
+          "name": "Generation / Baureihe auswählen",
+          "years": "Baujahr abhängig von Modell",
+          "engines": [
+            "Benzin",
+            "Diesel",
+            "Hybrid / Elektro je nach Modell"
+          ],
+          "transmissions": [
+            "Schaltgetriebe",
+            "Automatik / Doppelkupplung je nach Variante"
+          ],
+          "drivetrains": [
+            "Vorderradantrieb",
+            "Allrad je nach Variante"
+          ]
+        }
+      ],
+      "systems": [
+        "engine",
+        "brakes",
+        "electrical",
+        "suspension",
+        "steering",
+        "cooling",
+        "climate",
+        "transmission",
+        "fuel",
+        "exhaust",
+        "body",
+        "diagnostics"
+      ],
+      "note": "Technische Daten wie Motorcode, Drehmomente, Füllmengen und Wartungsintervalle müssen anhand der exakten Fahrgestell-/Motordaten und geeigneter Herstellerunterlagen geprüft werden."
+    },
+    {
+      "id": "hyundai-5",
+      "brand": "HYUNDAI",
+      "brandName": "Hyundai",
+      "model": "Kona",
+      "country": "🇰🇷",
+      "generations": [
+        {
+          "name": "Generation / Baureihe auswählen",
+          "years": "Baujahr abhängig von Modell",
+          "engines": [
+            "Benzin",
+            "Diesel",
+            "Hybrid / Elektro je nach Modell"
+          ],
+          "transmissions": [
+            "Schaltgetriebe",
+            "Automatik / Doppelkupplung je nach Variante"
+          ],
+          "drivetrains": [
+            "Vorderradantrieb",
+            "Allrad je nach Variante"
+          ]
+        }
+      ],
+      "systems": [
+        "engine",
+        "brakes",
+        "electrical",
+        "suspension",
+        "steering",
+        "cooling",
+        "climate",
+        "transmission",
+        "fuel",
+        "exhaust",
+        "body",
+        "diagnostics"
+      ],
+      "note": "Technische Daten wie Motorcode, Drehmomente, Füllmengen und Wartungsintervalle müssen anhand der exakten Fahrgestell-/Motordaten und geeigneter Herstellerunterlagen geprüft werden."
+    },
+    {
+      "id": "hyundai-6",
+      "brand": "HYUNDAI",
+      "brandName": "Hyundai",
+      "model": "Santa Fe",
+      "country": "🇰🇷",
+      "generations": [
+        {
+          "name": "Generation / Baureihe auswählen",
+          "years": "Baujahr abhängig von Modell",
+          "engines": [
+            "Benzin",
+            "Diesel",
+            "Hybrid / Elektro je nach Modell"
+          ],
+          "transmissions": [
+            "Schaltgetriebe",
+            "Automatik / Doppelkupplung je nach Variante"
+          ],
+          "drivetrains": [
+            "Vorderradantrieb",
+            "Allrad je nach Variante"
+          ]
+        }
+      ],
+      "systems": [
+        "engine",
+        "brakes",
+        "electrical",
+        "suspension",
+        "steering",
+        "cooling",
+        "climate",
+        "transmission",
+        "fuel",
+        "exhaust",
+        "body",
+        "diagnostics"
+      ],
+      "note": "Technische Daten wie Motorcode, Drehmomente, Füllmengen und Wartungsintervalle müssen anhand der exakten Fahrgestell-/Motordaten und geeigneter Herstellerunterlagen geprüft werden."
+    },
+    {
+      "id": "kia-1",
+      "brand": "KIA",
+      "brandName": "Kia",
+      "model": "Picanto",
+      "country": "🇰🇷",
+      "generations": [
+        {
+          "name": "Generation / Baureihe auswählen",
+          "years": "Baujahr abhängig von Modell",
+          "engines": [
+            "Benzin",
+            "Diesel",
+            "Hybrid / Elektro je nach Modell"
+          ],
+          "transmissions": [
+            "Schaltgetriebe",
+            "Automatik / Doppelkupplung je nach Variante"
+          ],
+          "drivetrains": [
+            "Vorderradantrieb",
+            "Allrad je nach Variante"
+          ]
+        }
+      ],
+      "systems": [
+        "engine",
+        "brakes",
+        "electrical",
+        "suspension",
+        "steering",
+        "cooling",
+        "climate",
+        "transmission",
+        "fuel",
+        "exhaust",
+        "body",
+        "diagnostics"
+      ],
+      "note": "Technische Daten wie Motorcode, Drehmomente, Füllmengen und Wartungsintervalle müssen anhand der exakten Fahrgestell-/Motordaten und geeigneter Herstellerunterlagen geprüft werden."
+    },
+    {
+      "id": "kia-2",
+      "brand": "KIA",
+      "brandName": "Kia",
+      "model": "Rio",
+      "country": "🇰🇷",
+      "generations": [
+        {
+          "name": "Generation / Baureihe auswählen",
+          "years": "Baujahr abhängig von Modell",
+          "engines": [
+            "Benzin",
+            "Diesel",
+            "Hybrid / Elektro je nach Modell"
+          ],
+          "transmissions": [
+            "Schaltgetriebe",
+            "Automatik / Doppelkupplung je nach Variante"
+          ],
+          "drivetrains": [
+            "Vorderradantrieb",
+            "Allrad je nach Variante"
+          ]
+        }
+      ],
+      "systems": [
+        "engine",
+        "brakes",
+        "electrical",
+        "suspension",
+        "steering",
+        "cooling",
+        "climate",
+        "transmission",
+        "fuel",
+        "exhaust",
+        "body",
+        "diagnostics"
+      ],
+      "note": "Technische Daten wie Motorcode, Drehmomente, Füllmengen und Wartungsintervalle müssen anhand der exakten Fahrgestell-/Motordaten und geeigneter Herstellerunterlagen geprüft werden."
+    },
+    {
+      "id": "kia-3",
+      "brand": "KIA",
+      "brandName": "Kia",
+      "model": "Ceed",
+      "country": "🇰🇷",
+      "generations": [
+        {
+          "name": "Generation / Baureihe auswählen",
+          "years": "Baujahr abhängig von Modell",
+          "engines": [
+            "Benzin",
+            "Diesel",
+            "Hybrid / Elektro je nach Modell"
+          ],
+          "transmissions": [
+            "Schaltgetriebe",
+            "Automatik / Doppelkupplung je nach Variante"
+          ],
+          "drivetrains": [
+            "Vorderradantrieb",
+            "Allrad je nach Variante"
+          ]
+        }
+      ],
+      "systems": [
+        "engine",
+        "brakes",
+        "electrical",
+        "suspension",
+        "steering",
+        "cooling",
+        "climate",
+        "transmission",
+        "fuel",
+        "exhaust",
+        "body",
+        "diagnostics"
+      ],
+      "note": "Technische Daten wie Motorcode, Drehmomente, Füllmengen und Wartungsintervalle müssen anhand der exakten Fahrgestell-/Motordaten und geeigneter Herstellerunterlagen geprüft werden."
+    },
+    {
+      "id": "kia-4",
+      "brand": "KIA",
+      "brandName": "Kia",
+      "model": "Sportage",
+      "country": "🇰🇷",
+      "generations": [
+        {
+          "name": "Generation / Baureihe auswählen",
+          "years": "Baujahr abhängig von Modell",
+          "engines": [
+            "Benzin",
+            "Diesel",
+            "Hybrid / Elektro je nach Modell"
+          ],
+          "transmissions": [
+            "Schaltgetriebe",
+            "Automatik / Doppelkupplung je nach Variante"
+          ],
+          "drivetrains": [
+            "Vorderradantrieb",
+            "Allrad je nach Variante"
+          ]
+        }
+      ],
+      "systems": [
+        "engine",
+        "brakes",
+        "electrical",
+        "suspension",
+        "steering",
+        "cooling",
+        "climate",
+        "transmission",
+        "fuel",
+        "exhaust",
+        "body",
+        "diagnostics"
+      ],
+      "note": "Technische Daten wie Motorcode, Drehmomente, Füllmengen und Wartungsintervalle müssen anhand der exakten Fahrgestell-/Motordaten und geeigneter Herstellerunterlagen geprüft werden."
+    },
+    {
+      "id": "kia-5",
+      "brand": "KIA",
+      "brandName": "Kia",
+      "model": "Sorento",
+      "country": "🇰🇷",
+      "generations": [
+        {
+          "name": "Generation / Baureihe auswählen",
+          "years": "Baujahr abhängig von Modell",
+          "engines": [
+            "Benzin",
+            "Diesel",
+            "Hybrid / Elektro je nach Modell"
+          ],
+          "transmissions": [
+            "Schaltgetriebe",
+            "Automatik / Doppelkupplung je nach Variante"
+          ],
+          "drivetrains": [
+            "Vorderradantrieb",
+            "Allrad je nach Variante"
+          ]
+        }
+      ],
+      "systems": [
+        "engine",
+        "brakes",
+        "electrical",
+        "suspension",
+        "steering",
+        "cooling",
+        "climate",
+        "transmission",
+        "fuel",
+        "exhaust",
+        "body",
+        "diagnostics"
+      ],
+      "note": "Technische Daten wie Motorcode, Drehmomente, Füllmengen und Wartungsintervalle müssen anhand der exakten Fahrgestell-/Motordaten und geeigneter Herstellerunterlagen geprüft werden."
+    },
+    {
+      "id": "kia-6",
+      "brand": "KIA",
+      "brandName": "Kia",
+      "model": "Niro",
+      "country": "🇰🇷",
+      "generations": [
+        {
+          "name": "Generation / Baureihe auswählen",
+          "years": "Baujahr abhängig von Modell",
+          "engines": [
+            "Benzin",
+            "Diesel",
+            "Hybrid / Elektro je nach Modell"
+          ],
+          "transmissions": [
+            "Schaltgetriebe",
+            "Automatik / Doppelkupplung je nach Variante"
+          ],
+          "drivetrains": [
+            "Vorderradantrieb",
+            "Allrad je nach Variante"
+          ]
+        }
+      ],
+      "systems": [
+        "engine",
+        "brakes",
+        "electrical",
+        "suspension",
+        "steering",
+        "cooling",
+        "climate",
+        "transmission",
+        "fuel",
+        "exhaust",
+        "body",
+        "diagnostics"
+      ],
+      "note": "Technische Daten wie Motorcode, Drehmomente, Füllmengen und Wartungsintervalle müssen anhand der exakten Fahrgestell-/Motordaten und geeigneter Herstellerunterlagen geprüft werden."
+    },
+    {
+      "id": "nissan-1",
+      "brand": "NISSAN",
+      "brandName": "Nissan",
+      "model": "Micra",
+      "country": "🇯🇵",
+      "generations": [
+        {
+          "name": "Generation / Baureihe auswählen",
+          "years": "Baujahr abhängig von Modell",
+          "engines": [
+            "Benzin",
+            "Diesel",
+            "Hybrid / Elektro je nach Modell"
+          ],
+          "transmissions": [
+            "Schaltgetriebe",
+            "Automatik / Doppelkupplung je nach Variante"
+          ],
+          "drivetrains": [
+            "Vorderradantrieb",
+            "Allrad je nach Variante"
+          ]
+        }
+      ],
+      "systems": [
+        "engine",
+        "brakes",
+        "electrical",
+        "suspension",
+        "steering",
+        "cooling",
+        "climate",
+        "transmission",
+        "fuel",
+        "exhaust",
+        "body",
+        "diagnostics"
+      ],
+      "note": "Technische Daten wie Motorcode, Drehmomente, Füllmengen und Wartungsintervalle müssen anhand der exakten Fahrgestell-/Motordaten und geeigneter Herstellerunterlagen geprüft werden."
+    },
+    {
+      "id": "nissan-2",
+      "brand": "NISSAN",
+      "brandName": "Nissan",
+      "model": "Juke",
+      "country": "🇯🇵",
+      "generations": [
+        {
+          "name": "Generation / Baureihe auswählen",
+          "years": "Baujahr abhängig von Modell",
+          "engines": [
+            "Benzin",
+            "Diesel",
+            "Hybrid / Elektro je nach Modell"
+          ],
+          "transmissions": [
+            "Schaltgetriebe",
+            "Automatik / Doppelkupplung je nach Variante"
+          ],
+          "drivetrains": [
+            "Vorderradantrieb",
+            "Allrad je nach Variante"
+          ]
+        }
+      ],
+      "systems": [
+        "engine",
+        "brakes",
+        "electrical",
+        "suspension",
+        "steering",
+        "cooling",
+        "climate",
+        "transmission",
+        "fuel",
+        "exhaust",
+        "body",
+        "diagnostics"
+      ],
+      "note": "Technische Daten wie Motorcode, Drehmomente, Füllmengen und Wartungsintervalle müssen anhand der exakten Fahrgestell-/Motordaten und geeigneter Herstellerunterlagen geprüft werden."
+    },
+    {
+      "id": "nissan-3",
+      "brand": "NISSAN",
+      "brandName": "Nissan",
+      "model": "Qashqai",
+      "country": "🇯🇵",
+      "generations": [
+        {
+          "name": "Generation / Baureihe auswählen",
+          "years": "Baujahr abhängig von Modell",
+          "engines": [
+            "Benzin",
+            "Diesel",
+            "Hybrid / Elektro je nach Modell"
+          ],
+          "transmissions": [
+            "Schaltgetriebe",
+            "Automatik / Doppelkupplung je nach Variante"
+          ],
+          "drivetrains": [
+            "Vorderradantrieb",
+            "Allrad je nach Variante"
+          ]
+        }
+      ],
+      "systems": [
+        "engine",
+        "brakes",
+        "electrical",
+        "suspension",
+        "steering",
+        "cooling",
+        "climate",
+        "transmission",
+        "fuel",
+        "exhaust",
+        "body",
+        "diagnostics"
+      ],
+      "note": "Technische Daten wie Motorcode, Drehmomente, Füllmengen und Wartungsintervalle müssen anhand der exakten Fahrgestell-/Motordaten und geeigneter Herstellerunterlagen geprüft werden."
+    },
+    {
+      "id": "nissan-4",
+      "brand": "NISSAN",
+      "brandName": "Nissan",
+      "model": "X-Trail",
+      "country": "🇯🇵",
+      "generations": [
+        {
+          "name": "Generation / Baureihe auswählen",
+          "years": "Baujahr abhängig von Modell",
+          "engines": [
+            "Benzin",
+            "Diesel",
+            "Hybrid / Elektro je nach Modell"
+          ],
+          "transmissions": [
+            "Schaltgetriebe",
+            "Automatik / Doppelkupplung je nach Variante"
+          ],
+          "drivetrains": [
+            "Vorderradantrieb",
+            "Allrad je nach Variante"
+          ]
+        }
+      ],
+      "systems": [
+        "engine",
+        "brakes",
+        "electrical",
+        "suspension",
+        "steering",
+        "cooling",
+        "climate",
+        "transmission",
+        "fuel",
+        "exhaust",
+        "body",
+        "diagnostics"
+      ],
+      "note": "Technische Daten wie Motorcode, Drehmomente, Füllmengen und Wartungsintervalle müssen anhand der exakten Fahrgestell-/Motordaten und geeigneter Herstellerunterlagen geprüft werden."
+    },
+    {
+      "id": "nissan-5",
+      "brand": "NISSAN",
+      "brandName": "Nissan",
+      "model": "Navara",
+      "country": "🇯🇵",
+      "generations": [
+        {
+          "name": "Generation / Baureihe auswählen",
+          "years": "Baujahr abhängig von Modell",
+          "engines": [
+            "Benzin",
+            "Diesel",
+            "Hybrid / Elektro je nach Modell"
+          ],
+          "transmissions": [
+            "Schaltgetriebe",
+            "Automatik / Doppelkupplung je nach Variante"
+          ],
+          "drivetrains": [
+            "Vorderradantrieb",
+            "Allrad je nach Variante"
+          ]
+        }
+      ],
+      "systems": [
+        "engine",
+        "brakes",
+        "electrical",
+        "suspension",
+        "steering",
+        "cooling",
+        "climate",
+        "transmission",
+        "fuel",
+        "exhaust",
+        "body",
+        "diagnostics"
+      ],
+      "note": "Technische Daten wie Motorcode, Drehmomente, Füllmengen und Wartungsintervalle müssen anhand der exakten Fahrgestell-/Motordaten und geeigneter Herstellerunterlagen geprüft werden."
+    },
+    {
+      "id": "honda-1",
+      "brand": "HONDA",
+      "brandName": "Honda",
+      "model": "Jazz",
+      "country": "🇯🇵",
+      "generations": [
+        {
+          "name": "Generation / Baureihe auswählen",
+          "years": "Baujahr abhängig von Modell",
+          "engines": [
+            "Benzin",
+            "Diesel",
+            "Hybrid / Elektro je nach Modell"
+          ],
+          "transmissions": [
+            "Schaltgetriebe",
+            "Automatik / Doppelkupplung je nach Variante"
+          ],
+          "drivetrains": [
+            "Vorderradantrieb",
+            "Allrad je nach Variante"
+          ]
+        }
+      ],
+      "systems": [
+        "engine",
+        "brakes",
+        "electrical",
+        "suspension",
+        "steering",
+        "cooling",
+        "climate",
+        "transmission",
+        "fuel",
+        "exhaust",
+        "body",
+        "diagnostics"
+      ],
+      "note": "Technische Daten wie Motorcode, Drehmomente, Füllmengen und Wartungsintervalle müssen anhand der exakten Fahrgestell-/Motordaten und geeigneter Herstellerunterlagen geprüft werden."
+    },
+    {
+      "id": "honda-2",
+      "brand": "HONDA",
+      "brandName": "Honda",
+      "model": "Civic",
+      "country": "🇯🇵",
+      "generations": [
+        {
+          "name": "Generation / Baureihe auswählen",
+          "years": "Baujahr abhängig von Modell",
+          "engines": [
+            "Benzin",
+            "Diesel",
+            "Hybrid / Elektro je nach Modell"
+          ],
+          "transmissions": [
+            "Schaltgetriebe",
+            "Automatik / Doppelkupplung je nach Variante"
+          ],
+          "drivetrains": [
+            "Vorderradantrieb",
+            "Allrad je nach Variante"
+          ]
+        }
+      ],
+      "systems": [
+        "engine",
+        "brakes",
+        "electrical",
+        "suspension",
+        "steering",
+        "cooling",
+        "climate",
+        "transmission",
+        "fuel",
+        "exhaust",
+        "body",
+        "diagnostics"
+      ],
+      "note": "Technische Daten wie Motorcode, Drehmomente, Füllmengen und Wartungsintervalle müssen anhand der exakten Fahrgestell-/Motordaten und geeigneter Herstellerunterlagen geprüft werden."
+    },
+    {
+      "id": "honda-3",
+      "brand": "HONDA",
+      "brandName": "Honda",
+      "model": "Accord",
+      "country": "🇯🇵",
+      "generations": [
+        {
+          "name": "Generation / Baureihe auswählen",
+          "years": "Baujahr abhängig von Modell",
+          "engines": [
+            "Benzin",
+            "Diesel",
+            "Hybrid / Elektro je nach Modell"
+          ],
+          "transmissions": [
+            "Schaltgetriebe",
+            "Automatik / Doppelkupplung je nach Variante"
+          ],
+          "drivetrains": [
+            "Vorderradantrieb",
+            "Allrad je nach Variante"
+          ]
+        }
+      ],
+      "systems": [
+        "engine",
+        "brakes",
+        "electrical",
+        "suspension",
+        "steering",
+        "cooling",
+        "climate",
+        "transmission",
+        "fuel",
+        "exhaust",
+        "body",
+        "diagnostics"
+      ],
+      "note": "Technische Daten wie Motorcode, Drehmomente, Füllmengen und Wartungsintervalle müssen anhand der exakten Fahrgestell-/Motordaten und geeigneter Herstellerunterlagen geprüft werden."
+    },
+    {
+      "id": "honda-4",
+      "brand": "HONDA",
+      "brandName": "Honda",
+      "model": "HR-V",
+      "country": "🇯🇵",
+      "generations": [
+        {
+          "name": "Generation / Baureihe auswählen",
+          "years": "Baujahr abhängig von Modell",
+          "engines": [
+            "Benzin",
+            "Diesel",
+            "Hybrid / Elektro je nach Modell"
+          ],
+          "transmissions": [
+            "Schaltgetriebe",
+            "Automatik / Doppelkupplung je nach Variante"
+          ],
+          "drivetrains": [
+            "Vorderradantrieb",
+            "Allrad je nach Variante"
+          ]
+        }
+      ],
+      "systems": [
+        "engine",
+        "brakes",
+        "electrical",
+        "suspension",
+        "steering",
+        "cooling",
+        "climate",
+        "transmission",
+        "fuel",
+        "exhaust",
+        "body",
+        "diagnostics"
+      ],
+      "note": "Technische Daten wie Motorcode, Drehmomente, Füllmengen und Wartungsintervalle müssen anhand der exakten Fahrgestell-/Motordaten und geeigneter Herstellerunterlagen geprüft werden."
+    },
+    {
+      "id": "honda-5",
+      "brand": "HONDA",
+      "brandName": "Honda",
+      "model": "CR-V",
+      "country": "🇯🇵",
+      "generations": [
+        {
+          "name": "Generation / Baureihe auswählen",
+          "years": "Baujahr abhängig von Modell",
+          "engines": [
+            "Benzin",
+            "Diesel",
+            "Hybrid / Elektro je nach Modell"
+          ],
+          "transmissions": [
+            "Schaltgetriebe",
+            "Automatik / Doppelkupplung je nach Variante"
+          ],
+          "drivetrains": [
+            "Vorderradantrieb",
+            "Allrad je nach Variante"
+          ]
+        }
+      ],
+      "systems": [
+        "engine",
+        "brakes",
+        "electrical",
+        "suspension",
+        "steering",
+        "cooling",
+        "climate",
+        "transmission",
+        "fuel",
+        "exhaust",
+        "body",
+        "diagnostics"
+      ],
+      "note": "Technische Daten wie Motorcode, Drehmomente, Füllmengen und Wartungsintervalle müssen anhand der exakten Fahrgestell-/Motordaten und geeigneter Herstellerunterlagen geprüft werden."
+    },
+    {
+      "id": "mazda-1",
+      "brand": "MAZDA",
+      "brandName": "Mazda",
+      "model": "Mazda2",
+      "country": "🇯🇵",
+      "generations": [
+        {
+          "name": "Generation / Baureihe auswählen",
+          "years": "Baujahr abhängig von Modell",
+          "engines": [
+            "Benzin",
+            "Diesel",
+            "Hybrid / Elektro je nach Modell"
+          ],
+          "transmissions": [
+            "Schaltgetriebe",
+            "Automatik / Doppelkupplung je nach Variante"
+          ],
+          "drivetrains": [
+            "Vorderradantrieb",
+            "Allrad je nach Variante"
+          ]
+        }
+      ],
+      "systems": [
+        "engine",
+        "brakes",
+        "electrical",
+        "suspension",
+        "steering",
+        "cooling",
+        "climate",
+        "transmission",
+        "fuel",
+        "exhaust",
+        "body",
+        "diagnostics"
+      ],
+      "note": "Technische Daten wie Motorcode, Drehmomente, Füllmengen und Wartungsintervalle müssen anhand der exakten Fahrgestell-/Motordaten und geeigneter Herstellerunterlagen geprüft werden."
+    },
+    {
+      "id": "mazda-2",
+      "brand": "MAZDA",
+      "brandName": "Mazda",
+      "model": "Mazda3",
+      "country": "🇯🇵",
+      "generations": [
+        {
+          "name": "Generation / Baureihe auswählen",
+          "years": "Baujahr abhängig von Modell",
+          "engines": [
+            "Benzin",
+            "Diesel",
+            "Hybrid / Elektro je nach Modell"
+          ],
+          "transmissions": [
+            "Schaltgetriebe",
+            "Automatik / Doppelkupplung je nach Variante"
+          ],
+          "drivetrains": [
+            "Vorderradantrieb",
+            "Allrad je nach Variante"
+          ]
+        }
+      ],
+      "systems": [
+        "engine",
+        "brakes",
+        "electrical",
+        "suspension",
+        "steering",
+        "cooling",
+        "climate",
+        "transmission",
+        "fuel",
+        "exhaust",
+        "body",
+        "diagnostics"
+      ],
+      "note": "Technische Daten wie Motorcode, Drehmomente, Füllmengen und Wartungsintervalle müssen anhand der exakten Fahrgestell-/Motordaten und geeigneter Herstellerunterlagen geprüft werden."
+    },
+    {
+      "id": "mazda-3",
+      "brand": "MAZDA",
+      "brandName": "Mazda",
+      "model": "Mazda6",
+      "country": "🇯🇵",
+      "generations": [
+        {
+          "name": "Generation / Baureihe auswählen",
+          "years": "Baujahr abhängig von Modell",
+          "engines": [
+            "Benzin",
+            "Diesel",
+            "Hybrid / Elektro je nach Modell"
+          ],
+          "transmissions": [
+            "Schaltgetriebe",
+            "Automatik / Doppelkupplung je nach Variante"
+          ],
+          "drivetrains": [
+            "Vorderradantrieb",
+            "Allrad je nach Variante"
+          ]
+        }
+      ],
+      "systems": [
+        "engine",
+        "brakes",
+        "electrical",
+        "suspension",
+        "steering",
+        "cooling",
+        "climate",
+        "transmission",
+        "fuel",
+        "exhaust",
+        "body",
+        "diagnostics"
+      ],
+      "note": "Technische Daten wie Motorcode, Drehmomente, Füllmengen und Wartungsintervalle müssen anhand der exakten Fahrgestell-/Motordaten und geeigneter Herstellerunterlagen geprüft werden."
+    },
+    {
+      "id": "mazda-4",
+      "brand": "MAZDA",
+      "brandName": "Mazda",
+      "model": "CX-3",
+      "country": "🇯🇵",
+      "generations": [
+        {
+          "name": "Generation / Baureihe auswählen",
+          "years": "Baujahr abhängig von Modell",
+          "engines": [
+            "Benzin",
+            "Diesel",
+            "Hybrid / Elektro je nach Modell"
+          ],
+          "transmissions": [
+            "Schaltgetriebe",
+            "Automatik / Doppelkupplung je nach Variante"
+          ],
+          "drivetrains": [
+            "Vorderradantrieb",
+            "Allrad je nach Variante"
+          ]
+        }
+      ],
+      "systems": [
+        "engine",
+        "brakes",
+        "electrical",
+        "suspension",
+        "steering",
+        "cooling",
+        "climate",
+        "transmission",
+        "fuel",
+        "exhaust",
+        "body",
+        "diagnostics"
+      ],
+      "note": "Technische Daten wie Motorcode, Drehmomente, Füllmengen und Wartungsintervalle müssen anhand der exakten Fahrgestell-/Motordaten und geeigneter Herstellerunterlagen geprüft werden."
+    },
+    {
+      "id": "mazda-5",
+      "brand": "MAZDA",
+      "brandName": "Mazda",
+      "model": "CX-5",
+      "country": "🇯🇵",
+      "generations": [
+        {
+          "name": "Generation / Baureihe auswählen",
+          "years": "Baujahr abhängig von Modell",
+          "engines": [
+            "Benzin",
+            "Diesel",
+            "Hybrid / Elektro je nach Modell"
+          ],
+          "transmissions": [
+            "Schaltgetriebe",
+            "Automatik / Doppelkupplung je nach Variante"
+          ],
+          "drivetrains": [
+            "Vorderradantrieb",
+            "Allrad je nach Variante"
+          ]
+        }
+      ],
+      "systems": [
+        "engine",
+        "brakes",
+        "electrical",
+        "suspension",
+        "steering",
+        "cooling",
+        "climate",
+        "transmission",
+        "fuel",
+        "exhaust",
+        "body",
+        "diagnostics"
+      ],
+      "note": "Technische Daten wie Motorcode, Drehmomente, Füllmengen und Wartungsintervalle müssen anhand der exakten Fahrgestell-/Motordaten und geeigneter Herstellerunterlagen geprüft werden."
+    }
+  ],
+  "systems": [
+    {
+      "id": "engine",
+      "name": "Motor",
+      "icon": "◉",
+      "desc": "Verbrennung, Ansaugung, Kraftstoff, Zündung und Motormanagement"
+    },
+    {
+      "id": "brakes",
+      "name": "Bremse",
+      "icon": "◎",
+      "desc": "Bremsscheiben, Beläge, Sättel, Leitungen und ABS"
+    },
+    {
+      "id": "electrical",
+      "name": "Elektrik",
+      "icon": "⚡",
+      "desc": "Batterie, Generator, Anlasser, Sicherungen und Bordnetz"
+    },
+    {
+      "id": "suspension",
+      "name": "Fahrwerk",
+      "icon": "⌁",
+      "desc": "Federn, Dämpfer, Querlenker, Lager und Radaufhängung"
+    },
+    {
+      "id": "steering",
+      "name": "Lenkung",
+      "icon": "✥",
+      "desc": "Lenkgetriebe, Spurstangen, Gelenke und Servounterstützung"
+    },
+    {
+      "id": "cooling",
+      "name": "Kühlung",
+      "icon": "◌",
+      "desc": "Kühler, Thermostat, Wasserpumpe, Lüfter und Kühlmittel"
+    },
+    {
+      "id": "climate",
+      "name": "Klima",
+      "icon": "❄",
+      "desc": "Klimakompressor, Kondensator, Verdampfer und Gebläse"
+    },
+    {
+      "id": "transmission",
+      "name": "Getriebe",
+      "icon": "⚙",
+      "desc": "Kupplung, Schaltung, Automatik und Antriebsstrang"
+    },
+    {
+      "id": "fuel",
+      "name": "Kraftstoff",
+      "icon": "◒",
+      "desc": "Tank, Pumpe, Filter, Einspritzung und Kraftstoffversorgung"
+    },
+    {
+      "id": "exhaust",
+      "name": "Abgas",
+      "icon": "≋",
+      "desc": "Abgasanlage, Katalysator, Partikelfilter und Sensorik"
+    },
+    {
+      "id": "body",
+      "name": "Karosserie",
+      "icon": "▣",
+      "desc": "Türen, Hauben, Beleuchtung, Scheiben und Anbauteile"
+    },
+    {
+      "id": "diagnostics",
+      "name": "Diagnose",
+      "icon": "⌕",
+      "desc": "Fehlerspeicher, Messwerte, Prüfabläufe und Rückstellungen"
+    }
+  ],
+  "repairs": [
+    {
+      "id": "brake-pads",
+      "title": "Bremsbeläge wechseln",
+      "system": "brakes",
+      "difficulty": "Mittel",
+      "time": "45–90 min",
+      "summary": "Belagstärke, Scheibenzustand und Verschleißanzeige prüfen.",
+      "steps": [
+        "Fahrzeug, Motorisierung und Bauzustand eindeutig identifizieren.",
+        "Fahrzeug sichern und benötigtes Werkzeug sowie Ersatzteile vorbereiten.",
+        "Einbaulage, Steckverbindungen und Leitungswege vor dem Ausbau dokumentieren.",
+        "Bauteil nach fahrzeugspezifischem Ausbauverfahren entfernen.",
+        "Neues oder instandgesetztes Bauteil korrekt montieren; Befestigungen nach Herstellerangaben anziehen.",
+        "Funktion prüfen, Dichtheit kontrollieren und erforderliche Diagnose-/Resetarbeiten durchführen."
+      ],
+      "checks": [
+        "Fehlerspeicher vor und nach der Arbeit prüfen, sofern relevant.",
+        "Probefunktion unter sicheren Bedingungen durchführen.",
+        "Wartungs-/Serviceeintrag dokumentieren."
+      ]
+    },
+    {
+      "id": "brake-discs",
+      "title": "Bremsscheiben wechseln",
+      "system": "brakes",
+      "difficulty": "Fortgeschritten",
+      "time": "90–150 min",
+      "summary": "Scheibenstärke und Mindestmaß fahrzeugspezifisch prüfen.",
+      "steps": [
+        "Fahrzeug, Motorisierung und Bauzustand eindeutig identifizieren.",
+        "Fahrzeug sichern und benötigtes Werkzeug sowie Ersatzteile vorbereiten.",
+        "Einbaulage, Steckverbindungen und Leitungswege vor dem Ausbau dokumentieren.",
+        "Bauteil nach fahrzeugspezifischem Ausbauverfahren entfernen.",
+        "Neues oder instandgesetztes Bauteil korrekt montieren; Befestigungen nach Herstellerangaben anziehen.",
+        "Funktion prüfen, Dichtheit kontrollieren und erforderliche Diagnose-/Resetarbeiten durchführen."
+      ],
+      "checks": [
+        "Fehlerspeicher vor und nach der Arbeit prüfen, sofern relevant.",
+        "Probefunktion unter sicheren Bedingungen durchführen.",
+        "Wartungs-/Serviceeintrag dokumentieren."
+      ]
+    },
+    {
+      "id": "brake-fluid",
+      "title": "Bremsflüssigkeit erneuern",
+      "system": "brakes",
+      "difficulty": "Fortgeschritten",
+      "time": "60–120 min",
+      "summary": "Nur freigegebene Flüssigkeit verwenden; Entlüftungsreihenfolge beachten.",
+      "steps": [
+        "Fahrzeug, Motorisierung und Bauzustand eindeutig identifizieren.",
+        "Fahrzeug sichern und benötigtes Werkzeug sowie Ersatzteile vorbereiten.",
+        "Einbaulage, Steckverbindungen und Leitungswege vor dem Ausbau dokumentieren.",
+        "Bauteil nach fahrzeugspezifischem Ausbauverfahren entfernen.",
+        "Neues oder instandgesetztes Bauteil korrekt montieren; Befestigungen nach Herstellerangaben anziehen.",
+        "Funktion prüfen, Dichtheit kontrollieren und erforderliche Diagnose-/Resetarbeiten durchführen."
+      ],
+      "checks": [
+        "Fehlerspeicher vor und nach der Arbeit prüfen, sofern relevant.",
+        "Probefunktion unter sicheren Bedingungen durchführen.",
+        "Wartungs-/Serviceeintrag dokumentieren."
+      ]
+    },
+    {
+      "id": "battery",
+      "title": "Starterbatterie wechseln",
+      "system": "electrical",
+      "difficulty": "Leicht",
+      "time": "15–45 min",
+      "summary": "Polung, Bauform, Kapazität und ggf. Batteriemanagement beachten.",
+      "steps": [
+        "Fahrzeug, Motorisierung und Bauzustand eindeutig identifizieren.",
+        "Fahrzeug sichern und benötigtes Werkzeug sowie Ersatzteile vorbereiten.",
+        "Einbaulage, Steckverbindungen und Leitungswege vor dem Ausbau dokumentieren.",
+        "Bauteil nach fahrzeugspezifischem Ausbauverfahren entfernen.",
+        "Neues oder instandgesetztes Bauteil korrekt montieren; Befestigungen nach Herstellerangaben anziehen.",
+        "Funktion prüfen, Dichtheit kontrollieren und erforderliche Diagnose-/Resetarbeiten durchführen."
+      ],
+      "checks": [
+        "Fehlerspeicher vor und nach der Arbeit prüfen, sofern relevant.",
+        "Probefunktion unter sicheren Bedingungen durchführen.",
+        "Wartungs-/Serviceeintrag dokumentieren."
+      ]
+    },
+    {
+      "id": "alternator",
+      "title": "Generator prüfen/ersetzen",
+      "system": "electrical",
+      "difficulty": "Fortgeschritten",
+      "time": "90–180 min",
+      "summary": "Ladespannung und Riemenantrieb prüfen.",
+      "steps": [
+        "Fahrzeug, Motorisierung und Bauzustand eindeutig identifizieren.",
+        "Fahrzeug sichern und benötigtes Werkzeug sowie Ersatzteile vorbereiten.",
+        "Einbaulage, Steckverbindungen und Leitungswege vor dem Ausbau dokumentieren.",
+        "Bauteil nach fahrzeugspezifischem Ausbauverfahren entfernen.",
+        "Neues oder instandgesetztes Bauteil korrekt montieren; Befestigungen nach Herstellerangaben anziehen.",
+        "Funktion prüfen, Dichtheit kontrollieren und erforderliche Diagnose-/Resetarbeiten durchführen."
+      ],
+      "checks": [
+        "Fehlerspeicher vor und nach der Arbeit prüfen, sofern relevant.",
+        "Probefunktion unter sicheren Bedingungen durchführen.",
+        "Wartungs-/Serviceeintrag dokumentieren."
+      ]
+    },
+    {
+      "id": "starter",
+      "title": "Anlasser prüfen/ersetzen",
+      "system": "electrical",
+      "difficulty": "Fortgeschritten",
+      "time": "60–180 min",
+      "summary": "Spannungsabfall und Masseverbindungen vor Ausbau prüfen.",
+      "steps": [
+        "Fahrzeug, Motorisierung und Bauzustand eindeutig identifizieren.",
+        "Fahrzeug sichern und benötigtes Werkzeug sowie Ersatzteile vorbereiten.",
+        "Einbaulage, Steckverbindungen und Leitungswege vor dem Ausbau dokumentieren.",
+        "Bauteil nach fahrzeugspezifischem Ausbauverfahren entfernen.",
+        "Neues oder instandgesetztes Bauteil korrekt montieren; Befestigungen nach Herstellerangaben anziehen.",
+        "Funktion prüfen, Dichtheit kontrollieren und erforderliche Diagnose-/Resetarbeiten durchführen."
+      ],
+      "checks": [
+        "Fehlerspeicher vor und nach der Arbeit prüfen, sofern relevant.",
+        "Probefunktion unter sicheren Bedingungen durchführen.",
+        "Wartungs-/Serviceeintrag dokumentieren."
+      ]
+    },
+    {
+      "id": "fuse",
+      "title": "Sicherung prüfen/ersetzen",
+      "system": "electrical",
+      "difficulty": "Leicht",
+      "time": "5–20 min",
+      "summary": "Nur gleiche Sicherungsgröße und Ausführung einsetzen.",
+      "steps": [
+        "Fahrzeug, Motorisierung und Bauzustand eindeutig identifizieren.",
+        "Fahrzeug sichern und benötigtes Werkzeug sowie Ersatzteile vorbereiten.",
+        "Einbaulage, Steckverbindungen und Leitungswege vor dem Ausbau dokumentieren.",
+        "Bauteil nach fahrzeugspezifischem Ausbauverfahren entfernen.",
+        "Neues oder instandgesetztes Bauteil korrekt montieren; Befestigungen nach Herstellerangaben anziehen.",
+        "Funktion prüfen, Dichtheit kontrollieren und erforderliche Diagnose-/Resetarbeiten durchführen."
+      ],
+      "checks": [
+        "Fehlerspeicher vor und nach der Arbeit prüfen, sofern relevant.",
+        "Probefunktion unter sicheren Bedingungen durchführen.",
+        "Wartungs-/Serviceeintrag dokumentieren."
+      ]
+    },
+    {
+      "id": "oil-filter",
+      "title": "Motoröl und Filter wechseln",
+      "system": "engine",
+      "difficulty": "Leicht",
+      "time": "30–60 min",
+      "summary": "Ölsorte, Füllmenge und Filter nach Fahrzeugdaten bestimmen.",
+      "steps": [
+        "Fahrzeug, Motorisierung und Bauzustand eindeutig identifizieren.",
+        "Fahrzeug sichern und benötigtes Werkzeug sowie Ersatzteile vorbereiten.",
+        "Einbaulage, Steckverbindungen und Leitungswege vor dem Ausbau dokumentieren.",
+        "Bauteil nach fahrzeugspezifischem Ausbauverfahren entfernen.",
+        "Neues oder instandgesetztes Bauteil korrekt montieren; Befestigungen nach Herstellerangaben anziehen.",
+        "Funktion prüfen, Dichtheit kontrollieren und erforderliche Diagnose-/Resetarbeiten durchführen."
+      ],
+      "checks": [
+        "Fehlerspeicher vor und nach der Arbeit prüfen, sofern relevant.",
+        "Probefunktion unter sicheren Bedingungen durchführen.",
+        "Wartungs-/Serviceeintrag dokumentieren."
+      ]
+    },
+    {
+      "id": "air-filter",
+      "title": "Luftfilter wechseln",
+      "system": "engine",
+      "difficulty": "Leicht",
+      "time": "10–30 min",
+      "summary": "Filtergehäuse sauber halten und Dichtung prüfen.",
+      "steps": [
+        "Fahrzeug, Motorisierung und Bauzustand eindeutig identifizieren.",
+        "Fahrzeug sichern und benötigtes Werkzeug sowie Ersatzteile vorbereiten.",
+        "Einbaulage, Steckverbindungen und Leitungswege vor dem Ausbau dokumentieren.",
+        "Bauteil nach fahrzeugspezifischem Ausbauverfahren entfernen.",
+        "Neues oder instandgesetztes Bauteil korrekt montieren; Befestigungen nach Herstellerangaben anziehen.",
+        "Funktion prüfen, Dichtheit kontrollieren und erforderliche Diagnose-/Resetarbeiten durchführen."
+      ],
+      "checks": [
+        "Fehlerspeicher vor und nach der Arbeit prüfen, sofern relevant.",
+        "Probefunktion unter sicheren Bedingungen durchführen.",
+        "Wartungs-/Serviceeintrag dokumentieren."
+      ]
+    },
+    {
+      "id": "spark-plugs",
+      "title": "Zündkerzen wechseln",
+      "system": "engine",
+      "difficulty": "Mittel",
+      "time": "30–90 min",
+      "summary": "Kerzentyp und Anzugsdrehmoment fahrzeugspezifisch.",
+      "steps": [
+        "Fahrzeug, Motorisierung und Bauzustand eindeutig identifizieren.",
+        "Fahrzeug sichern und benötigtes Werkzeug sowie Ersatzteile vorbereiten.",
+        "Einbaulage, Steckverbindungen und Leitungswege vor dem Ausbau dokumentieren.",
+        "Bauteil nach fahrzeugspezifischem Ausbauverfahren entfernen.",
+        "Neues oder instandgesetztes Bauteil korrekt montieren; Befestigungen nach Herstellerangaben anziehen.",
+        "Funktion prüfen, Dichtheit kontrollieren und erforderliche Diagnose-/Resetarbeiten durchführen."
+      ],
+      "checks": [
+        "Fehlerspeicher vor und nach der Arbeit prüfen, sofern relevant.",
+        "Probefunktion unter sicheren Bedingungen durchführen.",
+        "Wartungs-/Serviceeintrag dokumentieren."
+      ]
+    },
+    {
+      "id": "glow-plugs",
+      "title": "Glühkerzen prüfen/wechseln",
+      "system": "engine",
+      "difficulty": "Fortgeschritten",
+      "time": "60–180 min",
+      "summary": "Abreißrisiko und fahrzeugspezifische Ausbaudaten beachten.",
+      "steps": [
+        "Fahrzeug, Motorisierung und Bauzustand eindeutig identifizieren.",
+        "Fahrzeug sichern und benötigtes Werkzeug sowie Ersatzteile vorbereiten.",
+        "Einbaulage, Steckverbindungen und Leitungswege vor dem Ausbau dokumentieren.",
+        "Bauteil nach fahrzeugspezifischem Ausbauverfahren entfernen.",
+        "Neues oder instandgesetztes Bauteil korrekt montieren; Befestigungen nach Herstellerangaben anziehen.",
+        "Funktion prüfen, Dichtheit kontrollieren und erforderliche Diagnose-/Resetarbeiten durchführen."
+      ],
+      "checks": [
+        "Fehlerspeicher vor und nach der Arbeit prüfen, sofern relevant.",
+        "Probefunktion unter sicheren Bedingungen durchführen.",
+        "Wartungs-/Serviceeintrag dokumentieren."
+      ]
+    },
+    {
+      "id": "belt",
+      "title": "Keilrippenriemen wechseln",
+      "system": "engine",
+      "difficulty": "Mittel",
+      "time": "45–120 min",
+      "summary": "Riemenverlauf und Spannsystem dokumentieren.",
+      "steps": [
+        "Fahrzeug, Motorisierung und Bauzustand eindeutig identifizieren.",
+        "Fahrzeug sichern und benötigtes Werkzeug sowie Ersatzteile vorbereiten.",
+        "Einbaulage, Steckverbindungen und Leitungswege vor dem Ausbau dokumentieren.",
+        "Bauteil nach fahrzeugspezifischem Ausbauverfahren entfernen.",
+        "Neues oder instandgesetztes Bauteil korrekt montieren; Befestigungen nach Herstellerangaben anziehen.",
+        "Funktion prüfen, Dichtheit kontrollieren und erforderliche Diagnose-/Resetarbeiten durchführen."
+      ],
+      "checks": [
+        "Fehlerspeicher vor und nach der Arbeit prüfen, sofern relevant.",
+        "Probefunktion unter sicheren Bedingungen durchführen.",
+        "Wartungs-/Serviceeintrag dokumentieren."
+      ]
+    },
+    {
+      "id": "timing-belt",
+      "title": "Zahnriemen-Service",
+      "system": "engine",
+      "difficulty": "Profi",
+      "time": "3–8 h",
+      "summary": "Nur mit fahrzeugspezifischem Arretier- und Einstellverfahren.",
+      "steps": [
+        "Fahrzeug, Motorisierung und Bauzustand eindeutig identifizieren.",
+        "Fahrzeug sichern und benötigtes Werkzeug sowie Ersatzteile vorbereiten.",
+        "Einbaulage, Steckverbindungen und Leitungswege vor dem Ausbau dokumentieren.",
+        "Bauteil nach fahrzeugspezifischem Ausbauverfahren entfernen.",
+        "Neues oder instandgesetztes Bauteil korrekt montieren; Befestigungen nach Herstellerangaben anziehen.",
+        "Funktion prüfen, Dichtheit kontrollieren und erforderliche Diagnose-/Resetarbeiten durchführen."
+      ],
+      "checks": [
+        "Fehlerspeicher vor und nach der Arbeit prüfen, sofern relevant.",
+        "Probefunktion unter sicheren Bedingungen durchführen.",
+        "Wartungs-/Serviceeintrag dokumentieren."
+      ]
+    },
+    {
+      "id": "coolant",
+      "title": "Kühlmittel prüfen/wechseln",
+      "system": "cooling",
+      "difficulty": "Mittel",
+      "time": "30–90 min",
+      "summary": "Nur freigegebenes Kühlmittel; Entlüftungsverfahren beachten.",
+      "steps": [
+        "Fahrzeug, Motorisierung und Bauzustand eindeutig identifizieren.",
+        "Fahrzeug sichern und benötigtes Werkzeug sowie Ersatzteile vorbereiten.",
+        "Einbaulage, Steckverbindungen und Leitungswege vor dem Ausbau dokumentieren.",
+        "Bauteil nach fahrzeugspezifischem Ausbauverfahren entfernen.",
+        "Neues oder instandgesetztes Bauteil korrekt montieren; Befestigungen nach Herstellerangaben anziehen.",
+        "Funktion prüfen, Dichtheit kontrollieren und erforderliche Diagnose-/Resetarbeiten durchführen."
+      ],
+      "checks": [
+        "Fehlerspeicher vor und nach der Arbeit prüfen, sofern relevant.",
+        "Probefunktion unter sicheren Bedingungen durchführen.",
+        "Wartungs-/Serviceeintrag dokumentieren."
+      ]
+    },
+    {
+      "id": "thermostat",
+      "title": "Thermostat ersetzen",
+      "system": "cooling",
+      "difficulty": "Mittel",
+      "time": "60–150 min",
+      "summary": "Kühlsystem drucklos und kalt öffnen.",
+      "steps": [
+        "Fahrzeug, Motorisierung und Bauzustand eindeutig identifizieren.",
+        "Fahrzeug sichern und benötigtes Werkzeug sowie Ersatzteile vorbereiten.",
+        "Einbaulage, Steckverbindungen und Leitungswege vor dem Ausbau dokumentieren.",
+        "Bauteil nach fahrzeugspezifischem Ausbauverfahren entfernen.",
+        "Neues oder instandgesetztes Bauteil korrekt montieren; Befestigungen nach Herstellerangaben anziehen.",
+        "Funktion prüfen, Dichtheit kontrollieren und erforderliche Diagnose-/Resetarbeiten durchführen."
+      ],
+      "checks": [
+        "Fehlerspeicher vor und nach der Arbeit prüfen, sofern relevant.",
+        "Probefunktion unter sicheren Bedingungen durchführen.",
+        "Wartungs-/Serviceeintrag dokumentieren."
+      ]
+    },
+    {
+      "id": "water-pump",
+      "title": "Wasserpumpe prüfen/ersetzen",
+      "system": "cooling",
+      "difficulty": "Fortgeschritten",
+      "time": "2–6 h",
+      "summary": "Bei Riementrieb fahrzeugspezifische Steuerzeiten beachten.",
+      "steps": [
+        "Fahrzeug, Motorisierung und Bauzustand eindeutig identifizieren.",
+        "Fahrzeug sichern und benötigtes Werkzeug sowie Ersatzteile vorbereiten.",
+        "Einbaulage, Steckverbindungen und Leitungswege vor dem Ausbau dokumentieren.",
+        "Bauteil nach fahrzeugspezifischem Ausbauverfahren entfernen.",
+        "Neues oder instandgesetztes Bauteil korrekt montieren; Befestigungen nach Herstellerangaben anziehen.",
+        "Funktion prüfen, Dichtheit kontrollieren und erforderliche Diagnose-/Resetarbeiten durchführen."
+      ],
+      "checks": [
+        "Fehlerspeicher vor und nach der Arbeit prüfen, sofern relevant.",
+        "Probefunktion unter sicheren Bedingungen durchführen.",
+        "Wartungs-/Serviceeintrag dokumentieren."
+      ]
+    },
+    {
+      "id": "shock",
+      "title": "Stoßdämpfer ersetzen",
+      "system": "suspension",
+      "difficulty": "Fortgeschritten",
+      "time": "2–4 h",
+      "summary": "Fahrzeug sichern; Feder steht unter hoher Spannung.",
+      "steps": [
+        "Fahrzeug, Motorisierung und Bauzustand eindeutig identifizieren.",
+        "Fahrzeug sichern und benötigtes Werkzeug sowie Ersatzteile vorbereiten.",
+        "Einbaulage, Steckverbindungen und Leitungswege vor dem Ausbau dokumentieren.",
+        "Bauteil nach fahrzeugspezifischem Ausbauverfahren entfernen.",
+        "Neues oder instandgesetztes Bauteil korrekt montieren; Befestigungen nach Herstellerangaben anziehen.",
+        "Funktion prüfen, Dichtheit kontrollieren und erforderliche Diagnose-/Resetarbeiten durchführen."
+      ],
+      "checks": [
+        "Fehlerspeicher vor und nach der Arbeit prüfen, sofern relevant.",
+        "Probefunktion unter sicheren Bedingungen durchführen.",
+        "Wartungs-/Serviceeintrag dokumentieren."
+      ]
+    },
+    {
+      "id": "control-arm",
+      "title": "Querlenker/Lager ersetzen",
+      "system": "suspension",
+      "difficulty": "Fortgeschritten",
+      "time": "1–3 h",
+      "summary": "Endanzug vieler Fahrwerkslager in Konstruktionslage erforderlich.",
+      "steps": [
+        "Fahrzeug, Motorisierung und Bauzustand eindeutig identifizieren.",
+        "Fahrzeug sichern und benötigtes Werkzeug sowie Ersatzteile vorbereiten.",
+        "Einbaulage, Steckverbindungen und Leitungswege vor dem Ausbau dokumentieren.",
+        "Bauteil nach fahrzeugspezifischem Ausbauverfahren entfernen.",
+        "Neues oder instandgesetztes Bauteil korrekt montieren; Befestigungen nach Herstellerangaben anziehen.",
+        "Funktion prüfen, Dichtheit kontrollieren und erforderliche Diagnose-/Resetarbeiten durchführen."
+      ],
+      "checks": [
+        "Fehlerspeicher vor und nach der Arbeit prüfen, sofern relevant.",
+        "Probefunktion unter sicheren Bedingungen durchführen.",
+        "Wartungs-/Serviceeintrag dokumentieren."
+      ]
+    },
+    {
+      "id": "tie-rod",
+      "title": "Spurstange/Spurstangenkopf",
+      "system": "steering",
+      "difficulty": "Mittel",
+      "time": "60–150 min",
+      "summary": "Danach Achsgeometrie prüfen lassen.",
+      "steps": [
+        "Fahrzeug, Motorisierung und Bauzustand eindeutig identifizieren.",
+        "Fahrzeug sichern und benötigtes Werkzeug sowie Ersatzteile vorbereiten.",
+        "Einbaulage, Steckverbindungen und Leitungswege vor dem Ausbau dokumentieren.",
+        "Bauteil nach fahrzeugspezifischem Ausbauverfahren entfernen.",
+        "Neues oder instandgesetztes Bauteil korrekt montieren; Befestigungen nach Herstellerangaben anziehen.",
+        "Funktion prüfen, Dichtheit kontrollieren und erforderliche Diagnose-/Resetarbeiten durchführen."
+      ],
+      "checks": [
+        "Fehlerspeicher vor und nach der Arbeit prüfen, sofern relevant.",
+        "Probefunktion unter sicheren Bedingungen durchführen.",
+        "Wartungs-/Serviceeintrag dokumentieren."
+      ]
+    },
+    {
+      "id": "clutch",
+      "title": "Kupplung ersetzen",
+      "system": "transmission",
+      "difficulty": "Profi",
+      "time": "5–10 h",
+      "summary": "Getriebeausbau und fahrzeugspezifische Zentrierung erforderlich.",
+      "steps": [
+        "Fahrzeug, Motorisierung und Bauzustand eindeutig identifizieren.",
+        "Fahrzeug sichern und benötigtes Werkzeug sowie Ersatzteile vorbereiten.",
+        "Einbaulage, Steckverbindungen und Leitungswege vor dem Ausbau dokumentieren.",
+        "Bauteil nach fahrzeugspezifischem Ausbauverfahren entfernen.",
+        "Neues oder instandgesetztes Bauteil korrekt montieren; Befestigungen nach Herstellerangaben anziehen.",
+        "Funktion prüfen, Dichtheit kontrollieren und erforderliche Diagnose-/Resetarbeiten durchführen."
+      ],
+      "checks": [
+        "Fehlerspeicher vor und nach der Arbeit prüfen, sofern relevant.",
+        "Probefunktion unter sicheren Bedingungen durchführen.",
+        "Wartungs-/Serviceeintrag dokumentieren."
+      ]
+    },
+    {
+      "id": "manual-fluid",
+      "title": "Schaltgetriebeöl prüfen/wechseln",
+      "system": "transmission",
+      "difficulty": "Mittel",
+      "time": "45–90 min",
+      "summary": "Füllstand nach Herstellerverfahren prüfen.",
+      "steps": [
+        "Fahrzeug, Motorisierung und Bauzustand eindeutig identifizieren.",
+        "Fahrzeug sichern und benötigtes Werkzeug sowie Ersatzteile vorbereiten.",
+        "Einbaulage, Steckverbindungen und Leitungswege vor dem Ausbau dokumentieren.",
+        "Bauteil nach fahrzeugspezifischem Ausbauverfahren entfernen.",
+        "Neues oder instandgesetztes Bauteil korrekt montieren; Befestigungen nach Herstellerangaben anziehen.",
+        "Funktion prüfen, Dichtheit kontrollieren und erforderliche Diagnose-/Resetarbeiten durchführen."
+      ],
+      "checks": [
+        "Fehlerspeicher vor und nach der Arbeit prüfen, sofern relevant.",
+        "Probefunktion unter sicheren Bedingungen durchführen.",
+        "Wartungs-/Serviceeintrag dokumentieren."
+      ]
+    },
+    {
+      "id": "fuel-filter",
+      "title": "Kraftstofffilter wechseln",
+      "system": "fuel",
+      "difficulty": "Mittel",
+      "time": "30–90 min",
+      "summary": "Druckentlastung und Leckprüfung beachten.",
+      "steps": [
+        "Fahrzeug, Motorisierung und Bauzustand eindeutig identifizieren.",
+        "Fahrzeug sichern und benötigtes Werkzeug sowie Ersatzteile vorbereiten.",
+        "Einbaulage, Steckverbindungen und Leitungswege vor dem Ausbau dokumentieren.",
+        "Bauteil nach fahrzeugspezifischem Ausbauverfahren entfernen.",
+        "Neues oder instandgesetztes Bauteil korrekt montieren; Befestigungen nach Herstellerangaben anziehen.",
+        "Funktion prüfen, Dichtheit kontrollieren und erforderliche Diagnose-/Resetarbeiten durchführen."
+      ],
+      "checks": [
+        "Fehlerspeicher vor und nach der Arbeit prüfen, sofern relevant.",
+        "Probefunktion unter sicheren Bedingungen durchführen.",
+        "Wartungs-/Serviceeintrag dokumentieren."
+      ]
+    },
+    {
+      "id": "intake-clean",
+      "title": "Ansaugsystem prüfen/reinigen",
+      "system": "engine",
+      "difficulty": "Mittel",
+      "time": "45–180 min",
+      "summary": "Keine Fremdkörper in den Motor gelangen lassen.",
+      "steps": [
+        "Fahrzeug, Motorisierung und Bauzustand eindeutig identifizieren.",
+        "Fahrzeug sichern und benötigtes Werkzeug sowie Ersatzteile vorbereiten.",
+        "Einbaulage, Steckverbindungen und Leitungswege vor dem Ausbau dokumentieren.",
+        "Bauteil nach fahrzeugspezifischem Ausbauverfahren entfernen.",
+        "Neues oder instandgesetztes Bauteil korrekt montieren; Befestigungen nach Herstellerangaben anziehen.",
+        "Funktion prüfen, Dichtheit kontrollieren und erforderliche Diagnose-/Resetarbeiten durchführen."
+      ],
+      "checks": [
+        "Fehlerspeicher vor und nach der Arbeit prüfen, sofern relevant.",
+        "Probefunktion unter sicheren Bedingungen durchführen.",
+        "Wartungs-/Serviceeintrag dokumentieren."
+      ]
+    },
+    {
+      "id": "egr",
+      "title": "AGR-System prüfen/reinigen",
+      "system": "exhaust",
+      "difficulty": "Fortgeschritten",
+      "time": "1–4 h",
+      "summary": "Bauteilzugang und Dichtungen fahrzeugspezifisch.",
+      "steps": [
+        "Fahrzeug, Motorisierung und Bauzustand eindeutig identifizieren.",
+        "Fahrzeug sichern und benötigtes Werkzeug sowie Ersatzteile vorbereiten.",
+        "Einbaulage, Steckverbindungen und Leitungswege vor dem Ausbau dokumentieren.",
+        "Bauteil nach fahrzeugspezifischem Ausbauverfahren entfernen.",
+        "Neues oder instandgesetztes Bauteil korrekt montieren; Befestigungen nach Herstellerangaben anziehen.",
+        "Funktion prüfen, Dichtheit kontrollieren und erforderliche Diagnose-/Resetarbeiten durchführen."
+      ],
+      "checks": [
+        "Fehlerspeicher vor und nach der Arbeit prüfen, sofern relevant.",
+        "Probefunktion unter sicheren Bedingungen durchführen.",
+        "Wartungs-/Serviceeintrag dokumentieren."
+      ]
+    },
+    {
+      "id": "dpf",
+      "title": "Partikelfilter-Diagnose",
+      "system": "exhaust",
+      "difficulty": "Fortgeschritten",
+      "time": "30–120 min",
+      "summary": "Differenzdruck, Temperaturen und Beladungswerte auslesen.",
+      "steps": [
+        "Fahrzeug, Motorisierung und Bauzustand eindeutig identifizieren.",
+        "Fahrzeug sichern und benötigtes Werkzeug sowie Ersatzteile vorbereiten.",
+        "Einbaulage, Steckverbindungen und Leitungswege vor dem Ausbau dokumentieren.",
+        "Bauteil nach fahrzeugspezifischem Ausbauverfahren entfernen.",
+        "Neues oder instandgesetztes Bauteil korrekt montieren; Befestigungen nach Herstellerangaben anziehen.",
+        "Funktion prüfen, Dichtheit kontrollieren und erforderliche Diagnose-/Resetarbeiten durchführen."
+      ],
+      "checks": [
+        "Fehlerspeicher vor und nach der Arbeit prüfen, sofern relevant.",
+        "Probefunktion unter sicheren Bedingungen durchführen.",
+        "Wartungs-/Serviceeintrag dokumentieren."
+      ]
+    },
+    {
+      "id": "oxygen-sensor",
+      "title": "Lambdasonde prüfen/ersetzen",
+      "system": "exhaust",
+      "difficulty": "Mittel",
+      "time": "30–120 min",
+      "summary": "Fehlerursache vor Teiletausch diagnostizieren.",
+      "steps": [
+        "Fahrzeug, Motorisierung und Bauzustand eindeutig identifizieren.",
+        "Fahrzeug sichern und benötigtes Werkzeug sowie Ersatzteile vorbereiten.",
+        "Einbaulage, Steckverbindungen und Leitungswege vor dem Ausbau dokumentieren.",
+        "Bauteil nach fahrzeugspezifischem Ausbauverfahren entfernen.",
+        "Neues oder instandgesetztes Bauteil korrekt montieren; Befestigungen nach Herstellerangaben anziehen.",
+        "Funktion prüfen, Dichtheit kontrollieren und erforderliche Diagnose-/Resetarbeiten durchführen."
+      ],
+      "checks": [
+        "Fehlerspeicher vor und nach der Arbeit prüfen, sofern relevant.",
+        "Probefunktion unter sicheren Bedingungen durchführen.",
+        "Wartungs-/Serviceeintrag dokumentieren."
+      ]
+    },
+    {
+      "id": "bulb",
+      "title": "Leuchtmittel wechseln",
+      "system": "body",
+      "difficulty": "Leicht",
+      "time": "10–45 min",
+      "summary": "Lampentyp und Einbaulage prüfen.",
+      "steps": [
+        "Fahrzeug, Motorisierung und Bauzustand eindeutig identifizieren.",
+        "Fahrzeug sichern und benötigtes Werkzeug sowie Ersatzteile vorbereiten.",
+        "Einbaulage, Steckverbindungen und Leitungswege vor dem Ausbau dokumentieren.",
+        "Bauteil nach fahrzeugspezifischem Ausbauverfahren entfernen.",
+        "Neues oder instandgesetztes Bauteil korrekt montieren; Befestigungen nach Herstellerangaben anziehen.",
+        "Funktion prüfen, Dichtheit kontrollieren und erforderliche Diagnose-/Resetarbeiten durchführen."
+      ],
+      "checks": [
+        "Fehlerspeicher vor und nach der Arbeit prüfen, sofern relevant.",
+        "Probefunktion unter sicheren Bedingungen durchführen.",
+        "Wartungs-/Serviceeintrag dokumentieren."
+      ]
+    },
+    {
+      "id": "headlight",
+      "title": "Scheinwerfer aus-/einbauen",
+      "system": "body",
+      "difficulty": "Mittel",
+      "time": "30–120 min",
+      "summary": "Nach Arbeiten ggf. Licht-/Leuchtweitenprüfung.",
+      "steps": [
+        "Fahrzeug, Motorisierung und Bauzustand eindeutig identifizieren.",
+        "Fahrzeug sichern und benötigtes Werkzeug sowie Ersatzteile vorbereiten.",
+        "Einbaulage, Steckverbindungen und Leitungswege vor dem Ausbau dokumentieren.",
+        "Bauteil nach fahrzeugspezifischem Ausbauverfahren entfernen.",
+        "Neues oder instandgesetztes Bauteil korrekt montieren; Befestigungen nach Herstellerangaben anziehen.",
+        "Funktion prüfen, Dichtheit kontrollieren und erforderliche Diagnose-/Resetarbeiten durchführen."
+      ],
+      "checks": [
+        "Fehlerspeicher vor und nach der Arbeit prüfen, sofern relevant.",
+        "Probefunktion unter sicheren Bedingungen durchführen.",
+        "Wartungs-/Serviceeintrag dokumentieren."
+      ]
+    },
+    {
+      "id": "wiper",
+      "title": "Wischerblätter wechseln",
+      "system": "body",
+      "difficulty": "Leicht",
+      "time": "5–15 min",
+      "summary": "Wischerarm beim Wechsel gegen Zurückschlagen sichern.",
+      "steps": [
+        "Fahrzeug, Motorisierung und Bauzustand eindeutig identifizieren.",
+        "Fahrzeug sichern und benötigtes Werkzeug sowie Ersatzteile vorbereiten.",
+        "Einbaulage, Steckverbindungen und Leitungswege vor dem Ausbau dokumentieren.",
+        "Bauteil nach fahrzeugspezifischem Ausbauverfahren entfernen.",
+        "Neues oder instandgesetztes Bauteil korrekt montieren; Befestigungen nach Herstellerangaben anziehen.",
+        "Funktion prüfen, Dichtheit kontrollieren und erforderliche Diagnose-/Resetarbeiten durchführen."
+      ],
+      "checks": [
+        "Fehlerspeicher vor und nach der Arbeit prüfen, sofern relevant.",
+        "Probefunktion unter sicheren Bedingungen durchführen.",
+        "Wartungs-/Serviceeintrag dokumentieren."
+      ]
+    },
+    {
+      "id": "cabin-filter",
+      "title": "Innenraumfilter wechseln",
+      "system": "climate",
+      "difficulty": "Leicht",
+      "time": "10–30 min",
+      "summary": "Luftstromrichtung beachten.",
+      "steps": [
+        "Fahrzeug, Motorisierung und Bauzustand eindeutig identifizieren.",
+        "Fahrzeug sichern und benötigtes Werkzeug sowie Ersatzteile vorbereiten.",
+        "Einbaulage, Steckverbindungen und Leitungswege vor dem Ausbau dokumentieren.",
+        "Bauteil nach fahrzeugspezifischem Ausbauverfahren entfernen.",
+        "Neues oder instandgesetztes Bauteil korrekt montieren; Befestigungen nach Herstellerangaben anziehen.",
+        "Funktion prüfen, Dichtheit kontrollieren und erforderliche Diagnose-/Resetarbeiten durchführen."
+      ],
+      "checks": [
+        "Fehlerspeicher vor und nach der Arbeit prüfen, sofern relevant.",
+        "Probefunktion unter sicheren Bedingungen durchführen.",
+        "Wartungs-/Serviceeintrag dokumentieren."
+      ]
+    },
+    {
+      "id": "blower",
+      "title": "Gebläsemotor prüfen/wechseln",
+      "system": "climate",
+      "difficulty": "Mittel",
+      "time": "45–180 min",
+      "summary": "Zugang und elektrische Prüfung vor Ausbau.",
+      "steps": [
+        "Fahrzeug, Motorisierung und Bauzustand eindeutig identifizieren.",
+        "Fahrzeug sichern und benötigtes Werkzeug sowie Ersatzteile vorbereiten.",
+        "Einbaulage, Steckverbindungen und Leitungswege vor dem Ausbau dokumentieren.",
+        "Bauteil nach fahrzeugspezifischem Ausbauverfahren entfernen.",
+        "Neues oder instandgesetztes Bauteil korrekt montieren; Befestigungen nach Herstellerangaben anziehen.",
+        "Funktion prüfen, Dichtheit kontrollieren und erforderliche Diagnose-/Resetarbeiten durchführen."
+      ],
+      "checks": [
+        "Fehlerspeicher vor und nach der Arbeit prüfen, sofern relevant.",
+        "Probefunktion unter sicheren Bedingungen durchführen.",
+        "Wartungs-/Serviceeintrag dokumentieren."
+      ]
+    },
+    {
+      "id": "ac-service",
+      "title": "Klimaanlage Diagnose",
+      "system": "climate",
+      "difficulty": "Fortgeschritten",
+      "time": "30–120 min",
+      "summary": "Kältemittelarbeiten nur mit geeigneter Fachausrüstung.",
+      "steps": [
+        "Fahrzeug, Motorisierung und Bauzustand eindeutig identifizieren.",
+        "Fahrzeug sichern und benötigtes Werkzeug sowie Ersatzteile vorbereiten.",
+        "Einbaulage, Steckverbindungen und Leitungswege vor dem Ausbau dokumentieren.",
+        "Bauteil nach fahrzeugspezifischem Ausbauverfahren entfernen.",
+        "Neues oder instandgesetztes Bauteil korrekt montieren; Befestigungen nach Herstellerangaben anziehen.",
+        "Funktion prüfen, Dichtheit kontrollieren und erforderliche Diagnose-/Resetarbeiten durchführen."
+      ],
+      "checks": [
+        "Fehlerspeicher vor und nach der Arbeit prüfen, sofern relevant.",
+        "Probefunktion unter sicheren Bedingungen durchführen.",
+        "Wartungs-/Serviceeintrag dokumentieren."
+      ]
+    },
+    {
+      "id": "wheel-bearing",
+      "title": "Radlager prüfen/wechseln",
+      "system": "suspension",
+      "difficulty": "Fortgeschritten",
+      "time": "1–4 h",
+      "summary": "Spiel, Geräusch und ABS-Sensorik prüfen.",
+      "steps": [
+        "Fahrzeug, Motorisierung und Bauzustand eindeutig identifizieren.",
+        "Fahrzeug sichern und benötigtes Werkzeug sowie Ersatzteile vorbereiten.",
+        "Einbaulage, Steckverbindungen und Leitungswege vor dem Ausbau dokumentieren.",
+        "Bauteil nach fahrzeugspezifischem Ausbauverfahren entfernen.",
+        "Neues oder instandgesetztes Bauteil korrekt montieren; Befestigungen nach Herstellerangaben anziehen.",
+        "Funktion prüfen, Dichtheit kontrollieren und erforderliche Diagnose-/Resetarbeiten durchführen."
+      ],
+      "checks": [
+        "Fehlerspeicher vor und nach der Arbeit prüfen, sofern relevant.",
+        "Probefunktion unter sicheren Bedingungen durchführen.",
+        "Wartungs-/Serviceeintrag dokumentieren."
+      ]
+    },
+    {
+      "id": "wheel-change",
+      "title": "Rad montieren/wechseln",
+      "system": "brakes",
+      "difficulty": "Leicht",
+      "time": "15–30 min",
+      "summary": "Radschrauben nach fahrzeugspezifischem Drehmoment anziehen.",
+      "steps": [
+        "Fahrzeug, Motorisierung und Bauzustand eindeutig identifizieren.",
+        "Fahrzeug sichern und benötigtes Werkzeug sowie Ersatzteile vorbereiten.",
+        "Einbaulage, Steckverbindungen und Leitungswege vor dem Ausbau dokumentieren.",
+        "Bauteil nach fahrzeugspezifischem Ausbauverfahren entfernen.",
+        "Neues oder instandgesetztes Bauteil korrekt montieren; Befestigungen nach Herstellerangaben anziehen.",
+        "Funktion prüfen, Dichtheit kontrollieren und erforderliche Diagnose-/Resetarbeiten durchführen."
+      ],
+      "checks": [
+        "Fehlerspeicher vor und nach der Arbeit prüfen, sofern relevant.",
+        "Probefunktion unter sicheren Bedingungen durchführen.",
+        "Wartungs-/Serviceeintrag dokumentieren."
+      ]
+    },
+    {
+      "id": "abs-sensor",
+      "title": "ABS-Raddrehzahlsensor prüfen",
+      "system": "brakes",
+      "difficulty": "Mittel",
+      "time": "30–120 min",
+      "summary": "Kabelweg, Steckverbindung und Live-Daten prüfen.",
+      "steps": [
+        "Fahrzeug, Motorisierung und Bauzustand eindeutig identifizieren.",
+        "Fahrzeug sichern und benötigtes Werkzeug sowie Ersatzteile vorbereiten.",
+        "Einbaulage, Steckverbindungen und Leitungswege vor dem Ausbau dokumentieren.",
+        "Bauteil nach fahrzeugspezifischem Ausbauverfahren entfernen.",
+        "Neues oder instandgesetztes Bauteil korrekt montieren; Befestigungen nach Herstellerangaben anziehen.",
+        "Funktion prüfen, Dichtheit kontrollieren und erforderliche Diagnose-/Resetarbeiten durchführen."
+      ],
+      "checks": [
+        "Fehlerspeicher vor und nach der Arbeit prüfen, sofern relevant.",
+        "Probefunktion unter sicheren Bedingungen durchführen.",
+        "Wartungs-/Serviceeintrag dokumentieren."
+      ]
+    },
+    {
+      "id": "parking-brake",
+      "title": "Feststellbremse prüfen",
+      "system": "brakes",
+      "difficulty": "Leicht",
+      "time": "20–60 min",
+      "summary": "Mechanische und elektronische Varianten unterscheiden.",
+      "steps": [
+        "Fahrzeug, Motorisierung und Bauzustand eindeutig identifizieren.",
+        "Fahrzeug sichern und benötigtes Werkzeug sowie Ersatzteile vorbereiten.",
+        "Einbaulage, Steckverbindungen und Leitungswege vor dem Ausbau dokumentieren.",
+        "Bauteil nach fahrzeugspezifischem Ausbauverfahren entfernen.",
+        "Neues oder instandgesetztes Bauteil korrekt montieren; Befestigungen nach Herstellerangaben anziehen.",
+        "Funktion prüfen, Dichtheit kontrollieren und erforderliche Diagnose-/Resetarbeiten durchführen."
+      ],
+      "checks": [
+        "Fehlerspeicher vor und nach der Arbeit prüfen, sofern relevant.",
+        "Probefunktion unter sicheren Bedingungen durchführen.",
+        "Wartungs-/Serviceeintrag dokumentieren."
+      ]
+    },
+    {
+      "id": "engine-mount",
+      "title": "Motorlager prüfen/ersetzen",
+      "system": "engine",
+      "difficulty": "Fortgeschritten",
+      "time": "1–5 h",
+      "summary": "Motor sicher abstützen und Anzugsverfahren beachten.",
+      "steps": [
+        "Fahrzeug, Motorisierung und Bauzustand eindeutig identifizieren.",
+        "Fahrzeug sichern und benötigtes Werkzeug sowie Ersatzteile vorbereiten.",
+        "Einbaulage, Steckverbindungen und Leitungswege vor dem Ausbau dokumentieren.",
+        "Bauteil nach fahrzeugspezifischem Ausbauverfahren entfernen.",
+        "Neues oder instandgesetztes Bauteil korrekt montieren; Befestigungen nach Herstellerangaben anziehen.",
+        "Funktion prüfen, Dichtheit kontrollieren und erforderliche Diagnose-/Resetarbeiten durchführen."
+      ],
+      "checks": [
+        "Fehlerspeicher vor und nach der Arbeit prüfen, sofern relevant.",
+        "Probefunktion unter sicheren Bedingungen durchführen.",
+        "Wartungs-/Serviceeintrag dokumentieren."
+      ]
+    },
+    {
+      "id": "pcv",
+      "title": "Kurbelgehäuseentlüftung prüfen",
+      "system": "engine",
+      "difficulty": "Mittel",
+      "time": "30–120 min",
+      "summary": "Schläuche, Ventile und Nebenluft prüfen.",
+      "steps": [
+        "Fahrzeug, Motorisierung und Bauzustand eindeutig identifizieren.",
+        "Fahrzeug sichern und benötigtes Werkzeug sowie Ersatzteile vorbereiten.",
+        "Einbaulage, Steckverbindungen und Leitungswege vor dem Ausbau dokumentieren.",
+        "Bauteil nach fahrzeugspezifischem Ausbauverfahren entfernen.",
+        "Neues oder instandgesetztes Bauteil korrekt montieren; Befestigungen nach Herstellerangaben anziehen.",
+        "Funktion prüfen, Dichtheit kontrollieren und erforderliche Diagnose-/Resetarbeiten durchführen."
+      ],
+      "checks": [
+        "Fehlerspeicher vor und nach der Arbeit prüfen, sofern relevant.",
+        "Probefunktion unter sicheren Bedingungen durchführen.",
+        "Wartungs-/Serviceeintrag dokumentieren."
+      ]
+    },
+    {
+      "id": "intake-leak",
+      "title": "Falschluft/Ansaugleck suchen",
+      "system": "engine",
+      "difficulty": "Mittel",
+      "time": "30–120 min",
+      "summary": "Sichtprüfung und geeignete Lecksuchmethode verwenden.",
+      "steps": [
+        "Fahrzeug, Motorisierung und Bauzustand eindeutig identifizieren.",
+        "Fahrzeug sichern und benötigtes Werkzeug sowie Ersatzteile vorbereiten.",
+        "Einbaulage, Steckverbindungen und Leitungswege vor dem Ausbau dokumentieren.",
+        "Bauteil nach fahrzeugspezifischem Ausbauverfahren entfernen.",
+        "Neues oder instandgesetztes Bauteil korrekt montieren; Befestigungen nach Herstellerangaben anziehen.",
+        "Funktion prüfen, Dichtheit kontrollieren und erforderliche Diagnose-/Resetarbeiten durchführen."
+      ],
+      "checks": [
+        "Fehlerspeicher vor und nach der Arbeit prüfen, sofern relevant.",
+        "Probefunktion unter sicheren Bedingungen durchführen.",
+        "Wartungs-/Serviceeintrag dokumentieren."
+      ]
+    },
+    {
+      "id": "misfire",
+      "title": "Zündaussetzer diagnostizieren",
+      "system": "diagnostics",
+      "difficulty": "Fortgeschritten",
+      "time": "30–180 min",
+      "summary": "Zylinderzuordnung, Zündung, Kraftstoff und Kompression systematisch prüfen.",
+      "steps": [
+        "Fahrzeug, Motorisierung und Bauzustand eindeutig identifizieren.",
+        "Fahrzeug sichern und benötigtes Werkzeug sowie Ersatzteile vorbereiten.",
+        "Einbaulage, Steckverbindungen und Leitungswege vor dem Ausbau dokumentieren.",
+        "Bauteil nach fahrzeugspezifischem Ausbauverfahren entfernen.",
+        "Neues oder instandgesetztes Bauteil korrekt montieren; Befestigungen nach Herstellerangaben anziehen.",
+        "Funktion prüfen, Dichtheit kontrollieren und erforderliche Diagnose-/Resetarbeiten durchführen."
+      ],
+      "checks": [
+        "Fehlerspeicher vor und nach der Arbeit prüfen, sofern relevant.",
+        "Probefunktion unter sicheren Bedingungen durchführen.",
+        "Wartungs-/Serviceeintrag dokumentieren."
+      ]
+    },
+    {
+      "id": "no-start",
+      "title": "Motor startet nicht – Diagnose",
+      "system": "diagnostics",
+      "difficulty": "Fortgeschritten",
+      "time": "30–180 min",
+      "summary": "Batteriespannung, Anlassdrehzahl, Kraftstoff und Freigaben prüfen.",
+      "steps": [
+        "Fahrzeug, Motorisierung und Bauzustand eindeutig identifizieren.",
+        "Fahrzeug sichern und benötigtes Werkzeug sowie Ersatzteile vorbereiten.",
+        "Einbaulage, Steckverbindungen und Leitungswege vor dem Ausbau dokumentieren.",
+        "Bauteil nach fahrzeugspezifischem Ausbauverfahren entfernen.",
+        "Neues oder instandgesetztes Bauteil korrekt montieren; Befestigungen nach Herstellerangaben anziehen.",
+        "Funktion prüfen, Dichtheit kontrollieren und erforderliche Diagnose-/Resetarbeiten durchführen."
+      ],
+      "checks": [
+        "Fehlerspeicher vor und nach der Arbeit prüfen, sofern relevant.",
+        "Probefunktion unter sicheren Bedingungen durchführen.",
+        "Wartungs-/Serviceeintrag dokumentieren."
+      ]
+    },
+    {
+      "id": "overheating",
+      "title": "Motor überhitzt – Diagnose",
+      "system": "diagnostics",
+      "difficulty": "Fortgeschritten",
+      "time": "30–180 min",
+      "summary": "Kühlmittelstand, Leckage, Thermostat, Lüfter und Zirkulation prüfen.",
+      "steps": [
+        "Fahrzeug, Motorisierung und Bauzustand eindeutig identifizieren.",
+        "Fahrzeug sichern und benötigtes Werkzeug sowie Ersatzteile vorbereiten.",
+        "Einbaulage, Steckverbindungen und Leitungswege vor dem Ausbau dokumentieren.",
+        "Bauteil nach fahrzeugspezifischem Ausbauverfahren entfernen.",
+        "Neues oder instandgesetztes Bauteil korrekt montieren; Befestigungen nach Herstellerangaben anziehen.",
+        "Funktion prüfen, Dichtheit kontrollieren und erforderliche Diagnose-/Resetarbeiten durchführen."
+      ],
+      "checks": [
+        "Fehlerspeicher vor und nach der Arbeit prüfen, sofern relevant.",
+        "Probefunktion unter sicheren Bedingungen durchführen.",
+        "Wartungs-/Serviceeintrag dokumentieren."
+      ]
+    },
+    {
+      "id": "battery-drain",
+      "title": "Ruhestrom zu hoch – Diagnose",
+      "system": "diagnostics",
+      "difficulty": "Fortgeschritten",
+      "time": "30–180 min",
+      "summary": "Fahrzeug einschlafen lassen und Stromkreise systematisch eingrenzen.",
+      "steps": [
+        "Fahrzeug, Motorisierung und Bauzustand eindeutig identifizieren.",
+        "Fahrzeug sichern und benötigtes Werkzeug sowie Ersatzteile vorbereiten.",
+        "Einbaulage, Steckverbindungen und Leitungswege vor dem Ausbau dokumentieren.",
+        "Bauteil nach fahrzeugspezifischem Ausbauverfahren entfernen.",
+        "Neues oder instandgesetztes Bauteil korrekt montieren; Befestigungen nach Herstellerangaben anziehen.",
+        "Funktion prüfen, Dichtheit kontrollieren und erforderliche Diagnose-/Resetarbeiten durchführen."
+      ],
+      "checks": [
+        "Fehlerspeicher vor und nach der Arbeit prüfen, sofern relevant.",
+        "Probefunktion unter sicheren Bedingungen durchführen.",
+        "Wartungs-/Serviceeintrag dokumentieren."
+      ]
+    },
+    {
+      "id": "check-engine",
+      "title": "Motorkontrollleuchte – Diagnose",
+      "system": "diagnostics",
+      "difficulty": "Mittel",
+      "time": "30–120 min",
+      "summary": "Fehlerspeicher und Freeze-Frame vor Löschen dokumentieren.",
+      "steps": [
+        "Fahrzeug, Motorisierung und Bauzustand eindeutig identifizieren.",
+        "Fahrzeug sichern und benötigtes Werkzeug sowie Ersatzteile vorbereiten.",
+        "Einbaulage, Steckverbindungen und Leitungswege vor dem Ausbau dokumentieren.",
+        "Bauteil nach fahrzeugspezifischem Ausbauverfahren entfernen.",
+        "Neues oder instandgesetztes Bauteil korrekt montieren; Befestigungen nach Herstellerangaben anziehen.",
+        "Funktion prüfen, Dichtheit kontrollieren und erforderliche Diagnose-/Resetarbeiten durchführen."
+      ],
+      "checks": [
+        "Fehlerspeicher vor und nach der Arbeit prüfen, sofern relevant.",
+        "Probefunktion unter sicheren Bedingungen durchführen.",
+        "Wartungs-/Serviceeintrag dokumentieren."
+      ]
+    },
+    {
+      "id": "brake-noise",
+      "title": "Bremsgeräusch – Diagnose",
+      "system": "diagnostics",
+      "difficulty": "Mittel",
+      "time": "20–90 min",
+      "summary": "Beläge, Scheiben, Fremdkörper und Führungen prüfen.",
+      "steps": [
+        "Fahrzeug, Motorisierung und Bauzustand eindeutig identifizieren.",
+        "Fahrzeug sichern und benötigtes Werkzeug sowie Ersatzteile vorbereiten.",
+        "Einbaulage, Steckverbindungen und Leitungswege vor dem Ausbau dokumentieren.",
+        "Bauteil nach fahrzeugspezifischem Ausbauverfahren entfernen.",
+        "Neues oder instandgesetztes Bauteil korrekt montieren; Befestigungen nach Herstellerangaben anziehen.",
+        "Funktion prüfen, Dichtheit kontrollieren und erforderliche Diagnose-/Resetarbeiten durchführen."
+      ],
+      "checks": [
+        "Fehlerspeicher vor und nach der Arbeit prüfen, sofern relevant.",
+        "Probefunktion unter sicheren Bedingungen durchführen.",
+        "Wartungs-/Serviceeintrag dokumentieren."
+      ]
+    },
+    {
+      "id": "steering-pull",
+      "title": "Fahrzeug zieht zur Seite – Diagnose",
+      "system": "diagnostics",
+      "difficulty": "Mittel",
+      "time": "30–120 min",
+      "summary": "Reifendruck, Bremsen, Fahrwerk und Achsgeometrie prüfen.",
+      "steps": [
+        "Fahrzeug, Motorisierung und Bauzustand eindeutig identifizieren.",
+        "Fahrzeug sichern und benötigtes Werkzeug sowie Ersatzteile vorbereiten.",
+        "Einbaulage, Steckverbindungen und Leitungswege vor dem Ausbau dokumentieren.",
+        "Bauteil nach fahrzeugspezifischem Ausbauverfahren entfernen.",
+        "Neues oder instandgesetztes Bauteil korrekt montieren; Befestigungen nach Herstellerangaben anziehen.",
+        "Funktion prüfen, Dichtheit kontrollieren und erforderliche Diagnose-/Resetarbeiten durchführen."
+      ],
+      "checks": [
+        "Fehlerspeicher vor und nach der Arbeit prüfen, sofern relevant.",
+        "Probefunktion unter sicheren Bedingungen durchführen.",
+        "Wartungs-/Serviceeintrag dokumentieren."
+      ]
+    },
+    {
+      "id": "vibration",
+      "title": "Vibrationen – Diagnose",
+      "system": "diagnostics",
+      "difficulty": "Mittel",
+      "time": "30–180 min",
+      "summary": "Räder, Reifen, Lager und Antriebswellen systematisch prüfen.",
+      "steps": [
+        "Fahrzeug, Motorisierung und Bauzustand eindeutig identifizieren.",
+        "Fahrzeug sichern und benötigtes Werkzeug sowie Ersatzteile vorbereiten.",
+        "Einbaulage, Steckverbindungen und Leitungswege vor dem Ausbau dokumentieren.",
+        "Bauteil nach fahrzeugspezifischem Ausbauverfahren entfernen.",
+        "Neues oder instandgesetztes Bauteil korrekt montieren; Befestigungen nach Herstellerangaben anziehen.",
+        "Funktion prüfen, Dichtheit kontrollieren und erforderliche Diagnose-/Resetarbeiten durchführen."
+      ],
+      "checks": [
+        "Fehlerspeicher vor und nach der Arbeit prüfen, sofern relevant.",
+        "Probefunktion unter sicheren Bedingungen durchführen.",
+        "Wartungs-/Serviceeintrag dokumentieren."
+      ]
+    }
+  ],
+  "components": [
+    {
+      "id": "brake-pad",
+      "name": "Bremsbelag",
+      "system": "brakes",
+      "function": "Erzeugt Reibung an der Bremsscheibe und wandelt Bewegungsenergie in Wärme um.",
+      "location": "Am Bremssattel an der jeweiligen Radbremse.",
+      "symptoms": [
+        "Bremsgeräusch",
+        "verlängerter Bremsweg",
+        "Verschleißanzeige"
+      ],
+      "tools": [
+        "Wagenheber/Hebebühne",
+        "Radwerkzeug",
+        "Bremskolbenrücksteller je nach System"
+      ],
+      "safety": "Bremssystem ist sicherheitsrelevant. Nach Arbeiten Pedalgefühl und Bremsfunktion prüfen."
+    },
+    {
+      "id": "brake-disc",
+      "name": "Bremsscheibe",
+      "system": "brakes",
+      "function": "Reibfläche für die Bremsbeläge.",
+      "location": "Radnabe innerhalb des Bremssattels.",
+      "symptoms": [
+        "Vibration beim Bremsen",
+        "Riefen",
+        "Rostkante"
+      ],
+      "tools": [
+        "Hebebühne",
+        "Radwerkzeug",
+        "geeignete Messmittel"
+      ],
+      "safety": "Mindeststärke und Einbaulage fahrzeugspezifisch prüfen."
+    },
+    {
+      "id": "battery-component",
+      "name": "Starterbatterie",
+      "system": "electrical",
+      "function": "Versorgt Starter und Bordnetz mit elektrischer Energie.",
+      "location": "Je nach Fahrzeug im Motorraum, Kofferraum oder Innenraum.",
+      "symptoms": [
+        "Startprobleme",
+        "Spannungseinbruch",
+        "Batteriewarnung"
+      ],
+      "tools": [
+        "10/13-mm-Werkzeug je nach Fahrzeug",
+        "Multimeter"
+      ],
+      "safety": "Kurzschluss vermeiden; bei modernen Fahrzeugen Batteriemanagement beachten."
+    },
+    {
+      "id": "oil-filter-component",
+      "name": "Ölfilter",
+      "system": "engine",
+      "function": "Filtert Verunreinigungen aus dem Motoröl.",
+      "location": "Am Motor; Position ist motorabhängig.",
+      "symptoms": [
+        "verschmutztes Öl",
+        "Öldruckprobleme können verschiedene Ursachen haben"
+      ],
+      "tools": [
+        "Filterwerkzeug",
+        "Auffangwanne",
+        "Drehmomentschlüssel"
+      ],
+      "safety": "Öl kann heiß sein. Altöl fachgerecht entsorgen."
+    },
+    {
+      "id": "air-filter-component",
+      "name": "Luftfilter",
+      "system": "engine",
+      "function": "Reinigt die Ansaugluft des Motors.",
+      "location": "Im Luftfilterkasten vor dem Ansaugtrakt.",
+      "symptoms": [
+        "Leistungsverlust",
+        "verschmutzter Filter",
+        "erhöhter Verbrauch möglich"
+      ],
+      "tools": [
+        "Grundwerkzeug",
+        "Reinigungstuch"
+      ],
+      "safety": "Keine Verschmutzung in den Ansaugtrakt gelangen lassen."
+    },
+    {
+      "id": "spark-plug-component",
+      "name": "Zündkerze",
+      "system": "engine",
+      "function": "Entzündet das Luft-Kraftstoff-Gemisch bei Ottomotoren.",
+      "location": "Im Zylinderkopf.",
+      "symptoms": [
+        "Ruckeln",
+        "Zündaussetzer",
+        "schlechter Start"
+      ],
+      "tools": [
+        "Zündkerzennuss",
+        "Drehmomentschlüssel"
+      ],
+      "safety": "Kerzentyp, Elektrodenabstand und Anzugsdrehmoment fahrzeugspezifisch."
+    },
+    {
+      "id": "thermostat-component",
+      "name": "Thermostat",
+      "system": "cooling",
+      "function": "Regelt den Kühlmittelkreislauf abhängig von der Temperatur.",
+      "location": "Im Kühlmittelgehäuse am Motor.",
+      "symptoms": [
+        "Motor wird nicht warm",
+        "Überhitzung",
+        "Temperaturschwankungen"
+      ],
+      "tools": [
+        "Grundwerkzeug",
+        "Auffangmittel"
+      ],
+      "safety": "Kühlsystem nur kalt öffnen."
+    },
+    {
+      "id": "shock-component",
+      "name": "Stoßdämpfer",
+      "system": "suspension",
+      "function": "Dämpft Schwingungen des Fahrwerks.",
+      "location": "Zwischen Karosserie und Radaufhängung.",
+      "symptoms": [
+        "Nachschwingen",
+        "ungleicher Reifenverschleiß",
+        "Ölspuren"
+      ],
+      "tools": [
+        "Hebebühne",
+        "Fahrwerkswerkzeug"
+      ],
+      "safety": "Bei Federbeinen besteht Verletzungsgefahr durch vorgespannte Federn."
+    },
+    {
+      "id": "wheel-bearing-component",
+      "name": "Radlager",
+      "system": "suspension",
+      "function": "Ermöglicht die reibungsarme Drehung des Rades.",
+      "location": "In Radnabe/Achsschenkel.",
+      "symptoms": [
+        "Brummen",
+        "Spiel",
+        "Geräusch ändert sich mit Kurvenfahrt"
+      ],
+      "tools": [
+        "Hebebühne",
+        "Mess-/Abdrückwerkzeug je nach Bauart"
+      ],
+      "safety": "ABS-Sensor und Nabensitz nicht beschädigen."
+    },
+    {
+      "id": "cabin-filter-component",
+      "name": "Innenraumfilter",
+      "system": "climate",
+      "function": "Filtert Staub und Partikel aus der Außenluft.",
+      "location": "Je nach Fahrzeug hinter Handschuhfach, Wasserkasten oder Fußraum.",
+      "symptoms": [
+        "schwacher Luftstrom",
+        "Geruch",
+        "beschlagene Scheiben"
+      ],
+      "tools": [
+        "Grundwerkzeug"
+      ],
+      "safety": "Einbaurichtung beachten."
+    },
+    {
+      "id": "abs-sensor-component",
+      "name": "ABS-Raddrehzahlsensor",
+      "system": "brakes",
+      "function": "Liefert Raddrehzahl an ABS/ESP-Steuerung.",
+      "location": "An Radnabe/Achsschenkel.",
+      "symptoms": [
+        "ABS/ESP-Leuchte",
+        "fehlende Raddrehzahl",
+        "Regelungsfehler"
+      ],
+      "tools": [
+        "Multimeter je nach Sensortyp",
+        "Diagnosegerät"
+      ],
+      "safety": "Kabelverlauf und Sensortyp beachten."
+    },
+    {
+      "id": "alternator-component",
+      "name": "Generator",
+      "system": "electrical",
+      "function": "Erzeugt elektrische Energie und lädt die Batterie.",
+      "location": "Motorraum am Nebenaggregatetrieb.",
+      "symptoms": [
+        "Batteriewarnung",
+        "Unterspannung",
+        "Ladeprobleme"
+      ],
+      "tools": [
+        "Multimeter",
+        "Grundwerkzeug"
+      ],
+      "safety": "Vor Ausbau Batterie-/Fahrzeugvorgaben beachten."
+    }
+  ],
+  "symptoms": [
+    {
+      "id": "no-start",
+      "name": "Motor startet nicht",
+      "checks": [
+        "Batteriespannung",
+        "Anlasserdrehzahl",
+        "Kraftstoffversorgung",
+        "Zündung/Einspritzung",
+        "Wegfahrsperre/Freigaben"
+      ],
+      "related": [
+        "no-start",
+        "battery",
+        "starter"
+      ]
+    },
+    {
+      "id": "rough-idle",
+      "name": "Motor läuft unrund",
+      "checks": [
+        "Fehlerspeicher",
+        "Zündanlage",
+        "Falschluft",
+        "Einspritzung",
+        "Kompression"
+      ],
+      "related": [
+        "misfire",
+        "spark-plugs",
+        "intake-leak"
+      ]
+    },
+    {
+      "id": "overheat",
+      "name": "Motor wird zu heiß",
+      "checks": [
+        "Kühlmittelstand",
+        "Leckagen",
+        "Thermostat",
+        "Lüfter",
+        "Kühlmittelzirkulation"
+      ],
+      "related": [
+        "overheating",
+        "thermostat",
+        "coolant",
+        "water-pump"
+      ]
+    },
+    {
+      "id": "brake-noise",
+      "name": "Bremsen quietschen/schleifen",
+      "checks": [
+        "Belagstärke",
+        "Scheibenzustand",
+        "Führungen",
+        "Fremdkörper",
+        "Bremssattel"
+      ],
+      "related": [
+        "brake-noise",
+        "brake-pads",
+        "brake-discs"
+      ]
+    },
+    {
+      "id": "battery",
+      "name": "Batterie entlädt sich",
+      "checks": [
+        "Batteriezustand",
+        "Ladespannung",
+        "Ruhestrom",
+        "Verbraucher",
+        "Massepunkte"
+      ],
+      "related": [
+        "battery-drain",
+        "battery",
+        "alternator"
+      ]
+    },
+    {
+      "id": "vibration",
+      "name": "Vibrationen",
+      "checks": [
+        "Reifen/Räder",
+        "Radlager",
+        "Fahrwerk",
+        "Antriebswellen",
+        "Motor-/Getriebelager"
+      ],
+      "related": [
+        "vibration",
+        "wheel-bearing",
+        "shock",
+        "engine-mount"
+      ]
+    },
+    {
+      "id": "warning-light",
+      "name": "Warnleuchte aktiv",
+      "checks": [
+        "Fehlerspeicher auslesen",
+        "Freeze-Frame dokumentieren",
+        "Messwerte prüfen",
+        "Versorgungsspannung prüfen"
+      ],
+      "related": [
+        "check-engine",
+        "abs-sensor",
+        "battery"
+      ]
+    }
+  ],
+  "tools": [
+    "Multimeter",
+    "OBD-Diagnosegerät",
+    "Drehmomentschlüssel",
+    "Wagenheber/Hebebühne",
+    "Radwerkzeug",
+    "Bremskolbenrücksteller",
+    "Zündkerzennuss",
+    "Auffangwanne",
+    "Grundwerkzeug"
+  ],
+  "stats": {
+    "brands": 19,
+    "models": 115,
+    "vehicle_entries": 115,
+    "repairs": 47,
+    "components": 12,
+    "systems": 12
+  }
+}

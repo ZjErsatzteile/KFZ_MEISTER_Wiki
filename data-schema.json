@@ -1,0 +1,11 @@
+{
+  "description": "Schemaübersicht für die Erweiterung der KFZ MeisterWiki Datenbank",
+  "entities": {
+    "brands": "Hersteller und Modelllisten",
+    "vehicles": "Konkrete Modellprofile mit Generation-/Antriebsfeldern",
+    "systems": "Baugruppen",
+    "components": "Bauteile mit Funktion, Einbauort, Symptomen und Werkzeug",
+    "repairs": "Arbeitsabläufe mit Schritten und Abschlussprüfungen",
+    "symptoms": "Diagnose-Einstiegspunkte und verknüpfte Reparaturen"
+  }
+}
