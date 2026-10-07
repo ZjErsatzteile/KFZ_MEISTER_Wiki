@@ -67,7 +67,77 @@ function recent(){
  setCrumb("Zuletzt geöffnet");let a=recs();return `<div class="eyebrow">Verlauf</div><h1>Zuletzt geöffnet</h1>${a.length?`<div class="grid" style="margin-top:22px">${a.map(x=>`<div class="panel"><div class="card-muted">${new Date(x.at).toLocaleString("de-DE")}</div><h3 style="margin:8px 0 14px">${esc(x.title)}</h3><button class="btn" onclick="reopen(${JSON.stringify(x).replace(/</g,"&lt;")})">Öffnen</button></div>`).join("")}</div>`:`<div class="empty" style="margin-top:22px">Noch nichts geöffnet.</div>`}`
 }
 function reopen(x){if(x.type==="vehicle"){let v=DB.vehicles.find(v=>v.id===x.id);if(v)go(`#vehicles/${v.brand}/${DB.brands.find(b=>b.id===v.brand).models.indexOf(v.model)}`)}else if(x.type==="repair")showRepair(x.id)}
-function showRepair(id){let r=DB.repairs.find(x=>x.id===id);if(!r)return;addRecent("repair",id,r.title);$("#detailContent").innerHTML=`<div class="eyebrow">Reparaturablauf</div><h2>${esc(r.title)}</h2><p>${esc(r.summary)}</p><div class="meta"><span>${esc(r.difficulty)}</span><span>${esc(r.time)}</span><span>${esc(r.system)}</span></div><div class="notice" style="margin-top:18px">Sicherheitskritische Arbeiten nur mit geeigneter Qualifikation und fahrzeugspezifischer Dokumentation durchführen. Drehmomente und technische Werte nicht aus dieser allgemeinen Anleitung übernehmen.</div><div class="steps">${r.steps.map((s,i)=>`<div class="step"><div class="step-num">${i+1}</div><div>${esc(s)}</div></div>`).join("")}</div><h3 style="margin-top:22px">Abschlussprüfung</h3><div class="side-list" style="margin-top:10px">${r.checks.map(x=>`<div>✓ ${esc(x)}</div>`).join("")}</div>`;$("#detailModal").classList.remove("hidden")}
+function vehicleSelectOptions(){
+  return DB.vehicles.map(v=>{
+    let b=DB.brands.find(x=>x.id===v.brand);
+    let gens=(v.generations||[]).map(g=>g.name).join(" · ");
+    return `<option value="${esc(v.id)}">${esc(v.brandName||b?.name||v.brand)} ${esc(v.model)} — ${esc(gens)}</option>`;
+  }).join("");
+}
+function repairVehicleInfo(id){
+  let v=DB.vehicles.find(x=>x.id===id);
+  if(!v)return "Kein Fahrzeug ausgewählt.";
+  let b=DB.brands.find(x=>x.id===v.brand);
+  let gens=(v.generations||[]).map(g=>`<div class="vehicle-context"><b>${esc(g.name)}</b><span>${esc(g.years)}</span><span>${(g.engines||[]).map(esc).join(" · ")}</span><span>${(g.transmissions||[]).map(esc).join(" · ")}</span></div>`).join("");
+  return `<b>${esc(b?.name||v.brand)} ${esc(v.model)}</b><div class="card-muted" style="margin-top:6px">Diese Auswahl grenzt die Anleitung ein. Motorcode, PR-Codes/Ausstattung und Bauzustand müssen vor der Arbeit zusätzlich verifiziert werden.</div>${gens}`;
+}
+function setRepairVehicle(id){
+  const el=$("#repairVehicleInfo");
+  if(el)el.innerHTML=repairVehicleInfo(id);
+}
+function showRepair(id){
+  let r=DB.repairs.find(x=>x.id===id); if(!r)return;
+  addRecent("repair",id,r.title);
+  const fasteners=(r.fasteners||[]).map((f,i)=>`<tr>
+    <td>${esc(f.name)}</td>
+    <td>${f.torqueNm==null?"—":esc(f.torqueNm+" Nm")}</td>
+    <td>${f.angleDeg==null?"—":esc(f.angleDeg+"°")}</td>
+    <td>${f.newBolt===true?"Ja":f.newBolt===false?"Nein":"Prüfen"}</td>
+    <td><span class="status-pill warn">${esc(f.status||"Prüfen")}</span></td>
+  </tr>`).join("");
+  $("#detailContent").innerHTML=`
+    <div class="eyebrow">Werkstatt-Anleitung · ${esc(r.system)}</div>
+    <h2>${esc(r.title)}</h2>
+    <p>${esc(r.summary)}</p>
+    <div class="meta"><span>${esc(r.difficulty)}</span><span>${esc(r.time)}</span><span>${esc(r.system)}</span></div>
+
+    <div class="workshop-vehicle panel">
+      <div class="section-title"><h3>1 · Fahrzeug festlegen</h3><span class="status-pill">Pflicht vor Drehmomentwerten</span></div>
+      <select class="search-input" id="repairVehicleSelect" onchange="setRepairVehicle(this.value)">
+        <option value="">Fahrzeug auswählen …</option>${vehicleSelectOptions()}
+      </select>
+      <div id="repairVehicleInfo" class="vehicle-context-box">Bitte zuerst Marke und Modell auswählen. Für echte Drehmomente reicht das Modell allein nicht aus.</div>
+    </div>
+
+    <div class="notice" style="margin-top:16px">
+      <b>Sicherheits- und Datenhinweis:</b> Diese Seite liefert einen strukturierten Arbeitsablauf. Exakte Drehmomente, Winkel, Einwegschrauben, Füllmengen und Messwerte werden nur eingetragen, wenn sie für die konkrete Fahrzeugvariante verifiziert wurden. Keine pauschalen Werte übernehmen.
+    </div>
+
+    <div class="workshop-grid">
+      <section class="workshop-section"><div class="section-title"><h3>2 · Benötigtes Werkzeug</h3></div><div class="chip-list">${(r.tools||[]).map(x=>`<span class="tool-chip">🔧 ${esc(x)}</span>`).join("")}</div></section>
+      <section class="workshop-section"><div class="section-title"><h3>3 · Teile &amp; Verbrauchsmaterial</h3></div><div class="side-list">${(r.parts||[]).map(x=>`<div>▸ ${esc(x)}</div>`).join("")}</div></section>
+    </div>
+
+    <section class="workshop-section"><div class="section-title"><h3>4 · Vorbereitung</h3></div><div class="steps">${(r.preparation||[]).map((x,i)=>`<div class="step"><div class="step-num">${i+1}</div><div>${esc(x)}</div></div>`).join("")}</div></section>
+    <section class="workshop-section"><div class="section-title"><h3>5 · Ausbau</h3></div><div class="steps">${(r.removalSteps||r.steps||[]).map((x,i)=>`<div class="step"><div class="step-num">${i+1}</div><div>${esc(x)}</div></div>`).join("")}</div></section>
+    <section class="workshop-section"><div class="section-title"><h3>6 · Einbau</h3></div><div class="steps">${(r.installationSteps||[]).map((x,i)=>`<div class="step"><div class="step-num">${i+1}</div><div>${esc(x)}</div></div>`).join("")}</div></section>
+
+    <section class="workshop-section">
+      <div class="section-title"><h3>7 · Schrauben &amp; Drehmomente</h3><span class="status-pill warn">Noch nicht fahrzeugspezifisch verifiziert</span></div>
+      <div class="table-wrap"><table class="spec-table"><thead><tr><th>Befestiger</th><th>Drehmoment</th><th>Winkel</th><th>Neue Schraube?</th><th>Status</th></tr></thead><tbody>${fasteners}</tbody></table></div>
+      <div class="torque-box"><b>Anzugsreihenfolge:</b> ${esc(r.tighteningSequence||"Fahrzeugspezifische Reihenfolge prüfen.")}<br><span>${esc(r.torqueNotice||"Herstellerwert für die exakte Fahrzeugvariante prüfen.")}</span></div>
+    </section>
+
+    <div class="workshop-grid">
+      <section class="workshop-section"><div class="section-title"><h3>8 · Flüssigkeiten</h3></div><div class="side-list">${(r.fluids||[]).map(x=>`<div>◉ ${esc(x)}</div>`).join("")}</div></section>
+      <section class="workshop-section"><div class="section-title"><h3>9 · Diagnose / Reset</h3></div><div class="side-list">${(r.diagnostics||[]).map(x=>`<div>⌕ ${esc(x)}</div>`).join("")}</div></section>
+    </div>
+
+    <section class="workshop-section"><div class="section-title"><h3>10 · Abschlussprüfung</h3></div><div class="side-list">${(r.finalChecks||r.checks||[]).map(x=>`<div>✓ ${esc(x)}</div>`).join("")}</div></section>
+    <div class="source-box"><b>Datenstatus:</b> ${esc(r.sourceStatus||"Allgemeiner Arbeitsablauf.")}<br><span>Für konkrete Drehmomentdaten bitte die exakte Fahrzeugvariante und eine verifizierte Hersteller-/Werkstattquelle verwenden.</span></div>
+  `;
+  $("#detailModal").classList.remove("hidden");
+}
 function showComponent(id){let c=DB.components.find(x=>x.id===id);if(!c)return;$("#detailContent").innerHTML=`<div class="eyebrow">${esc(c.system)}</div><h2>${esc(c.name)}</h2><p>${esc(c.function)}</p><div class="detail-layout"><div><h3>Einbauort</h3><p>${esc(c.location)}</p><h3>Typische Symptome</h3><div class="side-list">${c.symptoms.map(x=>`<div>${esc(x)}</div>`).join("")}</div></div><div><h3>Werkzeug</h3><div class="side-list" style="margin-top:10px">${c.tools.map(x=>`<div>${esc(x)}</div>`).join("")}</div></div></div><div class="notice" style="margin-top:18px">${esc(c.safety)}</div>`;$("#detailModal").classList.remove("hidden")}
 function showSymptom(id){let s=DB.symptoms.find(x=>x.id===id);if(!s)return;$("#detailContent").innerHTML=`<div class="eyebrow">Diagnose</div><h2>${esc(s.name)}</h2><p>Arbeite die Prüfungen von oben nach unten ab und dokumentiere Messwerte sowie Fehlercodes.</p><h3>Prüfreihenfolge</h3><div class="steps">${s.checks.map((x,i)=>`<div class="step"><div class="step-num">${i+1}</div><div>${esc(x)}</div></div>`).join("")}</div><h3 style="margin-top:22px">Passende Abläufe</h3><div class="side-list" style="margin-top:10px">${s.related.map(id=>{let r=DB.repairs.find(r=>r.id===id);return r?`<div onclick="closeModals();showRepair('${r.id}')">🔧 ${esc(r.title)}</div>`:""}).join("")}</div>`;$("#detailModal").classList.remove("hidden")}
 function openSearch(){ $("#searchModal").classList.remove("hidden");setTimeout(()=>$("#searchInput").focus(),50);search("")}

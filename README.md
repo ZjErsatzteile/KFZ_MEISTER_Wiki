@@ -1,51 +1,91 @@
-# KFZ MeisterWiki — Große Version 2.0
+# KFZ MeisterWiki — Werkstatt-Version 3.0
 
-Eine statische, deutschsprachige KFZ-Wissensdatenbank für GitHub Pages.
+Eine deutschsprachige KFZ-Wissensdatenbank für GitHub Pages mit schwarzem/blauem Werkstatt-UI.
 
-## Umfang
+## Jetzt enthalten
 
 - 19 Marken
-- 115 Modelle im Katalog
+- 115 Modelle
 - 47 strukturierte Reparatur-/Diagnoseabläufe
+- Werkzeuglisten
+- Teile und Verbrauchsmaterial
+- Vorbereitung, Ausbau und Einbau
+- Befestiger-/Drehmoment-Tabelle
+- Anzugsreihenfolge-Feld
+- Flüssigkeiten
+- Diagnose / Reset
+- Abschlussprüfungen
+- Fahrzeugauswahl direkt in der Reparaturansicht
 - 12 Bauteilprofile
 - 12 Baugruppen
-- Symptom-basierter Diagnosebereich
+- Symptom-basierte Diagnose
 - Globale Suche mit `Ctrl + K` / `Cmd + K`
 - Merkliste und Verlauf über LocalStorage
 - Responsive Smartphone-/Tablet-Ansicht
-- Zentrale Datenbank: `data/database.json`
-- Keine Server- oder Datenbankinstallation notwendig
+- Zentrale Datenbank `database.json`
+- GitHub-Pages-kompatible Root-Struktur
+- `.nojekyll`
 
-## Installation
+## Installation / Update
 
 1. ZIP entpacken.
-2. Den **Inhalt** in dein Repository `KFZ_MEISTER_Wiki` kopieren.
-3. Alte `index.html`, `app.js` und `style.css` ersetzen.
-4. Die neuen Ordner `assets/`, `data/` und die Datei `.nojekyll` hochladen.
-5. Commit auf den Branch durchführen, den GitHub Pages verwendet.
+2. **Alle Dateien aus dem ZIP direkt in den Repository-Root hochladen.**
+3. Vorhandene gleichnamige Dateien ersetzen.
+4. Commit auf `main`.
+5. GitHub Pages weiter aus `main` / `/(root)` veröffentlichen.
 
-GitHub Pages kann statische HTML/CSS/JS-Dateien direkt aus einem Repository veröffentlichen. Wenn du vom Branch veröffentlichst, kann als Quelle der Repository-Root verwendet werden.
+Die Struktur muss so aussehen:
+
+```text
+KFZ_MEISTER_Wiki/
+├── .nojekyll
+├── README.md
+├── app.js
+├── data-schema.json
+├── database.json
+├── index.html
+└── style.css
+```
+
+## Wichtig zu Drehmomenten
+
+Die Oberfläche ist bereits für fahrzeugspezifische Drehmomente vorbereitet. In dieser Version sind **keine erfundenen Drehmomentwerte** hinterlegt.
+
+Das ist absichtlich so: Ein Modell kann je nach Generation, Motorcode, Getriebe, Achse, Bremssystem und Bauzustand unterschiedliche Befestiger und Anzugswerte haben. Herstellerunterlagen können außerdem eine Kombination aus Drehmoment + Winkel oder neue Dehnschrauben verlangen.
+
+Daher gilt:
+
+**Fahrzeug exakt auswählen → Motorcode/Ausstattung/Bauzustand prüfen → verifizierte Hersteller-/Werkstattquelle verwenden → Wert erst dann in `torqueRecords` eintragen.**
 
 ## Datenmodell
 
-Die Datenbank ist absichtlich so aufgebaut, dass sie später weiter wachsen kann:
+```text
+Marke
+  └─ Modell
+      └─ Generation
+          └─ Motorcode
+              └─ Getriebe
+                  └─ System
+                      └─ Reparatur
+                          ├─ Werkzeug
+                          ├─ Teile
+                          ├─ Ausbau
+                          ├─ Einbau
+                          ├─ Befestiger / Drehmoment
+                          ├─ Diagnose / Reset
+                          └─ Abschlussprüfung
+```
 
-**Marke → Modell → Generation → Baujahr → Motorcode → Getriebe → System → Bauteil → Symptome → Werkzeug → Arbeitsschritte → technische Werte**
+## Ausbau zur Profi-Datenbank
 
-## Wichtig zu technischen Werten
+Als nächste Datenstufe können je Fahrzeugvariante ergänzt werden:
 
-Diese Version enthält bewusst **keine erfundenen fahrzeugspezifischen Drehmomente, Füllmengen oder Messwerte**. Solche Werte müssen anhand der exakten Fahrzeugidentifikation und geeigneter Hersteller-/Werkstattunterlagen geprüft werden.
-
-## Ausbau auf eine echte Profi-Datenbank
-
-Für die nächste Datenstufe können je Fahrzeugvariante ergänzt werden:
-
-- VIN-/PR-Code-/SA-Code-bezogene Unterschiede
 - exakte Motorcodes
+- VIN-/PR-Code-/SA-Code-Unterschiede
 - Baujahres- und Facelift-Grenzen
 - OEM-Teilenummern
-- Drehmomente
-- Füllmengen
+- verifizierte Drehmomente
+- Füllmengen und Spezifikationen
 - Sicherungsbelegung
 - Pinbelegungen
 - Stromlaufpläne
@@ -53,38 +93,6 @@ Für die nächste Datenstufe können je Fahrzeugvariante ergänzt werden:
 - Serviceintervalle
 - Rückstell-/Codierverfahren
 - Bilder und Explosionszeichnungen
-- Herstellerquellen
+- Quellen je Datensatz
 
-**Hinweis:** Das Wiki ist ein Informationswerkzeug und ersetzt keine qualifizierte Werkstattarbeit oder fahrzeugspezifische Reparaturunterlagen.
-
-
-## Wichtig: komplette Ersetzung des alten Repository-Inhalts
-
-Diese Version verwendet absichtlich die Ordner `assets/`, `data/` und `docs/`.
-Die alten Dateien `app.js` und `style.css` im Repository-Hauptordner dürfen nicht zusätzlich liegen bleiben.
-
-Nach dem Upload muss die Struktur exakt so aussehen:
-
-```text
-KFZ_MEISTER_Wiki/
-├── index.html
-├── README.md
-├── .nojekyll
-├── assets/
-│   ├── app.js
-│   └── style.css
-├── data/
-│   └── database.json
-└── docs/
-    └── data-schema.json
-```
-
-Nicht so:
-
-```text
-KFZ_MEISTER_Wiki/
-└── KFZ_MEISTER_Wiki_V2_FINAL/
-    └── index.html
-```
-
-`index.html` lädt CSS und JavaScript aus `assets/` und die Daten aus `data/`.
+**Sicherheit:** Das Wiki ist ein Informationswerkzeug und ersetzt keine qualifizierte Werkstattarbeit oder fahrzeugspezifische Reparaturunterlagen.

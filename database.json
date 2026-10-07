@@ -1,9 +1,11 @@
 {
   "meta": {
     "name": "KFZ MeisterWiki",
-    "version": "2.0.0",
+    "version": "3.0",
     "description": "Große statische KFZ-Wissensdatenbank als GitHub-Pages-Projekt",
-    "warning": "Keine fahrzeugspezifischen Drehmomente, Füllmengen oder sicherheitskritischen Werte aus dieser Demo-Datenbasis übernehmen. Vor jeder Reparatur Hersteller-/Werkstattunterlagen und Fahrzeugidentifikation prüfen."
+    "warning": "Keine fahrzeugspezifischen Drehmomente, Füllmengen oder sicherheitskritischen Werte aus dieser Demo-Datenbasis übernehmen. Vor jeder Reparatur Hersteller-/Werkstattunterlagen und Fahrzeugidentifikation prüfen.",
+    "workshopLevel": "Strukturierte Werkstattseiten mit Werkzeugen, Teilen, Arbeitsschritten, Befestigern und Platz für verifizierte Drehmomente.",
+    "torquePolicy": "Drehmomentwerte werden nur mit exakter Fahrzeugvariante und verifizierter Quelle eingetragen; keine erfundenen oder pauschalen Werte."
   },
   "brands": [
     {
@@ -5066,7 +5068,63 @@
         "Fehlerspeicher vor und nach der Arbeit prüfen, sofern relevant.",
         "Probefunktion unter sicheren Bedingungen durchführen.",
         "Wartungs-/Serviceeintrag dokumentieren."
-      ]
+      ],
+      "tools": [
+        "Wagenheber/Hebebühne",
+        "Unterstellböcke",
+        "Drehmomentschlüssel",
+        "Steckschlüsselsatz",
+        "Bremsenrückstell-/Montagewerkzeug"
+      ],
+      "parts": [
+        "Bremsbeläge",
+        "ggf. Verschleißsensor",
+        "Montage-/Kontaktmaterial nach Herstellerfreigabe"
+      ],
+      "safetyPoints": [
+        "Fahrzeug gegen Wegrollen sichern und nur an dafür vorgesehenen Hebe-/Abstützpunkten anheben.",
+        "Vor dem Ausbau Fahrzeugvariante, Motorcode/Ausstattung und Bauzustand eindeutig prüfen.",
+        "Bei sicherheitsrelevanten Baugruppen nur geeignete Werkzeuge und Herstellervorgaben verwenden."
+      ],
+      "preparation": [
+        "Fahrzeugdaten und exakte Reparaturvariante erfassen.",
+        "Arbeitsplatz sichern, benötigte Teile und Werkzeuge bereitlegen.",
+        "Vor dem Lösen von Steckern, Leitungen und Bauteilen Einbaulage dokumentieren."
+      ],
+      "removalSteps": [
+        "Zugang zum Bauteil herstellen und angrenzende Leitungen/Stecker gegen Beschädigung sichern.",
+        "Befestigungen in der vorgesehenen Reihenfolge lösen; Bauteil dabei abstützen.",
+        "Ausgebautes Bauteil mit dem Ersatzteil vergleichen und Dichtflächen/Gewinde prüfen."
+      ],
+      "installationSteps": [
+        "Neues Bauteil in Einbaulage einsetzen und Befestigungen zunächst handfest ansetzen.",
+        "Befestigungen nach der fahrzeugspezifischen Anzugsreihenfolge und den verifizierten Herstellerwerten festziehen.",
+        "Stecker, Leitungen, Abdeckungen und Sicherungen wieder korrekt montieren."
+      ],
+      "fasteners": [
+        {
+          "name": "Befestigungselement 1",
+          "torqueNm": null,
+          "angleDeg": null,
+          "newBolt": null,
+          "status": "Herstellerwert erforderlich",
+          "source": "Exakte Reparaturunterlage für Fahrzeugvariante prüfen"
+        }
+      ],
+      "tighteningSequence": "Fahrzeugspezifische Reihenfolge prüfen; bei mehreren Befestigern nach Hersteller-Schema arbeiten.",
+      "fluids": [
+        "Nur die für diese Fahrzeugvariante vorgeschriebenen Betriebsstoffe verwenden. Füllmengen und Spezifikationen separat prüfen."
+      ],
+      "diagnostics": [
+        "Fehlerspeicher/Servicefunktionen prüfen, sofern die Arbeit das jeweilige Steuergerät oder eine überwachte Komponente betrifft."
+      ],
+      "finalChecks": [
+        "Alle Befestigungen, Stecker, Leitungen und Schutzteile kontrollieren.",
+        "Funktionsprüfung durchführen und auf ungewöhnliche Geräusche, Leckagen oder Warnmeldungen achten.",
+        "Bei Fahrwerks-/Lenk-/Bremsarbeiten ggf. Achsgeometrie, Kalibrierung oder Einlernvorgänge nach Herstellervorgabe durchführen."
+      ],
+      "torqueNotice": "Keine pauschalen Drehmomente: Werte sind abhängig von Modell, Generation, Motor/Getriebe, Achse und Bauzustand und müssen aus einer verifizierten fahrzeugspezifischen Quelle übernommen werden.",
+      "sourceStatus": "Allgemeiner Arbeitsablauf – Drehmomente noch nicht fahrzeugspezifisch verifiziert."
     },
     {
       "id": "brake-discs",
@@ -5087,7 +5145,62 @@
         "Fehlerspeicher vor und nach der Arbeit prüfen, sofern relevant.",
         "Probefunktion unter sicheren Bedingungen durchführen.",
         "Wartungs-/Serviceeintrag dokumentieren."
-      ]
+      ],
+      "tools": [
+        "Wagenheber/Hebebühne",
+        "Unterstellböcke",
+        "Drehmomentschlüssel",
+        "Steckschlüsselsatz",
+        "Bremsenrückstell-/Montagewerkzeug"
+      ],
+      "parts": [
+        "Bremsscheiben",
+        "ggf. neue Befestigungsschrauben"
+      ],
+      "safetyPoints": [
+        "Fahrzeug gegen Wegrollen sichern und nur an dafür vorgesehenen Hebe-/Abstützpunkten anheben.",
+        "Vor dem Ausbau Fahrzeugvariante, Motorcode/Ausstattung und Bauzustand eindeutig prüfen.",
+        "Bei sicherheitsrelevanten Baugruppen nur geeignete Werkzeuge und Herstellervorgaben verwenden."
+      ],
+      "preparation": [
+        "Fahrzeugdaten und exakte Reparaturvariante erfassen.",
+        "Arbeitsplatz sichern, benötigte Teile und Werkzeuge bereitlegen.",
+        "Vor dem Lösen von Steckern, Leitungen und Bauteilen Einbaulage dokumentieren."
+      ],
+      "removalSteps": [
+        "Zugang zum Bauteil herstellen und angrenzende Leitungen/Stecker gegen Beschädigung sichern.",
+        "Befestigungen in der vorgesehenen Reihenfolge lösen; Bauteil dabei abstützen.",
+        "Ausgebautes Bauteil mit dem Ersatzteil vergleichen und Dichtflächen/Gewinde prüfen."
+      ],
+      "installationSteps": [
+        "Neues Bauteil in Einbaulage einsetzen und Befestigungen zunächst handfest ansetzen.",
+        "Befestigungen nach der fahrzeugspezifischen Anzugsreihenfolge und den verifizierten Herstellerwerten festziehen.",
+        "Stecker, Leitungen, Abdeckungen und Sicherungen wieder korrekt montieren."
+      ],
+      "fasteners": [
+        {
+          "name": "Befestigungselement 1",
+          "torqueNm": null,
+          "angleDeg": null,
+          "newBolt": null,
+          "status": "Herstellerwert erforderlich",
+          "source": "Exakte Reparaturunterlage für Fahrzeugvariante prüfen"
+        }
+      ],
+      "tighteningSequence": "Fahrzeugspezifische Reihenfolge prüfen; bei mehreren Befestigern nach Hersteller-Schema arbeiten.",
+      "fluids": [
+        "Nur die für diese Fahrzeugvariante vorgeschriebenen Betriebsstoffe verwenden. Füllmengen und Spezifikationen separat prüfen."
+      ],
+      "diagnostics": [
+        "Fehlerspeicher/Servicefunktionen prüfen, sofern die Arbeit das jeweilige Steuergerät oder eine überwachte Komponente betrifft."
+      ],
+      "finalChecks": [
+        "Alle Befestigungen, Stecker, Leitungen und Schutzteile kontrollieren.",
+        "Funktionsprüfung durchführen und auf ungewöhnliche Geräusche, Leckagen oder Warnmeldungen achten.",
+        "Bei Fahrwerks-/Lenk-/Bremsarbeiten ggf. Achsgeometrie, Kalibrierung oder Einlernvorgänge nach Herstellervorgabe durchführen."
+      ],
+      "torqueNotice": "Keine pauschalen Drehmomente: Werte sind abhängig von Modell, Generation, Motor/Getriebe, Achse und Bauzustand und müssen aus einer verifizierten fahrzeugspezifischen Quelle übernommen werden.",
+      "sourceStatus": "Allgemeiner Arbeitsablauf – Drehmomente noch nicht fahrzeugspezifisch verifiziert."
     },
     {
       "id": "brake-fluid",
@@ -5108,7 +5221,61 @@
         "Fehlerspeicher vor und nach der Arbeit prüfen, sofern relevant.",
         "Probefunktion unter sicheren Bedingungen durchführen.",
         "Wartungs-/Serviceeintrag dokumentieren."
-      ]
+      ],
+      "tools": [
+        "Wagenheber/Hebebühne",
+        "Unterstellböcke",
+        "Drehmomentschlüssel",
+        "Steckschlüsselsatz",
+        "Bremsenrückstell-/Montagewerkzeug"
+      ],
+      "parts": [
+        "Bremsflüssigkeit nach Herstellervorgabe"
+      ],
+      "safetyPoints": [
+        "Fahrzeug gegen Wegrollen sichern und nur an dafür vorgesehenen Hebe-/Abstützpunkten anheben.",
+        "Vor dem Ausbau Fahrzeugvariante, Motorcode/Ausstattung und Bauzustand eindeutig prüfen.",
+        "Bei sicherheitsrelevanten Baugruppen nur geeignete Werkzeuge und Herstellervorgaben verwenden."
+      ],
+      "preparation": [
+        "Fahrzeugdaten und exakte Reparaturvariante erfassen.",
+        "Arbeitsplatz sichern, benötigte Teile und Werkzeuge bereitlegen.",
+        "Vor dem Lösen von Steckern, Leitungen und Bauteilen Einbaulage dokumentieren."
+      ],
+      "removalSteps": [
+        "Zugang zum Bauteil herstellen und angrenzende Leitungen/Stecker gegen Beschädigung sichern.",
+        "Befestigungen in der vorgesehenen Reihenfolge lösen; Bauteil dabei abstützen.",
+        "Ausgebautes Bauteil mit dem Ersatzteil vergleichen und Dichtflächen/Gewinde prüfen."
+      ],
+      "installationSteps": [
+        "Neues Bauteil in Einbaulage einsetzen und Befestigungen zunächst handfest ansetzen.",
+        "Befestigungen nach der fahrzeugspezifischen Anzugsreihenfolge und den verifizierten Herstellerwerten festziehen.",
+        "Stecker, Leitungen, Abdeckungen und Sicherungen wieder korrekt montieren."
+      ],
+      "fasteners": [
+        {
+          "name": "Befestigungselement 1",
+          "torqueNm": null,
+          "angleDeg": null,
+          "newBolt": null,
+          "status": "Herstellerwert erforderlich",
+          "source": "Exakte Reparaturunterlage für Fahrzeugvariante prüfen"
+        }
+      ],
+      "tighteningSequence": "Fahrzeugspezifische Reihenfolge prüfen; bei mehreren Befestigern nach Hersteller-Schema arbeiten.",
+      "fluids": [
+        "Nur die für diese Fahrzeugvariante vorgeschriebenen Betriebsstoffe verwenden. Füllmengen und Spezifikationen separat prüfen."
+      ],
+      "diagnostics": [
+        "Fehlerspeicher/Servicefunktionen prüfen, sofern die Arbeit das jeweilige Steuergerät oder eine überwachte Komponente betrifft."
+      ],
+      "finalChecks": [
+        "Alle Befestigungen, Stecker, Leitungen und Schutzteile kontrollieren.",
+        "Funktionsprüfung durchführen und auf ungewöhnliche Geräusche, Leckagen oder Warnmeldungen achten.",
+        "Bei Fahrwerks-/Lenk-/Bremsarbeiten ggf. Achsgeometrie, Kalibrierung oder Einlernvorgänge nach Herstellervorgabe durchführen."
+      ],
+      "torqueNotice": "Keine pauschalen Drehmomente: Werte sind abhängig von Modell, Generation, Motor/Getriebe, Achse und Bauzustand und müssen aus einer verifizierten fahrzeugspezifischen Quelle übernommen werden.",
+      "sourceStatus": "Allgemeiner Arbeitsablauf – Drehmomente noch nicht fahrzeugspezifisch verifiziert."
     },
     {
       "id": "battery",
@@ -5129,7 +5296,60 @@
         "Fehlerspeicher vor und nach der Arbeit prüfen, sofern relevant.",
         "Probefunktion unter sicheren Bedingungen durchführen.",
         "Wartungs-/Serviceeintrag dokumentieren."
-      ]
+      ],
+      "tools": [
+        "Multimeter",
+        "Steckschlüsselsatz",
+        "Schraubendreher",
+        "Abzieher/Entriegelungswerkzeug je nach Bauteil"
+      ],
+      "parts": [
+        "Starterbatterie passend zu Fahrzeug und Energiemanagement"
+      ],
+      "safetyPoints": [
+        "Fahrzeug gegen Wegrollen sichern und nur an dafür vorgesehenen Hebe-/Abstützpunkten anheben.",
+        "Vor dem Ausbau Fahrzeugvariante, Motorcode/Ausstattung und Bauzustand eindeutig prüfen.",
+        "Bei sicherheitsrelevanten Baugruppen nur geeignete Werkzeuge und Herstellervorgaben verwenden."
+      ],
+      "preparation": [
+        "Fahrzeugdaten und exakte Reparaturvariante erfassen.",
+        "Arbeitsplatz sichern, benötigte Teile und Werkzeuge bereitlegen.",
+        "Vor dem Lösen von Steckern, Leitungen und Bauteilen Einbaulage dokumentieren."
+      ],
+      "removalSteps": [
+        "Zugang zum Bauteil herstellen und angrenzende Leitungen/Stecker gegen Beschädigung sichern.",
+        "Befestigungen in der vorgesehenen Reihenfolge lösen; Bauteil dabei abstützen.",
+        "Ausgebautes Bauteil mit dem Ersatzteil vergleichen und Dichtflächen/Gewinde prüfen."
+      ],
+      "installationSteps": [
+        "Neues Bauteil in Einbaulage einsetzen und Befestigungen zunächst handfest ansetzen.",
+        "Befestigungen nach der fahrzeugspezifischen Anzugsreihenfolge und den verifizierten Herstellerwerten festziehen.",
+        "Stecker, Leitungen, Abdeckungen und Sicherungen wieder korrekt montieren."
+      ],
+      "fasteners": [
+        {
+          "name": "Befestigungselement 1",
+          "torqueNm": null,
+          "angleDeg": null,
+          "newBolt": null,
+          "status": "Herstellerwert erforderlich",
+          "source": "Exakte Reparaturunterlage für Fahrzeugvariante prüfen"
+        }
+      ],
+      "tighteningSequence": "Fahrzeugspezifische Reihenfolge prüfen; bei mehreren Befestigern nach Hersteller-Schema arbeiten.",
+      "fluids": [
+        "Nur die für diese Fahrzeugvariante vorgeschriebenen Betriebsstoffe verwenden. Füllmengen und Spezifikationen separat prüfen."
+      ],
+      "diagnostics": [
+        "Fehlerspeicher/Servicefunktionen prüfen, sofern die Arbeit das jeweilige Steuergerät oder eine überwachte Komponente betrifft."
+      ],
+      "finalChecks": [
+        "Alle Befestigungen, Stecker, Leitungen und Schutzteile kontrollieren.",
+        "Funktionsprüfung durchführen und auf ungewöhnliche Geräusche, Leckagen oder Warnmeldungen achten.",
+        "Bei Fahrwerks-/Lenk-/Bremsarbeiten ggf. Achsgeometrie, Kalibrierung oder Einlernvorgänge nach Herstellervorgabe durchführen."
+      ],
+      "torqueNotice": "Keine pauschalen Drehmomente: Werte sind abhängig von Modell, Generation, Motor/Getriebe, Achse und Bauzustand und müssen aus einer verifizierten fahrzeugspezifischen Quelle übernommen werden.",
+      "sourceStatus": "Allgemeiner Arbeitsablauf – Drehmomente noch nicht fahrzeugspezifisch verifiziert."
     },
     {
       "id": "alternator",
@@ -5150,7 +5370,60 @@
         "Fehlerspeicher vor und nach der Arbeit prüfen, sofern relevant.",
         "Probefunktion unter sicheren Bedingungen durchführen.",
         "Wartungs-/Serviceeintrag dokumentieren."
-      ]
+      ],
+      "tools": [
+        "Multimeter",
+        "Steckschlüsselsatz",
+        "Schraubendreher",
+        "Abzieher/Entriegelungswerkzeug je nach Bauteil"
+      ],
+      "parts": [
+        "Generator/Lichtmaschine passend zur Fahrzeugvariante"
+      ],
+      "safetyPoints": [
+        "Fahrzeug gegen Wegrollen sichern und nur an dafür vorgesehenen Hebe-/Abstützpunkten anheben.",
+        "Vor dem Ausbau Fahrzeugvariante, Motorcode/Ausstattung und Bauzustand eindeutig prüfen.",
+        "Bei sicherheitsrelevanten Baugruppen nur geeignete Werkzeuge und Herstellervorgaben verwenden."
+      ],
+      "preparation": [
+        "Fahrzeugdaten und exakte Reparaturvariante erfassen.",
+        "Arbeitsplatz sichern, benötigte Teile und Werkzeuge bereitlegen.",
+        "Vor dem Lösen von Steckern, Leitungen und Bauteilen Einbaulage dokumentieren."
+      ],
+      "removalSteps": [
+        "Zugang zum Bauteil herstellen und angrenzende Leitungen/Stecker gegen Beschädigung sichern.",
+        "Befestigungen in der vorgesehenen Reihenfolge lösen; Bauteil dabei abstützen.",
+        "Ausgebautes Bauteil mit dem Ersatzteil vergleichen und Dichtflächen/Gewinde prüfen."
+      ],
+      "installationSteps": [
+        "Neues Bauteil in Einbaulage einsetzen und Befestigungen zunächst handfest ansetzen.",
+        "Befestigungen nach der fahrzeugspezifischen Anzugsreihenfolge und den verifizierten Herstellerwerten festziehen.",
+        "Stecker, Leitungen, Abdeckungen und Sicherungen wieder korrekt montieren."
+      ],
+      "fasteners": [
+        {
+          "name": "Befestigungselement 1",
+          "torqueNm": null,
+          "angleDeg": null,
+          "newBolt": null,
+          "status": "Herstellerwert erforderlich",
+          "source": "Exakte Reparaturunterlage für Fahrzeugvariante prüfen"
+        }
+      ],
+      "tighteningSequence": "Fahrzeugspezifische Reihenfolge prüfen; bei mehreren Befestigern nach Hersteller-Schema arbeiten.",
+      "fluids": [
+        "Nur die für diese Fahrzeugvariante vorgeschriebenen Betriebsstoffe verwenden. Füllmengen und Spezifikationen separat prüfen."
+      ],
+      "diagnostics": [
+        "Fehlerspeicher/Servicefunktionen prüfen, sofern die Arbeit das jeweilige Steuergerät oder eine überwachte Komponente betrifft."
+      ],
+      "finalChecks": [
+        "Alle Befestigungen, Stecker, Leitungen und Schutzteile kontrollieren.",
+        "Funktionsprüfung durchführen und auf ungewöhnliche Geräusche, Leckagen oder Warnmeldungen achten.",
+        "Bei Fahrwerks-/Lenk-/Bremsarbeiten ggf. Achsgeometrie, Kalibrierung oder Einlernvorgänge nach Herstellervorgabe durchführen."
+      ],
+      "torqueNotice": "Keine pauschalen Drehmomente: Werte sind abhängig von Modell, Generation, Motor/Getriebe, Achse und Bauzustand und müssen aus einer verifizierten fahrzeugspezifischen Quelle übernommen werden.",
+      "sourceStatus": "Allgemeiner Arbeitsablauf – Drehmomente noch nicht fahrzeugspezifisch verifiziert."
     },
     {
       "id": "starter",
@@ -5171,7 +5444,60 @@
         "Fehlerspeicher vor und nach der Arbeit prüfen, sofern relevant.",
         "Probefunktion unter sicheren Bedingungen durchführen.",
         "Wartungs-/Serviceeintrag dokumentieren."
-      ]
+      ],
+      "tools": [
+        "Multimeter",
+        "Steckschlüsselsatz",
+        "Schraubendreher",
+        "Abzieher/Entriegelungswerkzeug je nach Bauteil"
+      ],
+      "parts": [
+        "Anlasser passend zu Motor/Getriebevariante"
+      ],
+      "safetyPoints": [
+        "Fahrzeug gegen Wegrollen sichern und nur an dafür vorgesehenen Hebe-/Abstützpunkten anheben.",
+        "Vor dem Ausbau Fahrzeugvariante, Motorcode/Ausstattung und Bauzustand eindeutig prüfen.",
+        "Bei sicherheitsrelevanten Baugruppen nur geeignete Werkzeuge und Herstellervorgaben verwenden."
+      ],
+      "preparation": [
+        "Fahrzeugdaten und exakte Reparaturvariante erfassen.",
+        "Arbeitsplatz sichern, benötigte Teile und Werkzeuge bereitlegen.",
+        "Vor dem Lösen von Steckern, Leitungen und Bauteilen Einbaulage dokumentieren."
+      ],
+      "removalSteps": [
+        "Zugang zum Bauteil herstellen und angrenzende Leitungen/Stecker gegen Beschädigung sichern.",
+        "Befestigungen in der vorgesehenen Reihenfolge lösen; Bauteil dabei abstützen.",
+        "Ausgebautes Bauteil mit dem Ersatzteil vergleichen und Dichtflächen/Gewinde prüfen."
+      ],
+      "installationSteps": [
+        "Neues Bauteil in Einbaulage einsetzen und Befestigungen zunächst handfest ansetzen.",
+        "Befestigungen nach der fahrzeugspezifischen Anzugsreihenfolge und den verifizierten Herstellerwerten festziehen.",
+        "Stecker, Leitungen, Abdeckungen und Sicherungen wieder korrekt montieren."
+      ],
+      "fasteners": [
+        {
+          "name": "Befestigungselement 1",
+          "torqueNm": null,
+          "angleDeg": null,
+          "newBolt": null,
+          "status": "Herstellerwert erforderlich",
+          "source": "Exakte Reparaturunterlage für Fahrzeugvariante prüfen"
+        }
+      ],
+      "tighteningSequence": "Fahrzeugspezifische Reihenfolge prüfen; bei mehreren Befestigern nach Hersteller-Schema arbeiten.",
+      "fluids": [
+        "Nur die für diese Fahrzeugvariante vorgeschriebenen Betriebsstoffe verwenden. Füllmengen und Spezifikationen separat prüfen."
+      ],
+      "diagnostics": [
+        "Fehlerspeicher/Servicefunktionen prüfen, sofern die Arbeit das jeweilige Steuergerät oder eine überwachte Komponente betrifft."
+      ],
+      "finalChecks": [
+        "Alle Befestigungen, Stecker, Leitungen und Schutzteile kontrollieren.",
+        "Funktionsprüfung durchführen und auf ungewöhnliche Geräusche, Leckagen oder Warnmeldungen achten.",
+        "Bei Fahrwerks-/Lenk-/Bremsarbeiten ggf. Achsgeometrie, Kalibrierung oder Einlernvorgänge nach Herstellervorgabe durchführen."
+      ],
+      "torqueNotice": "Keine pauschalen Drehmomente: Werte sind abhängig von Modell, Generation, Motor/Getriebe, Achse und Bauzustand und müssen aus einer verifizierten fahrzeugspezifischen Quelle übernommen werden.",
+      "sourceStatus": "Allgemeiner Arbeitsablauf – Drehmomente noch nicht fahrzeugspezifisch verifiziert."
     },
     {
       "id": "fuse",
@@ -5192,7 +5518,60 @@
         "Fehlerspeicher vor und nach der Arbeit prüfen, sofern relevant.",
         "Probefunktion unter sicheren Bedingungen durchführen.",
         "Wartungs-/Serviceeintrag dokumentieren."
-      ]
+      ],
+      "tools": [
+        "Multimeter",
+        "Steckschlüsselsatz",
+        "Schraubendreher",
+        "Abzieher/Entriegelungswerkzeug je nach Bauteil"
+      ],
+      "parts": [
+        "Sicherung mit identischer Nennstromstärke"
+      ],
+      "safetyPoints": [
+        "Fahrzeug gegen Wegrollen sichern und nur an dafür vorgesehenen Hebe-/Abstützpunkten anheben.",
+        "Vor dem Ausbau Fahrzeugvariante, Motorcode/Ausstattung und Bauzustand eindeutig prüfen.",
+        "Bei sicherheitsrelevanten Baugruppen nur geeignete Werkzeuge und Herstellervorgaben verwenden."
+      ],
+      "preparation": [
+        "Fahrzeugdaten und exakte Reparaturvariante erfassen.",
+        "Arbeitsplatz sichern, benötigte Teile und Werkzeuge bereitlegen.",
+        "Vor dem Lösen von Steckern, Leitungen und Bauteilen Einbaulage dokumentieren."
+      ],
+      "removalSteps": [
+        "Zugang zum Bauteil herstellen und angrenzende Leitungen/Stecker gegen Beschädigung sichern.",
+        "Befestigungen in der vorgesehenen Reihenfolge lösen; Bauteil dabei abstützen.",
+        "Ausgebautes Bauteil mit dem Ersatzteil vergleichen und Dichtflächen/Gewinde prüfen."
+      ],
+      "installationSteps": [
+        "Neues Bauteil in Einbaulage einsetzen und Befestigungen zunächst handfest ansetzen.",
+        "Befestigungen nach der fahrzeugspezifischen Anzugsreihenfolge und den verifizierten Herstellerwerten festziehen.",
+        "Stecker, Leitungen, Abdeckungen und Sicherungen wieder korrekt montieren."
+      ],
+      "fasteners": [
+        {
+          "name": "Befestigungselement 1",
+          "torqueNm": null,
+          "angleDeg": null,
+          "newBolt": null,
+          "status": "Herstellerwert erforderlich",
+          "source": "Exakte Reparaturunterlage für Fahrzeugvariante prüfen"
+        }
+      ],
+      "tighteningSequence": "Fahrzeugspezifische Reihenfolge prüfen; bei mehreren Befestigern nach Hersteller-Schema arbeiten.",
+      "fluids": [
+        "Nur die für diese Fahrzeugvariante vorgeschriebenen Betriebsstoffe verwenden. Füllmengen und Spezifikationen separat prüfen."
+      ],
+      "diagnostics": [
+        "Fehlerspeicher/Servicefunktionen prüfen, sofern die Arbeit das jeweilige Steuergerät oder eine überwachte Komponente betrifft."
+      ],
+      "finalChecks": [
+        "Alle Befestigungen, Stecker, Leitungen und Schutzteile kontrollieren.",
+        "Funktionsprüfung durchführen und auf ungewöhnliche Geräusche, Leckagen oder Warnmeldungen achten.",
+        "Bei Fahrwerks-/Lenk-/Bremsarbeiten ggf. Achsgeometrie, Kalibrierung oder Einlernvorgänge nach Herstellervorgabe durchführen."
+      ],
+      "torqueNotice": "Keine pauschalen Drehmomente: Werte sind abhängig von Modell, Generation, Motor/Getriebe, Achse und Bauzustand und müssen aus einer verifizierten fahrzeugspezifischen Quelle übernommen werden.",
+      "sourceStatus": "Allgemeiner Arbeitsablauf – Drehmomente noch nicht fahrzeugspezifisch verifiziert."
     },
     {
       "id": "oil-filter",
@@ -5213,7 +5592,63 @@
         "Fehlerspeicher vor und nach der Arbeit prüfen, sofern relevant.",
         "Probefunktion unter sicheren Bedingungen durchführen.",
         "Wartungs-/Serviceeintrag dokumentieren."
-      ]
+      ],
+      "tools": [
+        "Steckschlüsselsatz",
+        "Drehmomentschlüssel",
+        "Schraubendreher",
+        "Zangen",
+        "Auffangwanne je nach Arbeit"
+      ],
+      "parts": [
+        "Motoröl nach Herstellerspezifikation",
+        "Ölfilter",
+        "Dichtring sofern vorgesehen"
+      ],
+      "safetyPoints": [
+        "Fahrzeug gegen Wegrollen sichern und nur an dafür vorgesehenen Hebe-/Abstützpunkten anheben.",
+        "Vor dem Ausbau Fahrzeugvariante, Motorcode/Ausstattung und Bauzustand eindeutig prüfen.",
+        "Bei sicherheitsrelevanten Baugruppen nur geeignete Werkzeuge und Herstellervorgaben verwenden."
+      ],
+      "preparation": [
+        "Fahrzeugdaten und exakte Reparaturvariante erfassen.",
+        "Arbeitsplatz sichern, benötigte Teile und Werkzeuge bereitlegen.",
+        "Vor dem Lösen von Steckern, Leitungen und Bauteilen Einbaulage dokumentieren."
+      ],
+      "removalSteps": [
+        "Zugang zum Bauteil herstellen und angrenzende Leitungen/Stecker gegen Beschädigung sichern.",
+        "Befestigungen in der vorgesehenen Reihenfolge lösen; Bauteil dabei abstützen.",
+        "Ausgebautes Bauteil mit dem Ersatzteil vergleichen und Dichtflächen/Gewinde prüfen."
+      ],
+      "installationSteps": [
+        "Neues Bauteil in Einbaulage einsetzen und Befestigungen zunächst handfest ansetzen.",
+        "Befestigungen nach der fahrzeugspezifischen Anzugsreihenfolge und den verifizierten Herstellerwerten festziehen.",
+        "Stecker, Leitungen, Abdeckungen und Sicherungen wieder korrekt montieren."
+      ],
+      "fasteners": [
+        {
+          "name": "Befestigungselement 1",
+          "torqueNm": null,
+          "angleDeg": null,
+          "newBolt": null,
+          "status": "Herstellerwert erforderlich",
+          "source": "Exakte Reparaturunterlage für Fahrzeugvariante prüfen"
+        }
+      ],
+      "tighteningSequence": "Fahrzeugspezifische Reihenfolge prüfen; bei mehreren Befestigern nach Hersteller-Schema arbeiten.",
+      "fluids": [
+        "Nur die für diese Fahrzeugvariante vorgeschriebenen Betriebsstoffe verwenden. Füllmengen und Spezifikationen separat prüfen."
+      ],
+      "diagnostics": [
+        "Fehlerspeicher/Servicefunktionen prüfen, sofern die Arbeit das jeweilige Steuergerät oder eine überwachte Komponente betrifft."
+      ],
+      "finalChecks": [
+        "Alle Befestigungen, Stecker, Leitungen und Schutzteile kontrollieren.",
+        "Funktionsprüfung durchführen und auf ungewöhnliche Geräusche, Leckagen oder Warnmeldungen achten.",
+        "Bei Fahrwerks-/Lenk-/Bremsarbeiten ggf. Achsgeometrie, Kalibrierung oder Einlernvorgänge nach Herstellervorgabe durchführen."
+      ],
+      "torqueNotice": "Keine pauschalen Drehmomente: Werte sind abhängig von Modell, Generation, Motor/Getriebe, Achse und Bauzustand und müssen aus einer verifizierten fahrzeugspezifischen Quelle übernommen werden.",
+      "sourceStatus": "Allgemeiner Arbeitsablauf – Drehmomente noch nicht fahrzeugspezifisch verifiziert."
     },
     {
       "id": "air-filter",
@@ -5234,7 +5669,61 @@
         "Fehlerspeicher vor und nach der Arbeit prüfen, sofern relevant.",
         "Probefunktion unter sicheren Bedingungen durchführen.",
         "Wartungs-/Serviceeintrag dokumentieren."
-      ]
+      ],
+      "tools": [
+        "Steckschlüsselsatz",
+        "Drehmomentschlüssel",
+        "Schraubendreher",
+        "Zangen",
+        "Auffangwanne je nach Arbeit"
+      ],
+      "parts": [
+        "Luftfilter passend zur Motorvariante"
+      ],
+      "safetyPoints": [
+        "Fahrzeug gegen Wegrollen sichern und nur an dafür vorgesehenen Hebe-/Abstützpunkten anheben.",
+        "Vor dem Ausbau Fahrzeugvariante, Motorcode/Ausstattung und Bauzustand eindeutig prüfen.",
+        "Bei sicherheitsrelevanten Baugruppen nur geeignete Werkzeuge und Herstellervorgaben verwenden."
+      ],
+      "preparation": [
+        "Fahrzeugdaten und exakte Reparaturvariante erfassen.",
+        "Arbeitsplatz sichern, benötigte Teile und Werkzeuge bereitlegen.",
+        "Vor dem Lösen von Steckern, Leitungen und Bauteilen Einbaulage dokumentieren."
+      ],
+      "removalSteps": [
+        "Zugang zum Bauteil herstellen und angrenzende Leitungen/Stecker gegen Beschädigung sichern.",
+        "Befestigungen in der vorgesehenen Reihenfolge lösen; Bauteil dabei abstützen.",
+        "Ausgebautes Bauteil mit dem Ersatzteil vergleichen und Dichtflächen/Gewinde prüfen."
+      ],
+      "installationSteps": [
+        "Neues Bauteil in Einbaulage einsetzen und Befestigungen zunächst handfest ansetzen.",
+        "Befestigungen nach der fahrzeugspezifischen Anzugsreihenfolge und den verifizierten Herstellerwerten festziehen.",
+        "Stecker, Leitungen, Abdeckungen und Sicherungen wieder korrekt montieren."
+      ],
+      "fasteners": [
+        {
+          "name": "Befestigungselement 1",
+          "torqueNm": null,
+          "angleDeg": null,
+          "newBolt": null,
+          "status": "Herstellerwert erforderlich",
+          "source": "Exakte Reparaturunterlage für Fahrzeugvariante prüfen"
+        }
+      ],
+      "tighteningSequence": "Fahrzeugspezifische Reihenfolge prüfen; bei mehreren Befestigern nach Hersteller-Schema arbeiten.",
+      "fluids": [
+        "Nur die für diese Fahrzeugvariante vorgeschriebenen Betriebsstoffe verwenden. Füllmengen und Spezifikationen separat prüfen."
+      ],
+      "diagnostics": [
+        "Fehlerspeicher/Servicefunktionen prüfen, sofern die Arbeit das jeweilige Steuergerät oder eine überwachte Komponente betrifft."
+      ],
+      "finalChecks": [
+        "Alle Befestigungen, Stecker, Leitungen und Schutzteile kontrollieren.",
+        "Funktionsprüfung durchführen und auf ungewöhnliche Geräusche, Leckagen oder Warnmeldungen achten.",
+        "Bei Fahrwerks-/Lenk-/Bremsarbeiten ggf. Achsgeometrie, Kalibrierung oder Einlernvorgänge nach Herstellervorgabe durchführen."
+      ],
+      "torqueNotice": "Keine pauschalen Drehmomente: Werte sind abhängig von Modell, Generation, Motor/Getriebe, Achse und Bauzustand und müssen aus einer verifizierten fahrzeugspezifischen Quelle übernommen werden.",
+      "sourceStatus": "Allgemeiner Arbeitsablauf – Drehmomente noch nicht fahrzeugspezifisch verifiziert."
     },
     {
       "id": "spark-plugs",
@@ -5255,7 +5744,61 @@
         "Fehlerspeicher vor und nach der Arbeit prüfen, sofern relevant.",
         "Probefunktion unter sicheren Bedingungen durchführen.",
         "Wartungs-/Serviceeintrag dokumentieren."
-      ]
+      ],
+      "tools": [
+        "Steckschlüsselsatz",
+        "Drehmomentschlüssel",
+        "Schraubendreher",
+        "Zangen",
+        "Auffangwanne je nach Arbeit"
+      ],
+      "parts": [
+        "Zündkerzen passend zu Motorcode"
+      ],
+      "safetyPoints": [
+        "Fahrzeug gegen Wegrollen sichern und nur an dafür vorgesehenen Hebe-/Abstützpunkten anheben.",
+        "Vor dem Ausbau Fahrzeugvariante, Motorcode/Ausstattung und Bauzustand eindeutig prüfen.",
+        "Bei sicherheitsrelevanten Baugruppen nur geeignete Werkzeuge und Herstellervorgaben verwenden."
+      ],
+      "preparation": [
+        "Fahrzeugdaten und exakte Reparaturvariante erfassen.",
+        "Arbeitsplatz sichern, benötigte Teile und Werkzeuge bereitlegen.",
+        "Vor dem Lösen von Steckern, Leitungen und Bauteilen Einbaulage dokumentieren."
+      ],
+      "removalSteps": [
+        "Zugang zum Bauteil herstellen und angrenzende Leitungen/Stecker gegen Beschädigung sichern.",
+        "Befestigungen in der vorgesehenen Reihenfolge lösen; Bauteil dabei abstützen.",
+        "Ausgebautes Bauteil mit dem Ersatzteil vergleichen und Dichtflächen/Gewinde prüfen."
+      ],
+      "installationSteps": [
+        "Neues Bauteil in Einbaulage einsetzen und Befestigungen zunächst handfest ansetzen.",
+        "Befestigungen nach der fahrzeugspezifischen Anzugsreihenfolge und den verifizierten Herstellerwerten festziehen.",
+        "Stecker, Leitungen, Abdeckungen und Sicherungen wieder korrekt montieren."
+      ],
+      "fasteners": [
+        {
+          "name": "Befestigungselement 1",
+          "torqueNm": null,
+          "angleDeg": null,
+          "newBolt": null,
+          "status": "Herstellerwert erforderlich",
+          "source": "Exakte Reparaturunterlage für Fahrzeugvariante prüfen"
+        }
+      ],
+      "tighteningSequence": "Fahrzeugspezifische Reihenfolge prüfen; bei mehreren Befestigern nach Hersteller-Schema arbeiten.",
+      "fluids": [
+        "Nur die für diese Fahrzeugvariante vorgeschriebenen Betriebsstoffe verwenden. Füllmengen und Spezifikationen separat prüfen."
+      ],
+      "diagnostics": [
+        "Fehlerspeicher/Servicefunktionen prüfen, sofern die Arbeit das jeweilige Steuergerät oder eine überwachte Komponente betrifft."
+      ],
+      "finalChecks": [
+        "Alle Befestigungen, Stecker, Leitungen und Schutzteile kontrollieren.",
+        "Funktionsprüfung durchführen und auf ungewöhnliche Geräusche, Leckagen oder Warnmeldungen achten.",
+        "Bei Fahrwerks-/Lenk-/Bremsarbeiten ggf. Achsgeometrie, Kalibrierung oder Einlernvorgänge nach Herstellervorgabe durchführen."
+      ],
+      "torqueNotice": "Keine pauschalen Drehmomente: Werte sind abhängig von Modell, Generation, Motor/Getriebe, Achse und Bauzustand und müssen aus einer verifizierten fahrzeugspezifischen Quelle übernommen werden.",
+      "sourceStatus": "Allgemeiner Arbeitsablauf – Drehmomente noch nicht fahrzeugspezifisch verifiziert."
     },
     {
       "id": "glow-plugs",
@@ -5276,7 +5819,61 @@
         "Fehlerspeicher vor und nach der Arbeit prüfen, sofern relevant.",
         "Probefunktion unter sicheren Bedingungen durchführen.",
         "Wartungs-/Serviceeintrag dokumentieren."
-      ]
+      ],
+      "tools": [
+        "Steckschlüsselsatz",
+        "Drehmomentschlüssel",
+        "Schraubendreher",
+        "Zangen",
+        "Auffangwanne je nach Arbeit"
+      ],
+      "parts": [
+        "Glühkerzen passend zu Motorcode"
+      ],
+      "safetyPoints": [
+        "Fahrzeug gegen Wegrollen sichern und nur an dafür vorgesehenen Hebe-/Abstützpunkten anheben.",
+        "Vor dem Ausbau Fahrzeugvariante, Motorcode/Ausstattung und Bauzustand eindeutig prüfen.",
+        "Bei sicherheitsrelevanten Baugruppen nur geeignete Werkzeuge und Herstellervorgaben verwenden."
+      ],
+      "preparation": [
+        "Fahrzeugdaten und exakte Reparaturvariante erfassen.",
+        "Arbeitsplatz sichern, benötigte Teile und Werkzeuge bereitlegen.",
+        "Vor dem Lösen von Steckern, Leitungen und Bauteilen Einbaulage dokumentieren."
+      ],
+      "removalSteps": [
+        "Zugang zum Bauteil herstellen und angrenzende Leitungen/Stecker gegen Beschädigung sichern.",
+        "Befestigungen in der vorgesehenen Reihenfolge lösen; Bauteil dabei abstützen.",
+        "Ausgebautes Bauteil mit dem Ersatzteil vergleichen und Dichtflächen/Gewinde prüfen."
+      ],
+      "installationSteps": [
+        "Neues Bauteil in Einbaulage einsetzen und Befestigungen zunächst handfest ansetzen.",
+        "Befestigungen nach der fahrzeugspezifischen Anzugsreihenfolge und den verifizierten Herstellerwerten festziehen.",
+        "Stecker, Leitungen, Abdeckungen und Sicherungen wieder korrekt montieren."
+      ],
+      "fasteners": [
+        {
+          "name": "Befestigungselement 1",
+          "torqueNm": null,
+          "angleDeg": null,
+          "newBolt": null,
+          "status": "Herstellerwert erforderlich",
+          "source": "Exakte Reparaturunterlage für Fahrzeugvariante prüfen"
+        }
+      ],
+      "tighteningSequence": "Fahrzeugspezifische Reihenfolge prüfen; bei mehreren Befestigern nach Hersteller-Schema arbeiten.",
+      "fluids": [
+        "Nur die für diese Fahrzeugvariante vorgeschriebenen Betriebsstoffe verwenden. Füllmengen und Spezifikationen separat prüfen."
+      ],
+      "diagnostics": [
+        "Fehlerspeicher/Servicefunktionen prüfen, sofern die Arbeit das jeweilige Steuergerät oder eine überwachte Komponente betrifft."
+      ],
+      "finalChecks": [
+        "Alle Befestigungen, Stecker, Leitungen und Schutzteile kontrollieren.",
+        "Funktionsprüfung durchführen und auf ungewöhnliche Geräusche, Leckagen oder Warnmeldungen achten.",
+        "Bei Fahrwerks-/Lenk-/Bremsarbeiten ggf. Achsgeometrie, Kalibrierung oder Einlernvorgänge nach Herstellervorgabe durchführen."
+      ],
+      "torqueNotice": "Keine pauschalen Drehmomente: Werte sind abhängig von Modell, Generation, Motor/Getriebe, Achse und Bauzustand und müssen aus einer verifizierten fahrzeugspezifischen Quelle übernommen werden.",
+      "sourceStatus": "Allgemeiner Arbeitsablauf – Drehmomente noch nicht fahrzeugspezifisch verifiziert."
     },
     {
       "id": "belt",
@@ -5297,7 +5894,62 @@
         "Fehlerspeicher vor und nach der Arbeit prüfen, sofern relevant.",
         "Probefunktion unter sicheren Bedingungen durchführen.",
         "Wartungs-/Serviceeintrag dokumentieren."
-      ]
+      ],
+      "tools": [
+        "Steckschlüsselsatz",
+        "Drehmomentschlüssel",
+        "Schraubendreher",
+        "Zangen",
+        "Auffangwanne je nach Arbeit"
+      ],
+      "parts": [
+        "Keilrippenriemen",
+        "Spann-/Umlenkrolle nur bei Bedarf bzw. Herstellervorgabe"
+      ],
+      "safetyPoints": [
+        "Fahrzeug gegen Wegrollen sichern und nur an dafür vorgesehenen Hebe-/Abstützpunkten anheben.",
+        "Vor dem Ausbau Fahrzeugvariante, Motorcode/Ausstattung und Bauzustand eindeutig prüfen.",
+        "Bei sicherheitsrelevanten Baugruppen nur geeignete Werkzeuge und Herstellervorgaben verwenden."
+      ],
+      "preparation": [
+        "Fahrzeugdaten und exakte Reparaturvariante erfassen.",
+        "Arbeitsplatz sichern, benötigte Teile und Werkzeuge bereitlegen.",
+        "Vor dem Lösen von Steckern, Leitungen und Bauteilen Einbaulage dokumentieren."
+      ],
+      "removalSteps": [
+        "Zugang zum Bauteil herstellen und angrenzende Leitungen/Stecker gegen Beschädigung sichern.",
+        "Befestigungen in der vorgesehenen Reihenfolge lösen; Bauteil dabei abstützen.",
+        "Ausgebautes Bauteil mit dem Ersatzteil vergleichen und Dichtflächen/Gewinde prüfen."
+      ],
+      "installationSteps": [
+        "Neues Bauteil in Einbaulage einsetzen und Befestigungen zunächst handfest ansetzen.",
+        "Befestigungen nach der fahrzeugspezifischen Anzugsreihenfolge und den verifizierten Herstellerwerten festziehen.",
+        "Stecker, Leitungen, Abdeckungen und Sicherungen wieder korrekt montieren."
+      ],
+      "fasteners": [
+        {
+          "name": "Befestigungselement 1",
+          "torqueNm": null,
+          "angleDeg": null,
+          "newBolt": null,
+          "status": "Herstellerwert erforderlich",
+          "source": "Exakte Reparaturunterlage für Fahrzeugvariante prüfen"
+        }
+      ],
+      "tighteningSequence": "Fahrzeugspezifische Reihenfolge prüfen; bei mehreren Befestigern nach Hersteller-Schema arbeiten.",
+      "fluids": [
+        "Nur die für diese Fahrzeugvariante vorgeschriebenen Betriebsstoffe verwenden. Füllmengen und Spezifikationen separat prüfen."
+      ],
+      "diagnostics": [
+        "Fehlerspeicher/Servicefunktionen prüfen, sofern die Arbeit das jeweilige Steuergerät oder eine überwachte Komponente betrifft."
+      ],
+      "finalChecks": [
+        "Alle Befestigungen, Stecker, Leitungen und Schutzteile kontrollieren.",
+        "Funktionsprüfung durchführen und auf ungewöhnliche Geräusche, Leckagen oder Warnmeldungen achten.",
+        "Bei Fahrwerks-/Lenk-/Bremsarbeiten ggf. Achsgeometrie, Kalibrierung oder Einlernvorgänge nach Herstellervorgabe durchführen."
+      ],
+      "torqueNotice": "Keine pauschalen Drehmomente: Werte sind abhängig von Modell, Generation, Motor/Getriebe, Achse und Bauzustand und müssen aus einer verifizierten fahrzeugspezifischen Quelle übernommen werden.",
+      "sourceStatus": "Allgemeiner Arbeitsablauf – Drehmomente noch nicht fahrzeugspezifisch verifiziert."
     },
     {
       "id": "timing-belt",
@@ -5318,7 +5970,62 @@
         "Fehlerspeicher vor und nach der Arbeit prüfen, sofern relevant.",
         "Probefunktion unter sicheren Bedingungen durchführen.",
         "Wartungs-/Serviceeintrag dokumentieren."
-      ]
+      ],
+      "tools": [
+        "Steckschlüsselsatz",
+        "Drehmomentschlüssel",
+        "Schraubendreher",
+        "Zangen",
+        "Auffangwanne je nach Arbeit"
+      ],
+      "parts": [
+        "Zahnriemensatz nach Herstellervorgabe",
+        "ggf. Wasserpumpe"
+      ],
+      "safetyPoints": [
+        "Fahrzeug gegen Wegrollen sichern und nur an dafür vorgesehenen Hebe-/Abstützpunkten anheben.",
+        "Vor dem Ausbau Fahrzeugvariante, Motorcode/Ausstattung und Bauzustand eindeutig prüfen.",
+        "Bei sicherheitsrelevanten Baugruppen nur geeignete Werkzeuge und Herstellervorgaben verwenden."
+      ],
+      "preparation": [
+        "Fahrzeugdaten und exakte Reparaturvariante erfassen.",
+        "Arbeitsplatz sichern, benötigte Teile und Werkzeuge bereitlegen.",
+        "Vor dem Lösen von Steckern, Leitungen und Bauteilen Einbaulage dokumentieren."
+      ],
+      "removalSteps": [
+        "Zugang zum Bauteil herstellen und angrenzende Leitungen/Stecker gegen Beschädigung sichern.",
+        "Befestigungen in der vorgesehenen Reihenfolge lösen; Bauteil dabei abstützen.",
+        "Ausgebautes Bauteil mit dem Ersatzteil vergleichen und Dichtflächen/Gewinde prüfen."
+      ],
+      "installationSteps": [
+        "Neues Bauteil in Einbaulage einsetzen und Befestigungen zunächst handfest ansetzen.",
+        "Befestigungen nach der fahrzeugspezifischen Anzugsreihenfolge und den verifizierten Herstellerwerten festziehen.",
+        "Stecker, Leitungen, Abdeckungen und Sicherungen wieder korrekt montieren."
+      ],
+      "fasteners": [
+        {
+          "name": "Befestigungselement 1",
+          "torqueNm": null,
+          "angleDeg": null,
+          "newBolt": null,
+          "status": "Herstellerwert erforderlich",
+          "source": "Exakte Reparaturunterlage für Fahrzeugvariante prüfen"
+        }
+      ],
+      "tighteningSequence": "Fahrzeugspezifische Reihenfolge prüfen; bei mehreren Befestigern nach Hersteller-Schema arbeiten.",
+      "fluids": [
+        "Nur die für diese Fahrzeugvariante vorgeschriebenen Betriebsstoffe verwenden. Füllmengen und Spezifikationen separat prüfen."
+      ],
+      "diagnostics": [
+        "Fehlerspeicher/Servicefunktionen prüfen, sofern die Arbeit das jeweilige Steuergerät oder eine überwachte Komponente betrifft."
+      ],
+      "finalChecks": [
+        "Alle Befestigungen, Stecker, Leitungen und Schutzteile kontrollieren.",
+        "Funktionsprüfung durchführen und auf ungewöhnliche Geräusche, Leckagen oder Warnmeldungen achten.",
+        "Bei Fahrwerks-/Lenk-/Bremsarbeiten ggf. Achsgeometrie, Kalibrierung oder Einlernvorgänge nach Herstellervorgabe durchführen."
+      ],
+      "torqueNotice": "Keine pauschalen Drehmomente: Werte sind abhängig von Modell, Generation, Motor/Getriebe, Achse und Bauzustand und müssen aus einer verifizierten fahrzeugspezifischen Quelle übernommen werden.",
+      "sourceStatus": "Allgemeiner Arbeitsablauf – Drehmomente noch nicht fahrzeugspezifisch verifiziert."
     },
     {
       "id": "coolant",
@@ -5339,7 +6046,61 @@
         "Fehlerspeicher vor und nach der Arbeit prüfen, sofern relevant.",
         "Probefunktion unter sicheren Bedingungen durchführen.",
         "Wartungs-/Serviceeintrag dokumentieren."
-      ]
+      ],
+      "tools": [
+        "Auffangwanne",
+        "Zangensatz",
+        "Steckschlüsselsatz",
+        "Drehmomentschlüssel",
+        "Kühlmittelprüfer optional"
+      ],
+      "parts": [
+        "Kühlmittel nach Herstellerspezifikation"
+      ],
+      "safetyPoints": [
+        "Fahrzeug gegen Wegrollen sichern und nur an dafür vorgesehenen Hebe-/Abstützpunkten anheben.",
+        "Vor dem Ausbau Fahrzeugvariante, Motorcode/Ausstattung und Bauzustand eindeutig prüfen.",
+        "Bei sicherheitsrelevanten Baugruppen nur geeignete Werkzeuge und Herstellervorgaben verwenden."
+      ],
+      "preparation": [
+        "Fahrzeugdaten und exakte Reparaturvariante erfassen.",
+        "Arbeitsplatz sichern, benötigte Teile und Werkzeuge bereitlegen.",
+        "Vor dem Lösen von Steckern, Leitungen und Bauteilen Einbaulage dokumentieren."
+      ],
+      "removalSteps": [
+        "Zugang zum Bauteil herstellen und angrenzende Leitungen/Stecker gegen Beschädigung sichern.",
+        "Befestigungen in der vorgesehenen Reihenfolge lösen; Bauteil dabei abstützen.",
+        "Ausgebautes Bauteil mit dem Ersatzteil vergleichen und Dichtflächen/Gewinde prüfen."
+      ],
+      "installationSteps": [
+        "Neues Bauteil in Einbaulage einsetzen und Befestigungen zunächst handfest ansetzen.",
+        "Befestigungen nach der fahrzeugspezifischen Anzugsreihenfolge und den verifizierten Herstellerwerten festziehen.",
+        "Stecker, Leitungen, Abdeckungen und Sicherungen wieder korrekt montieren."
+      ],
+      "fasteners": [
+        {
+          "name": "Befestigungselement 1",
+          "torqueNm": null,
+          "angleDeg": null,
+          "newBolt": null,
+          "status": "Herstellerwert erforderlich",
+          "source": "Exakte Reparaturunterlage für Fahrzeugvariante prüfen"
+        }
+      ],
+      "tighteningSequence": "Fahrzeugspezifische Reihenfolge prüfen; bei mehreren Befestigern nach Hersteller-Schema arbeiten.",
+      "fluids": [
+        "Nur die für diese Fahrzeugvariante vorgeschriebenen Betriebsstoffe verwenden. Füllmengen und Spezifikationen separat prüfen."
+      ],
+      "diagnostics": [
+        "Fehlerspeicher/Servicefunktionen prüfen, sofern die Arbeit das jeweilige Steuergerät oder eine überwachte Komponente betrifft."
+      ],
+      "finalChecks": [
+        "Alle Befestigungen, Stecker, Leitungen und Schutzteile kontrollieren.",
+        "Funktionsprüfung durchführen und auf ungewöhnliche Geräusche, Leckagen oder Warnmeldungen achten.",
+        "Bei Fahrwerks-/Lenk-/Bremsarbeiten ggf. Achsgeometrie, Kalibrierung oder Einlernvorgänge nach Herstellervorgabe durchführen."
+      ],
+      "torqueNotice": "Keine pauschalen Drehmomente: Werte sind abhängig von Modell, Generation, Motor/Getriebe, Achse und Bauzustand und müssen aus einer verifizierten fahrzeugspezifischen Quelle übernommen werden.",
+      "sourceStatus": "Allgemeiner Arbeitsablauf – Drehmomente noch nicht fahrzeugspezifisch verifiziert."
     },
     {
       "id": "thermostat",
@@ -5360,7 +6121,62 @@
         "Fehlerspeicher vor und nach der Arbeit prüfen, sofern relevant.",
         "Probefunktion unter sicheren Bedingungen durchführen.",
         "Wartungs-/Serviceeintrag dokumentieren."
-      ]
+      ],
+      "tools": [
+        "Auffangwanne",
+        "Zangensatz",
+        "Steckschlüsselsatz",
+        "Drehmomentschlüssel",
+        "Kühlmittelprüfer optional"
+      ],
+      "parts": [
+        "Thermostat",
+        "Dichtung/O-Ring"
+      ],
+      "safetyPoints": [
+        "Fahrzeug gegen Wegrollen sichern und nur an dafür vorgesehenen Hebe-/Abstützpunkten anheben.",
+        "Vor dem Ausbau Fahrzeugvariante, Motorcode/Ausstattung und Bauzustand eindeutig prüfen.",
+        "Bei sicherheitsrelevanten Baugruppen nur geeignete Werkzeuge und Herstellervorgaben verwenden."
+      ],
+      "preparation": [
+        "Fahrzeugdaten und exakte Reparaturvariante erfassen.",
+        "Arbeitsplatz sichern, benötigte Teile und Werkzeuge bereitlegen.",
+        "Vor dem Lösen von Steckern, Leitungen und Bauteilen Einbaulage dokumentieren."
+      ],
+      "removalSteps": [
+        "Zugang zum Bauteil herstellen und angrenzende Leitungen/Stecker gegen Beschädigung sichern.",
+        "Befestigungen in der vorgesehenen Reihenfolge lösen; Bauteil dabei abstützen.",
+        "Ausgebautes Bauteil mit dem Ersatzteil vergleichen und Dichtflächen/Gewinde prüfen."
+      ],
+      "installationSteps": [
+        "Neues Bauteil in Einbaulage einsetzen und Befestigungen zunächst handfest ansetzen.",
+        "Befestigungen nach der fahrzeugspezifischen Anzugsreihenfolge und den verifizierten Herstellerwerten festziehen.",
+        "Stecker, Leitungen, Abdeckungen und Sicherungen wieder korrekt montieren."
+      ],
+      "fasteners": [
+        {
+          "name": "Befestigungselement 1",
+          "torqueNm": null,
+          "angleDeg": null,
+          "newBolt": null,
+          "status": "Herstellerwert erforderlich",
+          "source": "Exakte Reparaturunterlage für Fahrzeugvariante prüfen"
+        }
+      ],
+      "tighteningSequence": "Fahrzeugspezifische Reihenfolge prüfen; bei mehreren Befestigern nach Hersteller-Schema arbeiten.",
+      "fluids": [
+        "Nur die für diese Fahrzeugvariante vorgeschriebenen Betriebsstoffe verwenden. Füllmengen und Spezifikationen separat prüfen."
+      ],
+      "diagnostics": [
+        "Fehlerspeicher/Servicefunktionen prüfen, sofern die Arbeit das jeweilige Steuergerät oder eine überwachte Komponente betrifft."
+      ],
+      "finalChecks": [
+        "Alle Befestigungen, Stecker, Leitungen und Schutzteile kontrollieren.",
+        "Funktionsprüfung durchführen und auf ungewöhnliche Geräusche, Leckagen oder Warnmeldungen achten.",
+        "Bei Fahrwerks-/Lenk-/Bremsarbeiten ggf. Achsgeometrie, Kalibrierung oder Einlernvorgänge nach Herstellervorgabe durchführen."
+      ],
+      "torqueNotice": "Keine pauschalen Drehmomente: Werte sind abhängig von Modell, Generation, Motor/Getriebe, Achse und Bauzustand und müssen aus einer verifizierten fahrzeugspezifischen Quelle übernommen werden.",
+      "sourceStatus": "Allgemeiner Arbeitsablauf – Drehmomente noch nicht fahrzeugspezifisch verifiziert."
     },
     {
       "id": "water-pump",
@@ -5381,7 +6197,63 @@
         "Fehlerspeicher vor und nach der Arbeit prüfen, sofern relevant.",
         "Probefunktion unter sicheren Bedingungen durchführen.",
         "Wartungs-/Serviceeintrag dokumentieren."
-      ]
+      ],
+      "tools": [
+        "Auffangwanne",
+        "Zangensatz",
+        "Steckschlüsselsatz",
+        "Drehmomentschlüssel",
+        "Kühlmittelprüfer optional"
+      ],
+      "parts": [
+        "Wasserpumpe",
+        "Dichtungen",
+        "Kühlmittel"
+      ],
+      "safetyPoints": [
+        "Fahrzeug gegen Wegrollen sichern und nur an dafür vorgesehenen Hebe-/Abstützpunkten anheben.",
+        "Vor dem Ausbau Fahrzeugvariante, Motorcode/Ausstattung und Bauzustand eindeutig prüfen.",
+        "Bei sicherheitsrelevanten Baugruppen nur geeignete Werkzeuge und Herstellervorgaben verwenden."
+      ],
+      "preparation": [
+        "Fahrzeugdaten und exakte Reparaturvariante erfassen.",
+        "Arbeitsplatz sichern, benötigte Teile und Werkzeuge bereitlegen.",
+        "Vor dem Lösen von Steckern, Leitungen und Bauteilen Einbaulage dokumentieren."
+      ],
+      "removalSteps": [
+        "Zugang zum Bauteil herstellen und angrenzende Leitungen/Stecker gegen Beschädigung sichern.",
+        "Befestigungen in der vorgesehenen Reihenfolge lösen; Bauteil dabei abstützen.",
+        "Ausgebautes Bauteil mit dem Ersatzteil vergleichen und Dichtflächen/Gewinde prüfen."
+      ],
+      "installationSteps": [
+        "Neues Bauteil in Einbaulage einsetzen und Befestigungen zunächst handfest ansetzen.",
+        "Befestigungen nach der fahrzeugspezifischen Anzugsreihenfolge und den verifizierten Herstellerwerten festziehen.",
+        "Stecker, Leitungen, Abdeckungen und Sicherungen wieder korrekt montieren."
+      ],
+      "fasteners": [
+        {
+          "name": "Befestigungselement 1",
+          "torqueNm": null,
+          "angleDeg": null,
+          "newBolt": null,
+          "status": "Herstellerwert erforderlich",
+          "source": "Exakte Reparaturunterlage für Fahrzeugvariante prüfen"
+        }
+      ],
+      "tighteningSequence": "Fahrzeugspezifische Reihenfolge prüfen; bei mehreren Befestigern nach Hersteller-Schema arbeiten.",
+      "fluids": [
+        "Nur die für diese Fahrzeugvariante vorgeschriebenen Betriebsstoffe verwenden. Füllmengen und Spezifikationen separat prüfen."
+      ],
+      "diagnostics": [
+        "Fehlerspeicher/Servicefunktionen prüfen, sofern die Arbeit das jeweilige Steuergerät oder eine überwachte Komponente betrifft."
+      ],
+      "finalChecks": [
+        "Alle Befestigungen, Stecker, Leitungen und Schutzteile kontrollieren.",
+        "Funktionsprüfung durchführen und auf ungewöhnliche Geräusche, Leckagen oder Warnmeldungen achten.",
+        "Bei Fahrwerks-/Lenk-/Bremsarbeiten ggf. Achsgeometrie, Kalibrierung oder Einlernvorgänge nach Herstellervorgabe durchführen."
+      ],
+      "torqueNotice": "Keine pauschalen Drehmomente: Werte sind abhängig von Modell, Generation, Motor/Getriebe, Achse und Bauzustand und müssen aus einer verifizierten fahrzeugspezifischen Quelle übernommen werden.",
+      "sourceStatus": "Allgemeiner Arbeitsablauf – Drehmomente noch nicht fahrzeugspezifisch verifiziert."
     },
     {
       "id": "shock",
@@ -5402,7 +6274,62 @@
         "Fehlerspeicher vor und nach der Arbeit prüfen, sofern relevant.",
         "Probefunktion unter sicheren Bedingungen durchführen.",
         "Wartungs-/Serviceeintrag dokumentieren."
-      ]
+      ],
+      "tools": [
+        "Hebebühne",
+        "Unterstellböcke",
+        "Drehmomentschlüssel",
+        "Steckschlüsselsatz",
+        "Kugelgelenk-/Abzieher je nach Bauart"
+      ],
+      "parts": [
+        "Stoßdämpfer",
+        "Befestigungsteile nach Herstellervorgabe"
+      ],
+      "safetyPoints": [
+        "Fahrzeug gegen Wegrollen sichern und nur an dafür vorgesehenen Hebe-/Abstützpunkten anheben.",
+        "Vor dem Ausbau Fahrzeugvariante, Motorcode/Ausstattung und Bauzustand eindeutig prüfen.",
+        "Bei sicherheitsrelevanten Baugruppen nur geeignete Werkzeuge und Herstellervorgaben verwenden."
+      ],
+      "preparation": [
+        "Fahrzeugdaten und exakte Reparaturvariante erfassen.",
+        "Arbeitsplatz sichern, benötigte Teile und Werkzeuge bereitlegen.",
+        "Vor dem Lösen von Steckern, Leitungen und Bauteilen Einbaulage dokumentieren."
+      ],
+      "removalSteps": [
+        "Zugang zum Bauteil herstellen und angrenzende Leitungen/Stecker gegen Beschädigung sichern.",
+        "Befestigungen in der vorgesehenen Reihenfolge lösen; Bauteil dabei abstützen.",
+        "Ausgebautes Bauteil mit dem Ersatzteil vergleichen und Dichtflächen/Gewinde prüfen."
+      ],
+      "installationSteps": [
+        "Neues Bauteil in Einbaulage einsetzen und Befestigungen zunächst handfest ansetzen.",
+        "Befestigungen nach der fahrzeugspezifischen Anzugsreihenfolge und den verifizierten Herstellerwerten festziehen.",
+        "Stecker, Leitungen, Abdeckungen und Sicherungen wieder korrekt montieren."
+      ],
+      "fasteners": [
+        {
+          "name": "Befestigungselement 1",
+          "torqueNm": null,
+          "angleDeg": null,
+          "newBolt": null,
+          "status": "Herstellerwert erforderlich",
+          "source": "Exakte Reparaturunterlage für Fahrzeugvariante prüfen"
+        }
+      ],
+      "tighteningSequence": "Fahrzeugspezifische Reihenfolge prüfen; bei mehreren Befestigern nach Hersteller-Schema arbeiten.",
+      "fluids": [
+        "Nur die für diese Fahrzeugvariante vorgeschriebenen Betriebsstoffe verwenden. Füllmengen und Spezifikationen separat prüfen."
+      ],
+      "diagnostics": [
+        "Fehlerspeicher/Servicefunktionen prüfen, sofern die Arbeit das jeweilige Steuergerät oder eine überwachte Komponente betrifft."
+      ],
+      "finalChecks": [
+        "Alle Befestigungen, Stecker, Leitungen und Schutzteile kontrollieren.",
+        "Funktionsprüfung durchführen und auf ungewöhnliche Geräusche, Leckagen oder Warnmeldungen achten.",
+        "Bei Fahrwerks-/Lenk-/Bremsarbeiten ggf. Achsgeometrie, Kalibrierung oder Einlernvorgänge nach Herstellervorgabe durchführen."
+      ],
+      "torqueNotice": "Keine pauschalen Drehmomente: Werte sind abhängig von Modell, Generation, Motor/Getriebe, Achse und Bauzustand und müssen aus einer verifizierten fahrzeugspezifischen Quelle übernommen werden.",
+      "sourceStatus": "Allgemeiner Arbeitsablauf – Drehmomente noch nicht fahrzeugspezifisch verifiziert."
     },
     {
       "id": "control-arm",
@@ -5423,7 +6350,62 @@
         "Fehlerspeicher vor und nach der Arbeit prüfen, sofern relevant.",
         "Probefunktion unter sicheren Bedingungen durchführen.",
         "Wartungs-/Serviceeintrag dokumentieren."
-      ]
+      ],
+      "tools": [
+        "Hebebühne",
+        "Unterstellböcke",
+        "Drehmomentschlüssel",
+        "Steckschlüsselsatz",
+        "Kugelgelenk-/Abzieher je nach Bauart"
+      ],
+      "parts": [
+        "Querlenker bzw. Lager",
+        "ggf. neue Dehnschrauben"
+      ],
+      "safetyPoints": [
+        "Fahrzeug gegen Wegrollen sichern und nur an dafür vorgesehenen Hebe-/Abstützpunkten anheben.",
+        "Vor dem Ausbau Fahrzeugvariante, Motorcode/Ausstattung und Bauzustand eindeutig prüfen.",
+        "Bei sicherheitsrelevanten Baugruppen nur geeignete Werkzeuge und Herstellervorgaben verwenden."
+      ],
+      "preparation": [
+        "Fahrzeugdaten und exakte Reparaturvariante erfassen.",
+        "Arbeitsplatz sichern, benötigte Teile und Werkzeuge bereitlegen.",
+        "Vor dem Lösen von Steckern, Leitungen und Bauteilen Einbaulage dokumentieren."
+      ],
+      "removalSteps": [
+        "Zugang zum Bauteil herstellen und angrenzende Leitungen/Stecker gegen Beschädigung sichern.",
+        "Befestigungen in der vorgesehenen Reihenfolge lösen; Bauteil dabei abstützen.",
+        "Ausgebautes Bauteil mit dem Ersatzteil vergleichen und Dichtflächen/Gewinde prüfen."
+      ],
+      "installationSteps": [
+        "Neues Bauteil in Einbaulage einsetzen und Befestigungen zunächst handfest ansetzen.",
+        "Befestigungen nach der fahrzeugspezifischen Anzugsreihenfolge und den verifizierten Herstellerwerten festziehen.",
+        "Stecker, Leitungen, Abdeckungen und Sicherungen wieder korrekt montieren."
+      ],
+      "fasteners": [
+        {
+          "name": "Befestigungselement 1",
+          "torqueNm": null,
+          "angleDeg": null,
+          "newBolt": null,
+          "status": "Herstellerwert erforderlich",
+          "source": "Exakte Reparaturunterlage für Fahrzeugvariante prüfen"
+        }
+      ],
+      "tighteningSequence": "Fahrzeugspezifische Reihenfolge prüfen; bei mehreren Befestigern nach Hersteller-Schema arbeiten.",
+      "fluids": [
+        "Nur die für diese Fahrzeugvariante vorgeschriebenen Betriebsstoffe verwenden. Füllmengen und Spezifikationen separat prüfen."
+      ],
+      "diagnostics": [
+        "Fehlerspeicher/Servicefunktionen prüfen, sofern die Arbeit das jeweilige Steuergerät oder eine überwachte Komponente betrifft."
+      ],
+      "finalChecks": [
+        "Alle Befestigungen, Stecker, Leitungen und Schutzteile kontrollieren.",
+        "Funktionsprüfung durchführen und auf ungewöhnliche Geräusche, Leckagen oder Warnmeldungen achten.",
+        "Bei Fahrwerks-/Lenk-/Bremsarbeiten ggf. Achsgeometrie, Kalibrierung oder Einlernvorgänge nach Herstellervorgabe durchführen."
+      ],
+      "torqueNotice": "Keine pauschalen Drehmomente: Werte sind abhängig von Modell, Generation, Motor/Getriebe, Achse und Bauzustand und müssen aus einer verifizierten fahrzeugspezifischen Quelle übernommen werden.",
+      "sourceStatus": "Allgemeiner Arbeitsablauf – Drehmomente noch nicht fahrzeugspezifisch verifiziert."
     },
     {
       "id": "tie-rod",
@@ -5444,7 +6426,61 @@
         "Fehlerspeicher vor und nach der Arbeit prüfen, sofern relevant.",
         "Probefunktion unter sicheren Bedingungen durchführen.",
         "Wartungs-/Serviceeintrag dokumentieren."
-      ]
+      ],
+      "tools": [
+        "Hebebühne",
+        "Drehmomentschlüssel",
+        "Steckschlüsselsatz",
+        "Abzieher je nach Bauart"
+      ],
+      "parts": [
+        "Spurstange/Spurstangenkopf",
+        "ggf. neue Sicherungselemente"
+      ],
+      "safetyPoints": [
+        "Fahrzeug gegen Wegrollen sichern und nur an dafür vorgesehenen Hebe-/Abstützpunkten anheben.",
+        "Vor dem Ausbau Fahrzeugvariante, Motorcode/Ausstattung und Bauzustand eindeutig prüfen.",
+        "Bei sicherheitsrelevanten Baugruppen nur geeignete Werkzeuge und Herstellervorgaben verwenden."
+      ],
+      "preparation": [
+        "Fahrzeugdaten und exakte Reparaturvariante erfassen.",
+        "Arbeitsplatz sichern, benötigte Teile und Werkzeuge bereitlegen.",
+        "Vor dem Lösen von Steckern, Leitungen und Bauteilen Einbaulage dokumentieren."
+      ],
+      "removalSteps": [
+        "Zugang zum Bauteil herstellen und angrenzende Leitungen/Stecker gegen Beschädigung sichern.",
+        "Befestigungen in der vorgesehenen Reihenfolge lösen; Bauteil dabei abstützen.",
+        "Ausgebautes Bauteil mit dem Ersatzteil vergleichen und Dichtflächen/Gewinde prüfen."
+      ],
+      "installationSteps": [
+        "Neues Bauteil in Einbaulage einsetzen und Befestigungen zunächst handfest ansetzen.",
+        "Befestigungen nach der fahrzeugspezifischen Anzugsreihenfolge und den verifizierten Herstellerwerten festziehen.",
+        "Stecker, Leitungen, Abdeckungen und Sicherungen wieder korrekt montieren."
+      ],
+      "fasteners": [
+        {
+          "name": "Befestigungselement 1",
+          "torqueNm": null,
+          "angleDeg": null,
+          "newBolt": null,
+          "status": "Herstellerwert erforderlich",
+          "source": "Exakte Reparaturunterlage für Fahrzeugvariante prüfen"
+        }
+      ],
+      "tighteningSequence": "Fahrzeugspezifische Reihenfolge prüfen; bei mehreren Befestigern nach Hersteller-Schema arbeiten.",
+      "fluids": [
+        "Nur die für diese Fahrzeugvariante vorgeschriebenen Betriebsstoffe verwenden. Füllmengen und Spezifikationen separat prüfen."
+      ],
+      "diagnostics": [
+        "Fehlerspeicher/Servicefunktionen prüfen, sofern die Arbeit das jeweilige Steuergerät oder eine überwachte Komponente betrifft."
+      ],
+      "finalChecks": [
+        "Alle Befestigungen, Stecker, Leitungen und Schutzteile kontrollieren.",
+        "Funktionsprüfung durchführen und auf ungewöhnliche Geräusche, Leckagen oder Warnmeldungen achten.",
+        "Bei Fahrwerks-/Lenk-/Bremsarbeiten ggf. Achsgeometrie, Kalibrierung oder Einlernvorgänge nach Herstellervorgabe durchführen."
+      ],
+      "torqueNotice": "Keine pauschalen Drehmomente: Werte sind abhängig von Modell, Generation, Motor/Getriebe, Achse und Bauzustand und müssen aus einer verifizierten fahrzeugspezifischen Quelle übernommen werden.",
+      "sourceStatus": "Allgemeiner Arbeitsablauf – Drehmomente noch nicht fahrzeugspezifisch verifiziert."
     },
     {
       "id": "clutch",
@@ -5465,7 +6501,61 @@
         "Fehlerspeicher vor und nach der Arbeit prüfen, sofern relevant.",
         "Probefunktion unter sicheren Bedingungen durchführen.",
         "Wartungs-/Serviceeintrag dokumentieren."
-      ]
+      ],
+      "tools": [
+        "Hebebühne",
+        "Drehmomentschlüssel",
+        "Steckschlüsselsatz",
+        "Auffangwanne"
+      ],
+      "parts": [
+        "Kupplungssatz",
+        "ggf. Zentralausrücker"
+      ],
+      "safetyPoints": [
+        "Fahrzeug gegen Wegrollen sichern und nur an dafür vorgesehenen Hebe-/Abstützpunkten anheben.",
+        "Vor dem Ausbau Fahrzeugvariante, Motorcode/Ausstattung und Bauzustand eindeutig prüfen.",
+        "Bei sicherheitsrelevanten Baugruppen nur geeignete Werkzeuge und Herstellervorgaben verwenden."
+      ],
+      "preparation": [
+        "Fahrzeugdaten und exakte Reparaturvariante erfassen.",
+        "Arbeitsplatz sichern, benötigte Teile und Werkzeuge bereitlegen.",
+        "Vor dem Lösen von Steckern, Leitungen und Bauteilen Einbaulage dokumentieren."
+      ],
+      "removalSteps": [
+        "Zugang zum Bauteil herstellen und angrenzende Leitungen/Stecker gegen Beschädigung sichern.",
+        "Befestigungen in der vorgesehenen Reihenfolge lösen; Bauteil dabei abstützen.",
+        "Ausgebautes Bauteil mit dem Ersatzteil vergleichen und Dichtflächen/Gewinde prüfen."
+      ],
+      "installationSteps": [
+        "Neues Bauteil in Einbaulage einsetzen und Befestigungen zunächst handfest ansetzen.",
+        "Befestigungen nach der fahrzeugspezifischen Anzugsreihenfolge und den verifizierten Herstellerwerten festziehen.",
+        "Stecker, Leitungen, Abdeckungen und Sicherungen wieder korrekt montieren."
+      ],
+      "fasteners": [
+        {
+          "name": "Befestigungselement 1",
+          "torqueNm": null,
+          "angleDeg": null,
+          "newBolt": null,
+          "status": "Herstellerwert erforderlich",
+          "source": "Exakte Reparaturunterlage für Fahrzeugvariante prüfen"
+        }
+      ],
+      "tighteningSequence": "Fahrzeugspezifische Reihenfolge prüfen; bei mehreren Befestigern nach Hersteller-Schema arbeiten.",
+      "fluids": [
+        "Nur die für diese Fahrzeugvariante vorgeschriebenen Betriebsstoffe verwenden. Füllmengen und Spezifikationen separat prüfen."
+      ],
+      "diagnostics": [
+        "Fehlerspeicher/Servicefunktionen prüfen, sofern die Arbeit das jeweilige Steuergerät oder eine überwachte Komponente betrifft."
+      ],
+      "finalChecks": [
+        "Alle Befestigungen, Stecker, Leitungen und Schutzteile kontrollieren.",
+        "Funktionsprüfung durchführen und auf ungewöhnliche Geräusche, Leckagen oder Warnmeldungen achten.",
+        "Bei Fahrwerks-/Lenk-/Bremsarbeiten ggf. Achsgeometrie, Kalibrierung oder Einlernvorgänge nach Herstellervorgabe durchführen."
+      ],
+      "torqueNotice": "Keine pauschalen Drehmomente: Werte sind abhängig von Modell, Generation, Motor/Getriebe, Achse und Bauzustand und müssen aus einer verifizierten fahrzeugspezifischen Quelle übernommen werden.",
+      "sourceStatus": "Allgemeiner Arbeitsablauf – Drehmomente noch nicht fahrzeugspezifisch verifiziert."
     },
     {
       "id": "manual-fluid",
@@ -5486,7 +6576,61 @@
         "Fehlerspeicher vor und nach der Arbeit prüfen, sofern relevant.",
         "Probefunktion unter sicheren Bedingungen durchführen.",
         "Wartungs-/Serviceeintrag dokumentieren."
-      ]
+      ],
+      "tools": [
+        "Hebebühne",
+        "Drehmomentschlüssel",
+        "Steckschlüsselsatz",
+        "Auffangwanne"
+      ],
+      "parts": [
+        "Getriebeöl nach Herstellerspezifikation",
+        "Dichtringe/Stopfen nach Vorgabe"
+      ],
+      "safetyPoints": [
+        "Fahrzeug gegen Wegrollen sichern und nur an dafür vorgesehenen Hebe-/Abstützpunkten anheben.",
+        "Vor dem Ausbau Fahrzeugvariante, Motorcode/Ausstattung und Bauzustand eindeutig prüfen.",
+        "Bei sicherheitsrelevanten Baugruppen nur geeignete Werkzeuge und Herstellervorgaben verwenden."
+      ],
+      "preparation": [
+        "Fahrzeugdaten und exakte Reparaturvariante erfassen.",
+        "Arbeitsplatz sichern, benötigte Teile und Werkzeuge bereitlegen.",
+        "Vor dem Lösen von Steckern, Leitungen und Bauteilen Einbaulage dokumentieren."
+      ],
+      "removalSteps": [
+        "Zugang zum Bauteil herstellen und angrenzende Leitungen/Stecker gegen Beschädigung sichern.",
+        "Befestigungen in der vorgesehenen Reihenfolge lösen; Bauteil dabei abstützen.",
+        "Ausgebautes Bauteil mit dem Ersatzteil vergleichen und Dichtflächen/Gewinde prüfen."
+      ],
+      "installationSteps": [
+        "Neues Bauteil in Einbaulage einsetzen und Befestigungen zunächst handfest ansetzen.",
+        "Befestigungen nach der fahrzeugspezifischen Anzugsreihenfolge und den verifizierten Herstellerwerten festziehen.",
+        "Stecker, Leitungen, Abdeckungen und Sicherungen wieder korrekt montieren."
+      ],
+      "fasteners": [
+        {
+          "name": "Befestigungselement 1",
+          "torqueNm": null,
+          "angleDeg": null,
+          "newBolt": null,
+          "status": "Herstellerwert erforderlich",
+          "source": "Exakte Reparaturunterlage für Fahrzeugvariante prüfen"
+        }
+      ],
+      "tighteningSequence": "Fahrzeugspezifische Reihenfolge prüfen; bei mehreren Befestigern nach Hersteller-Schema arbeiten.",
+      "fluids": [
+        "Nur die für diese Fahrzeugvariante vorgeschriebenen Betriebsstoffe verwenden. Füllmengen und Spezifikationen separat prüfen."
+      ],
+      "diagnostics": [
+        "Fehlerspeicher/Servicefunktionen prüfen, sofern die Arbeit das jeweilige Steuergerät oder eine überwachte Komponente betrifft."
+      ],
+      "finalChecks": [
+        "Alle Befestigungen, Stecker, Leitungen und Schutzteile kontrollieren.",
+        "Funktionsprüfung durchführen und auf ungewöhnliche Geräusche, Leckagen oder Warnmeldungen achten.",
+        "Bei Fahrwerks-/Lenk-/Bremsarbeiten ggf. Achsgeometrie, Kalibrierung oder Einlernvorgänge nach Herstellervorgabe durchführen."
+      ],
+      "torqueNotice": "Keine pauschalen Drehmomente: Werte sind abhängig von Modell, Generation, Motor/Getriebe, Achse und Bauzustand und müssen aus einer verifizierten fahrzeugspezifischen Quelle übernommen werden.",
+      "sourceStatus": "Allgemeiner Arbeitsablauf – Drehmomente noch nicht fahrzeugspezifisch verifiziert."
     },
     {
       "id": "fuel-filter",
@@ -5507,7 +6651,61 @@
         "Fehlerspeicher vor und nach der Arbeit prüfen, sofern relevant.",
         "Probefunktion unter sicheren Bedingungen durchführen.",
         "Wartungs-/Serviceeintrag dokumentieren."
-      ]
+      ],
+      "tools": [
+        "Steckschlüsselsatz",
+        "Zangensatz",
+        "Auffangbehälter",
+        "Schutzbrille"
+      ],
+      "parts": [
+        "Kraftstofffilter",
+        "Dichtungen/O-Ringe nach Ausführung"
+      ],
+      "safetyPoints": [
+        "Fahrzeug gegen Wegrollen sichern und nur an dafür vorgesehenen Hebe-/Abstützpunkten anheben.",
+        "Vor dem Ausbau Fahrzeugvariante, Motorcode/Ausstattung und Bauzustand eindeutig prüfen.",
+        "Bei sicherheitsrelevanten Baugruppen nur geeignete Werkzeuge und Herstellervorgaben verwenden."
+      ],
+      "preparation": [
+        "Fahrzeugdaten und exakte Reparaturvariante erfassen.",
+        "Arbeitsplatz sichern, benötigte Teile und Werkzeuge bereitlegen.",
+        "Vor dem Lösen von Steckern, Leitungen und Bauteilen Einbaulage dokumentieren."
+      ],
+      "removalSteps": [
+        "Zugang zum Bauteil herstellen und angrenzende Leitungen/Stecker gegen Beschädigung sichern.",
+        "Befestigungen in der vorgesehenen Reihenfolge lösen; Bauteil dabei abstützen.",
+        "Ausgebautes Bauteil mit dem Ersatzteil vergleichen und Dichtflächen/Gewinde prüfen."
+      ],
+      "installationSteps": [
+        "Neues Bauteil in Einbaulage einsetzen und Befestigungen zunächst handfest ansetzen.",
+        "Befestigungen nach der fahrzeugspezifischen Anzugsreihenfolge und den verifizierten Herstellerwerten festziehen.",
+        "Stecker, Leitungen, Abdeckungen und Sicherungen wieder korrekt montieren."
+      ],
+      "fasteners": [
+        {
+          "name": "Befestigungselement 1",
+          "torqueNm": null,
+          "angleDeg": null,
+          "newBolt": null,
+          "status": "Herstellerwert erforderlich",
+          "source": "Exakte Reparaturunterlage für Fahrzeugvariante prüfen"
+        }
+      ],
+      "tighteningSequence": "Fahrzeugspezifische Reihenfolge prüfen; bei mehreren Befestigern nach Hersteller-Schema arbeiten.",
+      "fluids": [
+        "Nur die für diese Fahrzeugvariante vorgeschriebenen Betriebsstoffe verwenden. Füllmengen und Spezifikationen separat prüfen."
+      ],
+      "diagnostics": [
+        "Fehlerspeicher/Servicefunktionen prüfen, sofern die Arbeit das jeweilige Steuergerät oder eine überwachte Komponente betrifft."
+      ],
+      "finalChecks": [
+        "Alle Befestigungen, Stecker, Leitungen und Schutzteile kontrollieren.",
+        "Funktionsprüfung durchführen und auf ungewöhnliche Geräusche, Leckagen oder Warnmeldungen achten.",
+        "Bei Fahrwerks-/Lenk-/Bremsarbeiten ggf. Achsgeometrie, Kalibrierung oder Einlernvorgänge nach Herstellervorgabe durchführen."
+      ],
+      "torqueNotice": "Keine pauschalen Drehmomente: Werte sind abhängig von Modell, Generation, Motor/Getriebe, Achse und Bauzustand und müssen aus einer verifizierten fahrzeugspezifischen Quelle übernommen werden.",
+      "sourceStatus": "Allgemeiner Arbeitsablauf – Drehmomente noch nicht fahrzeugspezifisch verifiziert."
     },
     {
       "id": "intake-clean",
@@ -5528,7 +6726,62 @@
         "Fehlerspeicher vor und nach der Arbeit prüfen, sofern relevant.",
         "Probefunktion unter sicheren Bedingungen durchführen.",
         "Wartungs-/Serviceeintrag dokumentieren."
-      ]
+      ],
+      "tools": [
+        "Steckschlüsselsatz",
+        "Drehmomentschlüssel",
+        "Schraubendreher",
+        "Zangen",
+        "Auffangwanne je nach Arbeit"
+      ],
+      "parts": [
+        "Ersatzteil passend zur exakten Fahrzeug-/Motorvariante",
+        "Dichtungen, Sicherungen oder Einweg-Befestiger nur nach Herstellervorgabe"
+      ],
+      "safetyPoints": [
+        "Fahrzeug gegen Wegrollen sichern und nur an dafür vorgesehenen Hebe-/Abstützpunkten anheben.",
+        "Vor dem Ausbau Fahrzeugvariante, Motorcode/Ausstattung und Bauzustand eindeutig prüfen.",
+        "Bei sicherheitsrelevanten Baugruppen nur geeignete Werkzeuge und Herstellervorgaben verwenden."
+      ],
+      "preparation": [
+        "Fahrzeugdaten und exakte Reparaturvariante erfassen.",
+        "Arbeitsplatz sichern, benötigte Teile und Werkzeuge bereitlegen.",
+        "Vor dem Lösen von Steckern, Leitungen und Bauteilen Einbaulage dokumentieren."
+      ],
+      "removalSteps": [
+        "Zugang zum Bauteil herstellen und angrenzende Leitungen/Stecker gegen Beschädigung sichern.",
+        "Befestigungen in der vorgesehenen Reihenfolge lösen; Bauteil dabei abstützen.",
+        "Ausgebautes Bauteil mit dem Ersatzteil vergleichen und Dichtflächen/Gewinde prüfen."
+      ],
+      "installationSteps": [
+        "Neues Bauteil in Einbaulage einsetzen und Befestigungen zunächst handfest ansetzen.",
+        "Befestigungen nach der fahrzeugspezifischen Anzugsreihenfolge und den verifizierten Herstellerwerten festziehen.",
+        "Stecker, Leitungen, Abdeckungen und Sicherungen wieder korrekt montieren."
+      ],
+      "fasteners": [
+        {
+          "name": "Befestigungselement 1",
+          "torqueNm": null,
+          "angleDeg": null,
+          "newBolt": null,
+          "status": "Herstellerwert erforderlich",
+          "source": "Exakte Reparaturunterlage für Fahrzeugvariante prüfen"
+        }
+      ],
+      "tighteningSequence": "Fahrzeugspezifische Reihenfolge prüfen; bei mehreren Befestigern nach Hersteller-Schema arbeiten.",
+      "fluids": [
+        "Nur die für diese Fahrzeugvariante vorgeschriebenen Betriebsstoffe verwenden. Füllmengen und Spezifikationen separat prüfen."
+      ],
+      "diagnostics": [
+        "Fehlerspeicher/Servicefunktionen prüfen, sofern die Arbeit das jeweilige Steuergerät oder eine überwachte Komponente betrifft."
+      ],
+      "finalChecks": [
+        "Alle Befestigungen, Stecker, Leitungen und Schutzteile kontrollieren.",
+        "Funktionsprüfung durchführen und auf ungewöhnliche Geräusche, Leckagen oder Warnmeldungen achten.",
+        "Bei Fahrwerks-/Lenk-/Bremsarbeiten ggf. Achsgeometrie, Kalibrierung oder Einlernvorgänge nach Herstellervorgabe durchführen."
+      ],
+      "torqueNotice": "Keine pauschalen Drehmomente: Werte sind abhängig von Modell, Generation, Motor/Getriebe, Achse und Bauzustand und müssen aus einer verifizierten fahrzeugspezifischen Quelle übernommen werden.",
+      "sourceStatus": "Allgemeiner Arbeitsablauf – Drehmomente noch nicht fahrzeugspezifisch verifiziert."
     },
     {
       "id": "egr",
@@ -5549,7 +6802,61 @@
         "Fehlerspeicher vor und nach der Arbeit prüfen, sofern relevant.",
         "Probefunktion unter sicheren Bedingungen durchführen.",
         "Wartungs-/Serviceeintrag dokumentieren."
-      ]
+      ],
+      "tools": [
+        "Hebebühne",
+        "Steckschlüsselsatz",
+        "Drehmomentschlüssel",
+        "Rostlöser"
+      ],
+      "parts": [
+        "Dichtungen nach Herstellervorgabe",
+        "Reinigungsmittel nur wenn geeignet"
+      ],
+      "safetyPoints": [
+        "Fahrzeug gegen Wegrollen sichern und nur an dafür vorgesehenen Hebe-/Abstützpunkten anheben.",
+        "Vor dem Ausbau Fahrzeugvariante, Motorcode/Ausstattung und Bauzustand eindeutig prüfen.",
+        "Bei sicherheitsrelevanten Baugruppen nur geeignete Werkzeuge und Herstellervorgaben verwenden."
+      ],
+      "preparation": [
+        "Fahrzeugdaten und exakte Reparaturvariante erfassen.",
+        "Arbeitsplatz sichern, benötigte Teile und Werkzeuge bereitlegen.",
+        "Vor dem Lösen von Steckern, Leitungen und Bauteilen Einbaulage dokumentieren."
+      ],
+      "removalSteps": [
+        "Zugang zum Bauteil herstellen und angrenzende Leitungen/Stecker gegen Beschädigung sichern.",
+        "Befestigungen in der vorgesehenen Reihenfolge lösen; Bauteil dabei abstützen.",
+        "Ausgebautes Bauteil mit dem Ersatzteil vergleichen und Dichtflächen/Gewinde prüfen."
+      ],
+      "installationSteps": [
+        "Neues Bauteil in Einbaulage einsetzen und Befestigungen zunächst handfest ansetzen.",
+        "Befestigungen nach der fahrzeugspezifischen Anzugsreihenfolge und den verifizierten Herstellerwerten festziehen.",
+        "Stecker, Leitungen, Abdeckungen und Sicherungen wieder korrekt montieren."
+      ],
+      "fasteners": [
+        {
+          "name": "Befestigungselement 1",
+          "torqueNm": null,
+          "angleDeg": null,
+          "newBolt": null,
+          "status": "Herstellerwert erforderlich",
+          "source": "Exakte Reparaturunterlage für Fahrzeugvariante prüfen"
+        }
+      ],
+      "tighteningSequence": "Fahrzeugspezifische Reihenfolge prüfen; bei mehreren Befestigern nach Hersteller-Schema arbeiten.",
+      "fluids": [
+        "Nur die für diese Fahrzeugvariante vorgeschriebenen Betriebsstoffe verwenden. Füllmengen und Spezifikationen separat prüfen."
+      ],
+      "diagnostics": [
+        "Fehlerspeicher/Servicefunktionen prüfen, sofern die Arbeit das jeweilige Steuergerät oder eine überwachte Komponente betrifft."
+      ],
+      "finalChecks": [
+        "Alle Befestigungen, Stecker, Leitungen und Schutzteile kontrollieren.",
+        "Funktionsprüfung durchführen und auf ungewöhnliche Geräusche, Leckagen oder Warnmeldungen achten.",
+        "Bei Fahrwerks-/Lenk-/Bremsarbeiten ggf. Achsgeometrie, Kalibrierung oder Einlernvorgänge nach Herstellervorgabe durchführen."
+      ],
+      "torqueNotice": "Keine pauschalen Drehmomente: Werte sind abhängig von Modell, Generation, Motor/Getriebe, Achse und Bauzustand und müssen aus einer verifizierten fahrzeugspezifischen Quelle übernommen werden.",
+      "sourceStatus": "Allgemeiner Arbeitsablauf – Drehmomente noch nicht fahrzeugspezifisch verifiziert."
     },
     {
       "id": "dpf",
@@ -5570,7 +6877,61 @@
         "Fehlerspeicher vor und nach der Arbeit prüfen, sofern relevant.",
         "Probefunktion unter sicheren Bedingungen durchführen.",
         "Wartungs-/Serviceeintrag dokumentieren."
-      ]
+      ],
+      "tools": [
+        "Diagnosegerät",
+        "Hebebühne",
+        "Steckschlüsselsatz",
+        "Drehmomentschlüssel",
+        "Rostlöser"
+      ],
+      "parts": [
+        "Keine Teile pauschal vorsehen – Diagnose vor Teiletausch"
+      ],
+      "safetyPoints": [
+        "Fahrzeug gegen Wegrollen sichern und nur an dafür vorgesehenen Hebe-/Abstützpunkten anheben.",
+        "Vor dem Ausbau Fahrzeugvariante, Motorcode/Ausstattung und Bauzustand eindeutig prüfen.",
+        "Bei sicherheitsrelevanten Baugruppen nur geeignete Werkzeuge und Herstellervorgaben verwenden."
+      ],
+      "preparation": [
+        "Fahrzeugdaten und exakte Reparaturvariante erfassen.",
+        "Arbeitsplatz sichern, benötigte Teile und Werkzeuge bereitlegen.",
+        "Vor dem Lösen von Steckern, Leitungen und Bauteilen Einbaulage dokumentieren."
+      ],
+      "removalSteps": [
+        "Zugang zum Bauteil herstellen und angrenzende Leitungen/Stecker gegen Beschädigung sichern.",
+        "Befestigungen in der vorgesehenen Reihenfolge lösen; Bauteil dabei abstützen.",
+        "Ausgebautes Bauteil mit dem Ersatzteil vergleichen und Dichtflächen/Gewinde prüfen."
+      ],
+      "installationSteps": [
+        "Neues Bauteil in Einbaulage einsetzen und Befestigungen zunächst handfest ansetzen.",
+        "Befestigungen nach der fahrzeugspezifischen Anzugsreihenfolge und den verifizierten Herstellerwerten festziehen.",
+        "Stecker, Leitungen, Abdeckungen und Sicherungen wieder korrekt montieren."
+      ],
+      "fasteners": [
+        {
+          "name": "Befestigungselement 1",
+          "torqueNm": null,
+          "angleDeg": null,
+          "newBolt": null,
+          "status": "Herstellerwert erforderlich",
+          "source": "Exakte Reparaturunterlage für Fahrzeugvariante prüfen"
+        }
+      ],
+      "tighteningSequence": "Fahrzeugspezifische Reihenfolge prüfen; bei mehreren Befestigern nach Hersteller-Schema arbeiten.",
+      "fluids": [
+        "Nur die für diese Fahrzeugvariante vorgeschriebenen Betriebsstoffe verwenden. Füllmengen und Spezifikationen separat prüfen."
+      ],
+      "diagnostics": [
+        "Fehlerspeicher/Servicefunktionen prüfen, sofern die Arbeit das jeweilige Steuergerät oder eine überwachte Komponente betrifft."
+      ],
+      "finalChecks": [
+        "Alle Befestigungen, Stecker, Leitungen und Schutzteile kontrollieren.",
+        "Funktionsprüfung durchführen und auf ungewöhnliche Geräusche, Leckagen oder Warnmeldungen achten.",
+        "Bei Fahrwerks-/Lenk-/Bremsarbeiten ggf. Achsgeometrie, Kalibrierung oder Einlernvorgänge nach Herstellervorgabe durchführen."
+      ],
+      "torqueNotice": "Keine pauschalen Drehmomente: Werte sind abhängig von Modell, Generation, Motor/Getriebe, Achse und Bauzustand und müssen aus einer verifizierten fahrzeugspezifischen Quelle übernommen werden.",
+      "sourceStatus": "Allgemeiner Arbeitsablauf – Drehmomente noch nicht fahrzeugspezifisch verifiziert."
     },
     {
       "id": "oxygen-sensor",
@@ -5591,7 +6952,61 @@
         "Fehlerspeicher vor und nach der Arbeit prüfen, sofern relevant.",
         "Probefunktion unter sicheren Bedingungen durchführen.",
         "Wartungs-/Serviceeintrag dokumentieren."
-      ]
+      ],
+      "tools": [
+        "Hebebühne",
+        "Steckschlüsselsatz",
+        "Drehmomentschlüssel",
+        "Rostlöser"
+      ],
+      "parts": [
+        "Lambdasonde passend zu Motor/Abgasanlage",
+        "ggf. Montagepaste nur wenn Hersteller vorgesehen"
+      ],
+      "safetyPoints": [
+        "Fahrzeug gegen Wegrollen sichern und nur an dafür vorgesehenen Hebe-/Abstützpunkten anheben.",
+        "Vor dem Ausbau Fahrzeugvariante, Motorcode/Ausstattung und Bauzustand eindeutig prüfen.",
+        "Bei sicherheitsrelevanten Baugruppen nur geeignete Werkzeuge und Herstellervorgaben verwenden."
+      ],
+      "preparation": [
+        "Fahrzeugdaten und exakte Reparaturvariante erfassen.",
+        "Arbeitsplatz sichern, benötigte Teile und Werkzeuge bereitlegen.",
+        "Vor dem Lösen von Steckern, Leitungen und Bauteilen Einbaulage dokumentieren."
+      ],
+      "removalSteps": [
+        "Zugang zum Bauteil herstellen und angrenzende Leitungen/Stecker gegen Beschädigung sichern.",
+        "Befestigungen in der vorgesehenen Reihenfolge lösen; Bauteil dabei abstützen.",
+        "Ausgebautes Bauteil mit dem Ersatzteil vergleichen und Dichtflächen/Gewinde prüfen."
+      ],
+      "installationSteps": [
+        "Neues Bauteil in Einbaulage einsetzen und Befestigungen zunächst handfest ansetzen.",
+        "Befestigungen nach der fahrzeugspezifischen Anzugsreihenfolge und den verifizierten Herstellerwerten festziehen.",
+        "Stecker, Leitungen, Abdeckungen und Sicherungen wieder korrekt montieren."
+      ],
+      "fasteners": [
+        {
+          "name": "Befestigungselement 1",
+          "torqueNm": null,
+          "angleDeg": null,
+          "newBolt": null,
+          "status": "Herstellerwert erforderlich",
+          "source": "Exakte Reparaturunterlage für Fahrzeugvariante prüfen"
+        }
+      ],
+      "tighteningSequence": "Fahrzeugspezifische Reihenfolge prüfen; bei mehreren Befestigern nach Hersteller-Schema arbeiten.",
+      "fluids": [
+        "Nur die für diese Fahrzeugvariante vorgeschriebenen Betriebsstoffe verwenden. Füllmengen und Spezifikationen separat prüfen."
+      ],
+      "diagnostics": [
+        "Fehlerspeicher/Servicefunktionen prüfen, sofern die Arbeit das jeweilige Steuergerät oder eine überwachte Komponente betrifft."
+      ],
+      "finalChecks": [
+        "Alle Befestigungen, Stecker, Leitungen und Schutzteile kontrollieren.",
+        "Funktionsprüfung durchführen und auf ungewöhnliche Geräusche, Leckagen oder Warnmeldungen achten.",
+        "Bei Fahrwerks-/Lenk-/Bremsarbeiten ggf. Achsgeometrie, Kalibrierung oder Einlernvorgänge nach Herstellervorgabe durchführen."
+      ],
+      "torqueNotice": "Keine pauschalen Drehmomente: Werte sind abhängig von Modell, Generation, Motor/Getriebe, Achse und Bauzustand und müssen aus einer verifizierten fahrzeugspezifischen Quelle übernommen werden.",
+      "sourceStatus": "Allgemeiner Arbeitsablauf – Drehmomente noch nicht fahrzeugspezifisch verifiziert."
     },
     {
       "id": "bulb",
@@ -5612,7 +7027,60 @@
         "Fehlerspeicher vor und nach der Arbeit prüfen, sofern relevant.",
         "Probefunktion unter sicheren Bedingungen durchführen.",
         "Wartungs-/Serviceeintrag dokumentieren."
-      ]
+      ],
+      "tools": [
+        "Kunststoffhebel",
+        "Torx/Steckschlüsselsatz",
+        "Drehmomentschlüssel",
+        "Clips-/Verkleidungswerkzeug"
+      ],
+      "parts": [
+        "Leuchtmittel mit identischer Bauart und Freigabe"
+      ],
+      "safetyPoints": [
+        "Fahrzeug gegen Wegrollen sichern und nur an dafür vorgesehenen Hebe-/Abstützpunkten anheben.",
+        "Vor dem Ausbau Fahrzeugvariante, Motorcode/Ausstattung und Bauzustand eindeutig prüfen.",
+        "Bei sicherheitsrelevanten Baugruppen nur geeignete Werkzeuge und Herstellervorgaben verwenden."
+      ],
+      "preparation": [
+        "Fahrzeugdaten und exakte Reparaturvariante erfassen.",
+        "Arbeitsplatz sichern, benötigte Teile und Werkzeuge bereitlegen.",
+        "Vor dem Lösen von Steckern, Leitungen und Bauteilen Einbaulage dokumentieren."
+      ],
+      "removalSteps": [
+        "Zugang zum Bauteil herstellen und angrenzende Leitungen/Stecker gegen Beschädigung sichern.",
+        "Befestigungen in der vorgesehenen Reihenfolge lösen; Bauteil dabei abstützen.",
+        "Ausgebautes Bauteil mit dem Ersatzteil vergleichen und Dichtflächen/Gewinde prüfen."
+      ],
+      "installationSteps": [
+        "Neues Bauteil in Einbaulage einsetzen und Befestigungen zunächst handfest ansetzen.",
+        "Befestigungen nach der fahrzeugspezifischen Anzugsreihenfolge und den verifizierten Herstellerwerten festziehen.",
+        "Stecker, Leitungen, Abdeckungen und Sicherungen wieder korrekt montieren."
+      ],
+      "fasteners": [
+        {
+          "name": "Befestigungselement 1",
+          "torqueNm": null,
+          "angleDeg": null,
+          "newBolt": null,
+          "status": "Herstellerwert erforderlich",
+          "source": "Exakte Reparaturunterlage für Fahrzeugvariante prüfen"
+        }
+      ],
+      "tighteningSequence": "Fahrzeugspezifische Reihenfolge prüfen; bei mehreren Befestigern nach Hersteller-Schema arbeiten.",
+      "fluids": [
+        "Nur die für diese Fahrzeugvariante vorgeschriebenen Betriebsstoffe verwenden. Füllmengen und Spezifikationen separat prüfen."
+      ],
+      "diagnostics": [
+        "Fehlerspeicher/Servicefunktionen prüfen, sofern die Arbeit das jeweilige Steuergerät oder eine überwachte Komponente betrifft."
+      ],
+      "finalChecks": [
+        "Alle Befestigungen, Stecker, Leitungen und Schutzteile kontrollieren.",
+        "Funktionsprüfung durchführen und auf ungewöhnliche Geräusche, Leckagen oder Warnmeldungen achten.",
+        "Bei Fahrwerks-/Lenk-/Bremsarbeiten ggf. Achsgeometrie, Kalibrierung oder Einlernvorgänge nach Herstellervorgabe durchführen."
+      ],
+      "torqueNotice": "Keine pauschalen Drehmomente: Werte sind abhängig von Modell, Generation, Motor/Getriebe, Achse und Bauzustand und müssen aus einer verifizierten fahrzeugspezifischen Quelle übernommen werden.",
+      "sourceStatus": "Allgemeiner Arbeitsablauf – Drehmomente noch nicht fahrzeugspezifisch verifiziert."
     },
     {
       "id": "headlight",
@@ -5633,7 +7101,61 @@
         "Fehlerspeicher vor und nach der Arbeit prüfen, sofern relevant.",
         "Probefunktion unter sicheren Bedingungen durchführen.",
         "Wartungs-/Serviceeintrag dokumentieren."
-      ]
+      ],
+      "tools": [
+        "Kunststoffhebel",
+        "Torx/Steckschlüsselsatz",
+        "Drehmomentschlüssel",
+        "Clips-/Verkleidungswerkzeug"
+      ],
+      "parts": [
+        "Scheinwerfer passend zur Fahrzeugausstattung",
+        "ggf. neue Befestigungselemente"
+      ],
+      "safetyPoints": [
+        "Fahrzeug gegen Wegrollen sichern und nur an dafür vorgesehenen Hebe-/Abstützpunkten anheben.",
+        "Vor dem Ausbau Fahrzeugvariante, Motorcode/Ausstattung und Bauzustand eindeutig prüfen.",
+        "Bei sicherheitsrelevanten Baugruppen nur geeignete Werkzeuge und Herstellervorgaben verwenden."
+      ],
+      "preparation": [
+        "Fahrzeugdaten und exakte Reparaturvariante erfassen.",
+        "Arbeitsplatz sichern, benötigte Teile und Werkzeuge bereitlegen.",
+        "Vor dem Lösen von Steckern, Leitungen und Bauteilen Einbaulage dokumentieren."
+      ],
+      "removalSteps": [
+        "Zugang zum Bauteil herstellen und angrenzende Leitungen/Stecker gegen Beschädigung sichern.",
+        "Befestigungen in der vorgesehenen Reihenfolge lösen; Bauteil dabei abstützen.",
+        "Ausgebautes Bauteil mit dem Ersatzteil vergleichen und Dichtflächen/Gewinde prüfen."
+      ],
+      "installationSteps": [
+        "Neues Bauteil in Einbaulage einsetzen und Befestigungen zunächst handfest ansetzen.",
+        "Befestigungen nach der fahrzeugspezifischen Anzugsreihenfolge und den verifizierten Herstellerwerten festziehen.",
+        "Stecker, Leitungen, Abdeckungen und Sicherungen wieder korrekt montieren."
+      ],
+      "fasteners": [
+        {
+          "name": "Befestigungselement 1",
+          "torqueNm": null,
+          "angleDeg": null,
+          "newBolt": null,
+          "status": "Herstellerwert erforderlich",
+          "source": "Exakte Reparaturunterlage für Fahrzeugvariante prüfen"
+        }
+      ],
+      "tighteningSequence": "Fahrzeugspezifische Reihenfolge prüfen; bei mehreren Befestigern nach Hersteller-Schema arbeiten.",
+      "fluids": [
+        "Nur die für diese Fahrzeugvariante vorgeschriebenen Betriebsstoffe verwenden. Füllmengen und Spezifikationen separat prüfen."
+      ],
+      "diagnostics": [
+        "Fehlerspeicher/Servicefunktionen prüfen, sofern die Arbeit das jeweilige Steuergerät oder eine überwachte Komponente betrifft."
+      ],
+      "finalChecks": [
+        "Alle Befestigungen, Stecker, Leitungen und Schutzteile kontrollieren.",
+        "Funktionsprüfung durchführen und auf ungewöhnliche Geräusche, Leckagen oder Warnmeldungen achten.",
+        "Bei Fahrwerks-/Lenk-/Bremsarbeiten ggf. Achsgeometrie, Kalibrierung oder Einlernvorgänge nach Herstellervorgabe durchführen."
+      ],
+      "torqueNotice": "Keine pauschalen Drehmomente: Werte sind abhängig von Modell, Generation, Motor/Getriebe, Achse und Bauzustand und müssen aus einer verifizierten fahrzeugspezifischen Quelle übernommen werden.",
+      "sourceStatus": "Allgemeiner Arbeitsablauf – Drehmomente noch nicht fahrzeugspezifisch verifiziert."
     },
     {
       "id": "wiper",
@@ -5654,7 +7176,60 @@
         "Fehlerspeicher vor und nach der Arbeit prüfen, sofern relevant.",
         "Probefunktion unter sicheren Bedingungen durchführen.",
         "Wartungs-/Serviceeintrag dokumentieren."
-      ]
+      ],
+      "tools": [
+        "Kunststoffhebel",
+        "Torx/Steckschlüsselsatz",
+        "Drehmomentschlüssel",
+        "Clips-/Verkleidungswerkzeug"
+      ],
+      "parts": [
+        "Wischerblätter passend zu Fahrzeug und Länge"
+      ],
+      "safetyPoints": [
+        "Fahrzeug gegen Wegrollen sichern und nur an dafür vorgesehenen Hebe-/Abstützpunkten anheben.",
+        "Vor dem Ausbau Fahrzeugvariante, Motorcode/Ausstattung und Bauzustand eindeutig prüfen.",
+        "Bei sicherheitsrelevanten Baugruppen nur geeignete Werkzeuge und Herstellervorgaben verwenden."
+      ],
+      "preparation": [
+        "Fahrzeugdaten und exakte Reparaturvariante erfassen.",
+        "Arbeitsplatz sichern, benötigte Teile und Werkzeuge bereitlegen.",
+        "Vor dem Lösen von Steckern, Leitungen und Bauteilen Einbaulage dokumentieren."
+      ],
+      "removalSteps": [
+        "Zugang zum Bauteil herstellen und angrenzende Leitungen/Stecker gegen Beschädigung sichern.",
+        "Befestigungen in der vorgesehenen Reihenfolge lösen; Bauteil dabei abstützen.",
+        "Ausgebautes Bauteil mit dem Ersatzteil vergleichen und Dichtflächen/Gewinde prüfen."
+      ],
+      "installationSteps": [
+        "Neues Bauteil in Einbaulage einsetzen und Befestigungen zunächst handfest ansetzen.",
+        "Befestigungen nach der fahrzeugspezifischen Anzugsreihenfolge und den verifizierten Herstellerwerten festziehen.",
+        "Stecker, Leitungen, Abdeckungen und Sicherungen wieder korrekt montieren."
+      ],
+      "fasteners": [
+        {
+          "name": "Befestigungselement 1",
+          "torqueNm": null,
+          "angleDeg": null,
+          "newBolt": null,
+          "status": "Herstellerwert erforderlich",
+          "source": "Exakte Reparaturunterlage für Fahrzeugvariante prüfen"
+        }
+      ],
+      "tighteningSequence": "Fahrzeugspezifische Reihenfolge prüfen; bei mehreren Befestigern nach Hersteller-Schema arbeiten.",
+      "fluids": [
+        "Nur die für diese Fahrzeugvariante vorgeschriebenen Betriebsstoffe verwenden. Füllmengen und Spezifikationen separat prüfen."
+      ],
+      "diagnostics": [
+        "Fehlerspeicher/Servicefunktionen prüfen, sofern die Arbeit das jeweilige Steuergerät oder eine überwachte Komponente betrifft."
+      ],
+      "finalChecks": [
+        "Alle Befestigungen, Stecker, Leitungen und Schutzteile kontrollieren.",
+        "Funktionsprüfung durchführen und auf ungewöhnliche Geräusche, Leckagen oder Warnmeldungen achten.",
+        "Bei Fahrwerks-/Lenk-/Bremsarbeiten ggf. Achsgeometrie, Kalibrierung oder Einlernvorgänge nach Herstellervorgabe durchführen."
+      ],
+      "torqueNotice": "Keine pauschalen Drehmomente: Werte sind abhängig von Modell, Generation, Motor/Getriebe, Achse und Bauzustand und müssen aus einer verifizierten fahrzeugspezifischen Quelle übernommen werden.",
+      "sourceStatus": "Allgemeiner Arbeitsablauf – Drehmomente noch nicht fahrzeugspezifisch verifiziert."
     },
     {
       "id": "cabin-filter",
@@ -5675,7 +7250,60 @@
         "Fehlerspeicher vor und nach der Arbeit prüfen, sofern relevant.",
         "Probefunktion unter sicheren Bedingungen durchführen.",
         "Wartungs-/Serviceeintrag dokumentieren."
-      ]
+      ],
+      "tools": [
+        "Steckschlüsselsatz",
+        "Schraubendreher",
+        "Diagnosegerät je nach Arbeit",
+        "Klimaservicegerät nur bei geöffnetem Kältemittelkreislauf"
+      ],
+      "parts": [
+        "Innenraum-/Pollenfilter"
+      ],
+      "safetyPoints": [
+        "Fahrzeug gegen Wegrollen sichern und nur an dafür vorgesehenen Hebe-/Abstützpunkten anheben.",
+        "Vor dem Ausbau Fahrzeugvariante, Motorcode/Ausstattung und Bauzustand eindeutig prüfen.",
+        "Bei sicherheitsrelevanten Baugruppen nur geeignete Werkzeuge und Herstellervorgaben verwenden."
+      ],
+      "preparation": [
+        "Fahrzeugdaten und exakte Reparaturvariante erfassen.",
+        "Arbeitsplatz sichern, benötigte Teile und Werkzeuge bereitlegen.",
+        "Vor dem Lösen von Steckern, Leitungen und Bauteilen Einbaulage dokumentieren."
+      ],
+      "removalSteps": [
+        "Zugang zum Bauteil herstellen und angrenzende Leitungen/Stecker gegen Beschädigung sichern.",
+        "Befestigungen in der vorgesehenen Reihenfolge lösen; Bauteil dabei abstützen.",
+        "Ausgebautes Bauteil mit dem Ersatzteil vergleichen und Dichtflächen/Gewinde prüfen."
+      ],
+      "installationSteps": [
+        "Neues Bauteil in Einbaulage einsetzen und Befestigungen zunächst handfest ansetzen.",
+        "Befestigungen nach der fahrzeugspezifischen Anzugsreihenfolge und den verifizierten Herstellerwerten festziehen.",
+        "Stecker, Leitungen, Abdeckungen und Sicherungen wieder korrekt montieren."
+      ],
+      "fasteners": [
+        {
+          "name": "Befestigungselement 1",
+          "torqueNm": null,
+          "angleDeg": null,
+          "newBolt": null,
+          "status": "Herstellerwert erforderlich",
+          "source": "Exakte Reparaturunterlage für Fahrzeugvariante prüfen"
+        }
+      ],
+      "tighteningSequence": "Fahrzeugspezifische Reihenfolge prüfen; bei mehreren Befestigern nach Hersteller-Schema arbeiten.",
+      "fluids": [
+        "Nur die für diese Fahrzeugvariante vorgeschriebenen Betriebsstoffe verwenden. Füllmengen und Spezifikationen separat prüfen."
+      ],
+      "diagnostics": [
+        "Fehlerspeicher/Servicefunktionen prüfen, sofern die Arbeit das jeweilige Steuergerät oder eine überwachte Komponente betrifft."
+      ],
+      "finalChecks": [
+        "Alle Befestigungen, Stecker, Leitungen und Schutzteile kontrollieren.",
+        "Funktionsprüfung durchführen und auf ungewöhnliche Geräusche, Leckagen oder Warnmeldungen achten.",
+        "Bei Fahrwerks-/Lenk-/Bremsarbeiten ggf. Achsgeometrie, Kalibrierung oder Einlernvorgänge nach Herstellervorgabe durchführen."
+      ],
+      "torqueNotice": "Keine pauschalen Drehmomente: Werte sind abhängig von Modell, Generation, Motor/Getriebe, Achse und Bauzustand und müssen aus einer verifizierten fahrzeugspezifischen Quelle übernommen werden.",
+      "sourceStatus": "Allgemeiner Arbeitsablauf – Drehmomente noch nicht fahrzeugspezifisch verifiziert."
     },
     {
       "id": "blower",
@@ -5696,7 +7324,60 @@
         "Fehlerspeicher vor und nach der Arbeit prüfen, sofern relevant.",
         "Probefunktion unter sicheren Bedingungen durchführen.",
         "Wartungs-/Serviceeintrag dokumentieren."
-      ]
+      ],
+      "tools": [
+        "Steckschlüsselsatz",
+        "Schraubendreher",
+        "Diagnosegerät je nach Arbeit",
+        "Klimaservicegerät nur bei geöffnetem Kältemittelkreislauf"
+      ],
+      "parts": [
+        "Gebläsemotor passend zur Klimaausführung"
+      ],
+      "safetyPoints": [
+        "Fahrzeug gegen Wegrollen sichern und nur an dafür vorgesehenen Hebe-/Abstützpunkten anheben.",
+        "Vor dem Ausbau Fahrzeugvariante, Motorcode/Ausstattung und Bauzustand eindeutig prüfen.",
+        "Bei sicherheitsrelevanten Baugruppen nur geeignete Werkzeuge und Herstellervorgaben verwenden."
+      ],
+      "preparation": [
+        "Fahrzeugdaten und exakte Reparaturvariante erfassen.",
+        "Arbeitsplatz sichern, benötigte Teile und Werkzeuge bereitlegen.",
+        "Vor dem Lösen von Steckern, Leitungen und Bauteilen Einbaulage dokumentieren."
+      ],
+      "removalSteps": [
+        "Zugang zum Bauteil herstellen und angrenzende Leitungen/Stecker gegen Beschädigung sichern.",
+        "Befestigungen in der vorgesehenen Reihenfolge lösen; Bauteil dabei abstützen.",
+        "Ausgebautes Bauteil mit dem Ersatzteil vergleichen und Dichtflächen/Gewinde prüfen."
+      ],
+      "installationSteps": [
+        "Neues Bauteil in Einbaulage einsetzen und Befestigungen zunächst handfest ansetzen.",
+        "Befestigungen nach der fahrzeugspezifischen Anzugsreihenfolge und den verifizierten Herstellerwerten festziehen.",
+        "Stecker, Leitungen, Abdeckungen und Sicherungen wieder korrekt montieren."
+      ],
+      "fasteners": [
+        {
+          "name": "Befestigungselement 1",
+          "torqueNm": null,
+          "angleDeg": null,
+          "newBolt": null,
+          "status": "Herstellerwert erforderlich",
+          "source": "Exakte Reparaturunterlage für Fahrzeugvariante prüfen"
+        }
+      ],
+      "tighteningSequence": "Fahrzeugspezifische Reihenfolge prüfen; bei mehreren Befestigern nach Hersteller-Schema arbeiten.",
+      "fluids": [
+        "Nur die für diese Fahrzeugvariante vorgeschriebenen Betriebsstoffe verwenden. Füllmengen und Spezifikationen separat prüfen."
+      ],
+      "diagnostics": [
+        "Fehlerspeicher/Servicefunktionen prüfen, sofern die Arbeit das jeweilige Steuergerät oder eine überwachte Komponente betrifft."
+      ],
+      "finalChecks": [
+        "Alle Befestigungen, Stecker, Leitungen und Schutzteile kontrollieren.",
+        "Funktionsprüfung durchführen und auf ungewöhnliche Geräusche, Leckagen oder Warnmeldungen achten.",
+        "Bei Fahrwerks-/Lenk-/Bremsarbeiten ggf. Achsgeometrie, Kalibrierung oder Einlernvorgänge nach Herstellervorgabe durchführen."
+      ],
+      "torqueNotice": "Keine pauschalen Drehmomente: Werte sind abhängig von Modell, Generation, Motor/Getriebe, Achse und Bauzustand und müssen aus einer verifizierten fahrzeugspezifischen Quelle übernommen werden.",
+      "sourceStatus": "Allgemeiner Arbeitsablauf – Drehmomente noch nicht fahrzeugspezifisch verifiziert."
     },
     {
       "id": "ac-service",
@@ -5717,7 +7398,61 @@
         "Fehlerspeicher vor und nach der Arbeit prüfen, sofern relevant.",
         "Probefunktion unter sicheren Bedingungen durchführen.",
         "Wartungs-/Serviceeintrag dokumentieren."
-      ]
+      ],
+      "tools": [
+        "Diagnosegerät",
+        "Steckschlüsselsatz",
+        "Schraubendreher",
+        "Diagnosegerät je nach Arbeit",
+        "Klimaservicegerät nur bei geöffnetem Kältemittelkreislauf"
+      ],
+      "parts": [
+        "Keine Teile pauschal – Fehlerdiagnose zuerst"
+      ],
+      "safetyPoints": [
+        "Fahrzeug gegen Wegrollen sichern und nur an dafür vorgesehenen Hebe-/Abstützpunkten anheben.",
+        "Vor dem Ausbau Fahrzeugvariante, Motorcode/Ausstattung und Bauzustand eindeutig prüfen.",
+        "Bei sicherheitsrelevanten Baugruppen nur geeignete Werkzeuge und Herstellervorgaben verwenden."
+      ],
+      "preparation": [
+        "Fahrzeugdaten und exakte Reparaturvariante erfassen.",
+        "Arbeitsplatz sichern, benötigte Teile und Werkzeuge bereitlegen.",
+        "Vor dem Lösen von Steckern, Leitungen und Bauteilen Einbaulage dokumentieren."
+      ],
+      "removalSteps": [
+        "Zugang zum Bauteil herstellen und angrenzende Leitungen/Stecker gegen Beschädigung sichern.",
+        "Befestigungen in der vorgesehenen Reihenfolge lösen; Bauteil dabei abstützen.",
+        "Ausgebautes Bauteil mit dem Ersatzteil vergleichen und Dichtflächen/Gewinde prüfen."
+      ],
+      "installationSteps": [
+        "Neues Bauteil in Einbaulage einsetzen und Befestigungen zunächst handfest ansetzen.",
+        "Befestigungen nach der fahrzeugspezifischen Anzugsreihenfolge und den verifizierten Herstellerwerten festziehen.",
+        "Stecker, Leitungen, Abdeckungen und Sicherungen wieder korrekt montieren."
+      ],
+      "fasteners": [
+        {
+          "name": "Befestigungselement 1",
+          "torqueNm": null,
+          "angleDeg": null,
+          "newBolt": null,
+          "status": "Herstellerwert erforderlich",
+          "source": "Exakte Reparaturunterlage für Fahrzeugvariante prüfen"
+        }
+      ],
+      "tighteningSequence": "Fahrzeugspezifische Reihenfolge prüfen; bei mehreren Befestigern nach Hersteller-Schema arbeiten.",
+      "fluids": [
+        "Nur die für diese Fahrzeugvariante vorgeschriebenen Betriebsstoffe verwenden. Füllmengen und Spezifikationen separat prüfen."
+      ],
+      "diagnostics": [
+        "Fehlerspeicher/Servicefunktionen prüfen, sofern die Arbeit das jeweilige Steuergerät oder eine überwachte Komponente betrifft."
+      ],
+      "finalChecks": [
+        "Alle Befestigungen, Stecker, Leitungen und Schutzteile kontrollieren.",
+        "Funktionsprüfung durchführen und auf ungewöhnliche Geräusche, Leckagen oder Warnmeldungen achten.",
+        "Bei Fahrwerks-/Lenk-/Bremsarbeiten ggf. Achsgeometrie, Kalibrierung oder Einlernvorgänge nach Herstellervorgabe durchführen."
+      ],
+      "torqueNotice": "Keine pauschalen Drehmomente: Werte sind abhängig von Modell, Generation, Motor/Getriebe, Achse und Bauzustand und müssen aus einer verifizierten fahrzeugspezifischen Quelle übernommen werden.",
+      "sourceStatus": "Allgemeiner Arbeitsablauf – Drehmomente noch nicht fahrzeugspezifisch verifiziert."
     },
     {
       "id": "wheel-bearing",
@@ -5738,7 +7473,62 @@
         "Fehlerspeicher vor und nach der Arbeit prüfen, sofern relevant.",
         "Probefunktion unter sicheren Bedingungen durchführen.",
         "Wartungs-/Serviceeintrag dokumentieren."
-      ]
+      ],
+      "tools": [
+        "Hebebühne",
+        "Unterstellböcke",
+        "Drehmomentschlüssel",
+        "Steckschlüsselsatz",
+        "Kugelgelenk-/Abzieher je nach Bauart"
+      ],
+      "parts": [
+        "Radlager/Radlagereinheit passend zur Achse",
+        "ggf. neue Befestigungselemente"
+      ],
+      "safetyPoints": [
+        "Fahrzeug gegen Wegrollen sichern und nur an dafür vorgesehenen Hebe-/Abstützpunkten anheben.",
+        "Vor dem Ausbau Fahrzeugvariante, Motorcode/Ausstattung und Bauzustand eindeutig prüfen.",
+        "Bei sicherheitsrelevanten Baugruppen nur geeignete Werkzeuge und Herstellervorgaben verwenden."
+      ],
+      "preparation": [
+        "Fahrzeugdaten und exakte Reparaturvariante erfassen.",
+        "Arbeitsplatz sichern, benötigte Teile und Werkzeuge bereitlegen.",
+        "Vor dem Lösen von Steckern, Leitungen und Bauteilen Einbaulage dokumentieren."
+      ],
+      "removalSteps": [
+        "Zugang zum Bauteil herstellen und angrenzende Leitungen/Stecker gegen Beschädigung sichern.",
+        "Befestigungen in der vorgesehenen Reihenfolge lösen; Bauteil dabei abstützen.",
+        "Ausgebautes Bauteil mit dem Ersatzteil vergleichen und Dichtflächen/Gewinde prüfen."
+      ],
+      "installationSteps": [
+        "Neues Bauteil in Einbaulage einsetzen und Befestigungen zunächst handfest ansetzen.",
+        "Befestigungen nach der fahrzeugspezifischen Anzugsreihenfolge und den verifizierten Herstellerwerten festziehen.",
+        "Stecker, Leitungen, Abdeckungen und Sicherungen wieder korrekt montieren."
+      ],
+      "fasteners": [
+        {
+          "name": "Befestigungselement 1",
+          "torqueNm": null,
+          "angleDeg": null,
+          "newBolt": null,
+          "status": "Herstellerwert erforderlich",
+          "source": "Exakte Reparaturunterlage für Fahrzeugvariante prüfen"
+        }
+      ],
+      "tighteningSequence": "Fahrzeugspezifische Reihenfolge prüfen; bei mehreren Befestigern nach Hersteller-Schema arbeiten.",
+      "fluids": [
+        "Nur die für diese Fahrzeugvariante vorgeschriebenen Betriebsstoffe verwenden. Füllmengen und Spezifikationen separat prüfen."
+      ],
+      "diagnostics": [
+        "Fehlerspeicher/Servicefunktionen prüfen, sofern die Arbeit das jeweilige Steuergerät oder eine überwachte Komponente betrifft."
+      ],
+      "finalChecks": [
+        "Alle Befestigungen, Stecker, Leitungen und Schutzteile kontrollieren.",
+        "Funktionsprüfung durchführen und auf ungewöhnliche Geräusche, Leckagen oder Warnmeldungen achten.",
+        "Bei Fahrwerks-/Lenk-/Bremsarbeiten ggf. Achsgeometrie, Kalibrierung oder Einlernvorgänge nach Herstellervorgabe durchführen."
+      ],
+      "torqueNotice": "Keine pauschalen Drehmomente: Werte sind abhängig von Modell, Generation, Motor/Getriebe, Achse und Bauzustand und müssen aus einer verifizierten fahrzeugspezifischen Quelle übernommen werden.",
+      "sourceStatus": "Allgemeiner Arbeitsablauf – Drehmomente noch nicht fahrzeugspezifisch verifiziert."
     },
     {
       "id": "wheel-change",
@@ -5759,7 +7549,61 @@
         "Fehlerspeicher vor und nach der Arbeit prüfen, sofern relevant.",
         "Probefunktion unter sicheren Bedingungen durchführen.",
         "Wartungs-/Serviceeintrag dokumentieren."
-      ]
+      ],
+      "tools": [
+        "Wagenheber/Hebebühne",
+        "Unterstellböcke",
+        "Drehmomentschlüssel",
+        "Steckschlüsselsatz",
+        "Bremsenrückstell-/Montagewerkzeug"
+      ],
+      "parts": [
+        "Radschrauben/-muttern nur nach Herstellervorgabe"
+      ],
+      "safetyPoints": [
+        "Fahrzeug gegen Wegrollen sichern und nur an dafür vorgesehenen Hebe-/Abstützpunkten anheben.",
+        "Vor dem Ausbau Fahrzeugvariante, Motorcode/Ausstattung und Bauzustand eindeutig prüfen.",
+        "Bei sicherheitsrelevanten Baugruppen nur geeignete Werkzeuge und Herstellervorgaben verwenden."
+      ],
+      "preparation": [
+        "Fahrzeugdaten und exakte Reparaturvariante erfassen.",
+        "Arbeitsplatz sichern, benötigte Teile und Werkzeuge bereitlegen.",
+        "Vor dem Lösen von Steckern, Leitungen und Bauteilen Einbaulage dokumentieren."
+      ],
+      "removalSteps": [
+        "Zugang zum Bauteil herstellen und angrenzende Leitungen/Stecker gegen Beschädigung sichern.",
+        "Befestigungen in der vorgesehenen Reihenfolge lösen; Bauteil dabei abstützen.",
+        "Ausgebautes Bauteil mit dem Ersatzteil vergleichen und Dichtflächen/Gewinde prüfen."
+      ],
+      "installationSteps": [
+        "Neues Bauteil in Einbaulage einsetzen und Befestigungen zunächst handfest ansetzen.",
+        "Befestigungen nach der fahrzeugspezifischen Anzugsreihenfolge und den verifizierten Herstellerwerten festziehen.",
+        "Stecker, Leitungen, Abdeckungen und Sicherungen wieder korrekt montieren."
+      ],
+      "fasteners": [
+        {
+          "name": "Befestigungselement 1",
+          "torqueNm": null,
+          "angleDeg": null,
+          "newBolt": null,
+          "status": "Herstellerwert erforderlich",
+          "source": "Exakte Reparaturunterlage für Fahrzeugvariante prüfen"
+        }
+      ],
+      "tighteningSequence": "Fahrzeugspezifische Reihenfolge prüfen; bei mehreren Befestigern nach Hersteller-Schema arbeiten.",
+      "fluids": [
+        "Nur die für diese Fahrzeugvariante vorgeschriebenen Betriebsstoffe verwenden. Füllmengen und Spezifikationen separat prüfen."
+      ],
+      "diagnostics": [
+        "Fehlerspeicher/Servicefunktionen prüfen, sofern die Arbeit das jeweilige Steuergerät oder eine überwachte Komponente betrifft."
+      ],
+      "finalChecks": [
+        "Alle Befestigungen, Stecker, Leitungen und Schutzteile kontrollieren.",
+        "Funktionsprüfung durchführen und auf ungewöhnliche Geräusche, Leckagen oder Warnmeldungen achten.",
+        "Bei Fahrwerks-/Lenk-/Bremsarbeiten ggf. Achsgeometrie, Kalibrierung oder Einlernvorgänge nach Herstellervorgabe durchführen."
+      ],
+      "torqueNotice": "Keine pauschalen Drehmomente: Werte sind abhängig von Modell, Generation, Motor/Getriebe, Achse und Bauzustand und müssen aus einer verifizierten fahrzeugspezifischen Quelle übernommen werden.",
+      "sourceStatus": "Allgemeiner Arbeitsablauf – Drehmomente noch nicht fahrzeugspezifisch verifiziert."
     },
     {
       "id": "abs-sensor",
@@ -5780,7 +7624,62 @@
         "Fehlerspeicher vor und nach der Arbeit prüfen, sofern relevant.",
         "Probefunktion unter sicheren Bedingungen durchführen.",
         "Wartungs-/Serviceeintrag dokumentieren."
-      ]
+      ],
+      "tools": [
+        "Diagnosegerät",
+        "Wagenheber/Hebebühne",
+        "Unterstellböcke",
+        "Drehmomentschlüssel",
+        "Steckschlüsselsatz",
+        "Bremsenrückstell-/Montagewerkzeug"
+      ],
+      "parts": [
+        "ABS-Raddrehzahlsensor passend zur Achse"
+      ],
+      "safetyPoints": [
+        "Fahrzeug gegen Wegrollen sichern und nur an dafür vorgesehenen Hebe-/Abstützpunkten anheben.",
+        "Vor dem Ausbau Fahrzeugvariante, Motorcode/Ausstattung und Bauzustand eindeutig prüfen.",
+        "Bei sicherheitsrelevanten Baugruppen nur geeignete Werkzeuge und Herstellervorgaben verwenden."
+      ],
+      "preparation": [
+        "Fahrzeugdaten und exakte Reparaturvariante erfassen.",
+        "Arbeitsplatz sichern, benötigte Teile und Werkzeuge bereitlegen.",
+        "Vor dem Lösen von Steckern, Leitungen und Bauteilen Einbaulage dokumentieren."
+      ],
+      "removalSteps": [
+        "Zugang zum Bauteil herstellen und angrenzende Leitungen/Stecker gegen Beschädigung sichern.",
+        "Befestigungen in der vorgesehenen Reihenfolge lösen; Bauteil dabei abstützen.",
+        "Ausgebautes Bauteil mit dem Ersatzteil vergleichen und Dichtflächen/Gewinde prüfen."
+      ],
+      "installationSteps": [
+        "Neues Bauteil in Einbaulage einsetzen und Befestigungen zunächst handfest ansetzen.",
+        "Befestigungen nach der fahrzeugspezifischen Anzugsreihenfolge und den verifizierten Herstellerwerten festziehen.",
+        "Stecker, Leitungen, Abdeckungen und Sicherungen wieder korrekt montieren."
+      ],
+      "fasteners": [
+        {
+          "name": "Befestigungselement 1",
+          "torqueNm": null,
+          "angleDeg": null,
+          "newBolt": null,
+          "status": "Herstellerwert erforderlich",
+          "source": "Exakte Reparaturunterlage für Fahrzeugvariante prüfen"
+        }
+      ],
+      "tighteningSequence": "Fahrzeugspezifische Reihenfolge prüfen; bei mehreren Befestigern nach Hersteller-Schema arbeiten.",
+      "fluids": [
+        "Nur die für diese Fahrzeugvariante vorgeschriebenen Betriebsstoffe verwenden. Füllmengen und Spezifikationen separat prüfen."
+      ],
+      "diagnostics": [
+        "Fehlerspeicher/Servicefunktionen prüfen, sofern die Arbeit das jeweilige Steuergerät oder eine überwachte Komponente betrifft."
+      ],
+      "finalChecks": [
+        "Alle Befestigungen, Stecker, Leitungen und Schutzteile kontrollieren.",
+        "Funktionsprüfung durchführen und auf ungewöhnliche Geräusche, Leckagen oder Warnmeldungen achten.",
+        "Bei Fahrwerks-/Lenk-/Bremsarbeiten ggf. Achsgeometrie, Kalibrierung oder Einlernvorgänge nach Herstellervorgabe durchführen."
+      ],
+      "torqueNotice": "Keine pauschalen Drehmomente: Werte sind abhängig von Modell, Generation, Motor/Getriebe, Achse und Bauzustand und müssen aus einer verifizierten fahrzeugspezifischen Quelle übernommen werden.",
+      "sourceStatus": "Allgemeiner Arbeitsablauf – Drehmomente noch nicht fahrzeugspezifisch verifiziert."
     },
     {
       "id": "parking-brake",
@@ -5801,7 +7700,61 @@
         "Fehlerspeicher vor und nach der Arbeit prüfen, sofern relevant.",
         "Probefunktion unter sicheren Bedingungen durchführen.",
         "Wartungs-/Serviceeintrag dokumentieren."
-      ]
+      ],
+      "tools": [
+        "Wagenheber/Hebebühne",
+        "Unterstellböcke",
+        "Drehmomentschlüssel",
+        "Steckschlüsselsatz",
+        "Bremsenrückstell-/Montagewerkzeug"
+      ],
+      "parts": [
+        "Keine Teile pauschal – Ausführung prüfen"
+      ],
+      "safetyPoints": [
+        "Fahrzeug gegen Wegrollen sichern und nur an dafür vorgesehenen Hebe-/Abstützpunkten anheben.",
+        "Vor dem Ausbau Fahrzeugvariante, Motorcode/Ausstattung und Bauzustand eindeutig prüfen.",
+        "Bei sicherheitsrelevanten Baugruppen nur geeignete Werkzeuge und Herstellervorgaben verwenden."
+      ],
+      "preparation": [
+        "Fahrzeugdaten und exakte Reparaturvariante erfassen.",
+        "Arbeitsplatz sichern, benötigte Teile und Werkzeuge bereitlegen.",
+        "Vor dem Lösen von Steckern, Leitungen und Bauteilen Einbaulage dokumentieren."
+      ],
+      "removalSteps": [
+        "Zugang zum Bauteil herstellen und angrenzende Leitungen/Stecker gegen Beschädigung sichern.",
+        "Befestigungen in der vorgesehenen Reihenfolge lösen; Bauteil dabei abstützen.",
+        "Ausgebautes Bauteil mit dem Ersatzteil vergleichen und Dichtflächen/Gewinde prüfen."
+      ],
+      "installationSteps": [
+        "Neues Bauteil in Einbaulage einsetzen und Befestigungen zunächst handfest ansetzen.",
+        "Befestigungen nach der fahrzeugspezifischen Anzugsreihenfolge und den verifizierten Herstellerwerten festziehen.",
+        "Stecker, Leitungen, Abdeckungen und Sicherungen wieder korrekt montieren."
+      ],
+      "fasteners": [
+        {
+          "name": "Befestigungselement 1",
+          "torqueNm": null,
+          "angleDeg": null,
+          "newBolt": null,
+          "status": "Herstellerwert erforderlich",
+          "source": "Exakte Reparaturunterlage für Fahrzeugvariante prüfen"
+        }
+      ],
+      "tighteningSequence": "Fahrzeugspezifische Reihenfolge prüfen; bei mehreren Befestigern nach Hersteller-Schema arbeiten.",
+      "fluids": [
+        "Nur die für diese Fahrzeugvariante vorgeschriebenen Betriebsstoffe verwenden. Füllmengen und Spezifikationen separat prüfen."
+      ],
+      "diagnostics": [
+        "Fehlerspeicher/Servicefunktionen prüfen, sofern die Arbeit das jeweilige Steuergerät oder eine überwachte Komponente betrifft."
+      ],
+      "finalChecks": [
+        "Alle Befestigungen, Stecker, Leitungen und Schutzteile kontrollieren.",
+        "Funktionsprüfung durchführen und auf ungewöhnliche Geräusche, Leckagen oder Warnmeldungen achten.",
+        "Bei Fahrwerks-/Lenk-/Bremsarbeiten ggf. Achsgeometrie, Kalibrierung oder Einlernvorgänge nach Herstellervorgabe durchführen."
+      ],
+      "torqueNotice": "Keine pauschalen Drehmomente: Werte sind abhängig von Modell, Generation, Motor/Getriebe, Achse und Bauzustand und müssen aus einer verifizierten fahrzeugspezifischen Quelle übernommen werden.",
+      "sourceStatus": "Allgemeiner Arbeitsablauf – Drehmomente noch nicht fahrzeugspezifisch verifiziert."
     },
     {
       "id": "engine-mount",
@@ -5822,7 +7775,62 @@
         "Fehlerspeicher vor und nach der Arbeit prüfen, sofern relevant.",
         "Probefunktion unter sicheren Bedingungen durchführen.",
         "Wartungs-/Serviceeintrag dokumentieren."
-      ]
+      ],
+      "tools": [
+        "Steckschlüsselsatz",
+        "Drehmomentschlüssel",
+        "Schraubendreher",
+        "Zangen",
+        "Auffangwanne je nach Arbeit"
+      ],
+      "parts": [
+        "Motor-/Getriebelager",
+        "ggf. neue Dehnschrauben"
+      ],
+      "safetyPoints": [
+        "Fahrzeug gegen Wegrollen sichern und nur an dafür vorgesehenen Hebe-/Abstützpunkten anheben.",
+        "Vor dem Ausbau Fahrzeugvariante, Motorcode/Ausstattung und Bauzustand eindeutig prüfen.",
+        "Bei sicherheitsrelevanten Baugruppen nur geeignete Werkzeuge und Herstellervorgaben verwenden."
+      ],
+      "preparation": [
+        "Fahrzeugdaten und exakte Reparaturvariante erfassen.",
+        "Arbeitsplatz sichern, benötigte Teile und Werkzeuge bereitlegen.",
+        "Vor dem Lösen von Steckern, Leitungen und Bauteilen Einbaulage dokumentieren."
+      ],
+      "removalSteps": [
+        "Zugang zum Bauteil herstellen und angrenzende Leitungen/Stecker gegen Beschädigung sichern.",
+        "Befestigungen in der vorgesehenen Reihenfolge lösen; Bauteil dabei abstützen.",
+        "Ausgebautes Bauteil mit dem Ersatzteil vergleichen und Dichtflächen/Gewinde prüfen."
+      ],
+      "installationSteps": [
+        "Neues Bauteil in Einbaulage einsetzen und Befestigungen zunächst handfest ansetzen.",
+        "Befestigungen nach der fahrzeugspezifischen Anzugsreihenfolge und den verifizierten Herstellerwerten festziehen.",
+        "Stecker, Leitungen, Abdeckungen und Sicherungen wieder korrekt montieren."
+      ],
+      "fasteners": [
+        {
+          "name": "Befestigungselement 1",
+          "torqueNm": null,
+          "angleDeg": null,
+          "newBolt": null,
+          "status": "Herstellerwert erforderlich",
+          "source": "Exakte Reparaturunterlage für Fahrzeugvariante prüfen"
+        }
+      ],
+      "tighteningSequence": "Fahrzeugspezifische Reihenfolge prüfen; bei mehreren Befestigern nach Hersteller-Schema arbeiten.",
+      "fluids": [
+        "Nur die für diese Fahrzeugvariante vorgeschriebenen Betriebsstoffe verwenden. Füllmengen und Spezifikationen separat prüfen."
+      ],
+      "diagnostics": [
+        "Fehlerspeicher/Servicefunktionen prüfen, sofern die Arbeit das jeweilige Steuergerät oder eine überwachte Komponente betrifft."
+      ],
+      "finalChecks": [
+        "Alle Befestigungen, Stecker, Leitungen und Schutzteile kontrollieren.",
+        "Funktionsprüfung durchführen und auf ungewöhnliche Geräusche, Leckagen oder Warnmeldungen achten.",
+        "Bei Fahrwerks-/Lenk-/Bremsarbeiten ggf. Achsgeometrie, Kalibrierung oder Einlernvorgänge nach Herstellervorgabe durchführen."
+      ],
+      "torqueNotice": "Keine pauschalen Drehmomente: Werte sind abhängig von Modell, Generation, Motor/Getriebe, Achse und Bauzustand und müssen aus einer verifizierten fahrzeugspezifischen Quelle übernommen werden.",
+      "sourceStatus": "Allgemeiner Arbeitsablauf – Drehmomente noch nicht fahrzeugspezifisch verifiziert."
     },
     {
       "id": "pcv",
@@ -5843,7 +7851,61 @@
         "Fehlerspeicher vor und nach der Arbeit prüfen, sofern relevant.",
         "Probefunktion unter sicheren Bedingungen durchführen.",
         "Wartungs-/Serviceeintrag dokumentieren."
-      ]
+      ],
+      "tools": [
+        "Steckschlüsselsatz",
+        "Drehmomentschlüssel",
+        "Schraubendreher",
+        "Zangen",
+        "Auffangwanne je nach Arbeit"
+      ],
+      "parts": [
+        "Entlüftungsbauteil/Dichtungen nach Motorvariante"
+      ],
+      "safetyPoints": [
+        "Fahrzeug gegen Wegrollen sichern und nur an dafür vorgesehenen Hebe-/Abstützpunkten anheben.",
+        "Vor dem Ausbau Fahrzeugvariante, Motorcode/Ausstattung und Bauzustand eindeutig prüfen.",
+        "Bei sicherheitsrelevanten Baugruppen nur geeignete Werkzeuge und Herstellervorgaben verwenden."
+      ],
+      "preparation": [
+        "Fahrzeugdaten und exakte Reparaturvariante erfassen.",
+        "Arbeitsplatz sichern, benötigte Teile und Werkzeuge bereitlegen.",
+        "Vor dem Lösen von Steckern, Leitungen und Bauteilen Einbaulage dokumentieren."
+      ],
+      "removalSteps": [
+        "Zugang zum Bauteil herstellen und angrenzende Leitungen/Stecker gegen Beschädigung sichern.",
+        "Befestigungen in der vorgesehenen Reihenfolge lösen; Bauteil dabei abstützen.",
+        "Ausgebautes Bauteil mit dem Ersatzteil vergleichen und Dichtflächen/Gewinde prüfen."
+      ],
+      "installationSteps": [
+        "Neues Bauteil in Einbaulage einsetzen und Befestigungen zunächst handfest ansetzen.",
+        "Befestigungen nach der fahrzeugspezifischen Anzugsreihenfolge und den verifizierten Herstellerwerten festziehen.",
+        "Stecker, Leitungen, Abdeckungen und Sicherungen wieder korrekt montieren."
+      ],
+      "fasteners": [
+        {
+          "name": "Befestigungselement 1",
+          "torqueNm": null,
+          "angleDeg": null,
+          "newBolt": null,
+          "status": "Herstellerwert erforderlich",
+          "source": "Exakte Reparaturunterlage für Fahrzeugvariante prüfen"
+        }
+      ],
+      "tighteningSequence": "Fahrzeugspezifische Reihenfolge prüfen; bei mehreren Befestigern nach Hersteller-Schema arbeiten.",
+      "fluids": [
+        "Nur die für diese Fahrzeugvariante vorgeschriebenen Betriebsstoffe verwenden. Füllmengen und Spezifikationen separat prüfen."
+      ],
+      "diagnostics": [
+        "Fehlerspeicher/Servicefunktionen prüfen, sofern die Arbeit das jeweilige Steuergerät oder eine überwachte Komponente betrifft."
+      ],
+      "finalChecks": [
+        "Alle Befestigungen, Stecker, Leitungen und Schutzteile kontrollieren.",
+        "Funktionsprüfung durchführen und auf ungewöhnliche Geräusche, Leckagen oder Warnmeldungen achten.",
+        "Bei Fahrwerks-/Lenk-/Bremsarbeiten ggf. Achsgeometrie, Kalibrierung oder Einlernvorgänge nach Herstellervorgabe durchführen."
+      ],
+      "torqueNotice": "Keine pauschalen Drehmomente: Werte sind abhängig von Modell, Generation, Motor/Getriebe, Achse und Bauzustand und müssen aus einer verifizierten fahrzeugspezifischen Quelle übernommen werden.",
+      "sourceStatus": "Allgemeiner Arbeitsablauf – Drehmomente noch nicht fahrzeugspezifisch verifiziert."
     },
     {
       "id": "intake-leak",
@@ -5864,7 +7926,61 @@
         "Fehlerspeicher vor und nach der Arbeit prüfen, sofern relevant.",
         "Probefunktion unter sicheren Bedingungen durchführen.",
         "Wartungs-/Serviceeintrag dokumentieren."
-      ]
+      ],
+      "tools": [
+        "Steckschlüsselsatz",
+        "Drehmomentschlüssel",
+        "Schraubendreher",
+        "Zangen",
+        "Auffangwanne je nach Arbeit"
+      ],
+      "parts": [
+        "Keine Teile pauschal – Leck zuerst lokalisieren"
+      ],
+      "safetyPoints": [
+        "Fahrzeug gegen Wegrollen sichern und nur an dafür vorgesehenen Hebe-/Abstützpunkten anheben.",
+        "Vor dem Ausbau Fahrzeugvariante, Motorcode/Ausstattung und Bauzustand eindeutig prüfen.",
+        "Bei sicherheitsrelevanten Baugruppen nur geeignete Werkzeuge und Herstellervorgaben verwenden."
+      ],
+      "preparation": [
+        "Fahrzeugdaten und exakte Reparaturvariante erfassen.",
+        "Arbeitsplatz sichern, benötigte Teile und Werkzeuge bereitlegen.",
+        "Vor dem Lösen von Steckern, Leitungen und Bauteilen Einbaulage dokumentieren."
+      ],
+      "removalSteps": [
+        "Zugang zum Bauteil herstellen und angrenzende Leitungen/Stecker gegen Beschädigung sichern.",
+        "Befestigungen in der vorgesehenen Reihenfolge lösen; Bauteil dabei abstützen.",
+        "Ausgebautes Bauteil mit dem Ersatzteil vergleichen und Dichtflächen/Gewinde prüfen."
+      ],
+      "installationSteps": [
+        "Neues Bauteil in Einbaulage einsetzen und Befestigungen zunächst handfest ansetzen.",
+        "Befestigungen nach der fahrzeugspezifischen Anzugsreihenfolge und den verifizierten Herstellerwerten festziehen.",
+        "Stecker, Leitungen, Abdeckungen und Sicherungen wieder korrekt montieren."
+      ],
+      "fasteners": [
+        {
+          "name": "Befestigungselement 1",
+          "torqueNm": null,
+          "angleDeg": null,
+          "newBolt": null,
+          "status": "Herstellerwert erforderlich",
+          "source": "Exakte Reparaturunterlage für Fahrzeugvariante prüfen"
+        }
+      ],
+      "tighteningSequence": "Fahrzeugspezifische Reihenfolge prüfen; bei mehreren Befestigern nach Hersteller-Schema arbeiten.",
+      "fluids": [
+        "Nur die für diese Fahrzeugvariante vorgeschriebenen Betriebsstoffe verwenden. Füllmengen und Spezifikationen separat prüfen."
+      ],
+      "diagnostics": [
+        "Fehlerspeicher/Servicefunktionen prüfen, sofern die Arbeit das jeweilige Steuergerät oder eine überwachte Komponente betrifft."
+      ],
+      "finalChecks": [
+        "Alle Befestigungen, Stecker, Leitungen und Schutzteile kontrollieren.",
+        "Funktionsprüfung durchführen und auf ungewöhnliche Geräusche, Leckagen oder Warnmeldungen achten.",
+        "Bei Fahrwerks-/Lenk-/Bremsarbeiten ggf. Achsgeometrie, Kalibrierung oder Einlernvorgänge nach Herstellervorgabe durchführen."
+      ],
+      "torqueNotice": "Keine pauschalen Drehmomente: Werte sind abhängig von Modell, Generation, Motor/Getriebe, Achse und Bauzustand und müssen aus einer verifizierten fahrzeugspezifischen Quelle übernommen werden.",
+      "sourceStatus": "Allgemeiner Arbeitsablauf – Drehmomente noch nicht fahrzeugspezifisch verifiziert."
     },
     {
       "id": "misfire",
@@ -5885,7 +8001,59 @@
         "Fehlerspeicher vor und nach der Arbeit prüfen, sofern relevant.",
         "Probefunktion unter sicheren Bedingungen durchführen.",
         "Wartungs-/Serviceeintrag dokumentieren."
-      ]
+      ],
+      "tools": [
+        "Diagnosegerät",
+        "Multimeter",
+        "Batterie-/Spannungsprüfer je nach Fehlerbild"
+      ],
+      "parts": [
+        "Keine Teile pauschal – Zündung, Kraftstoff und Kompression prüfen"
+      ],
+      "safetyPoints": [
+        "Fahrzeug gegen Wegrollen sichern und nur an dafür vorgesehenen Hebe-/Abstützpunkten anheben.",
+        "Vor dem Ausbau Fahrzeugvariante, Motorcode/Ausstattung und Bauzustand eindeutig prüfen.",
+        "Bei sicherheitsrelevanten Baugruppen nur geeignete Werkzeuge und Herstellervorgaben verwenden."
+      ],
+      "preparation": [
+        "Fahrzeugdaten und exakte Reparaturvariante erfassen.",
+        "Arbeitsplatz sichern, benötigte Teile und Werkzeuge bereitlegen.",
+        "Vor dem Lösen von Steckern, Leitungen und Bauteilen Einbaulage dokumentieren."
+      ],
+      "removalSteps": [
+        "Zugang zum Bauteil herstellen und angrenzende Leitungen/Stecker gegen Beschädigung sichern.",
+        "Befestigungen in der vorgesehenen Reihenfolge lösen; Bauteil dabei abstützen.",
+        "Ausgebautes Bauteil mit dem Ersatzteil vergleichen und Dichtflächen/Gewinde prüfen."
+      ],
+      "installationSteps": [
+        "Neues Bauteil in Einbaulage einsetzen und Befestigungen zunächst handfest ansetzen.",
+        "Befestigungen nach der fahrzeugspezifischen Anzugsreihenfolge und den verifizierten Herstellerwerten festziehen.",
+        "Stecker, Leitungen, Abdeckungen und Sicherungen wieder korrekt montieren."
+      ],
+      "fasteners": [
+        {
+          "name": "Befestigungselement 1",
+          "torqueNm": null,
+          "angleDeg": null,
+          "newBolt": null,
+          "status": "Herstellerwert erforderlich",
+          "source": "Exakte Reparaturunterlage für Fahrzeugvariante prüfen"
+        }
+      ],
+      "tighteningSequence": "Fahrzeugspezifische Reihenfolge prüfen; bei mehreren Befestigern nach Hersteller-Schema arbeiten.",
+      "fluids": [
+        "Nur die für diese Fahrzeugvariante vorgeschriebenen Betriebsstoffe verwenden. Füllmengen und Spezifikationen separat prüfen."
+      ],
+      "diagnostics": [
+        "Fehlerspeicher/Servicefunktionen prüfen, sofern die Arbeit das jeweilige Steuergerät oder eine überwachte Komponente betrifft."
+      ],
+      "finalChecks": [
+        "Alle Befestigungen, Stecker, Leitungen und Schutzteile kontrollieren.",
+        "Funktionsprüfung durchführen und auf ungewöhnliche Geräusche, Leckagen oder Warnmeldungen achten.",
+        "Bei Fahrwerks-/Lenk-/Bremsarbeiten ggf. Achsgeometrie, Kalibrierung oder Einlernvorgänge nach Herstellervorgabe durchführen."
+      ],
+      "torqueNotice": "Keine pauschalen Drehmomente: Werte sind abhängig von Modell, Generation, Motor/Getriebe, Achse und Bauzustand und müssen aus einer verifizierten fahrzeugspezifischen Quelle übernommen werden.",
+      "sourceStatus": "Allgemeiner Arbeitsablauf – Drehmomente noch nicht fahrzeugspezifisch verifiziert."
     },
     {
       "id": "no-start",
@@ -5906,7 +8074,60 @@
         "Fehlerspeicher vor und nach der Arbeit prüfen, sofern relevant.",
         "Probefunktion unter sicheren Bedingungen durchführen.",
         "Wartungs-/Serviceeintrag dokumentieren."
-      ]
+      ],
+      "tools": [
+        "Diagnosegerät",
+        "Multimeter",
+        "Batterie-/Spannungsprüfer je nach Fehlerbild"
+      ],
+      "parts": [
+        "Ersatzteil passend zur exakten Fahrzeug-/Motorvariante",
+        "Dichtungen, Sicherungen oder Einweg-Befestiger nur nach Herstellervorgabe"
+      ],
+      "safetyPoints": [
+        "Fahrzeug gegen Wegrollen sichern und nur an dafür vorgesehenen Hebe-/Abstützpunkten anheben.",
+        "Vor dem Ausbau Fahrzeugvariante, Motorcode/Ausstattung und Bauzustand eindeutig prüfen.",
+        "Bei sicherheitsrelevanten Baugruppen nur geeignete Werkzeuge und Herstellervorgaben verwenden."
+      ],
+      "preparation": [
+        "Fahrzeugdaten und exakte Reparaturvariante erfassen.",
+        "Arbeitsplatz sichern, benötigte Teile und Werkzeuge bereitlegen.",
+        "Vor dem Lösen von Steckern, Leitungen und Bauteilen Einbaulage dokumentieren."
+      ],
+      "removalSteps": [
+        "Zugang zum Bauteil herstellen und angrenzende Leitungen/Stecker gegen Beschädigung sichern.",
+        "Befestigungen in der vorgesehenen Reihenfolge lösen; Bauteil dabei abstützen.",
+        "Ausgebautes Bauteil mit dem Ersatzteil vergleichen und Dichtflächen/Gewinde prüfen."
+      ],
+      "installationSteps": [
+        "Neues Bauteil in Einbaulage einsetzen und Befestigungen zunächst handfest ansetzen.",
+        "Befestigungen nach der fahrzeugspezifischen Anzugsreihenfolge und den verifizierten Herstellerwerten festziehen.",
+        "Stecker, Leitungen, Abdeckungen und Sicherungen wieder korrekt montieren."
+      ],
+      "fasteners": [
+        {
+          "name": "Befestigungselement 1",
+          "torqueNm": null,
+          "angleDeg": null,
+          "newBolt": null,
+          "status": "Herstellerwert erforderlich",
+          "source": "Exakte Reparaturunterlage für Fahrzeugvariante prüfen"
+        }
+      ],
+      "tighteningSequence": "Fahrzeugspezifische Reihenfolge prüfen; bei mehreren Befestigern nach Hersteller-Schema arbeiten.",
+      "fluids": [
+        "Nur die für diese Fahrzeugvariante vorgeschriebenen Betriebsstoffe verwenden. Füllmengen und Spezifikationen separat prüfen."
+      ],
+      "diagnostics": [
+        "Fehlerspeicher/Servicefunktionen prüfen, sofern die Arbeit das jeweilige Steuergerät oder eine überwachte Komponente betrifft."
+      ],
+      "finalChecks": [
+        "Alle Befestigungen, Stecker, Leitungen und Schutzteile kontrollieren.",
+        "Funktionsprüfung durchführen und auf ungewöhnliche Geräusche, Leckagen oder Warnmeldungen achten.",
+        "Bei Fahrwerks-/Lenk-/Bremsarbeiten ggf. Achsgeometrie, Kalibrierung oder Einlernvorgänge nach Herstellervorgabe durchführen."
+      ],
+      "torqueNotice": "Keine pauschalen Drehmomente: Werte sind abhängig von Modell, Generation, Motor/Getriebe, Achse und Bauzustand und müssen aus einer verifizierten fahrzeugspezifischen Quelle übernommen werden.",
+      "sourceStatus": "Allgemeiner Arbeitsablauf – Drehmomente noch nicht fahrzeugspezifisch verifiziert."
     },
     {
       "id": "overheating",
@@ -5927,7 +8148,60 @@
         "Fehlerspeicher vor und nach der Arbeit prüfen, sofern relevant.",
         "Probefunktion unter sicheren Bedingungen durchführen.",
         "Wartungs-/Serviceeintrag dokumentieren."
-      ]
+      ],
+      "tools": [
+        "Diagnosegerät",
+        "Multimeter",
+        "Batterie-/Spannungsprüfer je nach Fehlerbild"
+      ],
+      "parts": [
+        "Ersatzteil passend zur exakten Fahrzeug-/Motorvariante",
+        "Dichtungen, Sicherungen oder Einweg-Befestiger nur nach Herstellervorgabe"
+      ],
+      "safetyPoints": [
+        "Fahrzeug gegen Wegrollen sichern und nur an dafür vorgesehenen Hebe-/Abstützpunkten anheben.",
+        "Vor dem Ausbau Fahrzeugvariante, Motorcode/Ausstattung und Bauzustand eindeutig prüfen.",
+        "Bei sicherheitsrelevanten Baugruppen nur geeignete Werkzeuge und Herstellervorgaben verwenden."
+      ],
+      "preparation": [
+        "Fahrzeugdaten und exakte Reparaturvariante erfassen.",
+        "Arbeitsplatz sichern, benötigte Teile und Werkzeuge bereitlegen.",
+        "Vor dem Lösen von Steckern, Leitungen und Bauteilen Einbaulage dokumentieren."
+      ],
+      "removalSteps": [
+        "Zugang zum Bauteil herstellen und angrenzende Leitungen/Stecker gegen Beschädigung sichern.",
+        "Befestigungen in der vorgesehenen Reihenfolge lösen; Bauteil dabei abstützen.",
+        "Ausgebautes Bauteil mit dem Ersatzteil vergleichen und Dichtflächen/Gewinde prüfen."
+      ],
+      "installationSteps": [
+        "Neues Bauteil in Einbaulage einsetzen und Befestigungen zunächst handfest ansetzen.",
+        "Befestigungen nach der fahrzeugspezifischen Anzugsreihenfolge und den verifizierten Herstellerwerten festziehen.",
+        "Stecker, Leitungen, Abdeckungen und Sicherungen wieder korrekt montieren."
+      ],
+      "fasteners": [
+        {
+          "name": "Befestigungselement 1",
+          "torqueNm": null,
+          "angleDeg": null,
+          "newBolt": null,
+          "status": "Herstellerwert erforderlich",
+          "source": "Exakte Reparaturunterlage für Fahrzeugvariante prüfen"
+        }
+      ],
+      "tighteningSequence": "Fahrzeugspezifische Reihenfolge prüfen; bei mehreren Befestigern nach Hersteller-Schema arbeiten.",
+      "fluids": [
+        "Nur die für diese Fahrzeugvariante vorgeschriebenen Betriebsstoffe verwenden. Füllmengen und Spezifikationen separat prüfen."
+      ],
+      "diagnostics": [
+        "Fehlerspeicher/Servicefunktionen prüfen, sofern die Arbeit das jeweilige Steuergerät oder eine überwachte Komponente betrifft."
+      ],
+      "finalChecks": [
+        "Alle Befestigungen, Stecker, Leitungen und Schutzteile kontrollieren.",
+        "Funktionsprüfung durchführen und auf ungewöhnliche Geräusche, Leckagen oder Warnmeldungen achten.",
+        "Bei Fahrwerks-/Lenk-/Bremsarbeiten ggf. Achsgeometrie, Kalibrierung oder Einlernvorgänge nach Herstellervorgabe durchführen."
+      ],
+      "torqueNotice": "Keine pauschalen Drehmomente: Werte sind abhängig von Modell, Generation, Motor/Getriebe, Achse und Bauzustand und müssen aus einer verifizierten fahrzeugspezifischen Quelle übernommen werden.",
+      "sourceStatus": "Allgemeiner Arbeitsablauf – Drehmomente noch nicht fahrzeugspezifisch verifiziert."
     },
     {
       "id": "battery-drain",
@@ -5948,7 +8222,60 @@
         "Fehlerspeicher vor und nach der Arbeit prüfen, sofern relevant.",
         "Probefunktion unter sicheren Bedingungen durchführen.",
         "Wartungs-/Serviceeintrag dokumentieren."
-      ]
+      ],
+      "tools": [
+        "Diagnosegerät",
+        "Multimeter",
+        "Batterie-/Spannungsprüfer je nach Fehlerbild"
+      ],
+      "parts": [
+        "Ersatzteil passend zur exakten Fahrzeug-/Motorvariante",
+        "Dichtungen, Sicherungen oder Einweg-Befestiger nur nach Herstellervorgabe"
+      ],
+      "safetyPoints": [
+        "Fahrzeug gegen Wegrollen sichern und nur an dafür vorgesehenen Hebe-/Abstützpunkten anheben.",
+        "Vor dem Ausbau Fahrzeugvariante, Motorcode/Ausstattung und Bauzustand eindeutig prüfen.",
+        "Bei sicherheitsrelevanten Baugruppen nur geeignete Werkzeuge und Herstellervorgaben verwenden."
+      ],
+      "preparation": [
+        "Fahrzeugdaten und exakte Reparaturvariante erfassen.",
+        "Arbeitsplatz sichern, benötigte Teile und Werkzeuge bereitlegen.",
+        "Vor dem Lösen von Steckern, Leitungen und Bauteilen Einbaulage dokumentieren."
+      ],
+      "removalSteps": [
+        "Zugang zum Bauteil herstellen und angrenzende Leitungen/Stecker gegen Beschädigung sichern.",
+        "Befestigungen in der vorgesehenen Reihenfolge lösen; Bauteil dabei abstützen.",
+        "Ausgebautes Bauteil mit dem Ersatzteil vergleichen und Dichtflächen/Gewinde prüfen."
+      ],
+      "installationSteps": [
+        "Neues Bauteil in Einbaulage einsetzen und Befestigungen zunächst handfest ansetzen.",
+        "Befestigungen nach der fahrzeugspezifischen Anzugsreihenfolge und den verifizierten Herstellerwerten festziehen.",
+        "Stecker, Leitungen, Abdeckungen und Sicherungen wieder korrekt montieren."
+      ],
+      "fasteners": [
+        {
+          "name": "Befestigungselement 1",
+          "torqueNm": null,
+          "angleDeg": null,
+          "newBolt": null,
+          "status": "Herstellerwert erforderlich",
+          "source": "Exakte Reparaturunterlage für Fahrzeugvariante prüfen"
+        }
+      ],
+      "tighteningSequence": "Fahrzeugspezifische Reihenfolge prüfen; bei mehreren Befestigern nach Hersteller-Schema arbeiten.",
+      "fluids": [
+        "Nur die für diese Fahrzeugvariante vorgeschriebenen Betriebsstoffe verwenden. Füllmengen und Spezifikationen separat prüfen."
+      ],
+      "diagnostics": [
+        "Fehlerspeicher/Servicefunktionen prüfen, sofern die Arbeit das jeweilige Steuergerät oder eine überwachte Komponente betrifft."
+      ],
+      "finalChecks": [
+        "Alle Befestigungen, Stecker, Leitungen und Schutzteile kontrollieren.",
+        "Funktionsprüfung durchführen und auf ungewöhnliche Geräusche, Leckagen oder Warnmeldungen achten.",
+        "Bei Fahrwerks-/Lenk-/Bremsarbeiten ggf. Achsgeometrie, Kalibrierung oder Einlernvorgänge nach Herstellervorgabe durchführen."
+      ],
+      "torqueNotice": "Keine pauschalen Drehmomente: Werte sind abhängig von Modell, Generation, Motor/Getriebe, Achse und Bauzustand und müssen aus einer verifizierten fahrzeugspezifischen Quelle übernommen werden.",
+      "sourceStatus": "Allgemeiner Arbeitsablauf – Drehmomente noch nicht fahrzeugspezifisch verifiziert."
     },
     {
       "id": "check-engine",
@@ -5969,7 +8296,60 @@
         "Fehlerspeicher vor und nach der Arbeit prüfen, sofern relevant.",
         "Probefunktion unter sicheren Bedingungen durchführen.",
         "Wartungs-/Serviceeintrag dokumentieren."
-      ]
+      ],
+      "tools": [
+        "Diagnosegerät",
+        "Multimeter",
+        "Batterie-/Spannungsprüfer je nach Fehlerbild"
+      ],
+      "parts": [
+        "Ersatzteil passend zur exakten Fahrzeug-/Motorvariante",
+        "Dichtungen, Sicherungen oder Einweg-Befestiger nur nach Herstellervorgabe"
+      ],
+      "safetyPoints": [
+        "Fahrzeug gegen Wegrollen sichern und nur an dafür vorgesehenen Hebe-/Abstützpunkten anheben.",
+        "Vor dem Ausbau Fahrzeugvariante, Motorcode/Ausstattung und Bauzustand eindeutig prüfen.",
+        "Bei sicherheitsrelevanten Baugruppen nur geeignete Werkzeuge und Herstellervorgaben verwenden."
+      ],
+      "preparation": [
+        "Fahrzeugdaten und exakte Reparaturvariante erfassen.",
+        "Arbeitsplatz sichern, benötigte Teile und Werkzeuge bereitlegen.",
+        "Vor dem Lösen von Steckern, Leitungen und Bauteilen Einbaulage dokumentieren."
+      ],
+      "removalSteps": [
+        "Zugang zum Bauteil herstellen und angrenzende Leitungen/Stecker gegen Beschädigung sichern.",
+        "Befestigungen in der vorgesehenen Reihenfolge lösen; Bauteil dabei abstützen.",
+        "Ausgebautes Bauteil mit dem Ersatzteil vergleichen und Dichtflächen/Gewinde prüfen."
+      ],
+      "installationSteps": [
+        "Neues Bauteil in Einbaulage einsetzen und Befestigungen zunächst handfest ansetzen.",
+        "Befestigungen nach der fahrzeugspezifischen Anzugsreihenfolge und den verifizierten Herstellerwerten festziehen.",
+        "Stecker, Leitungen, Abdeckungen und Sicherungen wieder korrekt montieren."
+      ],
+      "fasteners": [
+        {
+          "name": "Befestigungselement 1",
+          "torqueNm": null,
+          "angleDeg": null,
+          "newBolt": null,
+          "status": "Herstellerwert erforderlich",
+          "source": "Exakte Reparaturunterlage für Fahrzeugvariante prüfen"
+        }
+      ],
+      "tighteningSequence": "Fahrzeugspezifische Reihenfolge prüfen; bei mehreren Befestigern nach Hersteller-Schema arbeiten.",
+      "fluids": [
+        "Nur die für diese Fahrzeugvariante vorgeschriebenen Betriebsstoffe verwenden. Füllmengen und Spezifikationen separat prüfen."
+      ],
+      "diagnostics": [
+        "Fehlerspeicher/Servicefunktionen prüfen, sofern die Arbeit das jeweilige Steuergerät oder eine überwachte Komponente betrifft."
+      ],
+      "finalChecks": [
+        "Alle Befestigungen, Stecker, Leitungen und Schutzteile kontrollieren.",
+        "Funktionsprüfung durchführen und auf ungewöhnliche Geräusche, Leckagen oder Warnmeldungen achten.",
+        "Bei Fahrwerks-/Lenk-/Bremsarbeiten ggf. Achsgeometrie, Kalibrierung oder Einlernvorgänge nach Herstellervorgabe durchführen."
+      ],
+      "torqueNotice": "Keine pauschalen Drehmomente: Werte sind abhängig von Modell, Generation, Motor/Getriebe, Achse und Bauzustand und müssen aus einer verifizierten fahrzeugspezifischen Quelle übernommen werden.",
+      "sourceStatus": "Allgemeiner Arbeitsablauf – Drehmomente noch nicht fahrzeugspezifisch verifiziert."
     },
     {
       "id": "brake-noise",
@@ -5990,7 +8370,60 @@
         "Fehlerspeicher vor und nach der Arbeit prüfen, sofern relevant.",
         "Probefunktion unter sicheren Bedingungen durchführen.",
         "Wartungs-/Serviceeintrag dokumentieren."
-      ]
+      ],
+      "tools": [
+        "Diagnosegerät",
+        "Multimeter",
+        "Batterie-/Spannungsprüfer je nach Fehlerbild"
+      ],
+      "parts": [
+        "Ersatzteil passend zur exakten Fahrzeug-/Motorvariante",
+        "Dichtungen, Sicherungen oder Einweg-Befestiger nur nach Herstellervorgabe"
+      ],
+      "safetyPoints": [
+        "Fahrzeug gegen Wegrollen sichern und nur an dafür vorgesehenen Hebe-/Abstützpunkten anheben.",
+        "Vor dem Ausbau Fahrzeugvariante, Motorcode/Ausstattung und Bauzustand eindeutig prüfen.",
+        "Bei sicherheitsrelevanten Baugruppen nur geeignete Werkzeuge und Herstellervorgaben verwenden."
+      ],
+      "preparation": [
+        "Fahrzeugdaten und exakte Reparaturvariante erfassen.",
+        "Arbeitsplatz sichern, benötigte Teile und Werkzeuge bereitlegen.",
+        "Vor dem Lösen von Steckern, Leitungen und Bauteilen Einbaulage dokumentieren."
+      ],
+      "removalSteps": [
+        "Zugang zum Bauteil herstellen und angrenzende Leitungen/Stecker gegen Beschädigung sichern.",
+        "Befestigungen in der vorgesehenen Reihenfolge lösen; Bauteil dabei abstützen.",
+        "Ausgebautes Bauteil mit dem Ersatzteil vergleichen und Dichtflächen/Gewinde prüfen."
+      ],
+      "installationSteps": [
+        "Neues Bauteil in Einbaulage einsetzen und Befestigungen zunächst handfest ansetzen.",
+        "Befestigungen nach der fahrzeugspezifischen Anzugsreihenfolge und den verifizierten Herstellerwerten festziehen.",
+        "Stecker, Leitungen, Abdeckungen und Sicherungen wieder korrekt montieren."
+      ],
+      "fasteners": [
+        {
+          "name": "Befestigungselement 1",
+          "torqueNm": null,
+          "angleDeg": null,
+          "newBolt": null,
+          "status": "Herstellerwert erforderlich",
+          "source": "Exakte Reparaturunterlage für Fahrzeugvariante prüfen"
+        }
+      ],
+      "tighteningSequence": "Fahrzeugspezifische Reihenfolge prüfen; bei mehreren Befestigern nach Hersteller-Schema arbeiten.",
+      "fluids": [
+        "Nur die für diese Fahrzeugvariante vorgeschriebenen Betriebsstoffe verwenden. Füllmengen und Spezifikationen separat prüfen."
+      ],
+      "diagnostics": [
+        "Fehlerspeicher/Servicefunktionen prüfen, sofern die Arbeit das jeweilige Steuergerät oder eine überwachte Komponente betrifft."
+      ],
+      "finalChecks": [
+        "Alle Befestigungen, Stecker, Leitungen und Schutzteile kontrollieren.",
+        "Funktionsprüfung durchführen und auf ungewöhnliche Geräusche, Leckagen oder Warnmeldungen achten.",
+        "Bei Fahrwerks-/Lenk-/Bremsarbeiten ggf. Achsgeometrie, Kalibrierung oder Einlernvorgänge nach Herstellervorgabe durchführen."
+      ],
+      "torqueNotice": "Keine pauschalen Drehmomente: Werte sind abhängig von Modell, Generation, Motor/Getriebe, Achse und Bauzustand und müssen aus einer verifizierten fahrzeugspezifischen Quelle übernommen werden.",
+      "sourceStatus": "Allgemeiner Arbeitsablauf – Drehmomente noch nicht fahrzeugspezifisch verifiziert."
     },
     {
       "id": "steering-pull",
@@ -6011,7 +8444,60 @@
         "Fehlerspeicher vor und nach der Arbeit prüfen, sofern relevant.",
         "Probefunktion unter sicheren Bedingungen durchführen.",
         "Wartungs-/Serviceeintrag dokumentieren."
-      ]
+      ],
+      "tools": [
+        "Diagnosegerät",
+        "Multimeter",
+        "Batterie-/Spannungsprüfer je nach Fehlerbild"
+      ],
+      "parts": [
+        "Ersatzteil passend zur exakten Fahrzeug-/Motorvariante",
+        "Dichtungen, Sicherungen oder Einweg-Befestiger nur nach Herstellervorgabe"
+      ],
+      "safetyPoints": [
+        "Fahrzeug gegen Wegrollen sichern und nur an dafür vorgesehenen Hebe-/Abstützpunkten anheben.",
+        "Vor dem Ausbau Fahrzeugvariante, Motorcode/Ausstattung und Bauzustand eindeutig prüfen.",
+        "Bei sicherheitsrelevanten Baugruppen nur geeignete Werkzeuge und Herstellervorgaben verwenden."
+      ],
+      "preparation": [
+        "Fahrzeugdaten und exakte Reparaturvariante erfassen.",
+        "Arbeitsplatz sichern, benötigte Teile und Werkzeuge bereitlegen.",
+        "Vor dem Lösen von Steckern, Leitungen und Bauteilen Einbaulage dokumentieren."
+      ],
+      "removalSteps": [
+        "Zugang zum Bauteil herstellen und angrenzende Leitungen/Stecker gegen Beschädigung sichern.",
+        "Befestigungen in der vorgesehenen Reihenfolge lösen; Bauteil dabei abstützen.",
+        "Ausgebautes Bauteil mit dem Ersatzteil vergleichen und Dichtflächen/Gewinde prüfen."
+      ],
+      "installationSteps": [
+        "Neues Bauteil in Einbaulage einsetzen und Befestigungen zunächst handfest ansetzen.",
+        "Befestigungen nach der fahrzeugspezifischen Anzugsreihenfolge und den verifizierten Herstellerwerten festziehen.",
+        "Stecker, Leitungen, Abdeckungen und Sicherungen wieder korrekt montieren."
+      ],
+      "fasteners": [
+        {
+          "name": "Befestigungselement 1",
+          "torqueNm": null,
+          "angleDeg": null,
+          "newBolt": null,
+          "status": "Herstellerwert erforderlich",
+          "source": "Exakte Reparaturunterlage für Fahrzeugvariante prüfen"
+        }
+      ],
+      "tighteningSequence": "Fahrzeugspezifische Reihenfolge prüfen; bei mehreren Befestigern nach Hersteller-Schema arbeiten.",
+      "fluids": [
+        "Nur die für diese Fahrzeugvariante vorgeschriebenen Betriebsstoffe verwenden. Füllmengen und Spezifikationen separat prüfen."
+      ],
+      "diagnostics": [
+        "Fehlerspeicher/Servicefunktionen prüfen, sofern die Arbeit das jeweilige Steuergerät oder eine überwachte Komponente betrifft."
+      ],
+      "finalChecks": [
+        "Alle Befestigungen, Stecker, Leitungen und Schutzteile kontrollieren.",
+        "Funktionsprüfung durchführen und auf ungewöhnliche Geräusche, Leckagen oder Warnmeldungen achten.",
+        "Bei Fahrwerks-/Lenk-/Bremsarbeiten ggf. Achsgeometrie, Kalibrierung oder Einlernvorgänge nach Herstellervorgabe durchführen."
+      ],
+      "torqueNotice": "Keine pauschalen Drehmomente: Werte sind abhängig von Modell, Generation, Motor/Getriebe, Achse und Bauzustand und müssen aus einer verifizierten fahrzeugspezifischen Quelle übernommen werden.",
+      "sourceStatus": "Allgemeiner Arbeitsablauf – Drehmomente noch nicht fahrzeugspezifisch verifiziert."
     },
     {
       "id": "vibration",
@@ -6032,7 +8518,60 @@
         "Fehlerspeicher vor und nach der Arbeit prüfen, sofern relevant.",
         "Probefunktion unter sicheren Bedingungen durchführen.",
         "Wartungs-/Serviceeintrag dokumentieren."
-      ]
+      ],
+      "tools": [
+        "Diagnosegerät",
+        "Multimeter",
+        "Batterie-/Spannungsprüfer je nach Fehlerbild"
+      ],
+      "parts": [
+        "Ersatzteil passend zur exakten Fahrzeug-/Motorvariante",
+        "Dichtungen, Sicherungen oder Einweg-Befestiger nur nach Herstellervorgabe"
+      ],
+      "safetyPoints": [
+        "Fahrzeug gegen Wegrollen sichern und nur an dafür vorgesehenen Hebe-/Abstützpunkten anheben.",
+        "Vor dem Ausbau Fahrzeugvariante, Motorcode/Ausstattung und Bauzustand eindeutig prüfen.",
+        "Bei sicherheitsrelevanten Baugruppen nur geeignete Werkzeuge und Herstellervorgaben verwenden."
+      ],
+      "preparation": [
+        "Fahrzeugdaten und exakte Reparaturvariante erfassen.",
+        "Arbeitsplatz sichern, benötigte Teile und Werkzeuge bereitlegen.",
+        "Vor dem Lösen von Steckern, Leitungen und Bauteilen Einbaulage dokumentieren."
+      ],
+      "removalSteps": [
+        "Zugang zum Bauteil herstellen und angrenzende Leitungen/Stecker gegen Beschädigung sichern.",
+        "Befestigungen in der vorgesehenen Reihenfolge lösen; Bauteil dabei abstützen.",
+        "Ausgebautes Bauteil mit dem Ersatzteil vergleichen und Dichtflächen/Gewinde prüfen."
+      ],
+      "installationSteps": [
+        "Neues Bauteil in Einbaulage einsetzen und Befestigungen zunächst handfest ansetzen.",
+        "Befestigungen nach der fahrzeugspezifischen Anzugsreihenfolge und den verifizierten Herstellerwerten festziehen.",
+        "Stecker, Leitungen, Abdeckungen und Sicherungen wieder korrekt montieren."
+      ],
+      "fasteners": [
+        {
+          "name": "Befestigungselement 1",
+          "torqueNm": null,
+          "angleDeg": null,
+          "newBolt": null,
+          "status": "Herstellerwert erforderlich",
+          "source": "Exakte Reparaturunterlage für Fahrzeugvariante prüfen"
+        }
+      ],
+      "tighteningSequence": "Fahrzeugspezifische Reihenfolge prüfen; bei mehreren Befestigern nach Hersteller-Schema arbeiten.",
+      "fluids": [
+        "Nur die für diese Fahrzeugvariante vorgeschriebenen Betriebsstoffe verwenden. Füllmengen und Spezifikationen separat prüfen."
+      ],
+      "diagnostics": [
+        "Fehlerspeicher/Servicefunktionen prüfen, sofern die Arbeit das jeweilige Steuergerät oder eine überwachte Komponente betrifft."
+      ],
+      "finalChecks": [
+        "Alle Befestigungen, Stecker, Leitungen und Schutzteile kontrollieren.",
+        "Funktionsprüfung durchführen und auf ungewöhnliche Geräusche, Leckagen oder Warnmeldungen achten.",
+        "Bei Fahrwerks-/Lenk-/Bremsarbeiten ggf. Achsgeometrie, Kalibrierung oder Einlernvorgänge nach Herstellervorgabe durchführen."
+      ],
+      "torqueNotice": "Keine pauschalen Drehmomente: Werte sind abhängig von Modell, Generation, Motor/Getriebe, Achse und Bauzustand und müssen aus einer verifizierten fahrzeugspezifischen Quelle übernommen werden.",
+      "sourceStatus": "Allgemeiner Arbeitsablauf – Drehmomente noch nicht fahrzeugspezifisch verifiziert."
     }
   ],
   "components": [
@@ -6375,5 +8914,6 @@
     "repairs": 47,
     "components": 12,
     "systems": 12
-  }
+  },
+  "torqueRecords": []
 }

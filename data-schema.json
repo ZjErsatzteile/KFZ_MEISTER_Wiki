@@ -1,11 +1,41 @@
 {
-  "description": "Schemaübersicht für die Erweiterung der KFZ MeisterWiki Datenbank",
+  "description": "Datenmodell für KFZ MeisterWiki 3.0 – Werkstatt-Anleitungen und verifizierbare technische Werte.",
   "entities": {
     "brands": "Hersteller und Modelllisten",
-    "vehicles": "Konkrete Modellprofile mit Generation-/Antriebsfeldern",
+    "vehicles": "Modellprofile mit Generationen, Motor-/Getriebevarianten und Systemen",
     "systems": "Baugruppen",
     "components": "Bauteile mit Funktion, Einbauort, Symptomen und Werkzeug",
-    "repairs": "Arbeitsabläufe mit Schritten und Abschlussprüfungen",
-    "symptoms": "Diagnose-Einstiegspunkte und verknüpfte Reparaturen"
-  }
+    "repairs": "Werkstatt-Abläufe mit Werkzeugen, Teilen, Vorbereitung, Ausbau, Einbau, Befestigern, Diagnose und Abschlussprüfung",
+    "symptoms": "Diagnose-Einstiegspunkte und verknüpfte Reparaturen",
+    "torqueRecords": "Fahrzeugspezifische Drehmomentdatensätze; nur mit verifizierter Quelle befüllen"
+  },
+  "repairFields": {
+    "tools": "Benötigtes Werkzeug",
+    "parts": "Ersatzteile und Verbrauchsmaterial",
+    "preparation": "Vorbereitung",
+    "removalSteps": "Ausbauschritte",
+    "installationSteps": "Einbauschritte",
+    "fasteners": "Befestiger mit torqueNm, angleDeg, newBolt, status und source",
+    "tighteningSequence": "Anzugsreihenfolge",
+    "fluids": "Betriebsstoffe",
+    "diagnostics": "Diagnose/Reset",
+    "finalChecks": "Abschlussprüfung",
+    "sourceStatus": "Verifizierungsstatus"
+  },
+  "torqueRecordExample": {
+    "vehicleId": "vw-1",
+    "generation": "exakte Baureihe",
+    "engineCode": "exakter Motorcode",
+    "repairId": "brake-pads",
+    "fasteners": [
+      {
+        "name": "z.B. Befestiger",
+        "torqueNm": null,
+        "angleDeg": null,
+        "newBolt": null,
+        "source": "Hersteller-/Werkstattunterlage"
+      }
+    ]
+  },
+  "policy": "Keine pauschalen oder erfundenen Drehmomentwerte. Vor Eintrag müssen Fahrzeugvariante und Quelle verifiziert sein."
 }
