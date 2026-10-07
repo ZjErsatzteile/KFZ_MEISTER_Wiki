@@ -89,7 +89,7 @@ function render(){
  $("#content").innerHTML=html;
  document.querySelectorAll("nav a").forEach(a=>a.classList.toggle("active",a.dataset.route===parts[0]));
 }
-async function init(){try{let r=await fetch("data/database.json");DB=await r.json();render()}catch(e){$("#content").innerHTML=`<div class="empty">Datenbank konnte nicht geladen werden. Prüfe, ob <b>data/database.json</b> im Repository liegt.</div>`}}
+async function init(){try{let r=await fetch("database.json");DB=await r.json();render()}catch(e){$("#content").innerHTML=`<div class="empty">Datenbank konnte nicht geladen werden. Prüfe, ob <b>database.json</b> im Repository liegt.</div>`}}
 $("#openSearch").onclick=openSearch;$("#openSearch2").onclick=openSearch;$("#mobileMenu").onclick=()=>$("#sidebar").classList.toggle("open");
 document.addEventListener("click",e=>{if(e.target.matches("[data-close]"))closeModals()});
 document.addEventListener("keydown",e=>{if((e.ctrlKey||e.metaKey)&&e.key.toLowerCase()==="k"){e.preventDefault();openSearch()}if(e.key==="Escape")closeModals()});
