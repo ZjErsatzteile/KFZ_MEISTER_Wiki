@@ -2212,4 +2212,19 @@ window.openRecent = openRecent;
  * ============================================================
  * ENDE
  * ============================================================
- */
+ *//* ZUSÄTZLICHE KOMPATIBILITÄT */
+
+function openVehicle(vehicleId, generationIndex = 0) {
+  go(
+    `#vehicle/${encodeURIComponent(vehicleId)}/${Number(
+      generationIndex
+    )}`
+  );
+}
+
+// usw.
+
+
+/* ============================================================
+   ENDE APP.JS
+   ============================================================ */
