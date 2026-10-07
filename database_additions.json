@@ -1,0 +1,585 @@
+{
+  "brands": [
+    {
+      "id": "toyota",
+      "name": "Toyota",
+      "models": [
+        {
+          "id": "corolla",
+          "name": "Corolla",
+          "description": "Corolla Baureihen und technische Daten"
+        },
+        {
+          "id": "yaris",
+          "name": "Yaris",
+          "description": "Yaris Baureihen und technische Daten"
+        },
+        {
+          "id": "rav4",
+          "name": "RAV4",
+          "description": "RAV4 Baureihen und technische Daten"
+        }
+      ]
+    },
+    {
+      "id": "hyundai",
+      "name": "Hyundai",
+      "models": [
+        {
+          "id": "i30",
+          "name": "i30",
+          "description": "i30 Baureihen und technische Daten"
+        },
+        {
+          "id": "tucson",
+          "name": "Tucson",
+          "description": "Tucson Baureihen und technische Daten"
+        }
+      ]
+    },
+    {
+      "id": "kia",
+      "name": "Kia",
+      "models": [
+        {
+          "id": "ceed",
+          "name": "Ceed",
+          "description": "Ceed Baureihen und technische Daten"
+        },
+        {
+          "id": "sportage",
+          "name": "Sportage",
+          "description": "Sportage Baureihen und technische Daten"
+        }
+      ]
+    },
+    {
+      "id": "renault",
+      "name": "Renault",
+      "models": [
+        {
+          "id": "clio",
+          "name": "Clio",
+          "description": "Clio Baureihen und technische Daten"
+        },
+        {
+          "id": "megane",
+          "name": "Mégane",
+          "description": "Mégane Baureihen und technische Daten"
+        }
+      ]
+    },
+    {
+      "id": "peugeot",
+      "name": "Peugeot",
+      "models": [
+        {
+          "id": "208",
+          "name": "208",
+          "description": "208 Baureihen und technische Daten"
+        },
+        {
+          "id": "308",
+          "name": "308",
+          "description": "308 Baureihen und technische Daten"
+        }
+      ]
+    },
+    {
+      "id": "seat",
+      "name": "SEAT",
+      "models": [
+        {
+          "id": "leon",
+          "name": "Leon",
+          "description": "Leon Baureihen und technische Daten"
+        },
+        {
+          "id": "ibiza",
+          "name": "Ibiza",
+          "description": "Ibiza Baureihen und technische Daten"
+        }
+      ]
+    },
+    {
+      "id": "mazda",
+      "name": "Mazda",
+      "models": [
+        {
+          "id": "3",
+          "name": "Mazda3",
+          "description": "Mazda3 Baureihen und technische Daten"
+        },
+        {
+          "id": "cx5",
+          "name": "CX-5",
+          "description": "CX-5 Baureihen und technische Daten"
+        }
+      ]
+    },
+    {
+      "id": "volvo",
+      "name": "Volvo",
+      "models": [
+        {
+          "id": "v60",
+          "name": "V60",
+          "description": "V60 Baureihen und technische Daten"
+        },
+        {
+          "id": "xc60",
+          "name": "XC60",
+          "description": "XC60 Baureihen und technische Daten"
+        }
+      ]
+    }
+  ],
+  "vehicles": [
+    {
+      "id": "toyota-corolla-e21",
+      "brand": "toyota",
+      "model": "corolla",
+      "name": "Corolla E210",
+      "generations": [
+        {
+          "name": "E210",
+          "years": "2018–2026",
+          "engines": [
+            "1.2 Turbo",
+            "1.8 Hybrid",
+            "2.0 Hybrid"
+          ],
+          "transmissions": [
+            "6-Gang",
+            "CVT"
+          ],
+          "drivetrains": [
+            "Vorderradantrieb",
+            "Allrad je nach Ausführung"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "toyota-yaris-xp21",
+      "brand": "toyota",
+      "model": "yaris",
+      "name": "Yaris XP21",
+      "generations": [
+        {
+          "name": "XP21",
+          "years": "2020–2026",
+          "engines": [
+            "1.0",
+            "1.5 Hybrid"
+          ],
+          "transmissions": [
+            "6-Gang",
+            "e-CVT"
+          ],
+          "drivetrains": [
+            "Vorderradantrieb",
+            "Allrad je nach Ausführung"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "hyundai-i30-pd",
+      "brand": "hyundai",
+      "model": "i30",
+      "name": "i30 PD",
+      "generations": [
+        {
+          "name": "PD",
+          "years": "2016–2024",
+          "engines": [
+            "1.0 T-GDI",
+            "1.4 T-GDI",
+            "1.5 T-GDI",
+            "1.6 CRDi"
+          ],
+          "transmissions": [
+            "6-Gang",
+            "7-DCT"
+          ],
+          "drivetrains": [
+            "Vorderradantrieb"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "kia-ceed-cd",
+      "brand": "kia",
+      "model": "ceed",
+      "name": "Ceed CD",
+      "generations": [
+        {
+          "name": "CD",
+          "years": "2018–2026",
+          "engines": [
+            "1.0 T-GDI",
+            "1.4 T-GDI",
+            "1.5 T-GDI",
+            "1.6 CRDi"
+          ],
+          "transmissions": [
+            "6-Gang",
+            "7-DCT"
+          ],
+          "drivetrains": [
+            "Vorderradantrieb"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "renault-clio-v",
+      "brand": "renault",
+      "model": "clio",
+      "name": "Clio V",
+      "generations": [
+        {
+          "name": "V",
+          "years": "2019–2026",
+          "engines": [
+            "1.0 TCe",
+            "1.3 TCe",
+            "1.5 dCi",
+            "E-Tech Hybrid"
+          ],
+          "transmissions": [
+            "6-Gang",
+            "EDC",
+            "Multi-Mode"
+          ],
+          "drivetrains": [
+            "Vorderradantrieb"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "peugeot-308-p5",
+      "brand": "peugeot",
+      "model": "308",
+      "name": "308 III (P5)",
+      "generations": [
+        {
+          "name": "P5",
+          "years": "2021–2026",
+          "engines": [
+            "1.2 PureTech",
+            "1.5 BlueHDi",
+            "Hybrid"
+          ],
+          "transmissions": [
+            "6-Gang",
+            "8-Gang Automatik"
+          ],
+          "drivetrains": [
+            "Vorderradantrieb"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "seat-leon-kl",
+      "brand": "seat",
+      "model": "leon",
+      "name": "Leon KL",
+      "generations": [
+        {
+          "name": "KL",
+          "years": "2020–2026",
+          "engines": [
+            "1.0 TSI",
+            "1.5 TSI",
+            "2.0 TDI",
+            "e-Hybrid"
+          ],
+          "transmissions": [
+            "6-Gang",
+            "DSG"
+          ],
+          "drivetrains": [
+            "Vorderradantrieb",
+            "4Drive je nach Ausführung"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "mazda-3-bp",
+      "brand": "mazda",
+      "model": "3",
+      "name": "Mazda3 BP",
+      "generations": [
+        {
+          "name": "BP",
+          "years": "2019–2026",
+          "engines": [
+            "2.0 Skyactiv-G",
+            "2.0 e-Skyactiv X"
+          ],
+          "transmissions": [
+            "6-Gang",
+            "6-Gang Automatik"
+          ],
+          "drivetrains": [
+            "Vorderradantrieb",
+            "Allrad je nach Ausführung"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "volvo-xc60-uz",
+      "brand": "volvo",
+      "model": "xc60",
+      "name": "XC60 II",
+      "generations": [
+        {
+          "name": "UZ",
+          "years": "2017–2026",
+          "engines": [
+            "B4",
+            "B5",
+            "T6 Plug-in Hybrid"
+          ],
+          "transmissions": [
+            "8-Gang Automatik"
+          ],
+          "drivetrains": [
+            "Allrad"
+          ]
+        }
+      ]
+    }
+  ],
+  "components": [
+    {
+      "id": "cabin-filter",
+      "system": "Karosserie / Klimatisierung",
+      "name": "Innenraumfilter",
+      "description": "Filtert Staub, Pollen und Partikel aus der Frischluft. Einbauort und Filterrichtung sind fahrzeugspezifisch.",
+      "tools": [
+        "Torx/Steckschlüssel nach Fahrzeug",
+        "Kunststoffhebel falls erforderlich"
+      ],
+      "parts": [
+        "Passender Innenraumfilter"
+      ],
+      "torque": "Keine pauschalen Werte.",
+      "steps": [
+        "Fahrzeug ausschalten und Zugang zum Filtergehäuse herstellen.",
+        "Abdeckung ohne Beschädigung der Clips entfernen.",
+        "Alten Filter entnehmen und Einbaurichtung dokumentieren.",
+        "Filtergehäuse reinigen und neuen Filter in Pfeilrichtung einsetzen.",
+        "Abdeckung vollständig verriegeln."
+      ],
+      "after": [
+        "Gebläse in mehreren Stufen prüfen",
+        "Auf ungewöhnliche Geräusche achten"
+      ]
+    },
+    {
+      "id": "fuel-filter-diesel",
+      "system": "Kraftstoff",
+      "name": "Dieselkraftstofffilter",
+      "description": "Kraftstofffilter bei Dieselmotoren; Entlüftung und Wasserabscheidung sind abhängig von der Ausführung.",
+      "tools": [
+        "Geeignete Auffangmöglichkeit",
+        "Schutzhandschuhe",
+        "ggf. Diagnosetester/Entlüftungssystem"
+      ],
+      "parts": [
+        "Passender Kraftstofffilter",
+        "Dichtungen nach Vorgabe"
+      ],
+      "torque": "Leitungs- und Gehäusebefestigungen fahrzeugspezifisch verifizieren.",
+      "steps": [
+        "Fahrzeugdaten und Filtersystem identifizieren.",
+        "Kraftstoffleitungen markieren und Bereich reinigen.",
+        "Filter gemäß Herstellerverfahren ausbauen.",
+        "Dichtungen erneuern und neuen Filter korrekt einsetzen.",
+        "System gemäß Herstellervorgabe entlüften.",
+        "Motor starten und Kraftstoffsystem auf Leckage prüfen."
+      ],
+      "after": [
+        "Kalt-/Warmstart prüfen",
+        "Leckageprüfung durchführen",
+        "Fehlerspeicher prüfen"
+      ]
+    },
+    {
+      "id": "wiper-blades",
+      "system": "Karosserie / Sicht",
+      "name": "Scheibenwischerblätter",
+      "description": "Austausch der Wischerblätter mit Prüfung von Adapter und Wischerarm.",
+      "tools": [
+        "Keine oder kleiner Kunststoffhebel je nach Adapter"
+      ],
+      "parts": [
+        "Passende Wischerblätter"
+      ],
+      "torque": "Keine pauschalen Werte.",
+      "steps": [
+        "Wischerarm in sichere Servicestellung bringen, falls vorgesehen.",
+        "Altes Blatt entriegeln und kontrolliert abnehmen.",
+        "Adapter des neuen Blatts prüfen.",
+        "Neues Blatt bis zur Verriegelung montieren.",
+        "Wischerarm vorsichtig auf die Scheibe zurückführen."
+      ],
+      "after": [
+        "Waschfunktion betätigen",
+        "Wischbild auf Schlieren und Aussetzer prüfen"
+      ]
+    }
+  ],
+  "repairs": [
+    {
+      "id": "cabin-filter",
+      "system": "Klimatisierung",
+      "title": "Innenraumfilter wechseln",
+      "description": "Schrittweiser Filterwechsel mit Prüfung von Filterrichtung, Gehäuse und Gebläse.",
+      "difficulty": "leicht",
+      "safety": "niedrig",
+      "componentIds": [
+        "cabin-filter"
+      ],
+      "workflow": [
+        "Fahrzeug und Filtervariante identifizieren.",
+        "Zugang zum Filtergehäuse herstellen.",
+        "Abdeckung und alten Filter entfernen.",
+        "Gehäuse reinigen und neuen Filter korrekt einsetzen.",
+        "Abdeckung verriegeln und Gebläse prüfen."
+      ],
+      "images": [
+        {
+          "path": "images/repairs/cabin-filter-01.png",
+          "title": "Innenraumfilter – Schrittfolge"
+        }
+      ]
+    },
+    {
+      "id": "diesel-fuel-filter",
+      "system": "Kraftstoff",
+      "title": "Dieselkraftstofffilter wechseln",
+      "description": "Werkstattablauf für den Filterwechsel; Entlüftung und Dichtungen müssen zur konkreten Anlage passen.",
+      "difficulty": "mittel",
+      "safety": "hoch",
+      "componentIds": [
+        "fuel-filter-diesel"
+      ],
+      "workflow": [
+        "Filtersystem und Motorvariante bestimmen.",
+        "Arbeitsbereich reinigen und Kraftstoffaufnahme vorbereiten.",
+        "Filter ausbauen und Dichtungen ersetzen.",
+        "Neuen Filter einsetzen.",
+        "System nach Herstellerverfahren entlüften.",
+        "Motor starten und auf Dichtheit prüfen."
+      ],
+      "images": [
+        {
+          "path": "images/repairs/fuel-filter-01.png",
+          "title": "Dieselfilter – Schrittfolge"
+        }
+      ]
+    },
+    {
+      "id": "wiper-blades",
+      "system": "Karosserie / Sicht",
+      "title": "Scheibenwischerblätter wechseln",
+      "description": "Sicherer Austausch der Wischerblätter mit Funktionsprüfung.",
+      "difficulty": "leicht",
+      "safety": "niedrig",
+      "componentIds": [
+        "wiper-blades"
+      ],
+      "workflow": [
+        "Wischer in Servicestellung bringen.",
+        "Altes Blatt entriegeln.",
+        "Neues Blatt korrekt einrasten.",
+        "Wischerarm kontrolliert ablegen.",
+        "Wasch- und Wischbild prüfen."
+      ],
+      "images": [
+        {
+          "path": "images/repairs/wipers-01.png",
+          "title": "Wischerblätter – Schrittfolge"
+        }
+      ]
+    },
+    {
+      "id": "brake-fluid-check",
+      "system": "Bremssystem",
+      "title": "Bremsflüssigkeit prüfen und Wechsel vorbereiten",
+      "description": "Diagnose- und Vorbereitungsablauf; tatsächlicher Flüssigkeitswechsel erfordert das fahrzeugspezifische Entlüftungsverfahren.",
+      "difficulty": "mittel",
+      "safety": "kritisch",
+      "componentIds": [
+        "brake-pads"
+      ],
+      "workflow": [
+        "Bremsflüssigkeitsspezifikation identifizieren.",
+        "Behälter und Flüssigkeitszustand prüfen.",
+        "Auf Leckagen und Verschleiß an der Anlage prüfen.",
+        "Entlüftungs-/Wechselverfahren des konkreten Fahrzeugs bestimmen.",
+        "Nach dem Eingriff Pedaldruck und Dichtheit prüfen."
+      ],
+      "images": [
+        {
+          "path": "images/repairs/brake-fluid-01.png",
+          "title": "Bremsanlage – Prüfablauf"
+        }
+      ]
+    }
+  ],
+  "diagnosis": [
+    {
+      "id": "battery-low-voltage",
+      "name": "Niedrige Bordspannung",
+      "symptom": "Startprobleme, flackernde Verbraucher oder mehrere Kommunikationsfehler.",
+      "cause": "Entladene Batterie, schlechte Masseverbindung, hoher Ruhestrom oder Ladeproblem.",
+      "severity": "hoch",
+      "checks": [
+        "Batteriespannung unter definierten Bedingungen messen.",
+        "Pole und Masseverbindungen auf Übergangswiderstand prüfen.",
+        "Ladespannung unter Last prüfen.",
+        "Bei unauffälliger Ladeanlage Ruhestrom nach Herstellervorgabe messen."
+      ],
+      "repair": "Ursache beheben; Batterie nur ersetzen, wenn Kapazität/Prüfung dies bestätigt."
+    },
+    {
+      "id": "brake-pedal-soft",
+      "name": "Weiches Bremspedal",
+      "symptom": "Pedalweg ungewöhnlich lang oder Druckpunkt instabil.",
+      "cause": "Luft im System, Leckage, verschlissene Komponenten oder hydraulischer Fehler.",
+      "severity": "kritisch",
+      "checks": [
+        "Fahrzeug sichern und Anlage auf sichtbare Leckage prüfen.",
+        "Bremsflüssigkeitsstand und Zustand prüfen.",
+        "Pedalverhalten reproduzierbar prüfen.",
+        "Entlüftungs-/Hydraulikverfahren nach Herstellerunterlage durchführen."
+      ],
+      "repair": "Bei ungeklärtem Druckverlust nicht weiterfahren; Ursache vor Freigabe eindeutig feststellen."
+    },
+    {
+      "id": "engine-misfire",
+      "name": "Zündaussetzer / Verbrennungsaussetzer",
+      "symptom": "Ruckeln, Motorkontrollleuchte, Leistungsverlust.",
+      "cause": "Zündung, Kraftstoffversorgung, Luftversorgung, Sensorik oder mechanische Ursache.",
+      "severity": "hoch",
+      "checks": [
+        "Fehlerspeicher und Freeze-Frame auslesen.",
+        "Betroffenen Zylinder eingrenzen.",
+        "Zündkomponenten prüfen/tauschen nur als Diagnosemaßnahme nach Verfahren.",
+        "Kraftstoff- und Ansaugsystem prüfen.",
+        "Bei Bedarf Kompressions-/Druckverlustprüfung durchführen."
+      ],
+      "repair": "Nicht pauschal Teile tauschen; Ursache anhand Messwerten und fahrzeugspezifischer Diagnose bestätigen."
+    }
+  ]
+}
