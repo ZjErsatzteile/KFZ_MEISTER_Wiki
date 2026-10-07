@@ -13,3 +13,7 @@ Die beiliegende `database.json` ist eine kleine Beispiel-/Strukturdatenbank. Eig
 
 ## Navigation
 Hersteller → Modell → Baureihe → Motor/Getriebe → Fahrzeugprofil.
+
+
+## Marken-/Modellkatalog
+Der Katalog wurde breit um internationale Fahrzeugmarken und gängige Modelle erweitert. Technische Fahrzeugdaten werden nur übernommen, wenn sie belastbar in der Datenbasis vorhanden sind.
