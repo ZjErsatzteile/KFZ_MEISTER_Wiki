@@ -1,23 +1,75 @@
 {
+  "version": "3.0.0",
+  "last_updated": "2026-10-07",
   "brands": [
     {
-      "id": "volkswagen",
+      "id": "vw",
       "name": "Volkswagen",
       "models": [
         {
           "id": "golf",
           "name": "Golf",
-          "description": "Golf Baureihen und technische Daten"
+          "description": "Golf – Modellbereich. Baureihe, Motorcode und Baujahr vor jeder fahrzeugspezifischen Arbeit auswählen."
+        },
+        {
+          "id": "polo",
+          "name": "Polo",
+          "description": "Polo – Modellbereich. Baureihe, Motorcode und Baujahr vor jeder fahrzeugspezifischen Arbeit auswählen."
         },
         {
           "id": "passat",
           "name": "Passat",
-          "description": "Passat Baureihen und technische Daten"
+          "description": "Passat – Modellbereich. Baureihe, Motorcode und Baujahr vor jeder fahrzeugspezifischen Arbeit auswählen."
+        },
+        {
+          "id": "t-roc",
+          "name": "T-Roc",
+          "description": "T-Roc – Modellbereich. Baureihe, Motorcode und Baujahr vor jeder fahrzeugspezifischen Arbeit auswählen."
         },
         {
           "id": "tiguan",
           "name": "Tiguan",
-          "description": "Tiguan Baureihen und technische Daten"
+          "description": "Tiguan – Modellbereich. Baureihe, Motorcode und Baujahr vor jeder fahrzeugspezifischen Arbeit auswählen."
+        },
+        {
+          "id": "touran",
+          "name": "Touran",
+          "description": "Touran – Modellbereich. Baureihe, Motorcode und Baujahr vor jeder fahrzeugspezifischen Arbeit auswählen."
+        },
+        {
+          "id": "caddy",
+          "name": "Caddy",
+          "description": "Caddy – Modellbereich. Baureihe, Motorcode und Baujahr vor jeder fahrzeugspezifischen Arbeit auswählen."
+        },
+        {
+          "id": "transporter",
+          "name": "Transporter",
+          "description": "Transporter – Modellbereich. Baureihe, Motorcode und Baujahr vor jeder fahrzeugspezifischen Arbeit auswählen."
+        },
+        {
+          "id": "arteon",
+          "name": "Arteon",
+          "description": "Arteon – Modellbereich. Baureihe, Motorcode und Baujahr vor jeder fahrzeugspezifischen Arbeit auswählen."
+        },
+        {
+          "id": "id3",
+          "name": "ID.3",
+          "description": "ID.3 – Modellbereich. Baureihe, Motorcode und Baujahr vor jeder fahrzeugspezifischen Arbeit auswählen."
+        },
+        {
+          "id": "id4",
+          "name": "ID.4",
+          "description": "ID.4 – Modellbereich. Baureihe, Motorcode und Baujahr vor jeder fahrzeugspezifischen Arbeit auswählen."
+        },
+        {
+          "id": "id5",
+          "name": "ID.5",
+          "description": "ID.5 – Modellbereich. Baureihe, Motorcode und Baujahr vor jeder fahrzeugspezifischen Arbeit auswählen."
+        },
+        {
+          "id": "id7",
+          "name": "ID.7",
+          "description": "ID.7 – Modellbereich. Baureihe, Motorcode und Baujahr vor jeder fahrzeugspezifischen Arbeit auswählen."
         }
       ]
     },
@@ -26,14 +78,79 @@
       "name": "Audi",
       "models": [
         {
+          "id": "a1",
+          "name": "A1",
+          "description": "A1 – Modellbereich. Baureihe, Motorcode und Baujahr vor jeder fahrzeugspezifischen Arbeit auswählen."
+        },
+        {
           "id": "a3",
           "name": "A3",
-          "description": "A3 Baureihen und technische Daten"
+          "description": "A3 – Modellbereich. Baureihe, Motorcode und Baujahr vor jeder fahrzeugspezifischen Arbeit auswählen."
         },
         {
           "id": "a4",
           "name": "A4",
-          "description": "A4 Baureihen und technische Daten"
+          "description": "A4 – Modellbereich. Baureihe, Motorcode und Baujahr vor jeder fahrzeugspezifischen Arbeit auswählen."
+        },
+        {
+          "id": "a5",
+          "name": "A5",
+          "description": "A5 – Modellbereich. Baureihe, Motorcode und Baujahr vor jeder fahrzeugspezifischen Arbeit auswählen."
+        },
+        {
+          "id": "a6",
+          "name": "A6",
+          "description": "A6 – Modellbereich. Baureihe, Motorcode und Baujahr vor jeder fahrzeugspezifischen Arbeit auswählen."
+        },
+        {
+          "id": "a7",
+          "name": "A7",
+          "description": "A7 – Modellbereich. Baureihe, Motorcode und Baujahr vor jeder fahrzeugspezifischen Arbeit auswählen."
+        },
+        {
+          "id": "a8",
+          "name": "A8",
+          "description": "A8 – Modellbereich. Baureihe, Motorcode und Baujahr vor jeder fahrzeugspezifischen Arbeit auswählen."
+        },
+        {
+          "id": "q2",
+          "name": "Q2",
+          "description": "Q2 – Modellbereich. Baureihe, Motorcode und Baujahr vor jeder fahrzeugspezifischen Arbeit auswählen."
+        },
+        {
+          "id": "q3",
+          "name": "Q3",
+          "description": "Q3 – Modellbereich. Baureihe, Motorcode und Baujahr vor jeder fahrzeugspezifischen Arbeit auswählen."
+        },
+        {
+          "id": "q4-e-tron",
+          "name": "Q4 e-tron",
+          "description": "Q4 e-tron – Modellbereich. Baureihe, Motorcode und Baujahr vor jeder fahrzeugspezifischen Arbeit auswählen."
+        },
+        {
+          "id": "q5",
+          "name": "Q5",
+          "description": "Q5 – Modellbereich. Baureihe, Motorcode und Baujahr vor jeder fahrzeugspezifischen Arbeit auswählen."
+        },
+        {
+          "id": "q7",
+          "name": "Q7",
+          "description": "Q7 – Modellbereich. Baureihe, Motorcode und Baujahr vor jeder fahrzeugspezifischen Arbeit auswählen."
+        },
+        {
+          "id": "q8",
+          "name": "Q8",
+          "description": "Q8 – Modellbereich. Baureihe, Motorcode und Baujahr vor jeder fahrzeugspezifischen Arbeit auswählen."
+        },
+        {
+          "id": "e-tron",
+          "name": "e-tron",
+          "description": "e-tron – Modellbereich. Baureihe, Motorcode und Baujahr vor jeder fahrzeugspezifischen Arbeit auswählen."
+        },
+        {
+          "id": "q8-e-tron",
+          "name": "Q8 e-tron",
+          "description": "Q8 e-tron – Modellbereich. Baureihe, Motorcode und Baujahr vor jeder fahrzeugspezifischen Arbeit auswählen."
         }
       ]
     },
@@ -42,14 +159,104 @@
       "name": "BMW",
       "models": [
         {
+          "id": "1er",
+          "name": "1er",
+          "description": "1er – Modellbereich. Baureihe, Motorcode und Baujahr vor jeder fahrzeugspezifischen Arbeit auswählen."
+        },
+        {
+          "id": "2er",
+          "name": "2er",
+          "description": "2er – Modellbereich. Baureihe, Motorcode und Baujahr vor jeder fahrzeugspezifischen Arbeit auswählen."
+        },
+        {
           "id": "3er",
           "name": "3er",
-          "description": "3er Baureihen und technische Daten"
+          "description": "3er – Modellbereich. Baureihe, Motorcode und Baujahr vor jeder fahrzeugspezifischen Arbeit auswählen."
+        },
+        {
+          "id": "4er",
+          "name": "4er",
+          "description": "4er – Modellbereich. Baureihe, Motorcode und Baujahr vor jeder fahrzeugspezifischen Arbeit auswählen."
         },
         {
           "id": "5er",
           "name": "5er",
-          "description": "5er Baureihen und technische Daten"
+          "description": "5er – Modellbereich. Baureihe, Motorcode und Baujahr vor jeder fahrzeugspezifischen Arbeit auswählen."
+        },
+        {
+          "id": "6er",
+          "name": "6er",
+          "description": "6er – Modellbereich. Baureihe, Motorcode und Baujahr vor jeder fahrzeugspezifischen Arbeit auswählen."
+        },
+        {
+          "id": "7er",
+          "name": "7er",
+          "description": "7er – Modellbereich. Baureihe, Motorcode und Baujahr vor jeder fahrzeugspezifischen Arbeit auswählen."
+        },
+        {
+          "id": "8er",
+          "name": "8er",
+          "description": "8er – Modellbereich. Baureihe, Motorcode und Baujahr vor jeder fahrzeugspezifischen Arbeit auswählen."
+        },
+        {
+          "id": "x1",
+          "name": "X1",
+          "description": "X1 – Modellbereich. Baureihe, Motorcode und Baujahr vor jeder fahrzeugspezifischen Arbeit auswählen."
+        },
+        {
+          "id": "x2",
+          "name": "X2",
+          "description": "X2 – Modellbereich. Baureihe, Motorcode und Baujahr vor jeder fahrzeugspezifischen Arbeit auswählen."
+        },
+        {
+          "id": "x3",
+          "name": "X3",
+          "description": "X3 – Modellbereich. Baureihe, Motorcode und Baujahr vor jeder fahrzeugspezifischen Arbeit auswählen."
+        },
+        {
+          "id": "x4",
+          "name": "X4",
+          "description": "X4 – Modellbereich. Baureihe, Motorcode und Baujahr vor jeder fahrzeugspezifischen Arbeit auswählen."
+        },
+        {
+          "id": "x5",
+          "name": "X5",
+          "description": "X5 – Modellbereich. Baureihe, Motorcode und Baujahr vor jeder fahrzeugspezifischen Arbeit auswählen."
+        },
+        {
+          "id": "x6",
+          "name": "X6",
+          "description": "X6 – Modellbereich. Baureihe, Motorcode und Baujahr vor jeder fahrzeugspezifischen Arbeit auswählen."
+        },
+        {
+          "id": "x7",
+          "name": "X7",
+          "description": "X7 – Modellbereich. Baureihe, Motorcode und Baujahr vor jeder fahrzeugspezifischen Arbeit auswählen."
+        },
+        {
+          "id": "i3",
+          "name": "i3",
+          "description": "i3 – Modellbereich. Baureihe, Motorcode und Baujahr vor jeder fahrzeugspezifischen Arbeit auswählen."
+        },
+        {
+          "id": "i4",
+          "name": "i4",
+          "description": "i4 – Modellbereich. Baureihe, Motorcode und Baujahr vor jeder fahrzeugspezifischen Arbeit auswählen."
+        },
+        {
+          "id": "i5",
+          "name": "i5",
+          "description": "i5 – Modellbereich. Baureihe, Motorcode und Baujahr vor jeder fahrzeugspezifischen Arbeit auswählen."
+        },
+        {
+          "id": "i7",
+          "name": "i7",
+          "description": "i7 – Modellbereich. Baureihe, Motorcode und Baujahr vor jeder fahrzeugspezifischen Arbeit auswählen."
+        },
+        {
+          "id": "ix",
+          "name": "iX",
+          "description": "iX – Modellbereich. Baureihe, Motorcode und Baujahr vor jeder fahrzeugspezifischen Arbeit auswählen."
         }
       ]
     },
@@ -58,14 +265,89 @@
       "name": "Mercedes-Benz",
       "models": [
         {
+          "id": "a-klasse",
+          "name": "A-Klasse",
+          "description": "A-Klasse – Modellbereich. Baureihe, Motorcode und Baujahr vor jeder fahrzeugspezifischen Arbeit auswählen."
+        },
+        {
+          "id": "b-klasse",
+          "name": "B-Klasse",
+          "description": "B-Klasse – Modellbereich. Baureihe, Motorcode und Baujahr vor jeder fahrzeugspezifischen Arbeit auswählen."
+        },
+        {
           "id": "c-klasse",
           "name": "C-Klasse",
-          "description": "C-Klasse Baureihen und technische Daten"
+          "description": "C-Klasse – Modellbereich. Baureihe, Motorcode und Baujahr vor jeder fahrzeugspezifischen Arbeit auswählen."
         },
         {
           "id": "e-klasse",
           "name": "E-Klasse",
-          "description": "E-Klasse Baureihen und technische Daten"
+          "description": "E-Klasse – Modellbereich. Baureihe, Motorcode und Baujahr vor jeder fahrzeugspezifischen Arbeit auswählen."
+        },
+        {
+          "id": "s-klasse",
+          "name": "S-Klasse",
+          "description": "S-Klasse – Modellbereich. Baureihe, Motorcode und Baujahr vor jeder fahrzeugspezifischen Arbeit auswählen."
+        },
+        {
+          "id": "cla",
+          "name": "CLA",
+          "description": "CLA – Modellbereich. Baureihe, Motorcode und Baujahr vor jeder fahrzeugspezifischen Arbeit auswählen."
+        },
+        {
+          "id": "gla",
+          "name": "GLA",
+          "description": "GLA – Modellbereich. Baureihe, Motorcode und Baujahr vor jeder fahrzeugspezifischen Arbeit auswählen."
+        },
+        {
+          "id": "glb",
+          "name": "GLB",
+          "description": "GLB – Modellbereich. Baureihe, Motorcode und Baujahr vor jeder fahrzeugspezifischen Arbeit auswählen."
+        },
+        {
+          "id": "glc",
+          "name": "GLC",
+          "description": "GLC – Modellbereich. Baureihe, Motorcode und Baujahr vor jeder fahrzeugspezifischen Arbeit auswählen."
+        },
+        {
+          "id": "gle",
+          "name": "GLE",
+          "description": "GLE – Modellbereich. Baureihe, Motorcode und Baujahr vor jeder fahrzeugspezifischen Arbeit auswählen."
+        },
+        {
+          "id": "gls",
+          "name": "GLS",
+          "description": "GLS – Modellbereich. Baureihe, Motorcode und Baujahr vor jeder fahrzeugspezifischen Arbeit auswählen."
+        },
+        {
+          "id": "sprinter",
+          "name": "Sprinter",
+          "description": "Sprinter – Modellbereich. Baureihe, Motorcode und Baujahr vor jeder fahrzeugspezifischen Arbeit auswählen."
+        },
+        {
+          "id": "vito",
+          "name": "Vito",
+          "description": "Vito – Modellbereich. Baureihe, Motorcode und Baujahr vor jeder fahrzeugspezifischen Arbeit auswählen."
+        },
+        {
+          "id": "eqa",
+          "name": "EQA",
+          "description": "EQA – Modellbereich. Baureihe, Motorcode und Baujahr vor jeder fahrzeugspezifischen Arbeit auswählen."
+        },
+        {
+          "id": "eqb",
+          "name": "EQB",
+          "description": "EQB – Modellbereich. Baureihe, Motorcode und Baujahr vor jeder fahrzeugspezifischen Arbeit auswählen."
+        },
+        {
+          "id": "eqe",
+          "name": "EQE",
+          "description": "EQE – Modellbereich. Baureihe, Motorcode und Baujahr vor jeder fahrzeugspezifischen Arbeit auswählen."
+        },
+        {
+          "id": "eqs",
+          "name": "EQS",
+          "description": "EQS – Modellbereich. Baureihe, Motorcode und Baujahr vor jeder fahrzeugspezifischen Arbeit auswählen."
         }
       ]
     },
@@ -74,14 +356,54 @@
       "name": "Opel",
       "models": [
         {
-          "id": "astra",
-          "name": "Astra",
-          "description": "Astra Baureihen und technische Daten"
-        },
-        {
           "id": "corsa",
           "name": "Corsa",
-          "description": "Corsa Baureihen und technische Daten"
+          "description": "Corsa – Modellbereich. Baureihe, Motorcode und Baujahr vor jeder fahrzeugspezifischen Arbeit auswählen."
+        },
+        {
+          "id": "astra",
+          "name": "Astra",
+          "description": "Astra – Modellbereich. Baureihe, Motorcode und Baujahr vor jeder fahrzeugspezifischen Arbeit auswählen."
+        },
+        {
+          "id": "insignia",
+          "name": "Insignia",
+          "description": "Insignia – Modellbereich. Baureihe, Motorcode und Baujahr vor jeder fahrzeugspezifischen Arbeit auswählen."
+        },
+        {
+          "id": "mokka",
+          "name": "Mokka",
+          "description": "Mokka – Modellbereich. Baureihe, Motorcode und Baujahr vor jeder fahrzeugspezifischen Arbeit auswählen."
+        },
+        {
+          "id": "crossland",
+          "name": "Crossland",
+          "description": "Crossland – Modellbereich. Baureihe, Motorcode und Baujahr vor jeder fahrzeugspezifischen Arbeit auswählen."
+        },
+        {
+          "id": "grandland",
+          "name": "Grandland",
+          "description": "Grandland – Modellbereich. Baureihe, Motorcode und Baujahr vor jeder fahrzeugspezifischen Arbeit auswählen."
+        },
+        {
+          "id": "zafira",
+          "name": "Zafira",
+          "description": "Zafira – Modellbereich. Baureihe, Motorcode und Baujahr vor jeder fahrzeugspezifischen Arbeit auswählen."
+        },
+        {
+          "id": "combo",
+          "name": "Combo",
+          "description": "Combo – Modellbereich. Baureihe, Motorcode und Baujahr vor jeder fahrzeugspezifischen Arbeit auswählen."
+        },
+        {
+          "id": "vivaro",
+          "name": "Vivaro",
+          "description": "Vivaro – Modellbereich. Baureihe, Motorcode und Baujahr vor jeder fahrzeugspezifischen Arbeit auswählen."
+        },
+        {
+          "id": "movano",
+          "name": "Movano",
+          "description": "Movano – Modellbereich. Baureihe, Motorcode und Baujahr vor jeder fahrzeugspezifischen Arbeit auswählen."
         }
       ]
     },
@@ -90,14 +412,59 @@
       "name": "Ford",
       "models": [
         {
-          "id": "focus",
-          "name": "Focus",
-          "description": "Focus Baureihen und technische Daten"
-        },
-        {
           "id": "fiesta",
           "name": "Fiesta",
-          "description": "Fiesta Baureihen und technische Daten"
+          "description": "Fiesta – Modellbereich. Baureihe, Motorcode und Baujahr vor jeder fahrzeugspezifischen Arbeit auswählen."
+        },
+        {
+          "id": "focus",
+          "name": "Focus",
+          "description": "Focus – Modellbereich. Baureihe, Motorcode und Baujahr vor jeder fahrzeugspezifischen Arbeit auswählen."
+        },
+        {
+          "id": "mondeo",
+          "name": "Mondeo",
+          "description": "Mondeo – Modellbereich. Baureihe, Motorcode und Baujahr vor jeder fahrzeugspezifischen Arbeit auswählen."
+        },
+        {
+          "id": "puma",
+          "name": "Puma",
+          "description": "Puma – Modellbereich. Baureihe, Motorcode und Baujahr vor jeder fahrzeugspezifischen Arbeit auswählen."
+        },
+        {
+          "id": "kuga",
+          "name": "Kuga",
+          "description": "Kuga – Modellbereich. Baureihe, Motorcode und Baujahr vor jeder fahrzeugspezifischen Arbeit auswählen."
+        },
+        {
+          "id": "explorer",
+          "name": "Explorer",
+          "description": "Explorer – Modellbereich. Baureihe, Motorcode und Baujahr vor jeder fahrzeugspezifischen Arbeit auswählen."
+        },
+        {
+          "id": "mustang",
+          "name": "Mustang",
+          "description": "Mustang – Modellbereich. Baureihe, Motorcode und Baujahr vor jeder fahrzeugspezifischen Arbeit auswählen."
+        },
+        {
+          "id": "mustang-mach-e",
+          "name": "Mustang Mach-E",
+          "description": "Mustang Mach-E – Modellbereich. Baureihe, Motorcode und Baujahr vor jeder fahrzeugspezifischen Arbeit auswählen."
+        },
+        {
+          "id": "ranger",
+          "name": "Ranger",
+          "description": "Ranger – Modellbereich. Baureihe, Motorcode und Baujahr vor jeder fahrzeugspezifischen Arbeit auswählen."
+        },
+        {
+          "id": "transit",
+          "name": "Transit",
+          "description": "Transit – Modellbereich. Baureihe, Motorcode und Baujahr vor jeder fahrzeugspezifischen Arbeit auswählen."
+        },
+        {
+          "id": "tourneo-connect",
+          "name": "Tourneo Connect",
+          "description": "Tourneo Connect – Modellbereich. Baureihe, Motorcode und Baujahr vor jeder fahrzeugspezifischen Arbeit auswählen."
         }
       ]
     },
@@ -106,14 +473,1058 @@
       "name": "Škoda",
       "models": [
         {
+          "id": "fabia",
+          "name": "Fabia",
+          "description": "Fabia – Modellbereich. Baureihe, Motorcode und Baujahr vor jeder fahrzeugspezifischen Arbeit auswählen."
+        },
+        {
+          "id": "scala",
+          "name": "Scala",
+          "description": "Scala – Modellbereich. Baureihe, Motorcode und Baujahr vor jeder fahrzeugspezifischen Arbeit auswählen."
+        },
+        {
           "id": "octavia",
           "name": "Octavia",
-          "description": "Octavia Baureihen und technische Daten"
+          "description": "Octavia – Modellbereich. Baureihe, Motorcode und Baujahr vor jeder fahrzeugspezifischen Arbeit auswählen."
         },
         {
           "id": "superb",
           "name": "Superb",
-          "description": "Superb Baureihen und technische Daten"
+          "description": "Superb – Modellbereich. Baureihe, Motorcode und Baujahr vor jeder fahrzeugspezifischen Arbeit auswählen."
+        },
+        {
+          "id": "kamiq",
+          "name": "Kamiq",
+          "description": "Kamiq – Modellbereich. Baureihe, Motorcode und Baujahr vor jeder fahrzeugspezifischen Arbeit auswählen."
+        },
+        {
+          "id": "karoq",
+          "name": "Karoq",
+          "description": "Karoq – Modellbereich. Baureihe, Motorcode und Baujahr vor jeder fahrzeugspezifischen Arbeit auswählen."
+        },
+        {
+          "id": "kodiaq",
+          "name": "Kodiaq",
+          "description": "Kodiaq – Modellbereich. Baureihe, Motorcode und Baujahr vor jeder fahrzeugspezifischen Arbeit auswählen."
+        },
+        {
+          "id": "enyaq",
+          "name": "Enyaq",
+          "description": "Enyaq – Modellbereich. Baureihe, Motorcode und Baujahr vor jeder fahrzeugspezifischen Arbeit auswählen."
+        }
+      ]
+    },
+    {
+      "id": "seat",
+      "name": "SEAT",
+      "models": [
+        {
+          "id": "ibiza",
+          "name": "Ibiza",
+          "description": "Ibiza – Modellbereich. Baureihe, Motorcode und Baujahr vor jeder fahrzeugspezifischen Arbeit auswählen."
+        },
+        {
+          "id": "leon",
+          "name": "Leon",
+          "description": "Leon – Modellbereich. Baureihe, Motorcode und Baujahr vor jeder fahrzeugspezifischen Arbeit auswählen."
+        },
+        {
+          "id": "arona",
+          "name": "Arona",
+          "description": "Arona – Modellbereich. Baureihe, Motorcode und Baujahr vor jeder fahrzeugspezifischen Arbeit auswählen."
+        },
+        {
+          "id": "ateca",
+          "name": "Ateca",
+          "description": "Ateca – Modellbereich. Baureihe, Motorcode und Baujahr vor jeder fahrzeugspezifischen Arbeit auswählen."
+        },
+        {
+          "id": "tarraco",
+          "name": "Tarraco",
+          "description": "Tarraco – Modellbereich. Baureihe, Motorcode und Baujahr vor jeder fahrzeugspezifischen Arbeit auswählen."
+        }
+      ]
+    },
+    {
+      "id": "cupra",
+      "name": "CUPRA",
+      "models": [
+        {
+          "id": "born",
+          "name": "Born",
+          "description": "Born – Modellbereich. Baureihe, Motorcode und Baujahr vor jeder fahrzeugspezifischen Arbeit auswählen."
+        },
+        {
+          "id": "formentor",
+          "name": "Formentor",
+          "description": "Formentor – Modellbereich. Baureihe, Motorcode und Baujahr vor jeder fahrzeugspezifischen Arbeit auswählen."
+        },
+        {
+          "id": "leon",
+          "name": "Leon",
+          "description": "Leon – Modellbereich. Baureihe, Motorcode und Baujahr vor jeder fahrzeugspezifischen Arbeit auswählen."
+        },
+        {
+          "id": "ateca",
+          "name": "Ateca",
+          "description": "Ateca – Modellbereich. Baureihe, Motorcode und Baujahr vor jeder fahrzeugspezifischen Arbeit auswählen."
+        },
+        {
+          "id": "tavascan",
+          "name": "Tavascan",
+          "description": "Tavascan – Modellbereich. Baureihe, Motorcode und Baujahr vor jeder fahrzeugspezifischen Arbeit auswählen."
+        },
+        {
+          "id": "terramar",
+          "name": "Terramar",
+          "description": "Terramar – Modellbereich. Baureihe, Motorcode und Baujahr vor jeder fahrzeugspezifischen Arbeit auswählen."
+        }
+      ]
+    },
+    {
+      "id": "renault",
+      "name": "Renault",
+      "models": [
+        {
+          "id": "clio",
+          "name": "Clio",
+          "description": "Clio – Modellbereich. Baureihe, Motorcode und Baujahr vor jeder fahrzeugspezifischen Arbeit auswählen."
+        },
+        {
+          "id": "megane",
+          "name": "Megane",
+          "description": "Megane – Modellbereich. Baureihe, Motorcode und Baujahr vor jeder fahrzeugspezifischen Arbeit auswählen."
+        },
+        {
+          "id": "captur",
+          "name": "Captur",
+          "description": "Captur – Modellbereich. Baureihe, Motorcode und Baujahr vor jeder fahrzeugspezifischen Arbeit auswählen."
+        },
+        {
+          "id": "austral",
+          "name": "Austral",
+          "description": "Austral – Modellbereich. Baureihe, Motorcode und Baujahr vor jeder fahrzeugspezifischen Arbeit auswählen."
+        },
+        {
+          "id": "kadjar",
+          "name": "Kadjar",
+          "description": "Kadjar – Modellbereich. Baureihe, Motorcode und Baujahr vor jeder fahrzeugspezifischen Arbeit auswählen."
+        },
+        {
+          "id": "koleos",
+          "name": "Koleos",
+          "description": "Koleos – Modellbereich. Baureihe, Motorcode und Baujahr vor jeder fahrzeugspezifischen Arbeit auswählen."
+        },
+        {
+          "id": "espace",
+          "name": "Espace",
+          "description": "Espace – Modellbereich. Baureihe, Motorcode und Baujahr vor jeder fahrzeugspezifischen Arbeit auswählen."
+        },
+        {
+          "id": "scenic",
+          "name": "Scenic",
+          "description": "Scenic – Modellbereich. Baureihe, Motorcode und Baujahr vor jeder fahrzeugspezifischen Arbeit auswählen."
+        },
+        {
+          "id": "twingo",
+          "name": "Twingo",
+          "description": "Twingo – Modellbereich. Baureihe, Motorcode und Baujahr vor jeder fahrzeugspezifischen Arbeit auswählen."
+        },
+        {
+          "id": "master",
+          "name": "Master",
+          "description": "Master – Modellbereich. Baureihe, Motorcode und Baujahr vor jeder fahrzeugspezifischen Arbeit auswählen."
+        },
+        {
+          "id": "trafic",
+          "name": "Trafic",
+          "description": "Trafic – Modellbereich. Baureihe, Motorcode und Baujahr vor jeder fahrzeugspezifischen Arbeit auswählen."
+        }
+      ]
+    },
+    {
+      "id": "peugeot",
+      "name": "Peugeot",
+      "models": [
+        {
+          "id": "108",
+          "name": "108",
+          "description": "108 – Modellbereich. Baureihe, Motorcode und Baujahr vor jeder fahrzeugspezifischen Arbeit auswählen."
+        },
+        {
+          "id": "208",
+          "name": "208",
+          "description": "208 – Modellbereich. Baureihe, Motorcode und Baujahr vor jeder fahrzeugspezifischen Arbeit auswählen."
+        },
+        {
+          "id": "308",
+          "name": "308",
+          "description": "308 – Modellbereich. Baureihe, Motorcode und Baujahr vor jeder fahrzeugspezifischen Arbeit auswählen."
+        },
+        {
+          "id": "408",
+          "name": "408",
+          "description": "408 – Modellbereich. Baureihe, Motorcode und Baujahr vor jeder fahrzeugspezifischen Arbeit auswählen."
+        },
+        {
+          "id": "508",
+          "name": "508",
+          "description": "508 – Modellbereich. Baureihe, Motorcode und Baujahr vor jeder fahrzeugspezifischen Arbeit auswählen."
+        },
+        {
+          "id": "2008",
+          "name": "2008",
+          "description": "2008 – Modellbereich. Baureihe, Motorcode und Baujahr vor jeder fahrzeugspezifischen Arbeit auswählen."
+        },
+        {
+          "id": "3008",
+          "name": "3008",
+          "description": "3008 – Modellbereich. Baureihe, Motorcode und Baujahr vor jeder fahrzeugspezifischen Arbeit auswählen."
+        },
+        {
+          "id": "5008",
+          "name": "5008",
+          "description": "5008 – Modellbereich. Baureihe, Motorcode und Baujahr vor jeder fahrzeugspezifischen Arbeit auswählen."
+        },
+        {
+          "id": "partner",
+          "name": "Partner",
+          "description": "Partner – Modellbereich. Baureihe, Motorcode und Baujahr vor jeder fahrzeugspezifischen Arbeit auswählen."
+        },
+        {
+          "id": "expert",
+          "name": "Expert",
+          "description": "Expert – Modellbereich. Baureihe, Motorcode und Baujahr vor jeder fahrzeugspezifischen Arbeit auswählen."
+        },
+        {
+          "id": "boxer",
+          "name": "Boxer",
+          "description": "Boxer – Modellbereich. Baureihe, Motorcode und Baujahr vor jeder fahrzeugspezifischen Arbeit auswählen."
+        }
+      ]
+    },
+    {
+      "id": "citroen",
+      "name": "Citroën",
+      "models": [
+        {
+          "id": "c1",
+          "name": "C1",
+          "description": "C1 – Modellbereich. Baureihe, Motorcode und Baujahr vor jeder fahrzeugspezifischen Arbeit auswählen."
+        },
+        {
+          "id": "c3",
+          "name": "C3",
+          "description": "C3 – Modellbereich. Baureihe, Motorcode und Baujahr vor jeder fahrzeugspezifischen Arbeit auswählen."
+        },
+        {
+          "id": "c4",
+          "name": "C4",
+          "description": "C4 – Modellbereich. Baureihe, Motorcode und Baujahr vor jeder fahrzeugspezifischen Arbeit auswählen."
+        },
+        {
+          "id": "c5-x",
+          "name": "C5 X",
+          "description": "C5 X – Modellbereich. Baureihe, Motorcode und Baujahr vor jeder fahrzeugspezifischen Arbeit auswählen."
+        },
+        {
+          "id": "c3-aircross",
+          "name": "C3 Aircross",
+          "description": "C3 Aircross – Modellbereich. Baureihe, Motorcode und Baujahr vor jeder fahrzeugspezifischen Arbeit auswählen."
+        },
+        {
+          "id": "c5-aircross",
+          "name": "C5 Aircross",
+          "description": "C5 Aircross – Modellbereich. Baureihe, Motorcode und Baujahr vor jeder fahrzeugspezifischen Arbeit auswählen."
+        },
+        {
+          "id": "berlingo",
+          "name": "Berlingo",
+          "description": "Berlingo – Modellbereich. Baureihe, Motorcode und Baujahr vor jeder fahrzeugspezifischen Arbeit auswählen."
+        },
+        {
+          "id": "jumpy",
+          "name": "Jumpy",
+          "description": "Jumpy – Modellbereich. Baureihe, Motorcode und Baujahr vor jeder fahrzeugspezifischen Arbeit auswählen."
+        },
+        {
+          "id": "jumper",
+          "name": "Jumper",
+          "description": "Jumper – Modellbereich. Baureihe, Motorcode und Baujahr vor jeder fahrzeugspezifischen Arbeit auswählen."
+        }
+      ]
+    },
+    {
+      "id": "fiat",
+      "name": "Fiat",
+      "models": [
+        {
+          "id": "500",
+          "name": "500",
+          "description": "500 – Modellbereich. Baureihe, Motorcode und Baujahr vor jeder fahrzeugspezifischen Arbeit auswählen."
+        },
+        {
+          "id": "500x",
+          "name": "500X",
+          "description": "500X – Modellbereich. Baureihe, Motorcode und Baujahr vor jeder fahrzeugspezifischen Arbeit auswählen."
+        },
+        {
+          "id": "panda",
+          "name": "Panda",
+          "description": "Panda – Modellbereich. Baureihe, Motorcode und Baujahr vor jeder fahrzeugspezifischen Arbeit auswählen."
+        },
+        {
+          "id": "tipo",
+          "name": "Tipo",
+          "description": "Tipo – Modellbereich. Baureihe, Motorcode und Baujahr vor jeder fahrzeugspezifischen Arbeit auswählen."
+        },
+        {
+          "id": "punto",
+          "name": "Punto",
+          "description": "Punto – Modellbereich. Baureihe, Motorcode und Baujahr vor jeder fahrzeugspezifischen Arbeit auswählen."
+        },
+        {
+          "id": "doblo",
+          "name": "Doblo",
+          "description": "Doblo – Modellbereich. Baureihe, Motorcode und Baujahr vor jeder fahrzeugspezifischen Arbeit auswählen."
+        },
+        {
+          "id": "ducato",
+          "name": "Ducato",
+          "description": "Ducato – Modellbereich. Baureihe, Motorcode und Baujahr vor jeder fahrzeugspezifischen Arbeit auswählen."
+        },
+        {
+          "id": "talento",
+          "name": "Talento",
+          "description": "Talento – Modellbereich. Baureihe, Motorcode und Baujahr vor jeder fahrzeugspezifischen Arbeit auswählen."
+        }
+      ]
+    },
+    {
+      "id": "volvo",
+      "name": "Volvo",
+      "models": [
+        {
+          "id": "s60",
+          "name": "S60",
+          "description": "S60 – Modellbereich. Baureihe, Motorcode und Baujahr vor jeder fahrzeugspezifischen Arbeit auswählen."
+        },
+        {
+          "id": "s90",
+          "name": "S90",
+          "description": "S90 – Modellbereich. Baureihe, Motorcode und Baujahr vor jeder fahrzeugspezifischen Arbeit auswählen."
+        },
+        {
+          "id": "v40",
+          "name": "V40",
+          "description": "V40 – Modellbereich. Baureihe, Motorcode und Baujahr vor jeder fahrzeugspezifischen Arbeit auswählen."
+        },
+        {
+          "id": "v60",
+          "name": "V60",
+          "description": "V60 – Modellbereich. Baureihe, Motorcode und Baujahr vor jeder fahrzeugspezifischen Arbeit auswählen."
+        },
+        {
+          "id": "v90",
+          "name": "V90",
+          "description": "V90 – Modellbereich. Baureihe, Motorcode und Baujahr vor jeder fahrzeugspezifischen Arbeit auswählen."
+        },
+        {
+          "id": "xc40",
+          "name": "XC40",
+          "description": "XC40 – Modellbereich. Baureihe, Motorcode und Baujahr vor jeder fahrzeugspezifischen Arbeit auswählen."
+        },
+        {
+          "id": "xc60",
+          "name": "XC60",
+          "description": "XC60 – Modellbereich. Baureihe, Motorcode und Baujahr vor jeder fahrzeugspezifischen Arbeit auswählen."
+        },
+        {
+          "id": "xc90",
+          "name": "XC90",
+          "description": "XC90 – Modellbereich. Baureihe, Motorcode und Baujahr vor jeder fahrzeugspezifischen Arbeit auswählen."
+        },
+        {
+          "id": "ex30",
+          "name": "EX30",
+          "description": "EX30 – Modellbereich. Baureihe, Motorcode und Baujahr vor jeder fahrzeugspezifischen Arbeit auswählen."
+        },
+        {
+          "id": "ex40",
+          "name": "EX40",
+          "description": "EX40 – Modellbereich. Baureihe, Motorcode und Baujahr vor jeder fahrzeugspezifischen Arbeit auswählen."
+        },
+        {
+          "id": "ex90",
+          "name": "EX90",
+          "description": "EX90 – Modellbereich. Baureihe, Motorcode und Baujahr vor jeder fahrzeugspezifischen Arbeit auswählen."
+        }
+      ]
+    },
+    {
+      "id": "toyota",
+      "name": "Toyota",
+      "models": [
+        {
+          "id": "aygo",
+          "name": "Aygo",
+          "description": "Aygo – Modellbereich. Baureihe, Motorcode und Baujahr vor jeder fahrzeugspezifischen Arbeit auswählen."
+        },
+        {
+          "id": "yaris",
+          "name": "Yaris",
+          "description": "Yaris – Modellbereich. Baureihe, Motorcode und Baujahr vor jeder fahrzeugspezifischen Arbeit auswählen."
+        },
+        {
+          "id": "corolla",
+          "name": "Corolla",
+          "description": "Corolla – Modellbereich. Baureihe, Motorcode und Baujahr vor jeder fahrzeugspezifischen Arbeit auswählen."
+        },
+        {
+          "id": "camry",
+          "name": "Camry",
+          "description": "Camry – Modellbereich. Baureihe, Motorcode und Baujahr vor jeder fahrzeugspezifischen Arbeit auswählen."
+        },
+        {
+          "id": "c-hr",
+          "name": "C-HR",
+          "description": "C-HR – Modellbereich. Baureihe, Motorcode und Baujahr vor jeder fahrzeugspezifischen Arbeit auswählen."
+        },
+        {
+          "id": "rav4",
+          "name": "RAV4",
+          "description": "RAV4 – Modellbereich. Baureihe, Motorcode und Baujahr vor jeder fahrzeugspezifischen Arbeit auswählen."
+        },
+        {
+          "id": "highlander",
+          "name": "Highlander",
+          "description": "Highlander – Modellbereich. Baureihe, Motorcode und Baujahr vor jeder fahrzeugspezifischen Arbeit auswählen."
+        },
+        {
+          "id": "land-cruiser",
+          "name": "Land Cruiser",
+          "description": "Land Cruiser – Modellbereich. Baureihe, Motorcode und Baujahr vor jeder fahrzeugspezifischen Arbeit auswählen."
+        },
+        {
+          "id": "hilux",
+          "name": "Hilux",
+          "description": "Hilux – Modellbereich. Baureihe, Motorcode und Baujahr vor jeder fahrzeugspezifischen Arbeit auswählen."
+        },
+        {
+          "id": "proace",
+          "name": "Proace",
+          "description": "Proace – Modellbereich. Baureihe, Motorcode und Baujahr vor jeder fahrzeugspezifischen Arbeit auswählen."
+        }
+      ]
+    },
+    {
+      "id": "honda",
+      "name": "Honda",
+      "models": [
+        {
+          "id": "jazz",
+          "name": "Jazz",
+          "description": "Jazz – Modellbereich. Baureihe, Motorcode und Baujahr vor jeder fahrzeugspezifischen Arbeit auswählen."
+        },
+        {
+          "id": "civic",
+          "name": "Civic",
+          "description": "Civic – Modellbereich. Baureihe, Motorcode und Baujahr vor jeder fahrzeugspezifischen Arbeit auswählen."
+        },
+        {
+          "id": "accord",
+          "name": "Accord",
+          "description": "Accord – Modellbereich. Baureihe, Motorcode und Baujahr vor jeder fahrzeugspezifischen Arbeit auswählen."
+        },
+        {
+          "id": "hr-v",
+          "name": "HR-V",
+          "description": "HR-V – Modellbereich. Baureihe, Motorcode und Baujahr vor jeder fahrzeugspezifischen Arbeit auswählen."
+        },
+        {
+          "id": "cr-v",
+          "name": "CR-V",
+          "description": "CR-V – Modellbereich. Baureihe, Motorcode und Baujahr vor jeder fahrzeugspezifischen Arbeit auswählen."
+        },
+        {
+          "id": "zr-v",
+          "name": "ZR-V",
+          "description": "ZR-V – Modellbereich. Baureihe, Motorcode und Baujahr vor jeder fahrzeugspezifischen Arbeit auswählen."
+        },
+        {
+          "id": "e:ny1",
+          "name": "e:Ny1",
+          "description": "e:Ny1 – Modellbereich. Baureihe, Motorcode und Baujahr vor jeder fahrzeugspezifischen Arbeit auswählen."
+        }
+      ]
+    },
+    {
+      "id": "mazda",
+      "name": "Mazda",
+      "models": [
+        {
+          "id": "mazda2",
+          "name": "Mazda2",
+          "description": "Mazda2 – Modellbereich. Baureihe, Motorcode und Baujahr vor jeder fahrzeugspezifischen Arbeit auswählen."
+        },
+        {
+          "id": "mazda3",
+          "name": "Mazda3",
+          "description": "Mazda3 – Modellbereich. Baureihe, Motorcode und Baujahr vor jeder fahrzeugspezifischen Arbeit auswählen."
+        },
+        {
+          "id": "mazda6",
+          "name": "Mazda6",
+          "description": "Mazda6 – Modellbereich. Baureihe, Motorcode und Baujahr vor jeder fahrzeugspezifischen Arbeit auswählen."
+        },
+        {
+          "id": "cx-3",
+          "name": "CX-3",
+          "description": "CX-3 – Modellbereich. Baureihe, Motorcode und Baujahr vor jeder fahrzeugspezifischen Arbeit auswählen."
+        },
+        {
+          "id": "cx-30",
+          "name": "CX-30",
+          "description": "CX-30 – Modellbereich. Baureihe, Motorcode und Baujahr vor jeder fahrzeugspezifischen Arbeit auswählen."
+        },
+        {
+          "id": "cx-5",
+          "name": "CX-5",
+          "description": "CX-5 – Modellbereich. Baureihe, Motorcode und Baujahr vor jeder fahrzeugspezifischen Arbeit auswählen."
+        },
+        {
+          "id": "cx-60",
+          "name": "CX-60",
+          "description": "CX-60 – Modellbereich. Baureihe, Motorcode und Baujahr vor jeder fahrzeugspezifischen Arbeit auswählen."
+        },
+        {
+          "id": "cx-80",
+          "name": "CX-80",
+          "description": "CX-80 – Modellbereich. Baureihe, Motorcode und Baujahr vor jeder fahrzeugspezifischen Arbeit auswählen."
+        },
+        {
+          "id": "mx-5",
+          "name": "MX-5",
+          "description": "MX-5 – Modellbereich. Baureihe, Motorcode und Baujahr vor jeder fahrzeugspezifischen Arbeit auswählen."
+        }
+      ]
+    },
+    {
+      "id": "nissan",
+      "name": "Nissan",
+      "models": [
+        {
+          "id": "micra",
+          "name": "Micra",
+          "description": "Micra – Modellbereich. Baureihe, Motorcode und Baujahr vor jeder fahrzeugspezifischen Arbeit auswählen."
+        },
+        {
+          "id": "juke",
+          "name": "Juke",
+          "description": "Juke – Modellbereich. Baureihe, Motorcode und Baujahr vor jeder fahrzeugspezifischen Arbeit auswählen."
+        },
+        {
+          "id": "qashqai",
+          "name": "Qashqai",
+          "description": "Qashqai – Modellbereich. Baureihe, Motorcode und Baujahr vor jeder fahrzeugspezifischen Arbeit auswählen."
+        },
+        {
+          "id": "x-trail",
+          "name": "X-Trail",
+          "description": "X-Trail – Modellbereich. Baureihe, Motorcode und Baujahr vor jeder fahrzeugspezifischen Arbeit auswählen."
+        },
+        {
+          "id": "ariya",
+          "name": "Ariya",
+          "description": "Ariya – Modellbereich. Baureihe, Motorcode und Baujahr vor jeder fahrzeugspezifischen Arbeit auswählen."
+        },
+        {
+          "id": "leaf",
+          "name": "Leaf",
+          "description": "Leaf – Modellbereich. Baureihe, Motorcode und Baujahr vor jeder fahrzeugspezifischen Arbeit auswählen."
+        },
+        {
+          "id": "navara",
+          "name": "Navara",
+          "description": "Navara – Modellbereich. Baureihe, Motorcode und Baujahr vor jeder fahrzeugspezifischen Arbeit auswählen."
+        },
+        {
+          "id": "townstar",
+          "name": "Townstar",
+          "description": "Townstar – Modellbereich. Baureihe, Motorcode und Baujahr vor jeder fahrzeugspezifischen Arbeit auswählen."
+        }
+      ]
+    },
+    {
+      "id": "hyundai",
+      "name": "Hyundai",
+      "models": [
+        {
+          "id": "i10",
+          "name": "i10",
+          "description": "i10 – Modellbereich. Baureihe, Motorcode und Baujahr vor jeder fahrzeugspezifischen Arbeit auswählen."
+        },
+        {
+          "id": "i20",
+          "name": "i20",
+          "description": "i20 – Modellbereich. Baureihe, Motorcode und Baujahr vor jeder fahrzeugspezifischen Arbeit auswählen."
+        },
+        {
+          "id": "i30",
+          "name": "i30",
+          "description": "i30 – Modellbereich. Baureihe, Motorcode und Baujahr vor jeder fahrzeugspezifischen Arbeit auswählen."
+        },
+        {
+          "id": "ioniq",
+          "name": "Ioniq",
+          "description": "Ioniq – Modellbereich. Baureihe, Motorcode und Baujahr vor jeder fahrzeugspezifischen Arbeit auswählen."
+        },
+        {
+          "id": "ioniq-5",
+          "name": "Ioniq 5",
+          "description": "Ioniq 5 – Modellbereich. Baureihe, Motorcode und Baujahr vor jeder fahrzeugspezifischen Arbeit auswählen."
+        },
+        {
+          "id": "ioniq-6",
+          "name": "Ioniq 6",
+          "description": "Ioniq 6 – Modellbereich. Baureihe, Motorcode und Baujahr vor jeder fahrzeugspezifischen Arbeit auswählen."
+        },
+        {
+          "id": "kona",
+          "name": "Kona",
+          "description": "Kona – Modellbereich. Baureihe, Motorcode und Baujahr vor jeder fahrzeugspezifischen Arbeit auswählen."
+        },
+        {
+          "id": "tucson",
+          "name": "Tucson",
+          "description": "Tucson – Modellbereich. Baureihe, Motorcode und Baujahr vor jeder fahrzeugspezifischen Arbeit auswählen."
+        },
+        {
+          "id": "santa-fe",
+          "name": "Santa Fe",
+          "description": "Santa Fe – Modellbereich. Baureihe, Motorcode und Baujahr vor jeder fahrzeugspezifischen Arbeit auswählen."
+        },
+        {
+          "id": "staria",
+          "name": "Staria",
+          "description": "Staria – Modellbereich. Baureihe, Motorcode und Baujahr vor jeder fahrzeugspezifischen Arbeit auswählen."
+        }
+      ]
+    },
+    {
+      "id": "kia",
+      "name": "Kia",
+      "models": [
+        {
+          "id": "picanto",
+          "name": "Picanto",
+          "description": "Picanto – Modellbereich. Baureihe, Motorcode und Baujahr vor jeder fahrzeugspezifischen Arbeit auswählen."
+        },
+        {
+          "id": "rio",
+          "name": "Rio",
+          "description": "Rio – Modellbereich. Baureihe, Motorcode und Baujahr vor jeder fahrzeugspezifischen Arbeit auswählen."
+        },
+        {
+          "id": "ceed",
+          "name": "Ceed",
+          "description": "Ceed – Modellbereich. Baureihe, Motorcode und Baujahr vor jeder fahrzeugspezifischen Arbeit auswählen."
+        },
+        {
+          "id": "sportage",
+          "name": "Sportage",
+          "description": "Sportage – Modellbereich. Baureihe, Motorcode und Baujahr vor jeder fahrzeugspezifischen Arbeit auswählen."
+        },
+        {
+          "id": "sorento",
+          "name": "Sorento",
+          "description": "Sorento – Modellbereich. Baureihe, Motorcode und Baujahr vor jeder fahrzeugspezifischen Arbeit auswählen."
+        },
+        {
+          "id": "niro",
+          "name": "Niro",
+          "description": "Niro – Modellbereich. Baureihe, Motorcode und Baujahr vor jeder fahrzeugspezifischen Arbeit auswählen."
+        },
+        {
+          "id": "ev3",
+          "name": "EV3",
+          "description": "EV3 – Modellbereich. Baureihe, Motorcode und Baujahr vor jeder fahrzeugspezifischen Arbeit auswählen."
+        },
+        {
+          "id": "ev6",
+          "name": "EV6",
+          "description": "EV6 – Modellbereich. Baureihe, Motorcode und Baujahr vor jeder fahrzeugspezifischen Arbeit auswählen."
+        },
+        {
+          "id": "ev9",
+          "name": "EV9",
+          "description": "EV9 – Modellbereich. Baureihe, Motorcode und Baujahr vor jeder fahrzeugspezifischen Arbeit auswählen."
+        }
+      ]
+    },
+    {
+      "id": "porsche",
+      "name": "Porsche",
+      "models": [
+        {
+          "id": "718",
+          "name": "718",
+          "description": "718 – Modellbereich. Baureihe, Motorcode und Baujahr vor jeder fahrzeugspezifischen Arbeit auswählen."
+        },
+        {
+          "id": "911",
+          "name": "911",
+          "description": "911 – Modellbereich. Baureihe, Motorcode und Baujahr vor jeder fahrzeugspezifischen Arbeit auswählen."
+        },
+        {
+          "id": "taycan",
+          "name": "Taycan",
+          "description": "Taycan – Modellbereich. Baureihe, Motorcode und Baujahr vor jeder fahrzeugspezifischen Arbeit auswählen."
+        },
+        {
+          "id": "panamera",
+          "name": "Panamera",
+          "description": "Panamera – Modellbereich. Baureihe, Motorcode und Baujahr vor jeder fahrzeugspezifischen Arbeit auswählen."
+        },
+        {
+          "id": "macan",
+          "name": "Macan",
+          "description": "Macan – Modellbereich. Baureihe, Motorcode und Baujahr vor jeder fahrzeugspezifischen Arbeit auswählen."
+        },
+        {
+          "id": "cayenne",
+          "name": "Cayenne",
+          "description": "Cayenne – Modellbereich. Baureihe, Motorcode und Baujahr vor jeder fahrzeugspezifischen Arbeit auswählen."
+        }
+      ]
+    },
+    {
+      "id": "tesla",
+      "name": "Tesla",
+      "models": [
+        {
+          "id": "model-3",
+          "name": "Model 3",
+          "description": "Model 3 – Modellbereich. Baureihe, Motorcode und Baujahr vor jeder fahrzeugspezifischen Arbeit auswählen."
+        },
+        {
+          "id": "model-s",
+          "name": "Model S",
+          "description": "Model S – Modellbereich. Baureihe, Motorcode und Baujahr vor jeder fahrzeugspezifischen Arbeit auswählen."
+        },
+        {
+          "id": "model-x",
+          "name": "Model X",
+          "description": "Model X – Modellbereich. Baureihe, Motorcode und Baujahr vor jeder fahrzeugspezifischen Arbeit auswählen."
+        },
+        {
+          "id": "model-y",
+          "name": "Model Y",
+          "description": "Model Y – Modellbereich. Baureihe, Motorcode und Baujahr vor jeder fahrzeugspezifischen Arbeit auswählen."
+        },
+        {
+          "id": "cybertruck",
+          "name": "Cybertruck",
+          "description": "Cybertruck – Modellbereich. Baureihe, Motorcode und Baujahr vor jeder fahrzeugspezifischen Arbeit auswählen."
+        }
+      ]
+    },
+    {
+      "id": "subaru",
+      "name": "Subaru",
+      "models": [
+        {
+          "id": "impreza",
+          "name": "Impreza",
+          "description": "Impreza – Modellbereich. Baureihe, Motorcode und Baujahr vor jeder fahrzeugspezifischen Arbeit auswählen."
+        },
+        {
+          "id": "legacy",
+          "name": "Legacy",
+          "description": "Legacy – Modellbereich. Baureihe, Motorcode und Baujahr vor jeder fahrzeugspezifischen Arbeit auswählen."
+        },
+        {
+          "id": "forester",
+          "name": "Forester",
+          "description": "Forester – Modellbereich. Baureihe, Motorcode und Baujahr vor jeder fahrzeugspezifischen Arbeit auswählen."
+        },
+        {
+          "id": "outback",
+          "name": "Outback",
+          "description": "Outback – Modellbereich. Baureihe, Motorcode und Baujahr vor jeder fahrzeugspezifischen Arbeit auswählen."
+        },
+        {
+          "id": "xv",
+          "name": "XV",
+          "description": "XV – Modellbereich. Baureihe, Motorcode und Baujahr vor jeder fahrzeugspezifischen Arbeit auswählen."
+        },
+        {
+          "id": "solterra",
+          "name": "Solterra",
+          "description": "Solterra – Modellbereich. Baureihe, Motorcode und Baujahr vor jeder fahrzeugspezifischen Arbeit auswählen."
+        }
+      ]
+    },
+    {
+      "id": "mitsubishi",
+      "name": "Mitsubishi",
+      "models": [
+        {
+          "id": "space-star",
+          "name": "Space Star",
+          "description": "Space Star – Modellbereich. Baureihe, Motorcode und Baujahr vor jeder fahrzeugspezifischen Arbeit auswählen."
+        },
+        {
+          "id": "asx",
+          "name": "ASX",
+          "description": "ASX – Modellbereich. Baureihe, Motorcode und Baujahr vor jeder fahrzeugspezifischen Arbeit auswählen."
+        },
+        {
+          "id": "eclipse-cross",
+          "name": "Eclipse Cross",
+          "description": "Eclipse Cross – Modellbereich. Baureihe, Motorcode und Baujahr vor jeder fahrzeugspezifischen Arbeit auswählen."
+        },
+        {
+          "id": "outlander",
+          "name": "Outlander",
+          "description": "Outlander – Modellbereich. Baureihe, Motorcode und Baujahr vor jeder fahrzeugspezifischen Arbeit auswählen."
+        },
+        {
+          "id": "l200",
+          "name": "L200",
+          "description": "L200 – Modellbereich. Baureihe, Motorcode und Baujahr vor jeder fahrzeugspezifischen Arbeit auswählen."
+        }
+      ]
+    },
+    {
+      "id": "suzuki",
+      "name": "Suzuki",
+      "models": [
+        {
+          "id": "swift",
+          "name": "Swift",
+          "description": "Swift – Modellbereich. Baureihe, Motorcode und Baujahr vor jeder fahrzeugspezifischen Arbeit auswählen."
+        },
+        {
+          "id": "ignis",
+          "name": "Ignis",
+          "description": "Ignis – Modellbereich. Baureihe, Motorcode und Baujahr vor jeder fahrzeugspezifischen Arbeit auswählen."
+        },
+        {
+          "id": "vitara",
+          "name": "Vitara",
+          "description": "Vitara – Modellbereich. Baureihe, Motorcode und Baujahr vor jeder fahrzeugspezifischen Arbeit auswählen."
+        },
+        {
+          "id": "s-cross",
+          "name": "S-Cross",
+          "description": "S-Cross – Modellbereich. Baureihe, Motorcode und Baujahr vor jeder fahrzeugspezifischen Arbeit auswählen."
+        },
+        {
+          "id": "jimny",
+          "name": "Jimny",
+          "description": "Jimny – Modellbereich. Baureihe, Motorcode und Baujahr vor jeder fahrzeugspezifischen Arbeit auswählen."
+        }
+      ]
+    },
+    {
+      "id": "jaguar",
+      "name": "Jaguar",
+      "models": [
+        {
+          "id": "xe",
+          "name": "XE",
+          "description": "XE – Modellbereich. Baureihe, Motorcode und Baujahr vor jeder fahrzeugspezifischen Arbeit auswählen."
+        },
+        {
+          "id": "xf",
+          "name": "XF",
+          "description": "XF – Modellbereich. Baureihe, Motorcode und Baujahr vor jeder fahrzeugspezifischen Arbeit auswählen."
+        },
+        {
+          "id": "f-pace",
+          "name": "F-Pace",
+          "description": "F-Pace – Modellbereich. Baureihe, Motorcode und Baujahr vor jeder fahrzeugspezifischen Arbeit auswählen."
+        },
+        {
+          "id": "e-pace",
+          "name": "E-Pace",
+          "description": "E-Pace – Modellbereich. Baureihe, Motorcode und Baujahr vor jeder fahrzeugspezifischen Arbeit auswählen."
+        },
+        {
+          "id": "i-pace",
+          "name": "I-Pace",
+          "description": "I-Pace – Modellbereich. Baureihe, Motorcode und Baujahr vor jeder fahrzeugspezifischen Arbeit auswählen."
+        },
+        {
+          "id": "f-type",
+          "name": "F-Type",
+          "description": "F-Type – Modellbereich. Baureihe, Motorcode und Baujahr vor jeder fahrzeugspezifischen Arbeit auswählen."
+        }
+      ]
+    },
+    {
+      "id": "landrover",
+      "name": "Land Rover",
+      "models": [
+        {
+          "id": "defender",
+          "name": "Defender",
+          "description": "Defender – Modellbereich. Baureihe, Motorcode und Baujahr vor jeder fahrzeugspezifischen Arbeit auswählen."
+        },
+        {
+          "id": "discovery",
+          "name": "Discovery",
+          "description": "Discovery – Modellbereich. Baureihe, Motorcode und Baujahr vor jeder fahrzeugspezifischen Arbeit auswählen."
+        },
+        {
+          "id": "discovery-sport",
+          "name": "Discovery Sport",
+          "description": "Discovery Sport – Modellbereich. Baureihe, Motorcode und Baujahr vor jeder fahrzeugspezifischen Arbeit auswählen."
+        },
+        {
+          "id": "range-rover",
+          "name": "Range Rover",
+          "description": "Range Rover – Modellbereich. Baureihe, Motorcode und Baujahr vor jeder fahrzeugspezifischen Arbeit auswählen."
+        },
+        {
+          "id": "range-rover-sport",
+          "name": "Range Rover Sport",
+          "description": "Range Rover Sport – Modellbereich. Baureihe, Motorcode und Baujahr vor jeder fahrzeugspezifischen Arbeit auswählen."
+        },
+        {
+          "id": "evoque",
+          "name": "Evoque",
+          "description": "Evoque – Modellbereich. Baureihe, Motorcode und Baujahr vor jeder fahrzeugspezifischen Arbeit auswählen."
+        }
+      ]
+    },
+    {
+      "id": "alfa",
+      "name": "Alfa Romeo",
+      "models": [
+        {
+          "id": "giulietta",
+          "name": "Giulietta",
+          "description": "Giulietta – Modellbereich. Baureihe, Motorcode und Baujahr vor jeder fahrzeugspezifischen Arbeit auswählen."
+        },
+        {
+          "id": "giulia",
+          "name": "Giulia",
+          "description": "Giulia – Modellbereich. Baureihe, Motorcode und Baujahr vor jeder fahrzeugspezifischen Arbeit auswählen."
+        },
+        {
+          "id": "stelvio",
+          "name": "Stelvio",
+          "description": "Stelvio – Modellbereich. Baureihe, Motorcode und Baujahr vor jeder fahrzeugspezifischen Arbeit auswählen."
+        },
+        {
+          "id": "tonale",
+          "name": "Tonale",
+          "description": "Tonale – Modellbereich. Baureihe, Motorcode und Baujahr vor jeder fahrzeugspezifischen Arbeit auswählen."
+        },
+        {
+          "id": "junior",
+          "name": "Junior",
+          "description": "Junior – Modellbereich. Baureihe, Motorcode und Baujahr vor jeder fahrzeugspezifischen Arbeit auswählen."
+        }
+      ]
+    },
+    {
+      "id": "maserati",
+      "name": "Maserati",
+      "models": [
+        {
+          "id": "ghibli",
+          "name": "Ghibli",
+          "description": "Ghibli – Modellbereich. Baureihe, Motorcode und Baujahr vor jeder fahrzeugspezifischen Arbeit auswählen."
+        },
+        {
+          "id": "quattroporte",
+          "name": "Quattroporte",
+          "description": "Quattroporte – Modellbereich. Baureihe, Motorcode und Baujahr vor jeder fahrzeugspezifischen Arbeit auswählen."
+        },
+        {
+          "id": "levante",
+          "name": "Levante",
+          "description": "Levante – Modellbereich. Baureihe, Motorcode und Baujahr vor jeder fahrzeugspezifischen Arbeit auswählen."
+        },
+        {
+          "id": "grecale",
+          "name": "Grecale",
+          "description": "Grecale – Modellbereich. Baureihe, Motorcode und Baujahr vor jeder fahrzeugspezifischen Arbeit auswählen."
+        },
+        {
+          "id": "granturismo",
+          "name": "GranTurismo",
+          "description": "GranTurismo – Modellbereich. Baureihe, Motorcode und Baujahr vor jeder fahrzeugspezifischen Arbeit auswählen."
+        },
+        {
+          "id": "mc20",
+          "name": "MC20",
+          "description": "MC20 – Modellbereich. Baureihe, Motorcode und Baujahr vor jeder fahrzeugspezifischen Arbeit auswählen."
+        }
+      ]
+    },
+    {
+      "id": "ferrari",
+      "name": "Ferrari",
+      "models": [
+        {
+          "id": "roma",
+          "name": "Roma",
+          "description": "Roma – Modellbereich. Baureihe, Motorcode und Baujahr vor jeder fahrzeugspezifischen Arbeit auswählen."
+        },
+        {
+          "id": "296-gtb",
+          "name": "296 GTB",
+          "description": "296 GTB – Modellbereich. Baureihe, Motorcode und Baujahr vor jeder fahrzeugspezifischen Arbeit auswählen."
+        },
+        {
+          "id": "296-gts",
+          "name": "296 GTS",
+          "description": "296 GTS – Modellbereich. Baureihe, Motorcode und Baujahr vor jeder fahrzeugspezifischen Arbeit auswählen."
+        },
+        {
+          "id": "812",
+          "name": "812",
+          "description": "812 – Modellbereich. Baureihe, Motorcode und Baujahr vor jeder fahrzeugspezifischen Arbeit auswählen."
+        },
+        {
+          "id": "purosangue",
+          "name": "Purosangue",
+          "description": "Purosangue – Modellbereich. Baureihe, Motorcode und Baujahr vor jeder fahrzeugspezifischen Arbeit auswählen."
+        },
+        {
+          "id": "sf90",
+          "name": "SF90",
+          "description": "SF90 – Modellbereich. Baureihe, Motorcode und Baujahr vor jeder fahrzeugspezifischen Arbeit auswählen."
+        }
+      ]
+    },
+    {
+      "id": "lamborghini",
+      "name": "Lamborghini",
+      "models": [
+        {
+          "id": "huracan",
+          "name": "Huracan",
+          "description": "Huracan – Modellbereich. Baureihe, Motorcode und Baujahr vor jeder fahrzeugspezifischen Arbeit auswählen."
+        },
+        {
+          "id": "revuelto",
+          "name": "Revuelto",
+          "description": "Revuelto – Modellbereich. Baureihe, Motorcode und Baujahr vor jeder fahrzeugspezifischen Arbeit auswählen."
+        },
+        {
+          "id": "urus",
+          "name": "Urus",
+          "description": "Urus – Modellbereich. Baureihe, Motorcode und Baujahr vor jeder fahrzeugspezifischen Arbeit auswählen."
+        },
+        {
+          "id": "aventador",
+          "name": "Aventador",
+          "description": "Aventador – Modellbereich. Baureihe, Motorcode und Baujahr vor jeder fahrzeugspezifischen Arbeit auswählen."
         }
       ]
     }
@@ -121,54 +1532,78 @@
   "vehicles": [
     {
       "id": "vw-golf7",
-      "brand": "volkswagen",
+      "brand": "vw",
       "model": "golf",
-      "name": "Golf VII",
+      "name": "Golf VII (5G)",
+      "years": "2012–2020",
       "generations": [
-        {
-          "name": "Golf VII",
-          "years": "2012–2019",
-          "engines": [
-            "1.2 TSI",
-            "1.4 TSI",
-            "1.6 TDI",
-            "2.0 TDI"
-          ],
-          "transmissions": [
-            "5-Gang",
-            "6-Gang",
-            "DSG"
-          ],
-          "drivetrains": [
-            "Vorderradantrieb",
-            "4MOTION"
-          ]
-        }
+        "5G"
+      ],
+      "engines": [
+        "1.0 TSI",
+        "1.2 TSI",
+        "1.4 TSI",
+        "1.5 TSI",
+        "1.6 TDI",
+        "2.0 TDI",
+        "GTI"
+      ],
+      "transmissions": [
+        "5/6-Gang",
+        "DSG"
+      ],
+      "drivetrains": [
+        "Frontantrieb",
+        "4MOTION"
+      ]
+    },
+    {
+      "id": "vw-golf8",
+      "brand": "vw",
+      "model": "golf",
+      "name": "Golf VIII (CD)",
+      "years": "2019–heute",
+      "generations": [
+        "CD"
+      ],
+      "engines": [
+        "1.0 TSI",
+        "1.5 TSI",
+        "2.0 TDI",
+        "eTSI",
+        "GTE",
+        "GTI"
+      ],
+      "transmissions": [
+        "6-Gang",
+        "DSG"
+      ],
+      "drivetrains": [
+        "Frontantrieb"
       ]
     },
     {
       "id": "vw-passat-b8",
-      "brand": "volkswagen",
+      "brand": "vw",
       "model": "passat",
-      "name": "Passat B8",
+      "name": "Passat B8 (3G)",
+      "years": "2014–2023",
       "generations": [
-        {
-          "name": "B8",
-          "years": "2014–2023",
-          "engines": [
-            "1.4 TSI",
-            "1.5 TSI",
-            "2.0 TDI"
-          ],
-          "transmissions": [
-            "6-Gang",
-            "DSG"
-          ],
-          "drivetrains": [
-            "Vorderradantrieb",
-            "4MOTION"
-          ]
-        }
+        "3G"
+      ],
+      "engines": [
+        "1.4 TSI",
+        "1.5 TSI",
+        "2.0 TDI",
+        "GTE"
+      ],
+      "transmissions": [
+        "6-Gang",
+        "DSG"
+      ],
+      "drivetrains": [
+        "Frontantrieb",
+        "4MOTION"
       ]
     },
     {
@@ -176,78 +1611,133 @@
       "brand": "audi",
       "model": "a3",
       "name": "A3 8V",
+      "years": "2012–2020",
       "generations": [
-        {
-          "name": "8V",
-          "years": "2012–2020",
-          "engines": [
-            "1.0 TFSI",
-            "1.4 TFSI",
-            "1.6 TDI",
-            "2.0 TDI"
-          ],
-          "transmissions": [
-            "6-Gang",
-            "S tronic"
-          ],
-          "drivetrains": [
-            "Vorderradantrieb",
-            "quattro"
-          ]
-        }
+        "8V"
+      ],
+      "engines": [
+        "1.0 TFSI",
+        "1.2 TFSI",
+        "1.4 TFSI",
+        "1.5 TFSI",
+        "1.6 TDI",
+        "2.0 TDI"
+      ],
+      "transmissions": [
+        "6-Gang",
+        "S tronic"
+      ],
+      "drivetrains": [
+        "Frontantrieb",
+        "quattro"
       ]
     },
     {
-      "id": "bmw-3-f30",
+      "id": "audi-a4-b9",
+      "brand": "audi",
+      "model": "a4",
+      "name": "A4 B9",
+      "years": "2015–2024",
+      "generations": [
+        "8W"
+      ],
+      "engines": [
+        "1.4 TFSI",
+        "2.0 TFSI",
+        "2.0 TDI",
+        "3.0 TDI"
+      ],
+      "transmissions": [
+        "6-Gang",
+        "S tronic",
+        "tiptronic"
+      ],
+      "drivetrains": [
+        "Frontantrieb",
+        "quattro"
+      ]
+    },
+    {
+      "id": "bmw-f30",
       "brand": "bmw",
       "model": "3er",
       "name": "3er F30/F31",
+      "years": "2011–2019",
       "generations": [
-        {
-          "name": "F30/F31",
-          "years": "2011–2019",
-          "engines": [
-            "316d",
-            "318d",
-            "320d",
-            "320i",
-            "330d"
-          ],
-          "transmissions": [
-            "6-Gang",
-            "8-Gang Steptronic"
-          ],
-          "drivetrains": [
-            "Hinterradantrieb",
-            "xDrive"
-          ]
-        }
+        "F30",
+        "F31",
+        "F34"
+      ],
+      "engines": [
+        "316i",
+        "318i",
+        "320i",
+        "320d",
+        "330d",
+        "335i"
+      ],
+      "transmissions": [
+        "6-Gang",
+        "8-Gang Automatik"
+      ],
+      "drivetrains": [
+        "Hinterradantrieb",
+        "xDrive"
       ]
     },
     {
-      "id": "mb-c-w205",
+      "id": "bmw-g20",
+      "brand": "bmw",
+      "model": "3er",
+      "name": "3er G20/G21",
+      "years": "2019–heute",
+      "generations": [
+        "G20",
+        "G21"
+      ],
+      "engines": [
+        "318i",
+        "320i",
+        "320d",
+        "330e",
+        "330i",
+        "M340i"
+      ],
+      "transmissions": [
+        "6-Gang",
+        "8-Gang Automatik"
+      ],
+      "drivetrains": [
+        "Hinterradantrieb",
+        "xDrive"
+      ]
+    },
+    {
+      "id": "mercedes-w205",
       "brand": "mercedes",
       "model": "c-klasse",
       "name": "C-Klasse W205",
+      "years": "2014–2021",
       "generations": [
-        {
-          "name": "W205",
-          "years": "2014–2021",
-          "engines": [
-            "C180",
-            "C200",
-            "C220d",
-            "C300"
-          ],
-          "transmissions": [
-            "6-Gang",
-            "9G-TRONIC"
-          ],
-          "drivetrains": [
-            "Hinterradantrieb",
-            "4MATIC"
-          ]
-        }
+        "W205",
+        "S205"
+      ],
+      "engines": [
+        "C180",
+        "C200",
+        "C220d",
+        "C300",
+        "C43",
+        "C63"
+      ],
+      "transmissions": [
+        "6-Gang",
+        "7G-Tronic",
+        "9G-Tronic"
+      ],
+      "drivetrains": [
+        "Hinterradantrieb",
+        "4MATIC"
       ]
     },
     {
@@ -255,24 +1745,23 @@
       "brand": "opel",
       "model": "astra",
       "name": "Astra K",
+      "years": "2015–2022",
       "generations": [
-        {
-          "name": "K",
-          "years": "2015–2021",
-          "engines": [
-            "1.0 Turbo",
-            "1.4 Turbo",
-            "1.6 CDTI"
-          ],
-          "transmissions": [
-            "5-Gang",
-            "6-Gang",
-            "Automatik"
-          ],
-          "drivetrains": [
-            "Vorderradantrieb"
-          ]
-        }
+        "B16"
+      ],
+      "engines": [
+        "1.0 Turbo",
+        "1.2 Turbo",
+        "1.4 Turbo",
+        "1.5 Diesel",
+        "1.6 CDTI"
+      ],
+      "transmissions": [
+        "5/6-Gang",
+        "Automatik"
+      ],
+      "drivetrains": [
+        "Frontantrieb"
       ]
     },
     {
@@ -280,51 +1769,229 @@
       "brand": "ford",
       "model": "focus",
       "name": "Focus Mk4",
+      "years": "2018–heute",
       "generations": [
-        {
-          "name": "Mk4",
-          "years": "2018–2025",
-          "engines": [
-            "1.0 EcoBoost",
-            "1.5 EcoBoost",
-            "1.5 EcoBlue",
-            "2.0 EcoBlue"
-          ],
-          "transmissions": [
-            "6-Gang",
-            "8-Gang"
-          ],
-          "drivetrains": [
-            "Vorderradantrieb"
-          ]
-        }
+        "C519"
+      ],
+      "engines": [
+        "1.0 EcoBoost",
+        "1.5 EcoBoost",
+        "1.5 EcoBlue",
+        "2.0 EcoBlue"
+      ],
+      "transmissions": [
+        "6-Gang",
+        "8-Gang Automatik"
+      ],
+      "drivetrains": [
+        "Frontantrieb"
       ]
     },
     {
       "id": "skoda-octavia-5e",
       "brand": "skoda",
       "model": "octavia",
-      "name": "Octavia 5E",
+      "name": "Octavia III (5E)",
+      "years": "2012–2020",
       "generations": [
-        {
-          "name": "5E",
-          "years": "2012–2020",
-          "engines": [
-            "1.0 TSI",
-            "1.4 TSI",
-            "1.6 TDI",
-            "2.0 TDI"
-          ],
-          "transmissions": [
-            "5-Gang",
-            "6-Gang",
-            "DSG"
-          ],
-          "drivetrains": [
-            "Vorderradantrieb",
-            "4x4"
-          ]
-        }
+        "5E"
+      ],
+      "engines": [
+        "1.0 TSI",
+        "1.2 TSI",
+        "1.4 TSI",
+        "1.5 TSI",
+        "1.6 TDI",
+        "2.0 TDI"
+      ],
+      "transmissions": [
+        "5/6-Gang",
+        "DSG"
+      ],
+      "drivetrains": [
+        "Frontantrieb",
+        "4x4"
+      ]
+    },
+    {
+      "id": "toyota-corolla-e210",
+      "brand": "toyota",
+      "model": "corolla",
+      "name": "Corolla E210",
+      "years": "2018–heute",
+      "generations": [
+        "E210"
+      ],
+      "engines": [
+        "1.2 Turbo",
+        "1.8 Hybrid",
+        "2.0 Hybrid"
+      ],
+      "transmissions": [
+        "CVT/e-CVT",
+        "6-Gang"
+      ],
+      "drivetrains": [
+        "Frontantrieb"
+      ]
+    },
+    {
+      "id": "hyundai-i30-pde",
+      "brand": "hyundai",
+      "model": "i30",
+      "name": "i30 PDE",
+      "years": "2016–heute",
+      "generations": [
+        "PDE"
+      ],
+      "engines": [
+        "1.0 T-GDI",
+        "1.4 T-GDI",
+        "1.5 T-GDI",
+        "1.6 CRDi"
+      ],
+      "transmissions": [
+        "6-Gang",
+        "7-DCT"
+      ],
+      "drivetrains": [
+        "Frontantrieb"
+      ]
+    },
+    {
+      "id": "kia-sportage-nq5",
+      "brand": "kia",
+      "model": "sportage",
+      "name": "Sportage NQ5",
+      "years": "2021–heute",
+      "generations": [
+        "NQ5"
+      ],
+      "engines": [
+        "1.6 T-GDI",
+        "1.6 CRDi",
+        "Hybrid"
+      ],
+      "transmissions": [
+        "6-Gang",
+        "7-DCT",
+        "Automatik"
+      ],
+      "drivetrains": [
+        "Frontantrieb",
+        "AWD"
+      ]
+    },
+    {
+      "id": "renault-clio-v",
+      "brand": "renault",
+      "model": "clio",
+      "name": "Clio V",
+      "years": "2019–heute",
+      "generations": [
+        "BF"
+      ],
+      "engines": [
+        "1.0 TCe",
+        "1.3 TCe",
+        "E-Tech Hybrid"
+      ],
+      "transmissions": [
+        "5/6-Gang",
+        "EDC"
+      ],
+      "drivetrains": [
+        "Frontantrieb"
+      ]
+    },
+    {
+      "id": "peugeot-308-p5",
+      "brand": "peugeot",
+      "model": "308",
+      "name": "308 III (P5)",
+      "years": "2021–heute",
+      "generations": [
+        "P5"
+      ],
+      "engines": [
+        "1.2 PureTech",
+        "1.5 BlueHDi",
+        "Hybrid"
+      ],
+      "transmissions": [
+        "6-Gang",
+        "8-Gang Automatik"
+      ],
+      "drivetrains": [
+        "Frontantrieb"
+      ]
+    },
+    {
+      "id": "volvo-xc60-2",
+      "brand": "volvo",
+      "model": "xc60",
+      "name": "XC60 II",
+      "years": "2017–heute",
+      "generations": [
+        "246"
+      ],
+      "engines": [
+        "B4",
+        "B5",
+        "T6",
+        "T8"
+      ],
+      "transmissions": [
+        "8-Gang Automatik"
+      ],
+      "drivetrains": [
+        "AWD"
+      ]
+    },
+    {
+      "id": "tesla-model3",
+      "brand": "tesla",
+      "model": "model-3",
+      "name": "Model 3",
+      "years": "2017–heute",
+      "generations": [
+        "Model 3"
+      ],
+      "engines": [
+        "RWD",
+        "Long Range",
+        "Performance"
+      ],
+      "transmissions": [
+        "Single-speed"
+      ],
+      "drivetrains": [
+        "Heckantrieb",
+        "AWD"
+      ]
+    },
+    {
+      "id": "porsche-911-992",
+      "brand": "porsche",
+      "model": "911",
+      "name": "911 (992)",
+      "years": "2018–heute",
+      "generations": [
+        "992"
+      ],
+      "engines": [
+        "Carrera",
+        "Carrera S",
+        "Turbo",
+        "GT3"
+      ],
+      "transmissions": [
+        "7-Gang",
+        "PDK"
+      ],
+      "drivetrains": [
+        "Heckantrieb",
+        "Allrad"
       ]
     }
   ],
@@ -332,48 +1999,50 @@
     {
       "id": "brakes",
       "name": "Bremssystem",
-      "description": "Bremsscheiben, Beläge, Bremssattel, ABS und Bremsflüssigkeit.",
-      "overview": "Das Bremssystem wandelt Bewegungsenergie in Wärme um und muss zuverlässig und gleichmäßig arbeiten.",
+      "description": "Hydraulische und elektronische Bremsanlage, Scheiben, Beläge, Sättel, ABS/ESP.",
+      "overview": "Bremsanlage immer fahrzeug- und achsbezogen prüfen. Verschleißbild, Laufleistung, Scheibenzustand, Bremsflüssigkeit und elektronische Systeme gemeinsam betrachten.",
       "checks": [
-        "Belagstärke prüfen",
-        "Scheiben auf Verschleiß und Riefen prüfen",
-        "Bremsleitungen und Schläuche auf Schäden prüfen",
-        "Nach Arbeiten Funktions- und Dichtigkeitsprüfung durchführen"
+        "Belagstärke innen/außen vergleichen",
+        "Scheiben auf Riefen, Risse und Mindestmaß prüfen",
+        "Bremssattel auf Freigängigkeit prüfen",
+        "Bremsleitungen und Schläuche auf Beschädigung prüfen",
+        "Nach Arbeiten Pedalweg und Dichtheit kontrollieren"
       ],
       "risks": [
         "Sicherheitskritisch",
-        "Falsche Montage kann zum Bremsverlust führen"
+        "Heiße Bauteile",
+        "Hydraulik nicht öffnen ohne passendes Verfahren"
       ]
     },
     {
       "id": "engine",
       "name": "Motor",
-      "description": "Verbrennungsmotor, Ansaugung, Kraftstoff, Abgas und Nebenaggregate.",
-      "overview": "Motorarbeiten müssen immer auf die konkrete Motorvariante bezogen werden.",
+      "description": "Verbrennungsmotor, Schmierung, Kühlung, Luft- und Zünd-/Einspritzsystem.",
+      "overview": "Motorarbeiten erfordern eindeutige Identifikation von Motorcode und Ausführung. Öl, Kühlmittel, Zünd- und Ansaugsystem sind abhängig von Motor und Baujahr.",
       "checks": [
-        "Ölstand",
-        "Kühlmittelstand",
-        "Leckagen",
-        "Fehlerspeicher",
-        "Ungewöhnliche Geräusche"
+        "Ölstand und Leckagen",
+        "Kühlmittelstand und Frostschutz",
+        "Ansaugsystem auf Nebenluft",
+        "Zünd-/Glühanlage",
+        "Fehlerspeicher und Live-Daten"
       ],
       "risks": [
-        "Heiße Bauteile",
-        "Kraftstoff und Abgas",
-        "Bewegte Teile"
+        "Verbrennungsgefahr",
+        "Drehende Teile",
+        "Flüssigkeiten fachgerecht auffangen"
       ]
     },
     {
-      "id": "electrics",
-      "name": "Elektrik",
-      "description": "Batterie, Starter, Generator, Sensoren und Steuergeräte.",
-      "overview": "Elektrische Fehler systematisch über Versorgung, Masse, Signal und Kommunikation prüfen.",
+      "id": "electrical",
+      "name": "Elektrik & Diagnose",
+      "description": "Bordnetz, Batterie, Starter, Lichtmaschine, Sensorik und Diagnose.",
+      "overview": "Vor Messungen immer Spannung, Masseversorgung und Sicherungen prüfen. Moderne Fahrzeuge können nach Batterietrennung Anlern- und Initialisierungsverfahren verlangen.",
       "checks": [
         "Batteriespannung",
+        "Massepunkte",
         "Sicherungen",
-        "Masseverbindungen",
-        "Steckkontakte",
-        "Fehlerspeicher"
+        "Stecker und Leitungen",
+        "Fehlerspeicher und Messwerte"
       ],
       "risks": [
         "Kurzschluss",
@@ -383,509 +2052,833 @@
     {
       "id": "suspension",
       "name": "Fahrwerk & Lenkung",
-      "description": "Federung, Dämpfer, Querlenker, Radlager und Lenkung.",
-      "overview": "Fahrwerksteile beeinflussen Spurtreue und Fahrsicherheit.",
+      "description": "Federung, Dämpfer, Querlenker, Gelenke, Lenkung und Radführung.",
+      "overview": "Spiel und Geräusche systematisch lokalisieren. Nach Arbeiten an der Radführung kann eine Achsvermessung erforderlich sein.",
       "checks": [
-        "Spiel prüfen",
-        "Manschetten prüfen",
-        "Dämpfer auf Leckage prüfen",
-        "Nach Arbeiten Achsgeometrie prüfen, wenn erforderlich"
+        "Radlager-Spiel",
+        "Traggelenke",
+        "Spurstangenköpfe",
+        "Dämpfer auf Leckage",
+        "Reifenbild und Achsgeometrie"
       ],
       "risks": [
         "Sicherheitskritisch",
         "Fahrzeug sicher abstützen"
       ]
-    }
-  ],
-  "components": [
+    },
     {
-      "id": "brake-pads",
-      "system": "Bremssystem",
-      "name": "Bremsbeläge",
-      "description": "Reibelemente der Scheibenbremse. Ausführung und Verschleißgrenzen sind fahrzeugabhängig.",
-      "tools": [
-        "Wagenheber/Hebebühne und sichere Abstützung",
-        "Radschlüssel",
-        "Steckschlüssel",
-        "Drehmomentschlüssel",
-        "ggf. Bremskolben-Rückstellwerkzeug"
+      "id": "cooling",
+      "name": "Kühlung",
+      "description": "Kühler, Thermostat, Wasserpumpe, Ausgleichsbehälter und Lüfter.",
+      "overview": "Kühlsystem nur bei geeignetem Temperaturzustand öffnen. Entlüftung und Kühlmittelvorgabe sind fahrzeugspezifisch.",
+      "checks": [
+        "Leckagen",
+        "Kühlmittelstand",
+        "Schläuche",
+        "Thermostatfunktion",
+        "Lüfteransteuerung"
       ],
-      "parts": [
-        "Bremsbeläge passend zur Achse",
-        "ggf. neue Befestigungsteile nach Herstellerangabe"
-      ],
-      "torque": "NICHT VERIFIZIERT – exakte Fahrzeug-/Achsausführung erforderlich.",
-      "steps": [
-        "Fahrzeug sichern und Rad demontieren.",
-        "Bremssattel gemäß fahrzeugspezifischem Verfahren sichern; nicht an der Bremsleitung hängen lassen.",
-        "Alte Beläge ausbauen und Führungen/Sitzflächen prüfen.",
-        "Bremskolben nur mit dem für diese Bremsanlage vorgesehenen Verfahren zurückstellen.",
-        "Neue Beläge einsetzen und alle Sicherungselemente korrekt montieren.",
-        "Rad montieren und fahrzeugspezifische Drehmomente verwenden."
-      ],
-      "after": [
-        "Bremspedal bei stehendem Fahrzeug betätigen, bis ein definierter Druckpunkt vorhanden ist.",
-        "Bremsanlage auf Dichtheit prüfen.",
-        "Einbremsvorgang gemäß Belag-/Fahrzeughersteller beachten."
+      "risks": [
+        "Verbrühungsgefahr",
+        "Drucksystem"
       ]
     },
     {
-      "id": "battery",
-      "system": "Elektrik",
-      "name": "Starterbatterie",
-      "description": "12-V-Batterie für Bordnetz und Startsystem. Bei Start-Stopp-Fahrzeugen können Registrierung/Codierung erforderlich sein.",
-      "tools": [
-        "10-mm/geeigneter Steckschlüssel je nach Fahrzeug",
-        "Schutzhandschuhe",
-        "Speichererhaltung nur wenn vom Verfahren vorgesehen"
+      "id": "hvac",
+      "name": "Klimaanlage & Heizung",
+      "description": "Heizung, Klimakompressor, Kondensator, Verdampfer und Regelung.",
+      "overview": "Kältemittelkreislauf nicht ohne geeignete Servicestation öffnen. Diagnose kann Druck-, Temperatur- und Stellgliedprüfung umfassen.",
+      "checks": [
+        "Innenraumtemperatur",
+        "Gebläse",
+        "Stellmotoren",
+        "Kältemitteldruck mit geeigneter Station",
+        "Kondensator und Leitungen"
       ],
-      "parts": [
-        "Passende Batterie mit korrekter Technologie und Kapazität"
-      ],
-      "torque": "Anschluss-/Halterdrehmomente fahrzeugspezifisch verifizieren.",
-      "steps": [
-        "Zündung ausschalten und Fahrzeug gegen ungewolltes Einschalten sichern.",
-        "Batterielage und Anschlüsse dokumentieren.",
-        "Minusklemme nach Herstellervorgabe lösen, anschließend Plusklemme.",
-        "Batteriehalter lösen und Batterie vorsichtig entnehmen.",
-        "Neue Batterie einsetzen und Halter befestigen.",
-        "Anschlüsse in der vom Hersteller vorgesehenen Reihenfolge montieren.",
-        "Falls erforderlich Batterie registrieren/anlernen und Fehlerspeicher prüfen."
-      ],
-      "after": [
-        "Bordnetz prüfen",
-        "Startfunktion prüfen",
-        "Batteriemanagement/Registrierung prüfen"
-      ]
-    },
-    {
-      "id": "engine-oil",
-      "system": "Motor",
-      "name": "Motorölwechsel",
-      "description": "Öl und Filter nach der für Motor und Serviceintervall vorgesehenen Spezifikation wechseln.",
-      "tools": [
-        "Auffangwanne",
-        "Ölfilterwerkzeug passend zum Filter",
-        "Steckschlüssel",
-        "Drehmomentschlüssel",
-        "Schutzhandschuhe"
-      ],
-      "parts": [
-        "Motoröl nach Herstellerspezifikation",
-        "Ölfilter",
-        "Dichtring/Schraube falls vorgeschrieben"
-      ],
-      "torque": "Ablassschraube und Filterdrehmoment: fahrzeugspezifisch verifizieren.",
-      "steps": [
-        "Motor auf geeignete Temperatur bringen, ohne Verbrennungsgefahr zu erzeugen.",
-        "Fahrzeug sicher und waagerecht positionieren.",
-        "Auffangbehälter aufstellen und Ablassschraube gemäß Herstellervorgabe öffnen.",
-        "Öl vollständig ablaufen lassen.",
-        "Ölfilter ersetzen und Dichtung nach Herstellervorgabe vorbereiten.",
-        "Ablassschraube mit neuem Dichtring und verifiziertem Drehmoment montieren.",
-        "Vorgegebene Ölmenge zunächst teilweise einfüllen und anschließend nach Messverfahren auf Sollstand bringen.",
-        "Motor kurz laufen lassen, abstellen und nach Wartezeit erneut prüfen."
-      ],
-      "after": [
-        "Auf Leckage prüfen",
-        "Ölstand prüfen",
-        "Serviceintervall/Ölservice nach Herstellervorgabe zurücksetzen"
-      ]
-    },
-    {
-      "id": "air-filter",
-      "system": "Motor",
-      "name": "Luftfilter",
-      "description": "Luftfiltereinsatz der Ansaugluftanlage.",
-      "tools": [
-        "Schraubendreher/Steckschlüssel je nach Gehäuse",
-        "Saubere Arbeitsfläche"
-      ],
-      "parts": [
-        "Passender Luftfiltereinsatz"
-      ],
-      "torque": "Keine pauschalen Werte; Gehäusebefestigung fahrzeugspezifisch.",
-      "steps": [
-        "Ansaugbereich reinigen und Fremdkörper fernhalten.",
-        "Luftfiltergehäuse öffnen.",
-        "Alten Filter entnehmen und Dicht-/Sitzfläche prüfen.",
-        "Neuen Filter korrekt einsetzen.",
-        "Gehäuse schließen und alle Leitungen/Stecker korrekt verbinden."
-      ],
-      "after": [
-        "Ansaugsystem auf korrekten Sitz prüfen",
-        "Motorlauf prüfen"
-      ]
-    },
-    {
-      "id": "spark-plugs",
-      "system": "Motor",
-      "name": "Zündkerzen",
-      "description": "Zündkerzen bei Ottomotoren. Kerzentyp, Elektrodenabstand und Anzugsdrehmoment sind motorabhängig.",
-      "tools": [
-        "Zündkerzennuss",
-        "Drehmomentschlüssel",
-        "Druckluft/saubere Reinigungsmöglichkeit"
-      ],
-      "parts": [
-        "Passende Zündkerzen"
-      ],
-      "torque": "Zündkerzendrehmoment: NICHT VERIFIZIERT – Motorcode erforderlich.",
-      "steps": [
-        "Motor vollständig abkühlen lassen.",
-        "Zündspulen/Stecker gemäß Fahrzeugverfahren entfernen.",
-        "Kerzenschächte reinigen.",
-        "Alte Zündkerzen herausdrehen.",
-        "Neue Kerzen ohne Verkanten einsetzen und mit verifiziertem Wert anziehen.",
-        "Zündspulen/Stecker montieren."
-      ],
-      "after": [
-        "Motor starten",
-        "Fehlerspeicher und Zündaussetzer prüfen"
-      ]
-    },
-    {
-      "id": "serpentine-belt",
-      "system": "Motor",
-      "name": "Keilrippenriemen",
-      "description": "Nebenaggregateriemen; genaue Führung und Spanner unterscheiden sich stark nach Motor.",
-      "tools": [
-        "Steckschlüsselsatz",
-        "Ratsche",
-        "ggf. Spannwerkzeug",
-        "Markierungs-/Dokumentationsmöglichkeit"
-      ],
-      "parts": [
-        "Riemen passend zum Motor"
-      ],
-      "torque": "Befestigungsdrehmomente nur fahrzeugspezifisch verwenden.",
-      "steps": [
-        "Riemenführung dokumentieren/fotografieren.",
-        "Spannvorrichtung mit geeignetem Werkzeug entlasten.",
-        "Riemen abnehmen.",
-        "Rollen und Spanner auf Spiel/Geräusche prüfen.",
-        "Neuen Riemen gemäß exakt dokumentierter Führung auflegen.",
-        "Spannung prüfen und Motorraum auf Fremdkörper kontrollieren."
-      ],
-      "after": [
-        "Motor kurz laufen lassen und Riemenlauf beobachten"
-      ]
-    },
-    {
-      "id": "headlight",
-      "system": "Elektrik",
-      "name": "Scheinwerfer",
-      "description": "Aus- und Einbau von Scheinwerfern; Zugänglichkeit und Codierung sind modellabhängig.",
-      "tools": [
-        "Torx/Steckschlüssel nach Fahrzeug",
-        "Kunststoffhebel für Clips",
-        "Schutzhandschuhe"
-      ],
-      "parts": [
-        "Passender Scheinwerfer bzw. Leuchtmittel"
-      ],
-      "torque": "Befestigungsdrehmomente fahrzeugspezifisch.",
-      "steps": [
-        "Zündung ausschalten und ggf. Batterie-/Airbagvorgaben beachten.",
-        "Zugang zum Scheinwerfer schaffen.",
-        "Stecker entriegeln und abziehen.",
-        "Befestigungen lösen und Scheinwerfer entnehmen.",
-        "Neues Bauteil einsetzen und Stecker sicher verriegeln.",
-        "Nach Montage Lichtfunktion und ggf. Grundeinstellung prüfen."
-      ],
-      "after": [
-        "Lichtbild prüfen",
-        "Bei Bedarf Scheinwerfereinstellung durchführen"
-      ]
-    },
-    {
-      "id": "coolant",
-      "system": "Motor",
-      "name": "Kühlmittel",
-      "description": "Kühlmittelkreislauf prüfen bzw. erneuern. Spezifikation und Entlüftungsverfahren sind fahrzeugabhängig.",
-      "tools": [
-        "Auffangbehälter",
-        "Füll-/Entlüftungssystem falls vorgeschrieben",
-        "Schutzhandschuhe"
-      ],
-      "parts": [
-        "Freigegebenes Kühlmittel",
-        "ggf. neue Dichtungen"
-      ],
-      "torque": "Entlüftungs-/Ablassbefestigungen fahrzeugspezifisch.",
-      "steps": [
-        "Motor vollständig abkühlen lassen.",
-        "Kühlmittelstand und Leckagen prüfen.",
-        "Ablass-/Auffangverfahren nach Herstellerangabe durchführen.",
-        "System mit freigegebenem Kühlmittel befüllen.",
-        "Vom Hersteller vorgeschriebenes Entlüftungsverfahren durchführen.",
-        "Nach Abkühlung Füllstand erneut kontrollieren."
-      ],
-      "after": [
-        "Dichtheit prüfen",
-        "Heizleistung prüfen",
-        "Temperaturverhalten überwachen"
+      "risks": [
+        "Kältemittelkreislauf",
+        "Druck"
       ]
     }
   ],
   "repairs": [
     {
-      "id": "brake-pads",
+      "id": "brake-pads-front-generic",
+      "title": "Bremsbeläge vorne erneuern",
       "system": "Bremssystem",
-      "title": "Bremsbeläge wechseln",
-      "description": "Strukturierter Ablauf für den Austausch von Scheibenbremsbelägen; konkrete Werte müssen zur Fahrzeugvariante passen.",
       "difficulty": "mittel",
       "safety": "kritisch",
-      "componentIds": [
-        "brake-pads"
+      "description": "Schritt-für-Schritt-Anleitung für Scheibenbremsen. Vor dem Start müssen Fahrzeug, Achse, Bremssystem und Belag-/Scheibenausführung identifiziert werden.",
+      "applies_to": [
+        "vw-golf7",
+        "vw-golf8",
+        "vw-passat-b8",
+        "audi-a3-8v",
+        "audi-a4-b9",
+        "bmw-f30",
+        "bmw-g20",
+        "mercedes-w205",
+        "opel-astra-k",
+        "ford-focus-mk4",
+        "skoda-octavia-5e"
       ],
-      "workflow": [
-        "Fahrzeug identifizieren und Achse/Bremssystem bestimmen.",
-        "Werkzeug und Ersatzteile prüfen.",
-        "Fahrzeug sichern und Rad demontieren.",
-        "Bremssattel gemäß fahrzeugspezifischem Verfahren öffnen/sichern.",
-        "Beläge und Verschleißteile prüfen.",
-        "Neue Beläge montieren.",
-        "Rad montieren und verifizierte Drehmomente anwenden.",
-        "Druckpunkt, Dichtheit und Funktion prüfen."
-      ]
-    },
-    {
-      "id": "battery",
-      "system": "Elektrik",
-      "title": "Starterbatterie wechseln",
-      "description": "Batteriewechsel mit Prüfung von Technologie, Befestigung und ggf. Batteriemanagement.",
-      "difficulty": "leicht–mittel",
-      "safety": "hoch",
-      "componentIds": [
-        "battery"
+      "tools": [
+        "Hebebühne oder geeignete Hebeausrüstung",
+        "Unterstell-/Sicherungsgerät nach Arbeitsumgebung",
+        "Radschlüssel",
+        "passende Stecknüsse",
+        "Drehmomentschlüssel",
+        "Bremskolben-Rückstellwerkzeug",
+        "Bremsenreiniger",
+        "Bürste",
+        "Lampe"
       ],
-      "workflow": [
-        "Batterietyp und Fahrzeugdaten identifizieren.",
-        "Bordnetz-/Herstellervorgaben prüfen.",
-        "Batterie ausbauen.",
-        "Neue Batterie einsetzen.",
-        "Anschlüsse montieren.",
-        "Batterie ggf. registrieren/anlernen.",
-        "Funktion und Fehlerspeicher prüfen."
+      "parts": [
+        "passender Belagsatz für die exakte Fahrzeug-/Achskonfiguration",
+        "ggf. neue Befestigungselemente nach Herstellervorgabe"
+      ],
+      "values": [
+        "Drehmomente: fahrzeug-/Bremssattel-spezifisch verifizieren",
+        "Belag- und Scheiben-Mindestmaß: fahrzeugspezifisch verifizieren"
+      ],
+      "precheck": [
+        "Fahrzeugidentifikation dokumentieren",
+        "Bremsanlage fotografisch erfassen",
+        "Bremsflüssigkeitsstand vor Kolbenrückstellung prüfen",
+        "Scheibenstärke und Belagverschleiß vergleichen"
+      ],
+      "steps": [
+        {
+          "n": 1,
+          "title": "Fahrzeug sichern",
+          "text": "Fahrzeug auf ebener Fläche sichern, Getriebe/Parkbremse entsprechend dem Fahrzeugzustand setzen und gegen Wegrollen sichern. Für die konkrete Hebeposition Herstellerangaben verwenden.",
+          "image": {
+            "path": "images/repairs/brake-01.svg",
+            "title": "Schritt 1 – sichere Aufstellung",
+            "caption": "Hebepunkte und Sicherheitszone schematisch markiert."
+          }
+        },
+        {
+          "n": 2,
+          "title": "Rad abnehmen",
+          "text": "Radschrauben kontrolliert lösen, Rad abnehmen und sicher ablegen. Nicht an Bremsleitung oder Sensorleitung ziehen.",
+          "image": {
+            "path": "images/repairs/brake-02.svg",
+            "title": "Schritt 2 – Rad und Bremse",
+            "caption": "Schematische Ansicht von Rad, Bremssattel und Bremsscheibe."
+          }
+        },
+        {
+          "n": 3,
+          "title": "Bremssattel identifizieren",
+          "text": "Vor dem Lösen prüfen, ob der Sattel frei beweglich ist und welche Befestigungsart verwendet wird. Verschleißsensoren bzw. Haltefedern dokumentieren.",
+          "image": {
+            "path": "images/repairs/brake-03.svg",
+            "title": "Schritt 3 – Befestigung",
+            "caption": "Schematische Markierung der typischen Befestigungspunkte."
+          }
+        },
+        {
+          "n": 4,
+          "title": "Sattel lösen und sichern",
+          "text": "Befestigung gemäß fahrzeugspezifischem Verfahren lösen. Bremssattel niemals am Bremsschlauch hängen lassen; mit geeigneter Halterung sichern.",
+          "image": {
+            "path": "images/repairs/brake-04.svg",
+            "title": "Schritt 4 – Sattel sichern",
+            "caption": "Schematische Darstellung: Sattel wird mit Halter entlastet."
+          }
+        },
+        {
+          "n": 5,
+          "title": "Beläge entfernen",
+          "text": "Alte Beläge und Haltefedern entnehmen. Einbaulage, Verschleißsensor und Kontaktflächen vergleichen. Kolben nicht mit Gewalt zurückdrücken.",
+          "image": {
+            "path": "images/repairs/brake-05.svg",
+            "title": "Schritt 5 – Beläge",
+            "caption": "Innen- und Außenbelag sowie Führungsrichtung schematisch markiert."
+          }
+        },
+        {
+          "n": 6,
+          "title": "Kolben zurückstellen",
+          "text": "Vor dem Zurückstellen prüfen, ob das Bremssystem eine elektrische Parkbremse oder ein spezielles Rückstellverfahren besitzt. Dann mit geeignetem Werkzeug langsam zurückstellen.",
+          "image": {
+            "path": "images/repairs/brake-06.svg",
+            "title": "Schritt 6 – Kolben",
+            "caption": "Rückstellrichtung und Werkzeugposition schematisch dargestellt."
+          }
+        },
+        {
+          "n": 7,
+          "title": "Neue Beläge einsetzen",
+          "text": "Kontakt- und Führungsflächen reinigen, neue Beläge entsprechend ihrer Einbaulage einsetzen. Keine Schmierstoffe auf Reibflächen bringen.",
+          "image": {
+            "path": "images/repairs/brake-07.svg",
+            "title": "Schritt 7 – Einbau",
+            "caption": "Neue Beläge und Reibflächen schematisch markiert."
+          }
+        },
+        {
+          "n": 8,
+          "title": "Sattel montieren",
+          "text": "Sattel in Einbaulage bringen und Befestiger nach exakter Herstellervorgabe anziehen. Leitungen dürfen nicht verdreht oder gespannt sein.",
+          "image": {
+            "path": "images/repairs/brake-08.svg",
+            "title": "Schritt 8 – Montage",
+            "caption": "Sattel, Befestiger und Leitungslage schematisch markiert."
+          }
+        },
+        {
+          "n": 9,
+          "title": "Endkontrolle und Funktionsprüfung",
+          "text": "Rad montieren, Pedal mehrfach betätigen bis definierter Pedaldruck vorhanden ist, Flüssigkeitsstand prüfen und Anlage auf Leckage/auffällige Geräusche kontrollieren. Danach kontrollierte Probefahrt und Bremsprüfung durchführen.",
+          "image": {
+            "path": "images/repairs/brake-09.svg",
+            "title": "Schritt 9 – Kontrolle",
+            "caption": "Kontrollpunkte nach der Reparatur schematisch dargestellt."
+          }
+        }
+      ],
+      "after": [
+        "Pedaldruck vorhanden",
+        "Keine Leckage",
+        "Beläge korrekt geführt",
+        "Radschrauben mit fahrzeugspezifischem Drehmoment angezogen",
+        "Bremsfunktion bei vorsichtiger Probefahrt geprüft"
+      ],
+      "notes": [
+        "Diese Anleitung ist eine Arbeitsstruktur und ersetzt nicht die fahrzeugspezifische Herstellerunterlage.",
+        "Keine pauschalen Drehmomente übernehmen."
       ]
     },
     {
       "id": "oil-change",
-      "system": "Motor",
       "title": "Motoröl und Ölfilter wechseln",
-      "description": "Allgemeiner Ablauf; Öltyp, Menge und Drehmomente müssen für den Motor verifiziert werden.",
-      "difficulty": "leicht",
-      "safety": "mittel",
-      "componentIds": [
-        "engine-oil"
+      "system": "Motor",
+      "difficulty": "leicht–mittel",
+      "safety": "hoch",
+      "description": "Detaillierter Ablauf für Ölwechsel. Öltyp, Füllmenge, Filterausführung und Service-Rückstellung sind motorabhängig.",
+      "applies_to": [
+        "vw-golf7",
+        "vw-golf8",
+        "vw-passat-b8",
+        "audi-a3-8v",
+        "audi-a4-b9",
+        "bmw-f30",
+        "bmw-g20",
+        "mercedes-w205",
+        "opel-astra-k",
+        "ford-focus-mk4",
+        "skoda-octavia-5e",
+        "toyota-corolla-e210",
+        "hyundai-i30-pde"
       ],
-      "workflow": [
-        "Ölspezifikation prüfen.",
-        "Fahrzeug sicher positionieren.",
-        "Altöl ablassen.",
-        "Filter und Dichtung erneuern.",
-        "Ablassschraube montieren.",
-        "Öl nach Herstellervorgabe einfüllen.",
-        "Ölstand und Dichtheit prüfen."
+      "tools": [
+        "Hebebühne oder geeignete Auffahrlösung",
+        "Ölauffangbehälter",
+        "passendes Filterwerkzeug",
+        "Drehmomentschlüssel",
+        "Handschuhe",
+        "Lampe"
+      ],
+      "parts": [
+        "passendes Motoröl nach Herstellerspezifikation",
+        "passender Ölfilter",
+        "neuer Dichtring bzw. Ablassschraube nach Herstellervorgabe"
+      ],
+      "values": [
+        "Ölspezifikation und Füllmenge: Motorcode-spezifisch verifizieren",
+        "Ablassschrauben-Drehmoment: fahrzeugspezifisch verifizieren"
+      ],
+      "precheck": [
+        "Motorcode identifizieren",
+        "Ölspezifikation prüfen",
+        "Leckagen vor Beginn dokumentieren"
+      ],
+      "steps": [
+        {
+          "n": 1,
+          "title": "Fahrzeug vorbereiten",
+          "text": "Motor nur so weit erwärmen, dass das Öl gut abläuft, ohne Verbrennungsgefahr. Fahrzeug waagerecht und sicher aufstellen.",
+          "image": {
+            "path": "images/repairs/oil-01.svg",
+            "title": "Schritt 1 – Vorbereitung",
+            "caption": "Schematische Fahrzeugposition und Ölwanne."
+          }
+        },
+        {
+          "n": 2,
+          "title": "Öleinfüllung und Zugang prüfen",
+          "text": "Öleinfülldeckel öffnen bzw. lösen, Unterbodenverkleidung nur soweit entfernen wie erforderlich. Vor dem Ablassen sicherstellen, dass eine geeignete Auffangmöglichkeit vorhanden ist.",
+          "image": {
+            "path": "images/repairs/oil-02.svg",
+            "title": "Schritt 2 – Zugang",
+            "caption": "Ölwanne, Ablassstelle und Filter schematisch markiert."
+          }
+        },
+        {
+          "n": 3,
+          "title": "Altöl ablassen",
+          "text": "Ablassschraube kontrolliert lösen und Öl vollständig auffangen. Dichtfläche und Gewinde nach dem Ablassen prüfen.",
+          "image": {
+            "path": "images/repairs/oil-03.svg",
+            "title": "Schritt 3 – Ablassen",
+            "caption": "Ablassschraube und Auffangbehälter schematisch dargestellt."
+          }
+        },
+        {
+          "n": 4,
+          "title": "Ölfilter wechseln",
+          "text": "Alten Filter bzw. Filtereinsatz gemäß Bauart entfernen. Dichtfläche reinigen. Dichtung des neuen Filters nach Herstellervorgabe vorbereiten.",
+          "image": {
+            "path": "images/repairs/oil-04.svg",
+            "title": "Schritt 4 – Filter",
+            "caption": "Filtergehäuse und Dichtung schematisch markiert."
+          }
+        },
+        {
+          "n": 5,
+          "title": "Ablassschraube montieren",
+          "text": "Neue Dichtung bzw. neue Schraube verwenden, wenn vorgeschrieben. Mit fahrzeugspezifischem Drehmoment anziehen.",
+          "image": {
+            "path": "images/repairs/oil-05.svg",
+            "title": "Schritt 5 – Verschluss",
+            "caption": "Ablassstelle und Dichtung schematisch markiert."
+          }
+        },
+        {
+          "n": 6,
+          "title": "Neues Öl einfüllen",
+          "text": "Zunächst die vorgesehene Grundmenge einfüllen. Nicht blind die Maximalmenge verwenden; nach dem Start und der vorgeschriebenen Wartezeit erneut prüfen.",
+          "image": {
+            "path": "images/repairs/oil-06.svg",
+            "title": "Schritt 6 – Befüllen",
+            "caption": "Einfüllstelle und Messbereich schematisch dargestellt."
+          }
+        },
+        {
+          "n": 7,
+          "title": "Motor starten und kontrollieren",
+          "text": "Motor kurz laufen lassen, auf Öldruckwarnung und Leckagen achten. Danach gemäß Herstellervorgabe abstellen und Ölstand prüfen.",
+          "image": {
+            "path": "images/repairs/oil-07.svg",
+            "title": "Schritt 7 – Kontrolle",
+            "caption": "Kontrollpunkte für Ölfilter, Ablassstelle und Ölstand."
+          }
+        },
+        {
+          "n": 8,
+          "title": "Service zurücksetzen",
+          "text": "Nur mit dem für das konkrete Fahrzeug vorgesehenen Verfahren zurücksetzen. Serviceintervall und verwendete Ölspezifikation dokumentieren.",
+          "image": {
+            "path": "images/repairs/oil-08.svg",
+            "title": "Schritt 8 – Service",
+            "caption": "Schematische Darstellung von Diagnosegerät und Serviceeintrag."
+          }
+        }
+      ],
+      "after": [
+        "Ölstand korrekt",
+        "Keine Leckage",
+        "Öldruckwarnung erloschen",
+        "Serviceeintrag dokumentiert",
+        "Altöl und Filter fachgerecht entsorgt"
+      ],
+      "notes": [
+        "Öltyp und Füllmenge niemals aus einem anderen Motor übernehmen.",
+        "Altöl ist getrennt und umweltgerecht zu entsorgen."
+      ]
+    },
+    {
+      "id": "battery-replacement",
+      "title": "12-V-Starterbatterie aus- und einbauen",
+      "system": "Elektrik & Diagnose",
+      "difficulty": "leicht–mittel",
+      "safety": "hoch",
+      "description": "Ablauf für konventionelle 12-V-Batterien. Einbauort, Batterietechnologie und Energiemanagement unterscheiden sich je nach Fahrzeug.",
+      "applies_to": [
+        "vw-golf7",
+        "vw-golf8",
+        "audi-a3-8v",
+        "bmw-f30",
+        "bmw-g20",
+        "mercedes-w205",
+        "opel-astra-k",
+        "ford-focus-mk4",
+        "skoda-octavia-5e"
+      ],
+      "tools": [
+        "10-mm/13-mm Werkzeug je nach Batterie",
+        "Ratsche/Stecknüsse",
+        "Batterieträgerwerkzeug",
+        "Multimeter",
+        "Diagnosegerät falls Batterieregistrierung erforderlich"
+      ],
+      "parts": [
+        "passende Batterie mit korrekter Technologie und Kapazität",
+        "Batteriehalter/Befestigung nach Bedarf"
+      ],
+      "values": [
+        "Batterietyp, Kapazität und Kaltstartstrom fahrzeugspezifisch verifizieren",
+        "Anlern-/Registrierungsverfahren fahrzeugspezifisch prüfen"
+      ],
+      "precheck": [
+        "Batterietyp und Ah-Wert ablesen",
+        "Batteriespannung messen",
+        "Ruhestrom-/Fehlerhinweise dokumentieren",
+        "Radio-/Fensterheber-/Uhr-Funktionen beachten"
+      ],
+      "steps": [
+        {
+          "n": 1,
+          "title": "Elektrische Verbraucher sichern",
+          "text": "Zündung ausschalten und Fahrzeug gemäß Herstellerverfahren in Ruhemodus bringen. Bei modernen Fahrzeugen Wartezeit vor Batterietrennung beachten.",
+          "image": {
+            "path": "images/repairs/battery-01.svg",
+            "title": "Schritt 1 – Ruhemodus",
+            "caption": "Schematische Darstellung des 12-V-Bordnetzes."
+          }
+        },
+        {
+          "n": 2,
+          "title": "Batterie lokalisieren",
+          "text": "Abdeckungen entfernen und Batterie, Entlüftung, Halter und Anschlüsse fotografisch dokumentieren.",
+          "image": {
+            "path": "images/repairs/battery-02.svg",
+            "title": "Schritt 2 – Batterie",
+            "caption": "Batterie, Pluspol, Minuspol und Halter schematisch markiert."
+          }
+        },
+        {
+          "n": 3,
+          "title": "Batterie abklemmen",
+          "text": "Klemmen in der für das Fahrzeug vorgesehenen Reihenfolge lösen. Kurzschluss zwischen Werkzeug und Karosserie vermeiden.",
+          "image": {
+            "path": "images/repairs/battery-03.svg",
+            "title": "Schritt 3 – Klemmen",
+            "caption": "Minus- und Plusanschluss schematisch markiert."
+          }
+        },
+        {
+          "n": 4,
+          "title": "Halter lösen und Batterie entnehmen",
+          "text": "Haltebügel lösen, Batterie sicher herausheben. Wegen hohem Gewicht und möglicher Säure-/Elektrolytgefahr vorsichtig arbeiten.",
+          "image": {
+            "path": "images/repairs/battery-04.svg",
+            "title": "Schritt 4 – Ausbau",
+            "caption": "Haltebügel und Hebeposition schematisch dargestellt."
+          }
+        },
+        {
+          "n": 5,
+          "title": "Neue Batterie einsetzen",
+          "text": "Neue Batterie in identischer Einbaulage einsetzen. Halter korrekt montieren; Batterie darf sich nicht bewegen.",
+          "image": {
+            "path": "images/repairs/battery-05.svg",
+            "title": "Schritt 5 – Einbau",
+            "caption": "Batterie und Halter schematisch markiert."
+          }
+        },
+        {
+          "n": 6,
+          "title": "Anschließen",
+          "text": "Anschlüsse in der für das Fahrzeug vorgesehenen Reihenfolge montieren und Sitz prüfen. Entlüftungssystem falls vorhanden korrekt anschließen.",
+          "image": {
+            "path": "images/repairs/battery-06.svg",
+            "title": "Schritt 6 – Anschluss",
+            "caption": "Plus, Minus und Entlüftung schematisch markiert."
+          }
+        },
+        {
+          "n": 7,
+          "title": "Batterie registrieren/anlernen",
+          "text": "Wenn das Fahrzeug ein Batteriemanagement besitzt, Batterietyp und Kapazität mit dem vorgesehenen Diagnoseverfahren prüfen und ggf. registrieren.",
+          "image": {
+            "path": "images/repairs/battery-07.svg",
+            "title": "Schritt 7 – Registrierung",
+            "caption": "Schematische Diagnoseverbindung."
+          }
+        },
+        {
+          "n": 8,
+          "title": "Funktionskontrolle",
+          "text": "Startverhalten, Ladezustand, Warnmeldungen und relevante Komfortfunktionen prüfen. Fehlerspeicher kontrollieren.",
+          "image": {
+            "path": "images/repairs/battery-08.svg",
+            "title": "Schritt 8 – Kontrolle",
+            "caption": "Spannungsmessung und Systemcheck schematisch dargestellt."
+          }
+        }
+      ],
+      "after": [
+        "Batterie sicher befestigt",
+        "Klemmen fest und korrosionsfrei",
+        "Keine Warnmeldung ohne Diagnose",
+        "Ladespannung nach Fahrzeugvorgabe geprüft",
+        "Batterie registriert, wenn erforderlich"
+      ],
+      "notes": [
+        "Bei Hochvoltfahrzeugen ist die 12-V-Batterie nicht mit Arbeiten am Hochvoltsystem gleichzusetzen. Hochvoltarbeiten nur nach Qualifikation und Herstellerverfahren."
       ]
     },
     {
       "id": "air-filter",
+      "title": "Motor-Luftfilter erneuern",
       "system": "Motor",
-      "title": "Luftfilter wechseln",
-      "description": "Austausch des Luftfiltereinsatzes.",
       "difficulty": "leicht",
-      "safety": "niedrig",
-      "componentIds": [
-        "air-filter"
+      "safety": "mittel",
+      "description": "Schrittfolge für den Austausch eines Motor-Luftfilters. Gehäuseform und Sensorik unterscheiden sich je nach Motor.",
+      "applies_to": [
+        "vw-golf7",
+        "vw-golf8",
+        "audi-a3-8v",
+        "bmw-f30",
+        "opel-astra-k",
+        "ford-focus-mk4",
+        "skoda-octavia-5e",
+        "toyota-corolla-e210",
+        "hyundai-i30-pde"
       ],
-      "workflow": [
-        "Luftfiltergehäuse lokalisieren.",
-        "Gehäuse öffnen.",
-        "Filter prüfen/ersetzen.",
-        "Gehäuse schließen.",
-        "Ansaugung prüfen."
+      "tools": [
+        "Torx/Stecknüsse passend zur Gehäuseausführung",
+        "Lampe",
+        "saubere Bürste oder Tuch"
+      ],
+      "parts": [
+        "passender Luftfiltereinsatz"
+      ],
+      "values": [
+        "Filtertyp und Wechselintervall motorabhängig verifizieren"
+      ],
+      "precheck": [
+        "Motorkennung prüfen",
+        "Filtergehäuse auf Risse und Verschmutzung prüfen",
+        "Luftmassen-/Drucksensorik nicht beschädigen"
+      ],
+      "steps": [
+        {
+          "n": 1,
+          "title": "Ansaugsystem lokalisieren",
+          "text": "Luftfilterkasten und angeschlossene Schläuche/Sensoren identifizieren. Foto der Schlauchführung vor dem Öffnen anfertigen.",
+          "image": {
+            "path": "images/repairs/air-01.svg",
+            "title": "Schritt 1 – Luftfilterkasten",
+            "caption": "Luftfilterkasten und Luftstrom schematisch dargestellt."
+          }
+        },
+        {
+          "n": 2,
+          "title": "Gehäuse öffnen",
+          "text": "Befestiger lösen und Deckel vorsichtig anheben. Angeschlossene Sensor- oder Entlüftungsleitungen nicht unter Spannung setzen.",
+          "image": {
+            "path": "images/repairs/air-02.svg",
+            "title": "Schritt 2 – Öffnen",
+            "caption": "Gehäusebefestigungen schematisch markiert."
+          }
+        },
+        {
+          "n": 3,
+          "title": "Alten Filter entnehmen",
+          "text": "Filter vorsichtig entnehmen und Sitzfläche auf Blätter, Staub und Dichtungsreste prüfen.",
+          "image": {
+            "path": "images/repairs/air-03.svg",
+            "title": "Schritt 3 – Filter",
+            "caption": "Filtereinsatz und Dichtkante schematisch markiert."
+          }
+        },
+        {
+          "n": 4,
+          "title": "Gehäuse reinigen",
+          "text": "Lose Verschmutzung entfernen, ohne Schmutz in die saubere Ansaugseite zu blasen. Keine Flüssigkeit in Sensorik bringen.",
+          "image": {
+            "path": "images/repairs/air-04.svg",
+            "title": "Schritt 4 – Reinigen",
+            "caption": "Saubere und verschmutzte Bereiche schematisch gekennzeichnet."
+          }
+        },
+        {
+          "n": 5,
+          "title": "Neuen Filter einsetzen",
+          "text": "Filter in korrekter Richtung und vollständig in die Dichtkante einsetzen. Gehäusehälften ohne Spalt schließen.",
+          "image": {
+            "path": "images/repairs/air-05.svg",
+            "title": "Schritt 5 – Neuer Filter",
+            "caption": "Dichtkante und Luftstrom schematisch markiert."
+          }
+        },
+        {
+          "n": 6,
+          "title": "System prüfen",
+          "text": "Alle Leitungen und Stecker kontrollieren. Motor starten und auf ungewöhnliche Ansauggeräusche oder Fehlermeldungen achten.",
+          "image": {
+            "path": "images/repairs/air-06.svg",
+            "title": "Schritt 6 – Endkontrolle",
+            "caption": "Ansaugweg und Sensoranschlüsse schematisch dargestellt."
+          }
+        }
+      ],
+      "after": [
+        "Gehäuse geschlossen",
+        "Filter sitzt rundum dicht",
+        "Stecker/Schläuche korrekt",
+        "Keine Ansaugleckage",
+        "Keine neue Warnmeldung"
       ]
     },
     {
       "id": "spark-plugs",
+      "title": "Zündkerzen erneuern",
       "system": "Motor",
-      "title": "Zündkerzen wechseln",
-      "description": "Austausch von Zündkerzen bei Ottomotoren mit motorabhängigen Vorgaben.",
-      "difficulty": "mittel",
-      "safety": "mittel",
-      "componentIds": [
-        "spark-plugs"
-      ],
-      "workflow": [
-        "Motor abkühlen lassen.",
-        "Zündspulen entfernen.",
-        "Kerzenschächte reinigen.",
-        "Kerzen ersetzen.",
-        "Zündspulen montieren.",
-        "Motorlauf und Fehlerspeicher prüfen."
-      ]
-    },
-    {
-      "id": "serpentine-belt",
-      "system": "Motor",
-      "title": "Keilrippenriemen wechseln",
-      "description": "Riemenwechsel mit Prüfung von Spanner und Umlenkrollen.",
       "difficulty": "mittel",
       "safety": "hoch",
-      "componentIds": [
-        "serpentine-belt"
+      "description": "Zündkerzenwechsel bei Ottomotoren. Kerzentyp, Elektrodenabstand und Anzugsverfahren sind motorcodespezifisch.",
+      "applies_to": [
+        "vw-golf7",
+        "vw-golf8",
+        "audi-a3-8v",
+        "audi-a4-b9",
+        "bmw-f30",
+        "bmw-g20",
+        "mercedes-w205",
+        "opel-astra-k",
+        "ford-focus-mk4",
+        "skoda-octavia-5e",
+        "toyota-corolla-e210"
       ],
-      "workflow": [
-        "Riemenführung dokumentieren.",
-        "Spanner entlasten.",
-        "Riemen entfernen.",
-        "Rollen prüfen.",
-        "Neuen Riemen auflegen.",
-        "Lauf kontrollieren."
-      ]
-    },
-    {
-      "id": "headlight",
-      "system": "Elektrik",
-      "title": "Scheinwerfer aus- und einbauen",
-      "description": "Modellabhängiger Scheinwerferwechsel mit anschließender Funktions-/Einstellprüfung.",
-      "difficulty": "mittel",
-      "safety": "hoch",
-      "componentIds": [
-        "headlight"
+      "tools": [
+        "Zündkerzenschlüssel passend zur Kerze",
+        "Drehmomentschlüssel",
+        "Druckluft nur kontrolliert",
+        "Zündspulenwerkzeug je nach Ausführung",
+        "Lampe"
       ],
-      "workflow": [
-        "Zugang schaffen.",
-        "Stecker entriegeln.",
-        "Befestigungen lösen.",
-        "Scheinwerfer ausbauen.",
-        "Neuen Scheinwerfer montieren.",
-        "Lichtbild/Grundeinstellung prüfen."
-      ]
-    },
-    {
-      "id": "coolant",
-      "system": "Motor",
-      "title": "Kühlmittel erneuern",
-      "description": "Kühlmittelwechsel bzw. Befüllung nach freigegebener Spezifikation und Entlüftungsverfahren.",
-      "difficulty": "mittel",
-      "safety": "hoch",
-      "componentIds": [
-        "coolant"
+      "parts": [
+        "richtige Zündkerzen nach Motorcode"
       ],
-      "workflow": [
-        "Motor abkühlen lassen.",
-        "Kühlmittel ablassen.",
-        "System befüllen.",
-        "Herstellerverfahren zum Entlüften durchführen.",
-        "Dichtheit und Füllstand kontrollieren."
+      "values": [
+        "Kerzentyp und Elektrodenabstand: motorcodespezifisch verifizieren",
+        "Anzugsdrehmoment: fahrzeugspezifisch verifizieren"
+      ],
+      "precheck": [
+        "Motor vollständig bzw. gemäß Herstellervorgabe abgekühlt",
+        "Zündspulen und Steckverbindungen markieren",
+        "Bereich um Kerzenbohrungen reinigen"
+      ],
+      "steps": [
+        {
+          "n": 1,
+          "title": "Zündspulen zugänglich machen",
+          "text": "Abdeckungen entfernen und Steckverbindungen vorsichtig lösen. Leitungsführung dokumentieren.",
+          "image": {
+            "path": "images/repairs/plug-01.svg",
+            "title": "Schritt 1 – Zündspulen",
+            "caption": "Zylinderkopf und Zündspulen schematisch markiert."
+          }
+        },
+        {
+          "n": 2,
+          "title": "Kerzenschacht reinigen",
+          "text": "Schmutz aus dem Bereich um die Zündkerze entfernen, damit beim Ausbau nichts in den Brennraum fällt.",
+          "image": {
+            "path": "images/repairs/plug-02.svg",
+            "title": "Schritt 2 – Reinigen",
+            "caption": "Kerzenschacht und Reinigungszone schematisch dargestellt."
+          }
+        },
+        {
+          "n": 3,
+          "title": "Alte Kerze lösen",
+          "text": "Zündkerze mit passendem Werkzeug gerade ansetzen und ohne Verkanten lösen. Gewinde nicht beschädigen.",
+          "image": {
+            "path": "images/repairs/plug-03.svg",
+            "title": "Schritt 3 – Ausbau",
+            "caption": "Werkzeugachse und Kerzenposition schematisch markiert."
+          }
+        },
+        {
+          "n": 4,
+          "title": "Alte und neue Kerze vergleichen",
+          "text": "Gewinde, Dichtbereich, Elektrodenbild und Teilenummer vergleichen. Bei Abweichungen nicht montieren.",
+          "image": {
+            "path": "images/repairs/plug-04.svg",
+            "title": "Schritt 4 – Vergleich",
+            "caption": "Alte und neue Zündkerze schematisch gegenübergestellt."
+          }
+        },
+        {
+          "n": 5,
+          "title": "Neue Kerze einsetzen",
+          "text": "Kerze zunächst von Hand in das Gewinde einsetzen, um Kreuzgewinde zu vermeiden. Danach nach Herstellervorgabe anziehen.",
+          "image": {
+            "path": "images/repairs/plug-05.svg",
+            "title": "Schritt 5 – Einbau",
+            "caption": "Handmontage und Drehmomentphase schematisch dargestellt."
+          }
+        },
+        {
+          "n": 6,
+          "title": "Zündspulen montieren",
+          "text": "Spulen einsetzen, Stecker verriegeln und Leitungsführung kontrollieren. Abdeckungen montieren.",
+          "image": {
+            "path": "images/repairs/plug-06.svg",
+            "title": "Schritt 6 – Zündung",
+            "caption": "Zündspule und Steckverbindung schematisch markiert."
+          }
+        },
+        {
+          "n": 7,
+          "title": "Motorlauf prüfen",
+          "text": "Motor starten, Leerlauf und Fehlerspeicher prüfen. Bei Fehlzündung nicht weiterfahren, sondern Ursache diagnostizieren.",
+          "image": {
+            "path": "images/repairs/plug-07.svg",
+            "title": "Schritt 7 – Prüfung",
+            "caption": "Diagnose- und Motorlaufkontrolle schematisch dargestellt."
+          }
+        }
+      ],
+      "after": [
+        "Keine Fehlzündung",
+        "Stecker verriegelt",
+        "Keine Öl-/Kühlmittelspuren im Kerzenschacht",
+        "Fehlerspeicher geprüft"
+      ],
+      "notes": [
+        "Zündkerzen nicht mit beliebigem Drehmoment anziehen.",
+        "Bei beschädigtem Zylinderkopfgewinde nicht weiterarbeiten, sondern Reparaturverfahren bestimmen."
       ]
     }
   ],
+  "components": [],
   "diagnosis": [
     {
-      "id": "battery-no-start",
-      "name": "Motor startet nicht – Batterie/Startsystem",
-      "symptom": "Anlasser dreht nicht oder nur langsam.",
-      "cause": "Mögliche Ursachen sind schwache Batterie, schlechte Masse-/Plusverbindung, Starter oder Steuerungsfreigabe.",
+      "id": "brake-pull",
+      "name": "Fahrzeug zieht beim Bremsen zur Seite",
       "severity": "hoch",
+      "symptom": "Beim Bremsen zieht das Fahrzeug nach links oder rechts.",
+      "cause": "Mögliche Ursachen sind unterschiedliche Reibwerte, festsitzender Bremssattel, Reifen-/Fahrwerksproblem oder hydraulische/elektronische Ursache.",
       "checks": [
-        "Batteriespannung unter Last prüfen.",
-        "Batteriepole und Masseverbindungen prüfen.",
-        "Startsignal und Spannungsabfall prüfen.",
-        "Erst danach Starter bzw. Steuerung weiter eingrenzen."
+        "Reifendruck und Reifenbild vergleichen",
+        "Bremsscheiben-/Belagtemperatur links/rechts vergleichen",
+        "Sattel und Belagführung prüfen",
+        "Radlager und Fahrwerk auf Spiel prüfen",
+        "Erst danach hydraulische/elektronische Ursachen eingrenzen"
       ],
-      "repair": "Nicht automatisch Batterie tauschen; Messergebnisse dokumentieren und Ursache verifizieren."
+      "repair": "Reparatur erst nach eindeutiger Ursache durchführen."
     },
     {
-      "id": "brake-noise",
-      "name": "Bremsgeräusch",
-      "symptom": "Quietschen, Schleifen oder ungewöhnliche Geräusche beim Bremsen.",
-      "cause": "Mögliche Ursachen: Beläge, Scheiben, Fremdkörper, Verschleiß oder klemmende Komponenten.",
+      "id": "battery-low",
+      "name": "Batterie entlädt sich über Nacht",
       "severity": "hoch",
+      "symptom": "Fahrzeug startet nach längerer Standzeit nicht.",
+      "cause": "Schwache Batterie, erhöhter Ruhestrom, Ladesystemproblem oder Verbraucher bleibt aktiv.",
       "checks": [
-        "Belagstärke und Zustand prüfen.",
-        "Scheibenoberfläche prüfen.",
-        "Bremssattel/Führungen prüfen.",
-        "Rad frei drehen und ungewöhnliche Geräusche eingrenzen."
+        "Batteriespannung nach Ruhephase messen",
+        "Ladesystem prüfen",
+        "Fahrzeug in Sleep-Modus bringen",
+        "Ruhestrom nach Herstellervorgabe messen",
+        "Verbraucherkreis systematisch eingrenzen"
       ],
-      "repair": "Bauteil nach Befund ersetzen/reparieren und anschließend Bremsfunktion prüfen."
+      "repair": "Nicht nur Batterie ersetzen; Ruhestrom und Ladesystem zuerst prüfen."
     },
     {
       "id": "engine-misfire",
-      "name": "Zündaussetzer / Motor ruckelt",
-      "symptom": "Unruhiger Motorlauf, Leistungsverlust oder Motorkontrollleuchte.",
-      "cause": "Mögliche Ursachen sind Zündung, Einspritzung, Luftversorgung, Kompression oder Sensorik.",
+      "name": "Motor ruckelt / Fehlzündung",
       "severity": "hoch",
+      "symptom": "Unruhiger Lauf, Leistungsverlust oder blinkende Motorkontrollleuchte.",
+      "cause": "Zündung, Einspritzung, Luftversorgung, mechanische Ursache oder Spannungsversorgung.",
       "checks": [
-        "Fehlerspeicher und Freeze-Frame auslesen.",
-        "Zünd-/Einspritzseite zylinderbezogen prüfen.",
-        "Falschluft und Versorgung prüfen.",
-        "Bei Bedarf Kompression bzw. weitere Herstellerprüfungen."
+        "Fehlerspeicher und Freeze-Frame",
+        "Zündspulen/Kerzen prüfen",
+        "Gemisch-/Luftwerte prüfen",
+        "Injektor- und Kompressionsdiagnose je nach Befund",
+        "Kabel/Stecker prüfen"
       ],
-      "repair": "Erst Ursache bestätigen, dann gezielt Bauteil reparieren oder ersetzen."
+      "repair": "Bauteil erst nach Messung und Ausschluss naheliegender Ursachen ersetzen."
+    },
+    {
+      "id": "brake-noise",
+      "name": "Bremsen quietschen",
+      "severity": "mittel",
+      "symptom": "Geräusch beim leichten oder kräftigen Bremsen.",
+      "cause": "Belagmaterial, Scheibenzustand, Belagführung, Korrosion oder Montagefehler.",
+      "checks": [
+        "Beläge auf korrekten Sitz prüfen",
+        "Scheibenoberfläche beurteilen",
+        "Führungen reinigen und auf Freigängigkeit prüfen",
+        "Temperaturunterschiede prüfen"
+      ],
+      "repair": "Ursache feststellen und passende Instandsetzung durchführen."
     },
     {
       "id": "coolant-loss",
       "name": "Kühlmittelverlust",
-      "symptom": "Füllstand sinkt wiederholt.",
-      "cause": "Mögliche Ursachen sind äußere Leckage, Kühlsystembauteile oder interne Ursachen.",
       "severity": "hoch",
+      "symptom": "Kühlmittelstand sinkt wiederholt.",
+      "cause": "Leck im Kühlsystem, Wasserpumpe, Thermostatgehäuse, Schlauch, Kühler oder interne Ursache.",
       "checks": [
-        "Kühlsystem kalt visuell prüfen.",
-        "Druckprüfung nach geeignetem Verfahren.",
-        "Schläuche, Flansche, Kühler und Wasserpumpe prüfen.",
-        "Bei fehlender äußerer Leckage weitere Herstellerdiagnose durchführen."
+        "Kaltstand dokumentieren",
+        "Sichtprüfung",
+        "Druckprüfung nach geeigneter Methode",
+        "Leckspuren an Flanschen/Schläuchen",
+        "Bei Bedarf Abgas-/Verbrennungsgasprüfung"
       ],
-      "repair": "Leckagequelle beheben; bei Verdacht auf internen Verlust nicht weiterfahren, bis Ursache geklärt ist."
+      "repair": "Leckquelle vor Teiletausch eindeutig lokalisieren."
     }
   ],
   "tools": [
     {
+      "id": "torque-wrench",
       "name": "Drehmomentschlüssel",
-      "use": "Kontrolliertes Anziehen von Verschraubungen.",
-      "note": "Messbereich muss zum geforderten Drehmoment passen; technische Werte immer fahrzeugspezifisch verifizieren."
+      "use": "Kontrolliertes Anziehen von Befestigern nach fahrzeugspezifischer Vorgabe.",
+      "note": "Keine universellen Drehmomente aus dieser Wiki übernehmen."
     },
     {
-      "name": "Steckschlüsselsatz",
-      "use": "Grundwerkzeug für viele Montagearbeiten.",
-      "note": "Je nach Fahrzeug metrische, Torx-, E-Torx- oder Vielzahnprofile erforderlich."
-    },
-    {
-      "name": "Wagenheber und Unterstellböcke",
-      "use": "Anheben und sichere Abstützung des Fahrzeugs.",
-      "note": "Nie ausschließlich unter einem Fahrzeug arbeiten, das nur vom Wagenheber gehalten wird."
-    },
-    {
+      "id": "diagnostic",
       "name": "Diagnosegerät",
-      "use": "Fehlerspeicher, Messwerte, Stellgliedtests und ggf. Grundeinstellungen.",
-      "note": "Funktionen sind abhängig von Gerät, Fahrzeug und Steuergerät."
+      "use": "Fehlerspeicher, Messwerte, Stellglieder und Servicefunktionen.",
+      "note": "Funktion und Fahrzeugabdeckung des Geräts prüfen."
     },
     {
+      "id": "battery-tester",
+      "name": "Batterietester",
+      "use": "Bewertung von Spannung und Startfähigkeit.",
+      "note": "Messung abhängig von Batterietyp und Temperatur interpretieren."
+    },
+    {
+      "id": "brake-piston-tool",
       "name": "Bremskolben-Rückstellwerkzeug",
-      "use": "Zurückstellen bestimmter Bremssättel.",
-      "note": "Bei elektrischer Feststellbremse das vorgeschriebene Serviceverfahren verwenden."
+      "use": "Kontrolliertes Zurückstellen von Bremskolben.",
+      "note": "Bei elektrischer Parkbremse Herstellerverfahren beachten."
     },
     {
+      "id": "multimeter",
       "name": "Multimeter",
-      "use": "Spannung, Widerstand und Durchgang prüfen.",
-      "note": "Messverfahren und Sollwerte müssen zur Schaltung und Fahrzeugvariante passen."
+      "use": "Spannung, Widerstand und Durchgang messen.",
+      "note": "Vor Widerstandsmessung Stromkreis spannungsfrei schalten."
+    },
+    {
+      "id": "oil-drain",
+      "name": "Ölauffangbehälter",
+      "use": "Sicheres Auffangen von Altöl.",
+      "note": "Fassungsvermögen ausreichend wählen und Altöl fachgerecht entsorgen."
     }
   ],
   "legal": [
     {
       "title": "Technische Werte",
-      "text": "Drehmomente, Füllmengen, Anzugswinkel, Steuerzeiten und Grenzwerte niemals pauschal übernehmen. Exakte Fahrzeugvariante und verifizierte technische Quelle verwenden."
+      "text": "Drehmomente, Füllmengen, Verschleißgrenzen, Anzugswinkel und Software-/Anlernverfahren sind immer anhand der exakten Fahrzeugkonfiguration und einer verlässlichen technischen Quelle zu prüfen."
     },
     {
-      "title": "Sicherheitskritische Arbeiten",
-      "text": "Arbeiten an Bremsen, Lenkung, Airbag und Hochvoltsystemen erfordern besondere Qualifikation und Herstellervorgaben."
+      "title": "Bilder und Grafiken",
+      "text": "Die in diesem Paket enthaltenen Grafiken sind eigene schematische Lehrgrafiken. Sie sind keine Herstellerfotos und ersetzen keine fahrzeugspezifische Sichtprüfung."
     },
     {
-      "title": "Bilder und Inhalte",
-      "text": "Nur eigene, gemeinfreie oder korrekt lizenzierte Bilder und Dokumente in das Wiki aufnehmen. Keine vollständigen urheberrechtlich geschützten Herstellerunterlagen kopieren."
+      "title": "Sicherheit",
+      "text": "Arbeiten an Bremsen, Lenkung, Airbag, Hochvolt und Kraftstoffsystemen erfordern geeignete Qualifikation, Werkzeuge und Herstellerverfahren."
+    },
+    {
+      "title": "Abdeckung",
+      "text": "Der Modellkatalog ist breit angelegt. Eine allgemeine Reparaturanleitung darf nicht als Beweis gelten, dass ein konkreter Motor, Sattel, Getriebetyp oder Ausstattungsstand identisch ist."
     }
   ]
 }

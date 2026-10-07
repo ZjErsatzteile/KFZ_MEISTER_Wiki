@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 650">
+<style>
+.bg{fill:#0b1727} .part{fill:#17304a;stroke:#8ab4d8;stroke-width:4} .part2{fill:#263f56;stroke:#a8c7df;stroke-width:3}
+.call{fill:#e8b44c;stroke:#fff;stroke-width:2} .num{font:700 16px Arial;fill:#07111f} .lab{font:600 18px Arial;fill:#e8eef5} .title{font:700 28px Arial;fill:#fff} .sub{font:16px Arial;fill:#a9bdd0}
+</style><rect width="1200" height="650" class="bg"/>
+<text x="40" y="48" class="title">Motorölwechsel – Arbeitsschritt 6</text>
+<text x="40" y="78" class="sub">KFZ MEISTER Wiki – schematische Lehrgrafik, keine Herstelleraufnahme</text>
+<circle cx="250" cy="200" r="18" class="call"/><text x="250" y="206" text-anchor="middle" class="num">1</text><text x="278" y="205" class="lab">Ölwanne</text><circle cx="820" cy="220" r="18" class="call"/><text x="820" y="226" text-anchor="middle" class="num">2</text><text x="848" y="225" class="lab">Filter</text><circle cx="470" cy="510" r="18" class="call"/><text x="470" y="516" text-anchor="middle" class="num">3</text><text x="498" y="515" class="lab">Ablass</text><circle cx="760" cy="510" r="18" class="call"/><text x="760" y="516" text-anchor="middle" class="num">4</text><text x="788" y="515" class="lab">Auffangbehälter</text>
+<rect x="190" y="170" width="760" height="350" rx="25" class="part"/>
+<rect x="250" y="230" width="640" height="230" rx="18" class="part2"/>
+<circle cx="380" cy="345" r="95" class="part"/>
+<circle cx="380" cy="345" r="42" class="part2"/>
+<rect x="570" y="270" width="220" height="150" rx="12" class="part"/>
+</svg>

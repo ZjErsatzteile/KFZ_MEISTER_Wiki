@@ -1,0 +1,23 @@
+{
+  "type": "object",
+  "required": [
+    "brands",
+    "vehicles",
+    "systems",
+    "repairs",
+    "diagnosis",
+    "tools",
+    "legal"
+  ],
+  "description": "KFZ MEISTER Wiki V3 data model",
+  "repair_step": {
+    "n": "integer",
+    "title": "string",
+    "text": "string",
+    "image": {
+      "path": "relative asset path",
+      "title": "string",
+      "caption": "string"
+    }
+  }
+}
