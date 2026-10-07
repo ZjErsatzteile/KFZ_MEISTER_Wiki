@@ -56,3 +56,35 @@ Für die nächste Datenstufe können je Fahrzeugvariante ergänzt werden:
 - Herstellerquellen
 
 **Hinweis:** Das Wiki ist ein Informationswerkzeug und ersetzt keine qualifizierte Werkstattarbeit oder fahrzeugspezifische Reparaturunterlagen.
+
+
+## Wichtig: komplette Ersetzung des alten Repository-Inhalts
+
+Diese Version verwendet absichtlich die Ordner `assets/`, `data/` und `docs/`.
+Die alten Dateien `app.js` und `style.css` im Repository-Hauptordner dürfen nicht zusätzlich liegen bleiben.
+
+Nach dem Upload muss die Struktur exakt so aussehen:
+
+```text
+KFZ_MEISTER_Wiki/
+├── index.html
+├── README.md
+├── .nojekyll
+├── assets/
+│   ├── app.js
+│   └── style.css
+├── data/
+│   └── database.json
+└── docs/
+    └── data-schema.json
+```
+
+Nicht so:
+
+```text
+KFZ_MEISTER_Wiki/
+└── KFZ_MEISTER_Wiki_V2_FINAL/
+    └── index.html
+```
+
+`index.html` lädt CSS und JavaScript aus `assets/` und die Daten aus `data/`.
