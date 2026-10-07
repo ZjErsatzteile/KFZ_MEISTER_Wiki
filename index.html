@@ -25,40 +25,22 @@
       <a href="#favorites" data-route="favorites">★ <span>Merkliste</span></a>
       <a href="#recent" data-route="recent">◷ <span>Zuletzt</span></a>
     </nav>
-    <div class="side-bottom">
-      <div class="status"><span></span> Datenbank lokal geladen</div>
-      <div class="version">KFZ MeisterWiki v2.0</div>
-    </div>
+    <div class="side-bottom"><div class="status"><span></span> Datenbank geladen</div><div class="version">KFZ MeisterWiki v3.0</div></div>
   </aside>
-
   <main class="main">
     <header class="topbar">
       <button class="mobile-menu" id="mobileMenu">☰</button>
       <div class="crumb" id="crumb">Werkstatt / Dashboard</div>
-      <div class="top-actions">
-        <button class="iconbtn" id="openSearch2" aria-label="Suche">⌕</button>
-        <div class="avatar">K</div>
-      </div>
+      <div class="top-actions"><button class="iconbtn" id="openSearch2" aria-label="Suche">⌕</button><div class="avatar">K</div></div>
     </header>
     <section class="content" id="content"></section>
   </main>
 </div>
-
 <div class="modal hidden" id="searchModal">
-  <div class="modal-card search-card">
-    <button class="close" data-close>×</button>
-    <div class="eyebrow">Schnellsuche</div>
-    <h2>Was suchst du?</h2>
-    <input id="searchInput" class="search-input" placeholder="Marke, Modell, Bauteil, Reparatur, Symptom …" autofocus>
-    <div id="searchResults" class="search-results"></div>
-  </div>
+  <div class="modal-card search-card"><button class="close" data-close>×</button><div class="eyebrow">Schnellsuche</div><h2>Was suchst du?</h2><input id="searchInput" class="search-input" placeholder="Marke, Modell, Baureihe, Motor, Getriebe, Bauteil …" autofocus><div id="searchResults" class="search-results"></div></div>
 </div>
-
 <div class="modal hidden" id="detailModal">
-  <div class="modal-card detail-card">
-    <button class="close" data-close>×</button>
-    <div id="detailContent"></div>
-  </div>
+  <div class="modal-card detail-card"><button class="close" data-close>×</button><div id="detailContent"></div></div>
 </div>
 <script src="app.js"></script>
 </body>
