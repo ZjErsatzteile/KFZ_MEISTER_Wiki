@@ -1,11 +1,17 @@
-# KFZ MeisterWiki
+# KFZ MEISTER Wiki – PWA
 
-Statische GitHub-Pages-App ohne Build-System.
+Zusammengeführte PWA-Version für Android, iPhone/iPad und PC.
 
-## Dateien
-`index.html`, `app.js`, `style.css`, `database.json`.
+## Enthalten
+- bestehende Fahrzeug-Navigation: Hersteller → Modell → Baureihe → Motor/Getriebe
+- installierbare PWA
+- App-Manifest und Icons
+- Service Worker für Offline-Cache
+- responsive Oberfläche
+- Favoriten und zuletzt geöffnet
 
-## Navigation
-Hersteller → Modell → Baureihe → Motor → Getriebe → Fahrzeugprofil.
+## Wichtig zur Datenbank
+`database.json` ist die im bisherigen PWA-Paket enthaltene Beispieldatenbank. Wenn du eigene Fahrzeugdaten besitzt, sichere diese Datei und ersetze sie durch deine echte Datenbank bzw. führe die Daten zusammen.
 
-Die Demo-Daten sind Strukturdaten. Technische Werte müssen vor einer Reparatur anhand fahrzeugspezifischer Hersteller-/Werkstattunterlagen verifiziert werden.
+## GitHub Pages
+Alle Dateien ins Repository-Hauptverzeichnis hochladen und GitHub Pages auf `main` / `/(root)` stellen.

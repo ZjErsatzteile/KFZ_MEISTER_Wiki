@@ -124,7 +124,7 @@ function favoriteButton(id, data = {}) {
   return `
     <button
       class="icon-button favorite-button ${active ? "active" : ""}"
-      onclick='event.stopPropagation(); toggleFavorite(${JSON.stringify(id)}, ${JSON.stringify(data)})'
+      onclick='toggleFavorite(${JSON.stringify(id)}, ${JSON.stringify(data)})'
       title="${active ? "Aus Favoriten entfernen" : "Zu Favoriten hinzufügen"}"
       aria-label="${active ? "Aus Favoriten entfernen" : "Zu Favoriten hinzufügen"}"
     >
@@ -2127,6 +2127,9 @@ window.performSearch = performSearch;
 window.setRepairVehicle = setRepairVehicle;
 window.go = go;
 
+/* ============================================================
+   ENDE APP.JS
+   ============================================================ */
 /*
  * ============================================================
  * ZUSÄTZLICHE KOMPATIBILITÄT / LEGACY-FUNKTIONEN
@@ -2205,6 +2208,8 @@ window.openDiagnosis = openDiagnosis;
 window.openFavorites = openFavorites;
 window.openRecent = openRecent;
 
-/* ============================================================
-   ENDE APP.JS
-   ============================================================ */
+/*
+ * ============================================================
+ * ENDE
+ * ============================================================
+ */
